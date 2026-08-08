@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0.0",
+  "benchmark_date": "2026-08-08",
+  "name": "COLLECTIVE STOCK 16-category independent critic rubric",
+  "purpose": "Score an implementation against world-class stock-media interaction quality without copying competitor trade dress.",
+  "implementation_scored_by_this_file": false,
+  "score_range": {
+    "minimum": 0,
+    "maximum": 10,
+    "anchors": {
+      "0": "Missing, unusable, or dangerous.",
+      "5": "Functional prototype quality with obvious friction, omissions, or weak evidence.",
+      "7": "Solid production baseline but materially behind the benchmark or inconsistent across routes/devices.",
+      "8": "Strong professional implementation with a small number of meaningful gaps.",
+      "9": "World-class execution: complete, consistent, evidence-backed, accessible, fast, and clearly native to Collective AI.",
+      "9.3": "Approval threshold for the weighted overall score, provided every hard gate and per-category floor also passes.",
+      "10": "Exceptional and demonstrably better for the target use case; no material defect found after adversarial review. A 10 requires evidence, not aesthetic enthusiasm."
+    }
+  },
+  "calculation": {
+    "formula": "sum(category_score * category_weight) / 100",
+    "weights_sum": 100,
+    "rounding": "Report two decimal places. Do not round up before applying the 9.3 threshold.",
+    "minimum_category_score": 9.0,
+    "minimum_weighted_overall_score": 9.3,
+    "approval_rule": "Approve only if the weighted score is at least 9.30, every category is at least 9.0, and every hard gate passes. A high average cannot offset a hard-gate or category-floor failure."
+  },
+  "required_review_surfaces": [
+    "homepage",
+    "global search",
+    "search empty state",
+    "filtered results with URL state",
+    "parent-company gallery",
+    "all 20 division routes",
+    "complete archive",
+    "image detail",
+    "video or motion detail",
+    "lightbox or fullscreen preview",
+    "license and download flow",
+    "public asset route",
+    "internal or restricted asset route",
+    "mobile navigation",
+    "mobile filter flow",
+    "network/media failure state",
+    "reduced-motion mode"
+  ],
+  "hard_gates": [
+    {
+      "id": "zero_unassigned_assets",
+      "pass_condition": "Final unassigned-assets manifest is an empty array and audit reconciliation proves every discovered occurrence has a provenance record and visible route.",
+      "required_evidence": ["asset-manifest counts", "source-provenance counts", "unassigned-assets.json", "audit report reconciliation"]
+    },
+    {
+      "id": "zero_broken_assets",
+      "pass_condition": "Automated validation reports zero broken original, optimized, poster, logo, video, and rendition references.",
+      "required_evidence": ["asset validator output", "HTTP or filesystem reference check", "representative browser console logs"]
+    },
+    {
+      "id": "all_routes_present",
+      "pass_condition": "Parent gallery, complete archive, every required collection, and all 20 division routes render real manifest data without placeholder-only content.",
+      "required_evidence": ["route inventory", "automated route smoke test", "screenshots across division set"]
+    },
+    {
+      "id": "zero_critical_accessibility_defects",
+      "pass_condition": "No critical WCAG 2.2 A/AA defect remains; dialogs, search, filters, cards, and media controls complete keyboard and screen-reader task flows.",
+      "required_evidence": ["automated accessibility scan", "manual keyboard test", "screen-reader notes", "contrast report"]
+    },
+    {
+      "id": "private_delivery_enforced",
+      "pass_condition": "Private/internal originals cannot be fetched from a public static URL and are delivered only after authorization using a protected or signed mechanism; private pages are excluded from indexing.",
+      "required_evidence": ["unauthenticated request test", "signed URL expiry test", "robots/meta header test", "security review"]
+    },
+    {
+      "id": "mobile_complete",
+      "pass_condition": "No material defect blocks search, filters, navigation, detail viewing, playback, licensing, or download on representative small and large mobile viewports.",
+      "required_evidence": ["mobile screenshots", "touch target audit", "orientation tests", "mobile task recording or trace"]
+    },
+    {
+      "id": "performance_targets_met",
+      "pass_condition": "Representative mobile public pages meet LCP <= 2.5 s, CLS <= 0.1, INP <= 200 ms and Lighthouse Performance >= 90, Accessibility >= 95, Best Practices >= 95, SEO >= 95 under a documented test profile.",
+      "required_evidence": ["Lighthouse reports", "Core Web Vitals trace", "test device/network profile"]
+    },
+    {
+      "id": "no_placeholder_substitution",
+      "pass_condition": "No generic placeholder substitutes for an accessible real project asset; all explicitly missing project assets are listed in a missing-asset report rather than concealed.",
+      "required_evidence": ["asset audit", "visual sampling", "missing-asset report"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "first_impression",
+      "name": "First impression",
+      "weight": 4,
+      "review_question": "Within five seconds, does the product read as a premium, trustworthy Collective AI media library with an obvious next action?",
+      "required_evidence": ["desktop homepage screenshot", "mobile homepage screenshot", "five-second test notes from at least three reviewers"],
+      "score_9_definition": "The brand, product purpose, access context, search action, and real-media quality are immediately legible; no placeholder, loading jank, or generic template signal is visible.",
+      "score_10_definition": "The opening view is memorable and uniquely Collective AI while loading quickly and preserving task clarity across desktop and mobile.",
+      "automatic_ceiling": {"score": 8, "condition": "Hero uses a generic/duplicated asset, the primary action is ambiguous, or initial layout shift is visible."},
+      "benchmark_patterns": ["search-led clarity from Shutterstock/Getty", "real-media editorial confidence from Adobe/Getty", "immediate product-value legibility from Envato"]
+    },
+    {
+      "id": "visual_hierarchy",
+      "name": "Visual hierarchy",
+      "weight": 5,
+      "review_question": "Do hierarchy, spacing, density, typography, and contrast guide users from search to collection to asset without visual competition?",
+      "required_evidence": ["annotated screenshots at 360, 768, 1440 widths", "contrast report", "heading-outline capture"],
+      "score_9_definition": "Primary, secondary, and tertiary actions remain distinct on every core route; dense grids stay scannable; metadata is available without overwhelming imagery.",
+      "score_10_definition": "Hierarchy adapts elegantly by task and viewport while maintaining cinematic restraint and zero ambiguity.",
+      "automatic_ceiling": {"score": 7, "condition": "Gold/teal/accent usage competes with assets, multiple CTAs have equal weight, or metadata becomes unreadable at any supported viewport."},
+      "benchmark_patterns": ["restrained Getty search hero", "Adobe editorial sections", "Depositphotos progressive filters"]
+    },
+    {
+      "id": "brand_distinctiveness",
+      "name": "Brand distinctiveness",
+      "weight": 5,
+      "review_question": "Is the experience unmistakably Collective AI while avoiding a palette-swap treatment of divisions and avoiding competitor imitation?",
+      "required_evidence": ["parent homepage", "at least six contrasting division pages", "logo/typography/palette audit", "trade-dress similarity review"],
+      "score_9_definition": "Parent identity follows the supplied design system; every division has approved identity, voice, geometry, and behavior while sharing a coherent system; no copied proprietary layout is evident.",
+      "score_10_definition": "The design establishes a defensible, reusable visual language that feels more appropriate to the governed Collective AI archive than any public-stock reference.",
+      "automatic_ceiling": {"score": 8, "condition": "Division differentiation is mainly accent-color swapping or any fabricated logo replaces an approved mark."},
+      "benchmark_patterns": ["learn from interaction principles only", "do not reproduce competitor headers, pricing cards, iconography, or signature page proportions"]
+    },
+    {
+      "id": "homepage_quality",
+      "name": "Homepage quality",
+      "weight": 6,
+      "review_question": "Does the homepage successfully support known-item search, inspiration, division entry, recent media, motion discovery, licensing comprehension, and access awareness?",
+      "required_evidence": ["full-page desktop/mobile captures", "link/CTA inventory", "homepage functional test", "real-asset provenance spot check"],
+      "score_9_definition": "Search dominates appropriately; actual media powers the mosaic and rails; divisions, collections, recent media, motion, access state, and licensing are all reachable without bloating the page.",
+      "score_10_definition": "The homepage balances editorial surprise and operational efficiency better than a generic commercial stock homepage for this archive.",
+      "automatic_ceiling": {"score": 8, "condition": "Any required homepage section is absent, uses placeholders, or repeats the same assets enough to imply a shallow library."},
+      "benchmark_patterns": ["Adobe curated media rails", "Shutterstock trending/search modes", "Getty content modes", "Envato cross-media category entry"]
+    },
+    {
+      "id": "search_usability",
+      "name": "Search usability",
+      "weight": 9,
+      "review_question": "Can users quickly find an exact asset or a useful conceptual set across titles, divisions, categories, prompts, tags, colors, aspect ratios, uses, media, licenses, and revisions?",
+      "required_evidence": ["query test set with expected results", "typo-tolerance tests", "keyboard test", "URL-state tests", "empty/suggested query captures", "search latency measurements"],
+      "score_9_definition": "Search is fast, scoped, typo-tolerant, highlighted, URL-synchronized, keyboard accessible, and returns credible ranked results with suggestions, counts, recent searches, and clear reset.",
+      "score_10_definition": "Literal and semantic intent are transparently handled, ranking is explainable enough for governed assets, and expert search remains efficient at archive scale.",
+      "automatic_ceiling": {"score": 7, "condition": "Filters are not reflected in the URL, key manifest fields are unsearchable, result counts are inaccurate, or keyboard users cannot complete search."},
+      "benchmark_patterns": ["Shutterstock AI/standard mode clarity and related queries", "Adobe visual/Find Similar", "Depositphotos inclusive/exclusive facets", "Envato media-scoped search"]
+    },
+    {
+      "id": "gallery_browsing",
+      "name": "Gallery browsing",
+      "weight": 8,
+      "review_question": "Do grids, cards, filters, sorting, quick preview, favorites, and pagination/infinite loading make large, mixed-format libraries easy to scan?",
+      "required_evidence": ["desktop/mobile gallery recordings", "mixed-orientation fixture", "large-result performance trace", "keyboard focus order", "duplicate-visibility audit"],
+      "score_9_definition": "Cards maintain aspect integrity, expose essential media/license data, support Save/Preview/Similar without hover dependence, and remain stable and fast through large collections.",
+      "score_10_definition": "Browsing feels effortless across images, sheets, vertical video, motion, and 3D while retaining provenance and revision relationships.",
+      "automatic_ceiling": {"score": 8, "condition": "Visible unintended duplicates exist, cards crop critical content, infinite loading loses position, or essential card actions are hover-only."},
+      "benchmark_patterns": ["Depositphotos card quick actions", "Adobe dense descriptive grid", "Shutterstock related-query loop", "Envato author/related discovery"]
+    },
+    {
+      "id": "asset_detail_experience",
+      "name": "Asset-detail experience",
+      "weight": 8,
+      "review_question": "Does each asset detail page provide the preview, metadata, provenance, rights, renditions, variants, related media, and navigation needed for a confident decision?",
+      "required_evidence": ["image detail capture", "video detail capture", "sheet/UI mockup detail capture", "variant/revision fixture", "previous/next context test", "download rendition test"],
+      "score_9_definition": "Large preview, zoom/fullscreen, complete manifest metadata, access/license status, usable renditions, original download, variants, related media, copy link, and previous/next are cohesive and accessible.",
+      "score_10_definition": "The page supports both rapid internal reuse and rigorous provenance/legal review without switching tools or losing search context.",
+      "automatic_ceiling": {"score": 7, "condition": "License or visibility is separated from the download action, original/rendition data is inaccurate, or revision/occurrence provenance is hidden."},
+      "benchmark_patterns": ["Getty release/location/collection detail", "Adobe dimensions/type/license", "Shutterstock size/license choice", "Envato tags/similar/author series"]
+    },
+    {
+      "id": "division_differentiation",
+      "name": "Division differentiation",
+      "weight": 6,
+      "review_question": "Do all 20 division pages and the parent gallery express their correct identity and content while remaining one product system?",
+      "required_evidence": ["automated route matrix", "all-division thumbnail contact sheet", "logo/accent audit", "division count reconciliation", "cross-division related-link test"],
+      "score_9_definition": "All required routes work from the real manifest; identity, hero, editorial voice, geometry, collections, and related divisions vary meaningfully; counts reconcile with the archive.",
+      "score_10_definition": "Division personality changes the experience in useful, content-aware ways without reducing consistency or accessibility.",
+      "automatic_ceiling": {"score": 6, "condition": "Any division route is missing, generic, incorrectly branded, or populated from fabricated/repeated assets."},
+      "benchmark_patterns": ["Use public platforms for reusable gallery mechanics only; division differentiation is a unique COLLECTIVE STOCK requirement."]
+    },
+    {
+      "id": "mobile_experience",
+      "name": "Mobile experience",
+      "weight": 7,
+      "review_question": "Can a touch user complete navigation, search, filtering, preview, detail, playback, licensing, and download on representative mobile devices?",
+      "required_evidence": ["360x800 and 390x844 screenshots", "tablet portrait/landscape", "real-device or high-fidelity emulation task run", "44px touch-target audit", "soft-keyboard test"],
+      "score_9_definition": "Navigation and filters use intentional mobile patterns; controls meet target size; grids adapt without crop/overflow; dialogs and media handle safe areas, orientation, and keyboard correctly.",
+      "score_10_definition": "Mobile is a first-class media workflow, including vertical video, gestures with equivalent controls, fast search, and interruption-safe state.",
+      "automatic_ceiling": {"score": 7, "condition": "Desktop mega-menu/filter UI is merely compressed, horizontal overflow occurs, or any core action depends on hover."},
+      "benchmark_patterns": ["Do not infer competitor quality; require direct evidence. Use sticky scoped search and progressive filter sheets as appropriate."]
+    },
+    {
+      "id": "video_motion_handling",
+      "name": "Video and motion handling",
+      "weight": 6,
+      "review_question": "Are video, animated previews, motion backgrounds, vertical media, posters, captions, fallback, and reduced-motion behavior production-ready?",
+      "required_evidence": ["in-view activation recording", "offscreen pause test", "simultaneous-preview cap test", "reduced-motion capture", "network-failure test", "caption/transcript fixture"],
+      "score_9_definition": "Poster-first media uses playsinline, safe muted autoplay only when intended, accessible controls, viewport pausing, preview concurrency limits, no layout shift, static fallback, and cleanup.",
+      "score_10_definition": "Motion materially improves discovery while staying quiet, efficient, captioned where needed, and fully usable under reduced motion or network failure.",
+      "automatic_ceiling": {"score": 6, "condition": "Any media autoplays with sound, ignores reduced motion, continues offscreen, lacks an accessible pause, or breaks without video support."},
+      "benchmark_patterns": ["Adobe duration/quality and explicit play signals", "Getty creative/editorial video modes", "Envato vertical/motion taxonomy", "Shutterstock dedicated video discovery"]
+    },
+    {
+      "id": "licensing_clarity",
+      "name": "Licensing clarity",
+      "weight": 7,
+      "review_question": "Can a user understand access level, license type, permitted/restricted uses, attribution, approval requirements, and delivery consequences before download?",
+      "required_evidence": ["license UI for every required license type", "public/internal/restricted delivery tests", "signed URL test", "noindex test", "plain-language comprehension review"],
+      "score_9_definition": "Rights are concise and adjacent to the action; full terms are available; internal/public/restricted status is enforced at delivery; approval and attribution are unambiguous.",
+      "score_10_definition": "The rights model makes complex internal and public use safer and faster than the public-stock references while preserving complete audit history.",
+      "automatic_ceiling": {"score": 5, "condition": "Private assets rely on CSS hiding or a disabled button, a license is missing, or an original public URL bypasses authorization."},
+      "benchmark_patterns": ["Getty inline release/license metadata", "Adobe Standard/Enhanced/Extended comparison", "Shutterstock inline Enhanced option", "Envato project-linked certificate concept"]
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "weight": 8,
+      "review_question": "Does the product meet WCAG 2.2 AA and support complete keyboard, screen-reader, reduced-motion, zoom, and touch workflows?",
+      "required_evidence": ["axe or equivalent reports", "manual keyboard script", "NVDA/VoiceOver or equivalent notes", "focus screenshots", "contrast/zoom/reflow tests", "dialog and carousel checks"],
+      "score_9_definition": "Zero critical defects; landmarks/headings/labels are accurate; focus is visible and restored; dialogs trap appropriately; alt text is asset-specific; media controls and filters are operable; 200% zoom/reflow works.",
+      "score_10_definition": "Accessibility is editorially and operationally excellent, including provenance-rich alt text policy, robust error announcements, and assistive-technology efficiency at archive scale.",
+      "automatic_ceiling": {"score": 6, "condition": "A critical WCAG defect exists, a core flow is keyboard-inaccessible, or private/error states are not announced."},
+      "benchmark_patterns": ["skip links and labeled landmarks observed on Shutterstock/Envato", "semantic licensing controls on Adobe/Getty", "avoid carousel clones in the accessibility tree"]
+    },
+    {
+      "id": "performance",
+      "name": "Performance",
+      "weight": 8,
+      "review_question": "Does the implementation meet its mobile Core Web Vitals and Lighthouse targets with real manifest scale and mixed media?",
+      "required_evidence": ["Lighthouse JSON/HTML", "LCP/CLS/INP trace", "bundle analysis", "image rendition audit", "cache-header audit", "large-gallery memory/CPU trace"],
+      "score_9_definition": "All stated targets pass on representative public pages; responsive images, explicit dimensions, poster-first video, lazy loading, immutable assets, and limited priority prevent jank and waste.",
+      "score_10_definition": "Performance remains comfortably within budget across homepage, large archive, division, search, and detail routes on representative mobile hardware and poor networks.",
+      "automatic_ceiling": {"score": 7, "condition": "Any required target misses, asset optimization upscales/overcompresses incorrectly, or gallery/video loading causes memory/interaction degradation."},
+      "benchmark_patterns": ["Competitor richness is not a performance exemption; use their progressive disclosure, not their page weight."]
+    },
+    {
+      "id": "conversion_design",
+      "name": "Conversion design",
+      "weight": 5,
+      "review_question": "Do calls to action move internal and public users toward the correct next step without obscuring rights or using dark patterns?",
+      "required_evidence": ["CTA map by audience", "signed-out/public flow", "authenticated/internal flow", "restricted request-access flow", "copy review"],
+      "score_9_definition": "Internal users optimize for correct reuse/download, public users see value and license before authentication, restricted users get a safe next step, and CTAs remain truthful and well prioritized.",
+      "score_10_definition": "The product converts through confidence, relevance, and rights clarity while preserving editorial calm and user control.",
+      "automatic_ceiling": {"score": 7, "condition": "Registration blocks metadata/preview prematurely, upgrades are preselected ambiguously, or public/internal calls to action are indistinguishable."},
+      "benchmark_patterns": ["Shutterstock option clarity", "Adobe free-trial plus workflow value", "Getty intent-specific actions", "avoid Depositphotos-style acquisition gating for authorized internal users"]
+    },
+    {
+      "id": "professional_credibility",
+      "name": "Professional credibility",
+      "weight": 5,
+      "review_question": "Does the product demonstrate trustworthy provenance, accurate counts/metadata, secure delivery, resilient states, SEO discipline, and production readiness?",
+      "required_evidence": ["manifest reconciliation", "provenance spot checks", "security headers", "CSP report", "dependency audit", "robots/sitemap/schema test", "404/media error tests", "test/build output"],
+      "score_9_definition": "Counts reconcile, metadata is accurate, provenance is inspectable, security/SEO/access controls are correct, failures recover gracefully, and the build/test/deploy path is documented and repeatable.",
+      "score_10_definition": "The platform behaves like a governed DAM and premium public catalog simultaneously, with defensible evidence for every trust claim.",
+      "automatic_ceiling": {"score": 5, "condition": "Audit math fails, security headers are absent, private content is indexed/exposed, or completion claims exceed evidence."},
+      "benchmark_patterns": ["Getty provenance/release detail", "Adobe/Shutterstock license-linked metadata", "Envato license certificate concept"]
+    },
+    {
+      "id": "overall_desirability",
+      "name": "Overall desirability",
+      "weight": 3,
+      "review_question": "After completing representative tasks, would expert internal users choose this product as the fastest, safest, and most inspiring way to use Collective AI media?",
+      "required_evidence": ["task-based critic notes", "blind side-by-side task comparison", "top-ten friction log", "repeat-use intent survey", "revision log closure"],
+      "score_9_definition": "The experience is coherent, fast, distinctive, complete, and worth returning to; no unresolved weakness materially lowers trust or task success.",
+      "score_10_definition": "The product creates preference through a uniquely strong combination of archive completeness, brand intelligence, search quality, and rights confidence—not surface spectacle.",
+      "automatic_ceiling": {"score": 8, "condition": "Any critic weakness remains unaddressed without evidence-based disposition, or the experience feels like a themed clone of a benchmark platform."},
+      "benchmark_patterns": ["Synthesize best interaction principles; do not average competitor aesthetics or imitate trade dress."]
+    }
+  ],
+  "critic_output_contract": {
+    "per_category": [
+      "score from 0 to 10",
+      "specific observed evidence",
+      "benchmark comparison",
+      "defects and severity",
+      "required revision",
+      "verification method after revision"
+    ],
+    "overall": [
+      "weighted score before rounding",
+      "hard-gate pass/fail table",
+      "per-category floor pass/fail",
+      "approval or rejection",
+      "unresolved risks",
+      "links to screenshots, reports, and test output"
+    ],
+    "prohibitions": [
+      "Do not award points for unverified claims.",
+      "Do not let visual polish offset inaccessible, insecure, missing, or unreconciled assets.",
+      "Do not treat competitor resemblance as quality.",
+      "Do not approve your own implementation work.",
+      "Do not call a revision complete without rerunning its verification method."
+    ]
+  }
+}

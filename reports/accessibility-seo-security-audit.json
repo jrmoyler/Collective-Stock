@@ -1,0 +1,268 @@
+{
+  "report": "Collective Stock accessibility, SEO, and security audit — second verification pass",
+  "auditedAt": "2026-08-08",
+  "timezone": "America/New_York",
+  "reviewedPath": "/workspace/scratch/7ac83610e35a/collective-stock",
+  "applicationCodeChangedByReviewer": false,
+  "verdict": "rejected",
+  "verdictReason": "One high-severity production blocker remains: no complete authenticated private detail, capability issuance, and private download flow. Medium accessibility, SEO, abuse-control, and future poster-delivery findings also remain.",
+  "severityCounts": {
+    "critical": 0,
+    "high": 1,
+    "medium": 7,
+    "low": 3,
+    "resolved": 7,
+    "open": 11
+  },
+  "evidenceBoundary": {
+    "testedFacts": [
+      "Build and unit tests passed in the revised workspace.",
+      "Playwright E2E: 9 passed and 1 desktop-project skip for a mobile-only contract.",
+      "Local homepage Lighthouse scores are Performance 98, Accessibility 100, Best Practices 100, and SEO 100.",
+      "Lighthouse LCP is 1807.518 ms, CLS is 0.0003301087551392436, and TBT is 0 ms.",
+      "The static distribution has 62 generated route files: 21 division, 20 collection, and 21 public asset pages.",
+      "All 62 generated route files have main#main-content and an H1 fallback; sitemap has 63 URLs including home.",
+      "Public audit summary exposes missingOrInaccessible 265, publicAssets 21, brokenAssets 0, and unassignedAssets 0.",
+      "Sharp 0.35.3 is installed and full npm audit reports zero vulnerabilities.",
+      "The shared browser local-preview attempt failed with ERR_BLOCKED_BY_CLIENT; repository Chromium/Playwright was used."
+    ],
+    "untestedAssumptions": [
+      "Deployed Vercel headers and HSTS preload behavior",
+      "Real identity-provider login and token issuance",
+      "Cookie Secure, HttpOnly, SameSite, rotation, and revocation behavior",
+      "Authenticated private route rendering and end-to-end authorized download",
+      "Rate-limit/WAF enforcement",
+      "NVDA, JAWS, VoiceOver, and TalkBack",
+      "Safari and Firefox interaction parity",
+      "400 percent zoom and Windows forced-colors coverage",
+      "Field Core Web Vitals and catalog-wide crawl behavior"
+    ]
+  },
+  "requestedRechecks": {
+    "mobileSearchAccessibleName": "resolved",
+    "searchDialogEscapeCleanup": "pass",
+    "comboboxAria": "resolved",
+    "filterFocusRetention": "pass",
+    "mobileNavigationFocusIsolation": "pass_in_tested_scope",
+    "megaMenuEscapeFocus": "resolved",
+    "hsts": "configured_not_deployed_tested",
+    "tokenInQuery": "resolved",
+    "publicAuditMissingCount": "resolved",
+    "sixtyThreeUrlStaticRoutes": "resolved",
+    "textContrast": "resolved",
+    "focusContrast": "open",
+    "lighthouseAccessibility": 100,
+    "lighthouseSeo": 100,
+    "privateAuthenticatedUi": "open_high",
+    "downloadRateLimit": "open_medium",
+    "sharpAdvisory": "resolved"
+  },
+  "lighthouse": {
+    "artifact": "reports/lighthouse-mobile.json",
+    "fetchTime": "2026-08-08T14:37:53.869Z",
+    "url": "http://127.0.0.1:4173/",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "lcpMs": 1807.518,
+      "cls": 0.0003301087551392436,
+      "tbtMs": 0
+    },
+    "audits": {
+      "colorContrast": "pass",
+      "targetSize": "pass"
+    },
+    "scopeWarning": "Local homepage automated lab audit only; not WCAG certification, field performance, or catalog-wide SEO proof."
+  },
+  "findings": [
+    {
+      "id": "A11Y-001",
+      "severity": "high",
+      "status": "resolved",
+      "title": "Mobile archive-search button had no accessible name",
+      "testedFact": "header.js now sets aria-label Search archive, and both desktop/mobile E2E resolve the trigger by role and name.",
+      "files": ["src/components/header.js", "tests/e2e/collective-stock.spec.js"]
+    },
+    {
+      "id": "A11Y-002",
+      "severity": "high",
+      "status": "resolved",
+      "title": "Desktop mega-menu closure stranded focus",
+      "testedFact": "Escape closes the menu and header.js restores the Divisions trigger if focus was in the mega-menu.",
+      "files": ["src/components/header.js"]
+    },
+    {
+      "id": "SEC-001",
+      "severity": "high",
+      "status": "open",
+      "title": "Authenticated private detail/download flow is incomplete",
+      "testedFact": "Only 21 public asset HTML pages are generated. No capability issuer or authenticated private catch-all route exists. Manifest and download handlers use different token scopes/cookies, while DownloadMenu does not mint or attach an asset capability.",
+      "impact": "Authorized internal users have no demonstrated production path from login to private detail to private download.",
+      "files": ["src/utils/routes.js", "src/components/download-menu.js", "scripts/generate-static-routes.js", "api/manifest.js", "api/download.js", "vercel.json"],
+      "fix": "Implement a protected private asset route and a short-lived asset/rendition-scoped capability issuer derived from the authenticated session; add nonce, audience, expiry, revocation, secure delivery, and audit logging.",
+      "verification": "Black-box signed-out, signed-in, wrong-asset, wrong-rendition, expired, replay, revoked, direct-static, and no-JavaScript tests on a deployed preview."
+    },
+    {
+      "id": "SEO-001",
+      "severity": "high",
+      "status": "resolved",
+      "title": "Public route HTML had no crawlable archive body",
+      "testedFact": "All 62 generated route files now include semantic fallback main and H1 content; public asset fallbacks include preview/alt/dimensions/license context.",
+      "files": ["scripts/generate-static-routes.js", "dist/divisions", "dist/collections", "dist/assets"]
+    },
+    {
+      "id": "SEC-002",
+      "severity": "high",
+      "status": "resolved",
+      "title": "High-severity Sharp/libvips build-time advisory",
+      "testedFact": "Sharp 0.35.3 is installed and a fresh full npm audit reports zero vulnerabilities.",
+      "files": ["package.json", "package-lock.json"]
+    },
+    {
+      "id": "A11Y-003",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "Search suggestions used an incomplete combobox/listbox model",
+      "testedFact": "The input now exposes combobox/listbox state, retains DOM focus, updates aria-activedescendant/aria-selected, and cleans state on Escape; desktop/mobile E2E passes.",
+      "files": ["src/components/global-search.js", "src/components/search-dialog.js", "tests/e2e/collective-stock.spec.js"]
+    },
+    {
+      "id": "A11Y-004",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "Small accent/footer text failed minimum contrast",
+      "testedFact": "Derived division index text ratios are 7.27:1 to 15.72:1 on navy; footer legal text is 5.40:1; Lighthouse color-contrast passes.",
+      "files": ["src/styles/app.css", "assets/manifests/divisions.json"]
+    },
+    {
+      "id": "A11Y-005",
+      "severity": "medium",
+      "status": "open",
+      "title": "Focus indicator remains low-contrast",
+      "testedFact": "The translucent teal shadow composites to approximately 1.90 to 1.98 contrast against primary dark surfaces and native outlines are removed.",
+      "impact": "Keyboard focus may be difficult to perceive despite Lighthouse Accessibility 100.",
+      "files": ["src/styles/app.css"],
+      "fix": "Use an opaque two-pixel-or-greater outline with offset and at least 3:1 contrast; verify sticky/dialog clipping and forced colors."
+    },
+    {
+      "id": "A11Y-006",
+      "severity": "medium",
+      "status": "open",
+      "title": "Lightbox slide changes are not announced",
+      "testedFact": "Previous/Next replaces title and index, but no live status describes the change and dialog naming remains generic.",
+      "files": ["src/components/lightbox.js"],
+      "fix": "Use aria-labelledby for the current title and a restrained polite status for title/index changes while retaining navigation-button focus."
+    },
+    {
+      "id": "A11Y-007",
+      "severity": "medium",
+      "status": "open",
+      "title": "Universal 44 by 44 project touch-target contract is not proven",
+      "testedFact": "Core controls explicitly meet 44 pixels and Lighthouse target-size passes, but some standalone footer/title text links do not declare a 44-pixel hit area.",
+      "impact": "WCAG 2.5.8 likely passes by 24-pixel/spacing/inline exceptions, but the stricter project requirement lacks complete proof.",
+      "files": ["src/styles/app.css"],
+      "fix": "Add non-overlapping 44-pixel hit areas to standalone links and computed bounding-box assertions across representative viewports."
+    },
+    {
+      "id": "SEO-002",
+      "severity": "medium",
+      "status": "open",
+      "title": "Empty collection routes are indexable and in the sitemap",
+      "testedFact": "The 21 public assets occupy only Brand Sheets and UI Mockups, but all 20 collections are in the 63-URL sitemap and have indexable fallback pages.",
+      "files": ["scripts/generate-sitemap.js", "scripts/generate-static-routes.js", "sitemap.xml"],
+      "fix": "Omit/noindex empty collections until public content exists, or add substantial intentional editorial content."
+    },
+    {
+      "id": "SEO-003",
+      "severity": "medium",
+      "status": "open",
+      "title": "Structured and social metadata remains incomplete",
+      "testedFact": "Titles, descriptions, canonicals, and basic Open Graph tags exist, but per-route ImageObject/CollectionPage/BreadcrumbList JSON-LD, Twitter cards, and image sitemap entries do not.",
+      "files": ["scripts/generate-static-routes.js", "scripts/generate-sitemap.js", "src/utils/metadata.js"],
+      "fix": "Add safely escaped per-route structured data, social image metadata, Twitter summary-large-image, and image sitemap nodes."
+    },
+    {
+      "id": "SEC-003",
+      "severity": "medium",
+      "status": "resolved",
+      "title": "Download capabilities were accepted in query strings",
+      "testedFact": "api/download.js now reads a dedicated header, Bearer header, or dedicated cookie; no query token handling remains.",
+      "files": ["api/download.js"]
+    },
+    {
+      "id": "SEC-004",
+      "severity": "medium",
+      "status": "open",
+      "title": "Download abuse controls are absent",
+      "testedFact": "No 429, Retry-After, per-user/IP quota, concurrency/byte budget, or platform rate-limit integration exists.",
+      "files": ["api/download.js", "vercel.json"],
+      "fix": "Add policy evaluation, quotas, concurrency and byte budgets, 429/Retry-After, token-safe audit logging, and burst/sustained tests."
+    },
+    {
+      "id": "SEC-005",
+      "severity": "medium",
+      "status": "open",
+      "title": "Future private posters can be copied publicly",
+      "testedFact": "No current private poster is distributed, but copy-public-assets.js recursively copies the whole posters directory before manifest filtering.",
+      "files": ["scripts/copy-public-assets.js"],
+      "fix": "Copy only poster/preview paths referenced by public assets and add a private-poster exclusion test."
+    },
+    {
+      "id": "A11Y-008",
+      "severity": "low",
+      "status": "open",
+      "title": "Asset alt text is present but generic",
+      "testedFact": "Sampled images have alt attributes, but many strings identify category/division more than visible content.",
+      "fix": "Complete an editorial pass covering composition, significant embedded text, and purpose."
+    },
+    {
+      "id": "SEC-006",
+      "severity": "low",
+      "status": "open",
+      "title": "Inline-style policy reduces defense in depth",
+      "testedFact": "CSP script policy is strong and hash-matched, but style-src unsafe-inline remains and manifest values feed inline custom properties.",
+      "files": ["vercel.json", "src/styles/app.css"],
+      "fix": "Validate style tokens strictly, prefer classes/data attributes, and narrow style-src-attr when feasible."
+    },
+    {
+      "id": "SEO-004",
+      "severity": "low",
+      "status": "open",
+      "title": "Robots file disallows a nonexistent private API path",
+      "testedFact": "robots.txt disallows /api/private/ while active protected handlers are under /api/; Vercel API headers do correctly emit noindex/noarchive.",
+      "files": ["robots.txt", "vercel.json"],
+      "fix": "Disallow /api/ for clarity and retain the response header."
+    }
+  ],
+  "wcag22AA": [
+    {"criterion": "1.1.1 Non-text Content", "status": "partial", "basis": "Alt attributes are present in sampled pages; editorial descriptions remain generic."},
+    {"criterion": "1.3.1 Info and Relationships", "status": "pass_in_tested_scope", "basis": "Semantic fallbacks, landmarks, labels, and corrected combobox/listbox roles are present; no full AT traversal."},
+    {"criterion": "1.4.3 Contrast Minimum", "status": "pass_in_tested_scope", "basis": "Lighthouse passes and corrected small text calculates at 5.40:1 or greater."},
+    {"criterion": "1.4.10 Reflow", "status": "pass_in_tested_mobile_scope", "basis": "Mobile E2E shows no horizontal overflow; 400 percent zoom untested."},
+    {"criterion": "1.4.11 Non-text Contrast", "status": "partial", "basis": "Focus ring is below 3:1 against dark surfaces."},
+    {"criterion": "2.1.1 Keyboard", "status": "pass_in_tested_scope", "basis": "Search, filter, mega-menu, dialogs, and mobile navigation pass Chromium tests."},
+    {"criterion": "2.1.2 No Keyboard Trap", "status": "pass_in_tested_scope", "basis": "Mobile nav and dialogs provide tested Escape exits."},
+    {"criterion": "2.2.2 Pause Stop Hide", "status": "partial", "basis": "Reduced-motion/video lifecycle code exists; no representative captioned video fixture tested."},
+    {"criterion": "2.4.1 Bypass Blocks", "status": "pass", "basis": "Skip link reaches main-content including generated fallbacks."},
+    {"criterion": "2.4.3 Focus Order", "status": "pass_in_tested_scope", "basis": "Filter rerender, mega-menu, mobile nav, and combobox focus behavior are corrected."},
+    {"criterion": "2.4.7 Focus Visible", "status": "at_risk", "basis": "Translucent focus shadow is approximately 1.90 to 1.98 contrast and native outlines are removed."},
+    {"criterion": "2.4.11 Focus Not Obscured", "status": "pass_in_tested_scope", "basis": "Mega-menu/mobile-nav restoration corrected; not exhaustively checked on all sticky surfaces."},
+    {"criterion": "2.5.8 Target Size Minimum", "status": "pass_automated_project_requirement_open", "basis": "Lighthouse passes; universal 44 by 44 project contract lacks full bounding-box proof."},
+    {"criterion": "3.2.2 On Input", "status": "pass_in_tested_scope", "basis": "Filter rerenders retain the changed control's focus."},
+    {"criterion": "4.1.2 Name Role Value", "status": "pass_in_tested_scope", "basis": "Mobile search is named and combobox/listbox state is exposed."},
+    {"criterion": "4.1.3 Status Messages", "status": "partial", "basis": "Toast is live; lightbox slide changes are not announced."}
+  ],
+  "approvalGates": [
+    "Implement and deploy-test authenticated private detail/capability/download flow.",
+    "Add observable download rate limiting with 429 and Retry-After behavior.",
+    "Raise focus-visible treatment to at least 3 to 1 and test forced colors.",
+    "Noindex or remove empty collections from the sitemap.",
+    "Make poster distribution manifest-driven and public-only.",
+    "Complete NVDA Chrome and VoiceOver Safari core-flow testing.",
+    "Capture live Vercel security and private noindex headers."
+  ]
+}

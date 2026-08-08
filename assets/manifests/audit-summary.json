@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-08T17:09:26.080Z",
+  "totalFilesDiscovered": 41,
+  "totalUniqueAssetsIngested": 41,
+  "totalOriginalOccurrences": 41,
+  "assignedToDivisions": 40,
+  "parentBrandAssets": 1,
+  "crossDivisionAssets": 0,
+  "exactDuplicates": 0,
+  "revisionsAndVariants": 0,
+  "missingOrInaccessible": 265,
+  "missingBatches": 20,
+  "brokenAssets": 0,
+  "unassignedAssets": 0,
+  "reconciliation": "41 discovered files = 41 unique ingested assets + 0 exact duplicate files; 41 provenance occurrences retained. 265 expected inaccessible outputs are external to the discovered-file equation.",
+  "validationErrors": []
+}

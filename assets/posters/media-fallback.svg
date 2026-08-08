@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Media preview unavailable</title>
+  <desc id="desc">Collective Stock dark media fallback with a gold diamond-star.</desc>
+  <rect width="1200" height="900" fill="#0D1326"/>
+  <path d="M600 300 624 426 750 450 624 474 600 600 576 474 450 450 576 426Z" fill="#D4A843" opacity=".85"/>
+  <path d="M120 760h960" stroke="#1A2540"/>
+  <text x="600" y="715" text-anchor="middle" fill="#8B9BAE" font-family="monospace" font-size="22" letter-spacing="5">COLLECTIVE STOCK</text>
+</svg>

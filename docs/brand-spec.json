@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "1.0",
+  "name": "Collective AI Inc. Parent Brand System",
+  "version": "3.0-source-resolved",
+  "status": "internal-confidential",
+  "sourcePriority": [
+    "most recent explicit user instruction",
+    "newest division-specific skill for division-scoped identity, palette, persona, and product naming",
+    "01-Collective_AI_Design_System_Bible_v3_actual_logos_with_sections.pdf",
+    "02-Collective_AI_MVP_Build_Guide_Complete.pdf",
+    "earlier project conversation context"
+  ],
+  "identity": {
+    "companyName": "Collective AI",
+    "legalName": "Collective AI Inc.",
+    "wordmarkTreatments": ["COLLECTIVE AI", "Collective AI"],
+    "compactMark": "C·AI",
+    "tagline": "Architecting a Humane Future",
+    "taglineScope": "parent-only",
+    "mission": "Build a portfolio of AI-powered companies that advance human flourishing.",
+    "headquarters": "Columbus, Ohio",
+    "architectureStatement": "20 divisions, 20 Synergy Nodes, and a 600-agent ZenFlow lattice",
+    "approvedNamingRules": {
+      "allowed": ["COLLECTIVE AI", "Collective AI", "C·AI"],
+      "disallowed": ["collectiveai"],
+      "departmentTerm": "division",
+      "portfolioModel": "one intelligence architecture expressed through specialized divisions"
+    }
+  },
+  "colors": {
+    "surfaceSystem": {
+      "canvas": {"name": "Deep Navy", "value": "#050A18", "weight": "60%"},
+      "canvasAlt": {"name": "Obsidian", "value": "#0A0F1E", "weight": "60% variant"},
+      "surface": {"name": "Dark Navy Card", "value": "#0D1326", "weight": "30%"},
+      "surfaceRaised": {"name": "Elevated Dark", "value": "#111827", "weight": "30% variant"},
+      "border": {"name": "Dark Blue-Grey", "value": "#1A2540"}
+    },
+    "accentSystem": {
+      "primary": {"name": "Amber Gold", "value": "#D4A843", "weight": "10%", "meaning": "authority"},
+      "primaryWarm": {"name": "Warm Amber", "value": "#F0B94A", "usage": "glow and highlight"},
+      "primaryDeep": {"name": "Deep Amber", "value": "#C9963F", "usage": "gradient depth and pressed state"},
+      "secondary": {"name": "Electric Teal", "value": "#00D9B5", "meaning": "energy"},
+      "secondaryBright": {"name": "Bright Teal", "value": "#0AFFE4", "usage": "hover and glow peak"}
+    },
+    "textSystem": {
+      "primary": {"name": "Bright White", "value": "#F5F5F5"},
+      "secondary": {"name": "Muted Silver", "value": "#8B9BAE"},
+      "tertiary": {"name": "Dim Silver", "value": "#A0AEC0"},
+      "disabled": {"value": "#4B5563"}
+    },
+    "ambient": {
+      "goldGlow": "rgba(212, 168, 67, 0.15)",
+      "goldGlowStrong": "rgba(212, 168, 67, 0.25)",
+      "tealGlow": "rgba(0, 217, 181, 0.12)",
+      "tealGlowStrong": "rgba(0, 217, 181, 0.20)",
+      "starField": "rgba(255, 255, 255, 0.04-0.08)"
+    },
+    "usage": {
+      "rule": "60% dark canvas, 30% dark surfaces, 10% accent",
+      "gold": "Use on the single most important element in a composition.",
+      "teal": "Use for energy, links, and live data states.",
+      "singleDivision": "Use only the division's own confirmed accent system.",
+      "crossDivision": "Use parent Deep Navy as canvas and Amber Gold as the unifying accent."
+    }
+  },
+  "typography": {
+    "primary": {"family": "Space Grotesk", "weights": [300, 400, 500, 600, 700, 800]},
+    "mono": {"family": "JetBrains Mono", "weights": [400, 600], "scope": "code, data, terminal output, and technical labels only"},
+    "fallbacks": ["DM Sans", "Inter"],
+    "scale": {
+      "displayXL": {"size": "72px", "lineHeight": "80px", "weight": 800, "tracking": "-2px"},
+      "displayL": {"size": "48px", "lineHeight": "56px", "weight": 700, "tracking": "-1.5px"},
+      "h1": {"size": "32px", "lineHeight": "40px", "weight": 700, "tracking": "-1px"},
+      "h2": {"size": "24px", "lineHeight": "32px", "weight": 600, "tracking": "-0.5px"},
+      "h3": {"size": "18px", "lineHeight": "24px", "weight": 600, "tracking": "0"},
+      "h4": {"size": "14px", "lineHeight": "20px", "weight": 600, "tracking": "0.2px"},
+      "bodyL": {"size": "16px", "lineHeight": "24px", "weight": 400, "tracking": "0"},
+      "bodyM": {"size": "14px", "lineHeight": "22px", "weight": 400, "tracking": "0"},
+      "bodyS": {"size": "12px", "lineHeight": "18px", "weight": 400, "tracking": "0.1px"},
+      "caption": {"size": "10px", "lineHeight": "14px", "weight": 400, "tracking": "0.2px"},
+      "label": {"size": "11px", "lineHeight": "14px", "weight": 600, "tracking": "1.5px"},
+      "mono": {"size": "13px", "lineHeight": "20px", "weight": 400, "tracking": "0"}
+    },
+    "rules": [
+      "Use Space Grotesk for all non-code display and body text.",
+      "Use all caps only for display, hero, or compact labels, never body copy.",
+      "Set the tagline at weight 300-400 with at least 0.06em tracking.",
+      "Do not introduce a serif or third font family without parent approval."
+    ]
+  },
+  "spacing": {
+    "base": "8px",
+    "tokens": {
+      "1": "4px",
+      "2": "8px",
+      "3": "12px",
+      "4": "16px",
+      "6": "24px",
+      "8": "32px",
+      "12": "48px",
+      "16": "64px"
+    },
+    "rule": "All spacing uses the 4px/8px rhythm; do not use arbitrary values."
+  },
+  "layout": {
+    "desktop1440": {"columns": 12, "gutter": "24px", "margin": "80px", "maxWidth": "1280px"},
+    "desktop1280": {"columns": 12, "gutter": "20px", "margin": "64px", "maxWidth": "1152px"},
+    "tablet": {"columns": 8, "gutter": "16px", "margin": "32px"},
+    "mobile": {"columns": 4, "gutter": "16px", "margin": "20px"},
+    "dashboard": {"columns": 12, "gutter": "16px", "margin": "24px"},
+    "investorDeck": {"columns": 12, "gutter": "24px", "margin": "96px", "maxWidth": "1728px"},
+    "socialSquare": {"columns": 6, "gutter": "16px", "margin": "40px"},
+    "bodyLineLength": "60 characters maximum",
+    "canvasEdgeMargin": "5% minimum",
+    "heroMaxArea": "60% of canvas"
+  },
+  "components": {
+    "button": {
+      "primary": {"background": "#D4A843", "text": "#050A18", "border": "none", "radius": "2px", "padding": "12px 24px", "fontWeight": 600, "hover": "#C9963F"},
+      "secondary": {"background": "transparent", "text": "#D4A843", "border": "1px solid #D4A843", "radius": "2px", "hoverBackground": "rgba(212,168,67,0.08)"},
+      "ghost": {"background": "transparent", "text": "#F5F5F5", "border": "1px solid #1A2540", "radius": "2px", "hoverBackground": "#0D1326"},
+      "danger": {"background": "#1A0A0A", "text": "#EA580C", "border": "1px solid #EA580C", "radius": "2px"},
+      "disabled": {"background": "#0D1326", "text": "#4B5563", "border": "1px solid #1A2540", "opacity": 0.5}
+    },
+    "card": {"background": "#0D1326", "border": "1px solid #1A2540", "borderTop": "2px solid #D4A843", "radius": "6px", "padding": "24px", "shadow": "0 4px 24px rgba(0,0,0,0.30)"},
+    "input": {"background": "#111827", "border": "1px solid #1A2540", "text": "#F5F5F5", "placeholder": "#8B9BAE", "focusBorder": "#D4A843", "radius": "4px"},
+    "badge": {"background": "rgba(212,168,67,0.10)", "border": "1px solid rgba(212,168,67,0.40)", "text": "#D4A843", "radius": "2px", "padding": "4px 8px"},
+    "navigation": {"background": "rgba(5,10,24,0.95)", "backdropBlur": true, "bottomBorder": "1px solid #1A2540", "height": "64px", "active": "gold underline"},
+    "modal": {"overlay": "rgba(5,10,24,0.85)", "background": "#0D1326", "border": "1px solid #1A2540", "radius": "8px"},
+    "table": {"headerBackground": "#0D1326", "headerText": "#D4A843", "alternatingRows": ["#111827", "#0D1326"], "grid": "0.5px solid #1A2540", "rowHover": "#1A2540"}
+  },
+  "iconography": {
+    "style": "outlined",
+    "stroke": "1.5px",
+    "sizes": ["16px", "20px", "24px", "32px", "48px"],
+    "primaryLibrary": "Lucide Icons",
+    "secondaryLibrary": "Phosphor Icons",
+    "divisionMarkMinimum": "24px"
+  },
+  "marks": {
+    "wordmark": {"text": "COLLECTIVE AI", "font": "Space Grotesk", "weight": 700, "allowedColors": ["#F5F5F5", "#D4A843", "#8B9BAE"]},
+    "compact": {"text": "C·AI", "meaning": "The interpunct signals two-word unity."},
+    "diamondStar": {
+      "role": "supporting parentage mark",
+      "shape": "4-point star with concave sides",
+      "innerRadius": "approximately 40% of outer radius",
+      "divisionPlacement": "bottom-right of the division logo composition",
+      "divisionScale": "approximately 14% of the logo mark radius",
+      "parentSize": "16-24px",
+      "logoCompositionSize": "8-12px",
+      "prohibitions": ["never use as a standalone primary logo", "never use as a functional icon", "never resize to prominence"]
+    },
+    "clearSpace": {
+      "wordmark": "at least the height of the C in COLLECTIVE",
+      "diamondStar": "at least twice its own width"
+    },
+    "assetStatus": "No standalone parent logo file is supplied. The wordmark and compact mark may be typeset from this spec; division raster marks are visible in Design System Bible pages 10-11 but standalone production files are not supplied."
+  },
+  "motifs": [
+    {"name": "Concentric Rings / Orbital Arcs", "stroke": "1-2px", "opacity": "gold 20-40% or teal 15-25%", "rule": "stroke only"},
+    {"name": "Circuit Tracery", "stroke": "0.5-1px", "opacity": "gold 15-25% or teal 10-20%", "turns": "45 or 90 degrees"},
+    {"name": "Star Field", "size": "1-3px", "opacity": "4-8%", "placement": "background only"},
+    {"name": "Radial Glow", "radius": "at least 150% of hero element", "rule": "soft and feathered"},
+    {"name": "Grid Overlay", "opacity": "approximately 5%", "role": "architectural structure"},
+    {"name": "Geometric Diamond Divider", "line": "1px gold at 40%", "diamond": "8-12px gold at 80%"}
+  ],
+  "crossDivisionRules": [
+    "Use parent Deep Navy #050A18 as the canvas.",
+    "Name a primary division; its accent becomes the hero accent.",
+    "Keep secondary division accents subordinate.",
+    "Use Amber Gold #D4A843 as connective tissue.",
+    "Keep division logos at a consistent scale.",
+    "Use no more than parent gold, one division accent, and white in a single composition.",
+    "Name the collaboration in one headline.",
+    "If Civic Core participates, community-first language overrides commercial urgency."
+  ],
+  "voice": {
+    "register": "Authoritative without being inaccessible; visionary only when grounded in a mechanism.",
+    "leadWith": "the signal or insight",
+    "avoidOpeners": ["Certainly", "Great question", "Absolutely"],
+    "avoidVocabulary": ["delve", "leverage", "robust", "seamless", "empower", "transformative"],
+    "principles": [
+      "Name the problem precisely before naming the solution.",
+      "Use specific numbers when verified.",
+      "Do not overpromise.",
+      "Name uncertainty directly.",
+      "End with a forward implication rather than a recap."
+    ]
+  },
+  "productionRules": [
+    "All primary canvases are dark; light variants require explicit approval for print, clinical, or government contexts.",
+    "Do not place text over photos, screenshots, busy art, or gradients; use solid cards or bands.",
+    "Body text is at least 14px in app UI.",
+    "Every element must earn its place; restraint outranks decoration.",
+    "Regulated and hardware-heavy products remain simulation, admin, or reporting shells until review clears deployment."
+  ],
+  "evidence": [
+    {"source": "01-Collective_AI_Design_System_Bible_v3_actual_logos_with_sections.pdf", "pages": "1, 4-13, 15-59", "scope": "parent identity, tokens, division order, logo gallery, palettes, components, personas, layout and production rules"},
+    {"source": "05-collective-ai-parent.skill.txt / references/brand.md", "scope": "parent naming, voice, mark construction and portfolio copy; used only where non-conflicting"},
+    {"source": "02-Collective_AI_MVP_Build_Guide_Complete.pdf", "pages": "2-3, 13, 155", "scope": "MVP safety, content layout and app-shell implementation guidance; subordinate where it conflicts with the design bible"}
+  ]
+}

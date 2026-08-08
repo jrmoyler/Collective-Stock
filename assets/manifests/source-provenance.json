@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08T17:09:26.080Z",
+  "occurrences": [
+    {
+      "occurrenceId": "occ_1_4f869a788b55",
+      "assetId": "cstk_4f869a788b5552ab6849",
+      "originalFilename": "collective-stock-homepage-design-concept.png",
+      "sourcePath": "/assets/originals/collective-stock-homepage-design-concept.png",
+      "provenance": "Generated in this ChatGPT project on 2026-08-08",
+      "division": "Collective AI Inc",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_dc66047fe877",
+      "assetId": "cstk_dc66047fe877bce1ce5f",
+      "originalFilename": "detail-01-zenflow.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-01-zenflow.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "ZenFlow",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_df601a34e1e5",
+      "assetId": "cstk_df601a34e1e57ee1a67c",
+      "originalFilename": "detail-02-the-collective.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-02-the-collective.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "The Collective",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_b2680bdc3635",
+      "assetId": "cstk_b2680bdc3635cb15bbc8",
+      "originalFilename": "detail-03-hybrid-living.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-03-hybrid-living.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Hybrid Living",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_2f4c78c52178",
+      "assetId": "cstk_2f4c78c521781c2fc59b",
+      "originalFilename": "detail-04-nexus-labs.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-04-nexus-labs.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Nexus Labs",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_1db27dbb727a",
+      "assetId": "cstk_1db27dbb727a7b86ff8c",
+      "originalFilename": "detail-05-kinetic-edge.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-05-kinetic-edge.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Kinetic Edge",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_be4c73228e4e",
+      "assetId": "cstk_be4c73228e4e6c6dfbd3",
+      "originalFilename": "detail-06-quantum-ledger.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-06-quantum-ledger.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Quantum Ledger",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_4155191c611b",
+      "assetId": "cstk_4155191c611b9f21583a",
+      "originalFilename": "detail-07-terra-axis.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-07-terra-axis.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Terra Axis",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_6489c45effa5",
+      "assetId": "cstk_6489c45effa5a1f00365",
+      "originalFilename": "detail-08-binary-loom.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-08-binary-loom.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Binary Loom",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_bfccf48b1847",
+      "assetId": "cstk_bfccf48b1847761bbdcb",
+      "originalFilename": "detail-09-vector-shift.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-09-vector-shift.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Vector Shift",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_9bffcadc195f",
+      "assetId": "cstk_9bffcadc195ff9f0816a",
+      "originalFilename": "detail-10-aether-link.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-10-aether-link.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Aether Link",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_8569e1ce6bbc",
+      "assetId": "cstk_8569e1ce6bbc633d6835",
+      "originalFilename": "detail-11-obsidian-arc.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-11-obsidian-arc.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Obsidian Arc",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_ff397666528f",
+      "assetId": "cstk_ff397666528fa0c427c6",
+      "originalFilename": "detail-12-civic-core.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-12-civic-core.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Civic Core",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_f4d07cc4f543",
+      "assetId": "cstk_f4d07cc4f54358324b5b",
+      "originalFilename": "detail-13-cognara-mind.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-13-cognara-mind.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Cognara Mind",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_3a0361bb388c",
+      "assetId": "cstk_3a0361bb388c094b761c",
+      "originalFilename": "detail-14-vital-helix.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-14-vital-helix.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Vital Helix",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_1ab3575c7e34",
+      "assetId": "cstk_1ab3575c7e347bb51a57",
+      "originalFilename": "detail-15-gaia-synthesis.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-15-gaia-synthesis.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Gaia Synthesis",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_7f5fd946c5d7",
+      "assetId": "cstk_7f5fd946c5d70ba2deec",
+      "originalFilename": "detail-16-animus-prime.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-16-animus-prime.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Animus Prime",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_cf05ebc9afba",
+      "assetId": "cstk_cf05ebc9afbab70a9ed9",
+      "originalFilename": "detail-17-juris-guard.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-17-juris-guard.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Juris Guard",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_c8832a8c6247",
+      "assetId": "cstk_c8832a8c6247ea957c5a",
+      "originalFilename": "detail-18-signal-velocity.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-18-signal-velocity.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Signal Velocity",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_214fc789428a",
+      "assetId": "cstk_214fc789428a55b211f9",
+      "originalFilename": "detail-19-nomad-nexus.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-19-nomad-nexus.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Nomad Nexus",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_0c73b4519c50",
+      "assetId": "cstk_0c73b4519c509f84f8f7",
+      "originalFilename": "detail-20-eon-core.png",
+      "sourcePath": "/assets/originals/design-bible-logos/detail-20-eon-core.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Eon Core",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_096c12f71a13",
+      "assetId": "cstk_096c12f71a13e24bdeaa",
+      "originalFilename": "gallery-01-zenflow.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-01-zenflow.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "ZenFlow",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_e40df43cca73",
+      "assetId": "cstk_e40df43cca73b3d0520a",
+      "originalFilename": "gallery-02-the-collective.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-02-the-collective.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "The Collective",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_5d1027df10d5",
+      "assetId": "cstk_5d1027df10d5a13a8990",
+      "originalFilename": "gallery-03-hybrid-living.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-03-hybrid-living.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Hybrid Living",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_8f3ea462d0d0",
+      "assetId": "cstk_8f3ea462d0d0e1a79cbf",
+      "originalFilename": "gallery-04-nexus-labs.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-04-nexus-labs.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Nexus Labs",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_0081f716dfaa",
+      "assetId": "cstk_0081f716dfaa2ee98978",
+      "originalFilename": "gallery-05-kinetic-edge.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-05-kinetic-edge.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Kinetic Edge",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_da29b53e65c5",
+      "assetId": "cstk_da29b53e65c5f2da5549",
+      "originalFilename": "gallery-06-quantum-ledger.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-06-quantum-ledger.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Quantum Ledger",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_128cef5d094a",
+      "assetId": "cstk_128cef5d094aaf38ef66",
+      "originalFilename": "gallery-07-terra-axis.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-07-terra-axis.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Terra Axis",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_723d814a9f22",
+      "assetId": "cstk_723d814a9f22821f4344",
+      "originalFilename": "gallery-08-binary-loom.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-08-binary-loom.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Binary Loom",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_87adce01ccb1",
+      "assetId": "cstk_87adce01ccb184c76ddc",
+      "originalFilename": "gallery-09-vector-shift.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-09-vector-shift.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Vector Shift",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_3aa3881b3117",
+      "assetId": "cstk_3aa3881b3117df49efd3",
+      "originalFilename": "gallery-10-aether-link.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-10-aether-link.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Aether Link",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_0b27acce4bf8",
+      "assetId": "cstk_0b27acce4bf872ad02f2",
+      "originalFilename": "gallery-11-obsidian-arc.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-11-obsidian-arc.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Obsidian Arc",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_0b1073440538",
+      "assetId": "cstk_0b1073440538c7958232",
+      "originalFilename": "gallery-12-civic-core.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-12-civic-core.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Civic Core",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_b01596e1d830",
+      "assetId": "cstk_b01596e1d83012a8aaed",
+      "originalFilename": "gallery-13-cognara-mind.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-13-cognara-mind.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Cognara Mind",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_6d7bd3f8d732",
+      "assetId": "cstk_6d7bd3f8d732339f5ddd",
+      "originalFilename": "gallery-14-vital-helix.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-14-vital-helix.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Vital Helix",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_914ac8831817",
+      "assetId": "cstk_914ac883181745679c40",
+      "originalFilename": "gallery-15-gaia-synthesis.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-15-gaia-synthesis.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Gaia Synthesis",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_45a8005ffec0",
+      "assetId": "cstk_45a8005ffec00536cb08",
+      "originalFilename": "gallery-16-animus-prime.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-16-animus-prime.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Animus Prime",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_5b1fc0327e77",
+      "assetId": "cstk_5b1fc0327e77193dbf55",
+      "originalFilename": "gallery-17-juris-guard.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-17-juris-guard.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Juris Guard",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_08333ce1d909",
+      "assetId": "cstk_08333ce1d909c2aa1be4",
+      "originalFilename": "gallery-18-signal-velocity.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-18-signal-velocity.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Signal Velocity",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_e75511cee67c",
+      "assetId": "cstk_e75511cee67c0e64ddcd",
+      "originalFilename": "gallery-19-nomad-nexus.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-19-nomad-nexus.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Nomad Nexus",
+      "batch": "Local source audit",
+      "revision": 1
+    },
+    {
+      "occurrenceId": "occ_1_4310f15c26fe",
+      "assetId": "cstk_4310f15c26fe94cf983f",
+      "originalFilename": "gallery-20-eon-core.png",
+      "sourcePath": "/assets/originals/design-bible-logos/gallery-20-eon-core.png",
+      "provenance": "Extracted from the supplied Collective AI Design System Bible v3",
+      "division": "Eon Core",
+      "batch": "Local source audit",
+      "revision": 1
+    }
+  ]
+}

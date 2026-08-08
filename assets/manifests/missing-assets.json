@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "audit_root": "/workspace/scratch/7ac83610e35a/workstreams/asset-archivist",
+  "historical_chatgpt_project_assets": {
+    "confirmed_local_file_count": 0,
+    "conclusion": "No historical ChatGPT conversation/project image files were discovered locally.",
+    "current_session_assets_are_not_counted_as_historical": true
+  },
+  "conversation_summary_provenance": {
+    "source": "user-provided conversation summary relayed in project context",
+    "exact_filenames_supplied": false,
+    "important_caveat": "Counts represent requested output units, not verified successful generations. A request or iteration may have yielded fewer, more, or no saved files."
+  },
+  "conversation_summary_expected_assets": [
+    {
+      "division": "Signal Velocity",
+      "expected_request_units": 19,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 19,
+      "items": [
+        {
+          "category": "website reference images",
+          "expected_request_units": 8,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 8,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock/reference batch",
+          "expected_request_units": 8,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 8,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "branded reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "Launch Countdown showroom-hardware branded spec sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Gaia Synthesis",
+      "expected_request_units": 22,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 22,
+      "items": [
+        {
+          "category": "stock images",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference images",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "The Collective",
+      "expected_request_units": 42,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 42,
+      "items": [
+        {
+          "category": "branded reference images",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock request iteration 1",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock request iteration 2",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock request iteration 3",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Hybrid Living",
+      "expected_request_units": 22,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 22,
+      "items": [
+        {
+          "category": "stock images",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "branded reference images",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Nexus Labs",
+      "expected_request_units": 54,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 54,
+      "items": [
+        {
+          "category": "reference request 1",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference request 2",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock-background request 1",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock-background request 2",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock-background request 3",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Juris Guard",
+      "expected_request_units": 34,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 34,
+      "items": [
+        {
+          "category": "reference images",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock request 1",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "stock request 2",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Eon Core",
+      "expected_request_units": 16,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 16,
+      "items": [
+        {
+          "category": "ad posters",
+          "expected_request_units": 3,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 3,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "three-screen UI mockup image",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "motion references batch 1",
+          "expected_request_units": 4,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 4,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "motion references batch 2",
+          "expected_request_units": 6,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 6,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Quantum Ledger",
+      "expected_request_units": 12,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 12,
+      "items": [
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "hero stock images",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Animus Prime",
+      "expected_request_units": 12,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 12,
+      "items": [
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "hero stock images",
+          "expected_request_units": 10,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 10,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Vital Helix",
+      "expected_request_units": 4,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 4,
+      "items": [
+        {
+          "category": "reference sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Collective AI Inc parent",
+      "expected_request_units": 2,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 2,
+      "items": [
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Kinetic Edge",
+      "expected_request_units": 2,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 2,
+      "items": [
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Vector Shift",
+      "expected_request_units": 2,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 2,
+      "items": [
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "ZenFlow",
+      "expected_request_units": 2,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 2,
+      "items": [
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Binary Loom",
+      "expected_request_units": 2,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 2,
+      "items": [
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Terra Axis",
+      "expected_request_units": 4,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 4,
+      "items": [
+        {
+          "category": "reference sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Obsidian Arc",
+      "expected_request_units": 2,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 2,
+      "items": [
+        {
+          "category": "reference sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Aether Link",
+      "expected_request_units": 6,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 6,
+      "items": [
+        {
+          "category": "reference sheet attempt 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet attempt 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet attempt 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet attempt 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet color-corrected attempt",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet color-corrected attempt",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Civic Core",
+      "expected_request_units": 4,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 4,
+      "items": [
+        {
+          "category": "reference sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 1",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "reference sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        },
+        {
+          "category": "component sheet iteration 2",
+          "expected_request_units": 1,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 1,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    },
+    {
+      "division": "Unspecified division",
+      "expected_request_units": 2,
+      "local_historical_file_match_count": 0,
+      "unresolved_request_units": 2,
+      "items": [
+        {
+          "category": "two-image sheet request",
+          "expected_request_units": 2,
+          "exact_filenames_known": false,
+          "confirmed_successful_output_count": null,
+          "local_historical_file_match_count": 0,
+          "unresolved_request_units": 2,
+          "status": "not present locally; generation success unknown"
+        }
+      ]
+    }
+  ],
+  "conversation_summary_reconciliation": {
+    "expected_request_units": 265,
+    "confirmed_local_historical_matches": 0,
+    "unresolved_request_units": 265,
+    "equation": "265 expected request units = 0 confirmed local historical files + 265 unresolved request units",
+    "confirmed_successful_output_total": null
+  },
+  "divisions_not_assigned_expected_conversation_assets_in_summary": [
+    "Cognara Mind",
+    "Nomad Nexus"
+  ],
+  "locally_declared_but_exactly_absent_logo_filenames": [
+    {
+      "division": "Signal Velocity",
+      "declared_filename": "signal_velocity_logo.png",
+      "declared_dimensions": [
+        1024,
+        1024
+      ],
+      "source_archive": "project_sources/06-signal-velocity-division.skill.txt",
+      "source_member": "signal-velocity-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-18-signal-velocity.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Eon Core",
+      "declared_filename": "eon_core_logo.png",
+      "declared_dimensions": [
+        1024,
+        1024
+      ],
+      "source_archive": "project_sources/07-eon-core-division.skill.txt",
+      "source_member": "eon-core-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-20-eon-core.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Nomad Nexus",
+      "declared_filename": "nomad_nexus_logo.png",
+      "declared_dimensions": [
+        1024,
+        1024
+      ],
+      "source_archive": "project_sources/08-nomad-nexus-division.skill.txt",
+      "source_member": "nomad-nexus-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-19-nomad-nexus.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Binary Loom",
+      "declared_filename": "binary_loom_logo.png",
+      "declared_dimensions": [
+        1380,
+        752
+      ],
+      "source_archive": "project_sources/09-binary-loom-division.skill.txt",
+      "source_member": "binary-loom-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-08-binary-loom.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Gaia Synthesis",
+      "declared_filename": "gaia_synthesis_logo.png",
+      "declared_dimensions": [
+        1380,
+        752
+      ],
+      "source_archive": "project_sources/10-gaia-synthesis-division.skill.txt",
+      "source_member": "gaia-synthesis-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-15-gaia-synthesis.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Vital Helix",
+      "declared_filename": "vital_helix_logo.png",
+      "declared_dimensions": [
+        1380,
+        752
+      ],
+      "source_archive": "project_sources/12-vital-helix-division.skill.txt",
+      "source_member": "vital-helix-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-14-vital-helix.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Aether Link",
+      "declared_filename": "aether_link_logo.png",
+      "declared_dimensions": [
+        1380,
+        752
+      ],
+      "source_archive": "project_sources/13-aether-link-division.skill.txt",
+      "source_member": "aether-link-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-10-aether-link.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Animus Prime",
+      "declared_filename": "animus_prime_logo.png",
+      "declared_dimensions": [
+        1380,
+        752
+      ],
+      "source_archive": "project_sources/14-animus-prime-division.skill.txt",
+      "source_member": "animus-prime-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-16-animus-prime.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Vector Shift",
+      "declared_filename": "vector_shift_logo.png",
+      "declared_dimensions": [
+        1380,
+        752
+      ],
+      "source_archive": "project_sources/15-vector-shift-division.skill.txt",
+      "source_member": "vector-shift-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-09-vector-shift.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    },
+    {
+      "division": "Obsidian Arc",
+      "declared_filename": "obsidian_arc_logo.png",
+      "declared_dimensions": [
+        1380,
+        752
+      ],
+      "source_archive": "project_sources/16-obsidian-arc-division.skill.txt",
+      "source_member": "obsidian-arc-division/references/brand.md",
+      "exact_local_file_match_count": 0,
+      "status": "declared exact file absent; PDF-extracted visual candidate available under a derived filename",
+      "derived_candidate": "workstreams/asset-archivist/extracted-logo-candidates/gallery-11-obsidian-arc.png",
+      "derived_candidate_does_not_prove_original_declared_file_exists": true
+    }
+  ],
+  "separation_rule": "PDF-derived logo candidates are not used to satisfy the conversation-image ledger because their provenance is the supplied PDF, not historical ChatGPT conversations."
+}

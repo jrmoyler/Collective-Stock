@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /assets/originals/
+Disallow: /api/private/
+Sitemap: https://collective-stock.vercel.app/sitemap.xml

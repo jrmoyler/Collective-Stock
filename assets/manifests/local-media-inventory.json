@@ -1,0 +1,3646 @@
+{
+  "schema_version": 1,
+  "audit_root": "/workspace/scratch/7ac83610e35a/workstreams/asset-archivist",
+  "scan_scope": {
+    "workspace": "/workspace/scratch/7ac83610e35a",
+    "source_root": "/workspace/scratch/7ac83610e35a/project_sources",
+    "excluded_directory_names": [
+      ".git",
+      "node_modules"
+    ],
+    "audit_workstream_excluded_from_workspace_preexisting-media_scan": true,
+    "workspace_files_scanned_outside_audit_workstream": 108
+  },
+  "source_reconciliation": {
+    "source_file_count": 16,
+    "pdf_count": 2,
+    "zip_skill_package_count": 13,
+    "markdown_count": 1,
+    "loose_image_video_audio_count": 0,
+    "skill_archive_payload_file_count": 24,
+    "skill_archive_media_payload_count": 0
+  },
+  "source_files": [
+    {
+      "path": "project_sources/01-Collective_AI_Design_System_Bible_v3_actual_logos_with_sections.pdf",
+      "bytes": 30191060,
+      "sha256": "d78848bf32bc62601bd2ed87f234920b0900a7409d56fb22a83a74687748540b",
+      "detected_type": "application/pdf"
+    },
+    {
+      "path": "project_sources/02-Collective_AI_MVP_Build_Guide_Complete.pdf",
+      "bytes": 427432,
+      "sha256": "6a23f4fe0fea09977885237dbc1f7dee9e2909423b96aa54d466a13928f0a471",
+      "detected_type": "application/pdf"
+    },
+    {
+      "path": "project_sources/03-collective-brand-asset-generator.skill.txt",
+      "bytes": 4857,
+      "sha256": "ffd9774f1ba5c91348fb05be0ba423a097c219cc97942b4d64197aefb0780cef",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/04-juris-guard-division.skill.txt",
+      "bytes": 3428,
+      "sha256": "2ad2a5ab1bd0932da761d286ef35ec4bf0717a5dfb2e799056026d500bd2c571",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/05-collective-ai-parent.skill.txt",
+      "bytes": 19996,
+      "sha256": "04dfa11c5469a7a7061e1bb753798068801721ee080d532baeb4c7b9e5fe1586",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/06-signal-velocity-division.skill.txt",
+      "bytes": 5075,
+      "sha256": "26b20765ba429d9a9c4cb438a778611b14e6fbfb7b2c234e9408e63f7ab43c5d",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/07-eon-core-division.skill.txt",
+      "bytes": 6005,
+      "sha256": "b9d9ea2e28f000503394c66238c99b8fe904a9c04933d0d7bfd7f36206f034e6",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/08-nomad-nexus-division.skill.txt",
+      "bytes": 5298,
+      "sha256": "9b96bde0eff3dc3f11b37ed381ae608b9ac345b9cf36032ea5970542edbfdd82",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/09-binary-loom-division.skill.txt",
+      "bytes": 6647,
+      "sha256": "a64abaa556a8af3b7b7dab3a5d7d2ff72886a61818879ddce6091269b1c896dc",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/10-gaia-synthesis-division.skill.txt",
+      "bytes": 5445,
+      "sha256": "52a08c830461eb42cecb2656e59d1a3f7f020f6b28dc7e3fca8149190a77311a",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/11-cognara-mind-division-SKILL.md",
+      "bytes": 17277,
+      "sha256": "7bc82570766662908150cf2e3b6b1d4823823ff57fd6c8f1d829c2113d40d003",
+      "detected_type": "text/markdown"
+    },
+    {
+      "path": "project_sources/12-vital-helix-division.skill.txt",
+      "bytes": 6769,
+      "sha256": "0637dba3f47e18cee0744482c1ed07cb5f2a98d746c6827d067aead1c4796306",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/13-aether-link-division.skill.txt",
+      "bytes": 3997,
+      "sha256": "c0b7682c6421412e3bbef0d48ae84931f6f1d0323259c9e351575a1f7fa55e7b",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/14-animus-prime-division.skill.txt",
+      "bytes": 4027,
+      "sha256": "bf80b132f3225902f0231805d0cf7e5c31f462a0c787e027fc1a555d94943809",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/15-vector-shift-division.skill.txt",
+      "bytes": 4025,
+      "sha256": "e26540cd672f00b8a0b0b1604bb84a296a7f5f41d5c831f9e7dc302cefe779f4",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    },
+    {
+      "path": "project_sources/16-obsidian-arc-division.skill.txt",
+      "bytes": 4148,
+      "sha256": "8e82162f163b23e989cdd667665cdfedd64ee84fbb0765e812972c8a1d33864c",
+      "detected_type": "application/zip (misleading .skill.txt extension)"
+    }
+  ],
+  "skill_archive_packages": [
+    {
+      "path": "project_sources/03-collective-brand-asset-generator.skill.txt",
+      "file_member_count": 1,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "SKILL.md",
+          "bytes": 10570,
+          "sha256": "0c436f1a6ea147171bea815a814690353632a5f99a9654e4cd50533595bd350a",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/04-juris-guard-division.skill.txt",
+      "file_member_count": 1,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "juris-guard-division/SKILL.md",
+          "bytes": 6471,
+          "sha256": "8852929db8d780133bc31ec11d837809967b22f1cea4c9bf0304965f92bf153c",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/05-collective-ai-parent.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "collective-ai-parent/SKILL.md",
+          "bytes": 37329,
+          "sha256": "dcd5ae83e1bace3b7238bc30102c20871bc7250add5cb3c911ee9d46e4131974",
+          "is_media": false
+        },
+        {
+          "member": "collective-ai-parent/references/brand.md",
+          "bytes": 14469,
+          "sha256": "873c9bee4ddb0468c30a32a6910987471179ccf56ee4718028e3457d98666ef4",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/06-signal-velocity-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "signal-velocity-division/SKILL.md",
+          "bytes": 6366,
+          "sha256": "fbd2feb2dbff8fa633433a485491a25a3dbdd6d359dd427cb3f0f3b628820d24",
+          "is_media": false
+        },
+        {
+          "member": "signal-velocity-division/references/brand.md",
+          "bytes": 2849,
+          "sha256": "5e231dcceda7488295f00db290ea0ac6bb8ead20ef68d499d968c6c5021e6123",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/07-eon-core-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "eon-core-division/SKILL.md",
+          "bytes": 8166,
+          "sha256": "df48928ee69f21095eda6745153d518a37ebdcf3091a3d035d87a1f740167a9f",
+          "is_media": false
+        },
+        {
+          "member": "eon-core-division/references/brand.md",
+          "bytes": 3739,
+          "sha256": "0495ea70aad77fb0350b47d2bb051ec549ca55a7f82598b9fd815f389e6ea191",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/08-nomad-nexus-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "nomad-nexus-division/SKILL.md",
+          "bytes": 6876,
+          "sha256": "fd48bc9ff1c11f29abd2cf0c1f78f0183938167d74f54d2899371c99af9a322e",
+          "is_media": false
+        },
+        {
+          "member": "nomad-nexus-division/references/brand.md",
+          "bytes": 2970,
+          "sha256": "1d4198693544140863644d45006ac125190e1f3d96b646bc8ea7f7dbf5808a5e",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/09-binary-loom-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "binary-loom-division/references/brand.md",
+          "bytes": 5906,
+          "sha256": "a744c1033b7495ab521aeb79dbc98192fd8f0dfa4b8c5627b03d30050d818a7d",
+          "is_media": false
+        },
+        {
+          "member": "binary-loom-division/SKILL.md",
+          "bytes": 7459,
+          "sha256": "8093ec03af45d59177c8cee7bf9a8fefa90ed2ed4093fcb552b3348f0e6e7c4c",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/10-gaia-synthesis-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "gaia-synthesis-division/references/brand.md",
+          "bytes": 2480,
+          "sha256": "8c7170ddcf0648abab02e6a0bd9b918752fa8f971225d50064042ba7a9ef4f24",
+          "is_media": false
+        },
+        {
+          "member": "gaia-synthesis-division/SKILL.md",
+          "bytes": 7530,
+          "sha256": "c0578fb9f0292c4e9b095d9bc0655267f8a2821ea970b77a1282bee40dd2b9c9",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/12-vital-helix-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "vital-helix-division/references/brand.md",
+          "bytes": 5769,
+          "sha256": "90b05e36691e0c15eab26aa16e7b36553399c095e48934c82aa84dc412038366",
+          "is_media": false
+        },
+        {
+          "member": "vital-helix-division/SKILL.md",
+          "bytes": 7345,
+          "sha256": "d8117a6507bbd7a081472fdd8324bb2247829025d990f8b4e155b3a1d9fda8ad",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/13-aether-link-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "aether-link-division/references/brand.md",
+          "bytes": 2116,
+          "sha256": "e03e9b6396bc7a56647816680c874a3a7e1b50844de34efec335a7fbc3b4718b",
+          "is_media": false
+        },
+        {
+          "member": "aether-link-division/SKILL.md",
+          "bytes": 4687,
+          "sha256": "73c04b9bcd244f554f01a9119ebba1771ba71991a3aa1457ca2d713b1bcc6109",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/14-animus-prime-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "animus-prime-division/references/brand.md",
+          "bytes": 2177,
+          "sha256": "b20cb215f64bed67a068e387df6c29b45d48636dd1fb70fdd9db6c2dc74f9a22",
+          "is_media": false
+        },
+        {
+          "member": "animus-prime-division/SKILL.md",
+          "bytes": 4613,
+          "sha256": "b90cccbf0b42d248e707191faabd6e94e8bafe7e47b063886137b02b078bbe23",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/15-vector-shift-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "vector-shift-division/references/brand.md",
+          "bytes": 2061,
+          "sha256": "e67c3ab880c755bdbdb7d5ccce076080bfad31cc0150c91877015ffeb27612c9",
+          "is_media": false
+        },
+        {
+          "member": "vector-shift-division/SKILL.md",
+          "bytes": 4715,
+          "sha256": "6f321631c26fcbe4637e11579778ba87a9c4e5a08e849f8b083c55f0aa7c77fd",
+          "is_media": false
+        }
+      ]
+    },
+    {
+      "path": "project_sources/16-obsidian-arc-division.skill.txt",
+      "file_member_count": 2,
+      "media_member_count": 0,
+      "members": [
+        {
+          "member": "obsidian-arc-division/references/brand.md",
+          "bytes": 2350,
+          "sha256": "1e024ef71ae8e78715f0ef94ae13c590c3bff374cbae89bae9733efc00d84690",
+          "is_media": false
+        },
+        {
+          "member": "obsidian-arc-division/SKILL.md",
+          "bytes": 4901,
+          "sha256": "ec30ca1e1090b2b6aa522b5da5b20e8a197804dbd03c9d42e79da8b0e4602d4e",
+          "is_media": false
+        }
+      ]
+    }
+  ],
+  "pdf_containers": [
+    {
+      "path": "project_sources/01-Collective_AI_Design_System_Bible_v3_actual_logos_with_sections.pdf",
+      "pages": 59,
+      "embedded_raster_object_count": 80,
+      "image_stream_count": 40,
+      "soft_mask_count": 40,
+      "retained_candidate_count": 40
+    },
+    {
+      "path": "project_sources/02-Collective_AI_MVP_Build_Guide_Complete.pdf",
+      "pages": 155,
+      "embedded_raster_object_count": 0,
+      "image_stream_count": 0,
+      "soft_mask_count": 0,
+      "retained_candidate_count": 0
+    }
+  ],
+  "pdf_embedded_image_mask_pairs": [
+    {
+      "division": "ZenFlow",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 0,
+        "kind": "image",
+        "width": 1287,
+        "height": 1310,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 133,
+        "object_generation": 0,
+        "x_ppi": 1097,
+        "y_ppi": 1097,
+        "encoded_size": "799K",
+        "ratio": "16%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 1,
+        "kind": "smask",
+        "width": 1287,
+        "height": 1310,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 133,
+        "object_generation": 0,
+        "x_ppi": 1097,
+        "y_ppi": 1097,
+        "encoded_size": "167B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-000.png",
+        "bytes": 659153,
+        "sha256": "12d52a9e3f08bdeb9f23b86d15057498293f48a62c351c79d3bd07f2def0e87c",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-001.png",
+        "bytes": 927,
+        "sha256": "b288c758124ce69f6c489fa1be21b73605a56a0a85e206130324f426127f97e5",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-01-zenflow.png"
+    },
+    {
+      "division": "The Collective",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 2,
+        "kind": "image",
+        "width": 813,
+        "height": 650,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 139,
+        "object_generation": 0,
+        "x_ppi": 650,
+        "y_ppi": 650,
+        "encoded_size": "219K",
+        "ratio": "14%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 3,
+        "kind": "smask",
+        "width": 813,
+        "height": 650,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 139,
+        "object_generation": 0,
+        "x_ppi": 650,
+        "y_ppi": 650,
+        "encoded_size": "85B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-002.png",
+        "bytes": 174049,
+        "sha256": "6899ea482924114529574eaafd8ea1768fa694122e9c8e5915beb7492157146f",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-003.png",
+        "bytes": 334,
+        "sha256": "dcd39edfd0255e7cf6801e2cfd07cb37021c1ca9b0abbd3c1473305e7c2c70f7",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-02-the-collective.png"
+    },
+    {
+      "division": "Hybrid Living",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 4,
+        "kind": "image",
+        "width": 1150,
+        "height": 1213,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 143,
+        "object_generation": 0,
+        "x_ppi": 1016,
+        "y_ppi": 1016,
+        "encoded_size": "839K",
+        "ratio": "21%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 5,
+        "kind": "smask",
+        "width": 1150,
+        "height": 1213,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 143,
+        "object_generation": 0,
+        "x_ppi": 1016,
+        "y_ppi": 1016,
+        "encoded_size": "155B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-004.png",
+        "bytes": 693074,
+        "sha256": "02346ac508272fc3d42ec47d46ea9b8c4ada6e7533b3fde1bb47962bcb819a48",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-005.png",
+        "bytes": 789,
+        "sha256": "5e6c0d95c1047253629aa731297103f59e16cc44fef3e85edb6046667d794d2d",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-03-hybrid-living.png"
+    },
+    {
+      "division": "Nexus Labs",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 6,
+        "kind": "image",
+        "width": 1023,
+        "height": 872,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 147,
+        "object_generation": 0,
+        "x_ppi": 818,
+        "y_ppi": 818,
+        "encoded_size": "134K",
+        "ratio": "5.1%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 7,
+        "kind": "smask",
+        "width": 1023,
+        "height": 872,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 147,
+        "object_generation": 0,
+        "x_ppi": 818,
+        "y_ppi": 818,
+        "encoded_size": "112B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-006.png",
+        "bytes": 144293,
+        "sha256": "18bb4efe64f1b1c50b57dc13d791863ffbafccf57636ebd7a512441d3f89f839",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-007.png",
+        "bytes": 541,
+        "sha256": "a38f4a87ca3b2f307448acc919d989af0a6300fb77ba1a8c41d38bde0eef7dfa",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-04-nexus-labs.png"
+    },
+    {
+      "division": "Kinetic Edge",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 8,
+        "kind": "image",
+        "width": 1329,
+        "height": 1218,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 151,
+        "object_generation": 0,
+        "x_ppi": 1063,
+        "y_ppi": 1063,
+        "encoded_size": "455K",
+        "ratio": "9.6%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 9,
+        "kind": "smask",
+        "width": 1329,
+        "height": 1218,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 151,
+        "object_generation": 0,
+        "x_ppi": 1063,
+        "y_ppi": 1063,
+        "encoded_size": "156B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-008.png",
+        "bytes": 382534,
+        "sha256": "ed9f23841ef97a4dbf94a530fffd4fd9934a3891e9cdadb6b63c32119d46ddfa",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-009.png",
+        "bytes": 899,
+        "sha256": "c9930c483276c10b217b2f85ff4e62e4c65583d7fe8ea4d6a6a30b0661f82380",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-05-kinetic-edge.png"
+    },
+    {
+      "division": "Quantum Ledger",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 10,
+        "kind": "image",
+        "width": 1323,
+        "height": 1187,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 155,
+        "object_generation": 0,
+        "x_ppi": 1058,
+        "y_ppi": 1058,
+        "encoded_size": "372K",
+        "ratio": "8.1%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 11,
+        "kind": "smask",
+        "width": 1323,
+        "height": 1187,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 155,
+        "object_generation": 0,
+        "x_ppi": 1058,
+        "y_ppi": 1058,
+        "encoded_size": "152B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-010.png",
+        "bytes": 271469,
+        "sha256": "39641dc0d0fa0a240ec02fff2bfd79e32039b5c837a453effe94d0b2daee63c2",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-011.png",
+        "bytes": 874,
+        "sha256": "6c80ae1b3580b33cb524efbfb19cee4fd89d0d9f3571cd2b419b9fa9f22ffa75",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-06-quantum-ledger.png"
+    },
+    {
+      "division": "Terra Axis",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 12,
+        "kind": "image",
+        "width": 1357,
+        "height": 1202,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 159,
+        "object_generation": 0,
+        "x_ppi": 1086,
+        "y_ppi": 1086,
+        "encoded_size": "345K",
+        "ratio": "7.2%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 13,
+        "kind": "smask",
+        "width": 1357,
+        "height": 1202,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 159,
+        "object_generation": 0,
+        "x_ppi": 1086,
+        "y_ppi": 1086,
+        "encoded_size": "154B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-012.png",
+        "bytes": 253746,
+        "sha256": "0ccbab2b2fb32273b83e6ae5c3483b1b22b9b0de58a2b0c8c39fb70077289c69",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-013.png",
+        "bytes": 902,
+        "sha256": "7f76e5ac0f20e2a7660292325a567214a2444cd7f24fd9ae8c67ea5163efd99e",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-07-terra-axis.png"
+    },
+    {
+      "division": "Binary Loom",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 14,
+        "kind": "image",
+        "width": 694,
+        "height": 837,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 163,
+        "object_generation": 0,
+        "x_ppi": 701,
+        "y_ppi": 701,
+        "encoded_size": "671K",
+        "ratio": "39%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 15,
+        "kind": "smask",
+        "width": 694,
+        "height": 837,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 163,
+        "object_generation": 0,
+        "x_ppi": 701,
+        "y_ppi": 701,
+        "encoded_size": "108B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-014.png",
+        "bytes": 524342,
+        "sha256": "9b86671803db6fa5ecdcfaa63905717a63ce577bcf85683ffa424ed243f084a7",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-015.png",
+        "bytes": 357,
+        "sha256": "d88aa8efbdc7db1ee788aa1d6eef3862a45ddb7e7e82fc61ad6982fc081acad0",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-08-binary-loom.png"
+    },
+    {
+      "division": "Vector Shift",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 16,
+        "kind": "image",
+        "width": 1536,
+        "height": 837,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 167,
+        "object_generation": 0,
+        "x_ppi": 1229,
+        "y_ppi": 1229,
+        "encoded_size": "759K",
+        "ratio": "20%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 17,
+        "kind": "smask",
+        "width": 1536,
+        "height": 837,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 167,
+        "object_generation": 0,
+        "x_ppi": 1229,
+        "y_ppi": 1229,
+        "encoded_size": "108B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-016.png",
+        "bytes": 597866,
+        "sha256": "63602311f6df8376492965d60bb93fdcf53794cbc37d19220345f8bd4a484409",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-017.png",
+        "bytes": 731,
+        "sha256": "8a0aa53c41054b98b8c89b3e2c61971d672a84ab52f8e00a72bba88d274d3996",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-09-vector-shift.png"
+    },
+    {
+      "division": "Aether Link",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 18,
+        "kind": "image",
+        "width": 1214,
+        "height": 821,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 171,
+        "object_generation": 0,
+        "x_ppi": 971,
+        "y_ppi": 971,
+        "encoded_size": "565K",
+        "ratio": "19%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 19,
+        "kind": "smask",
+        "width": 1214,
+        "height": 821,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 171,
+        "object_generation": 0,
+        "x_ppi": 971,
+        "y_ppi": 971,
+        "encoded_size": "106B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-018.png",
+        "bytes": 419266,
+        "sha256": "e728597ed2e3320da0aecf646005c73104114dbfb8645b8e7c2b44097fdb9ab6",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-019.png",
+        "bytes": 594,
+        "sha256": "33ab4e4c36f8f8c8daee018545e7709c0150499c68858944a864d7357fc615c4",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-10-aether-link.png"
+    },
+    {
+      "division": "Obsidian Arc",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 20,
+        "kind": "image",
+        "width": 1536,
+        "height": 837,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 175,
+        "object_generation": 0,
+        "x_ppi": 1229,
+        "y_ppi": 1229,
+        "encoded_size": "1289K",
+        "ratio": "34%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 21,
+        "kind": "smask",
+        "width": 1536,
+        "height": 837,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 175,
+        "object_generation": 0,
+        "x_ppi": 1229,
+        "y_ppi": 1229,
+        "encoded_size": "108B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-020.png",
+        "bytes": 916987,
+        "sha256": "662a97bf591748ce268487072c22b0fe18b350590db6d9e614b5bb56b2b5f2d5",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-021.png",
+        "bytes": 731,
+        "sha256": "8a0aa53c41054b98b8c89b3e2c61971d672a84ab52f8e00a72bba88d274d3996",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-11-obsidian-arc.png"
+    },
+    {
+      "division": "Civic Core",
+      "candidate_class": "gallery-logo-mark",
+      "page": 10,
+      "image": {
+        "page": 10,
+        "number": 22,
+        "kind": "image",
+        "width": 1536,
+        "height": 1536,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 178,
+        "object_generation": 0,
+        "x_ppi": 1286,
+        "y_ppi": 1286,
+        "encoded_size": "750K",
+        "ratio": "11%"
+      },
+      "soft_mask": {
+        "page": 10,
+        "number": 23,
+        "kind": "smask",
+        "width": 1536,
+        "height": 1536,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 178,
+        "object_generation": 0,
+        "x_ppi": 1286,
+        "y_ppi": 1286,
+        "encoded_size": "195B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-022.png",
+        "bytes": 585058,
+        "sha256": "87aa79a5a0289d80d427046cec3c7446bd4257e152fbed74c9dfde97dfb66da3",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-023.png",
+        "bytes": 1254,
+        "sha256": "ef8d434694453e6eb35e1672265120ae77a2c4f2af199e472f565ff71cbeb39a",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-12-civic-core.png"
+    },
+    {
+      "division": "Cognara Mind",
+      "candidate_class": "gallery-logo-mark",
+      "page": 11,
+      "image": {
+        "page": 11,
+        "number": 24,
+        "kind": "image",
+        "width": 1071,
+        "height": 838,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 182,
+        "object_generation": 0,
+        "x_ppi": 857,
+        "y_ppi": 857,
+        "encoded_size": "733K",
+        "ratio": "28%"
+      },
+      "soft_mask": {
+        "page": 11,
+        "number": 25,
+        "kind": "smask",
+        "width": 1071,
+        "height": 838,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 182,
+        "object_generation": 0,
+        "x_ppi": 857,
+        "y_ppi": 857,
+        "encoded_size": "108B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-024.png",
+        "bytes": 570001,
+        "sha256": "46c1f52c4b1760d347bf79a3dda9555b156db6aac779a08768072e3462dcd26d",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-025.png",
+        "bytes": 543,
+        "sha256": "841426241aaef571c6615dd04b895f696141bf7d306350a53f2d99e483feaf70",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-13-cognara-mind.png"
+    },
+    {
+      "division": "Vital Helix",
+      "candidate_class": "gallery-logo-mark",
+      "page": 11,
+      "image": {
+        "page": 11,
+        "number": 26,
+        "kind": "image",
+        "width": 866,
+        "height": 817,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 186,
+        "object_generation": 0,
+        "x_ppi": 693,
+        "y_ppi": 693,
+        "encoded_size": "561K",
+        "ratio": "27%"
+      },
+      "soft_mask": {
+        "page": 11,
+        "number": 27,
+        "kind": "smask",
+        "width": 866,
+        "height": 817,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 186,
+        "object_generation": 0,
+        "x_ppi": 693,
+        "y_ppi": 693,
+        "encoded_size": "106B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-026.png",
+        "bytes": 422033,
+        "sha256": "e8e3f73210bd35eb1abae38fc5c6eb643ce383e70e9c5500dd092c0421901b67",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-027.png",
+        "bytes": 411,
+        "sha256": "a7cb7d2f8275a4516b3c3bdb86d8ff6de396de8ed3ddbd86160162d2733b25ce",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-14-vital-helix.png"
+    },
+    {
+      "division": "Gaia Synthesis",
+      "candidate_class": "gallery-logo-mark",
+      "page": 11,
+      "image": {
+        "page": 11,
+        "number": 28,
+        "kind": "image",
+        "width": 1465,
+        "height": 837,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 190,
+        "object_generation": 0,
+        "x_ppi": 1172,
+        "y_ppi": 1172,
+        "encoded_size": "1569K",
+        "ratio": "44%"
+      },
+      "soft_mask": {
+        "page": 11,
+        "number": 29,
+        "kind": "smask",
+        "width": 1465,
+        "height": 837,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 190,
+        "object_generation": 0,
+        "x_ppi": 1172,
+        "y_ppi": 1172,
+        "encoded_size": "108B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-028.png",
+        "bytes": 1056768,
+        "sha256": "604db4c6840e5917eed7d6d274ef5e7b0504434dcc303769f3fc97320d7dff40",
+        "valid_png": false,
+        "retained": false,
+        "note": "pdfimages PNG was truncated; a complete 1465x837 PPM extraction of the same page object was used"
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-029.png",
+        "bytes": 706,
+        "sha256": "11278db6d326fccc5edc629a65be420da7ff7a8ff8f4f2fe9f486bd832926fd6",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-15-gaia-synthesis.png",
+      "alternate_complete_extraction": {
+        "temporary_filename": "embed-004.ppm",
+        "bytes": 3678631,
+        "sha256": "f3740431a5b27ed776c82af561b3104e9fb51a57b565decf90a27e47ff3acefe",
+        "retained": false
+      }
+    },
+    {
+      "division": "Animus Prime",
+      "candidate_class": "gallery-logo-mark",
+      "page": 11,
+      "image": {
+        "page": 11,
+        "number": 30,
+        "kind": "image",
+        "width": 1536,
+        "height": 837,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 194,
+        "object_generation": 0,
+        "x_ppi": 1229,
+        "y_ppi": 1229,
+        "encoded_size": "1052K",
+        "ratio": "28%"
+      },
+      "soft_mask": {
+        "page": 11,
+        "number": 31,
+        "kind": "smask",
+        "width": 1536,
+        "height": 837,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 194,
+        "object_generation": 0,
+        "x_ppi": 1229,
+        "y_ppi": 1229,
+        "encoded_size": "108B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-030.png",
+        "bytes": 739208,
+        "sha256": "ffe823675bab4d9d8281d1bf5cf029d347bf1fcc54a327bd191c5c6561e3c395",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-031.png",
+        "bytes": 731,
+        "sha256": "8a0aa53c41054b98b8c89b3e2c61971d672a84ab52f8e00a72bba88d274d3996",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-16-animus-prime.png"
+    },
+    {
+      "division": "Juris Guard",
+      "candidate_class": "gallery-logo-mark",
+      "page": 11,
+      "image": {
+        "page": 11,
+        "number": 32,
+        "kind": "image",
+        "width": 1536,
+        "height": 1536,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 197,
+        "object_generation": 0,
+        "x_ppi": 1286,
+        "y_ppi": 1286,
+        "encoded_size": "1685K",
+        "ratio": "24%"
+      },
+      "soft_mask": {
+        "page": 11,
+        "number": 33,
+        "kind": "smask",
+        "width": 1536,
+        "height": 1536,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 197,
+        "object_generation": 0,
+        "x_ppi": 1286,
+        "y_ppi": 1286,
+        "encoded_size": "195B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-032.png",
+        "bytes": 1226609,
+        "sha256": "21510101f85a40c8804a120e070b0392f5b1fb024b2eeb7de173b8c580e3a05e",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-033.png",
+        "bytes": 1254,
+        "sha256": "ef8d434694453e6eb35e1672265120ae77a2c4f2af199e472f565ff71cbeb39a",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-17-juris-guard.png"
+    },
+    {
+      "division": "Signal Velocity",
+      "candidate_class": "gallery-logo-mark",
+      "page": 11,
+      "image": {
+        "page": 11,
+        "number": 34,
+        "kind": "image",
+        "width": 981,
+        "height": 794,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 200,
+        "object_generation": 0,
+        "x_ppi": 785,
+        "y_ppi": 785,
+        "encoded_size": "391K",
+        "ratio": "17%"
+      },
+      "soft_mask": {
+        "page": 11,
+        "number": 35,
+        "kind": "smask",
+        "width": 981,
+        "height": 794,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 200,
+        "object_generation": 0,
+        "x_ppi": 785,
+        "y_ppi": 785,
+        "encoded_size": "103B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-034.png",
+        "bytes": 314853,
+        "sha256": "b413bdf3b83f149d94b7b1e497783552d2441ff435566cfc0ea2e3e82f760e05",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-035.png",
+        "bytes": 441,
+        "sha256": "66107606f75808a4ae064bc6438b3485dce267615dff904c682d6ea4c470d128",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-18-signal-velocity.png"
+    },
+    {
+      "division": "Nomad Nexus",
+      "candidate_class": "gallery-logo-mark",
+      "page": 11,
+      "image": {
+        "page": 11,
+        "number": 36,
+        "kind": "image",
+        "width": 937,
+        "height": 760,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 204,
+        "object_generation": 0,
+        "x_ppi": 750,
+        "y_ppi": 750,
+        "encoded_size": "336K",
+        "ratio": "16%"
+      },
+      "soft_mask": {
+        "page": 11,
+        "number": 37,
+        "kind": "smask",
+        "width": 937,
+        "height": 760,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 204,
+        "object_generation": 0,
+        "x_ppi": 750,
+        "y_ppi": 750,
+        "encoded_size": "98B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-036.png",
+        "bytes": 277976,
+        "sha256": "107f26bc7755f9c443f0b7b301d94ec5d67d1ba919af096f4da63e25840ce6e6",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-037.png",
+        "bytes": 413,
+        "sha256": "6e5eade22f3fe90e75364322d65ee6cb115d0414eb0ddd7774d565e174537064",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-19-nomad-nexus.png"
+    },
+    {
+      "division": "Eon Core",
+      "candidate_class": "gallery-logo-mark",
+      "page": 11,
+      "image": {
+        "page": 11,
+        "number": 38,
+        "kind": "image",
+        "width": 801,
+        "height": 746,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 208,
+        "object_generation": 0,
+        "x_ppi": 641,
+        "y_ppi": 641,
+        "encoded_size": "376K",
+        "ratio": "21%"
+      },
+      "soft_mask": {
+        "page": 11,
+        "number": 39,
+        "kind": "smask",
+        "width": 801,
+        "height": 746,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "ccitt",
+        "interpolation": "no",
+        "object_id": 208,
+        "object_generation": 0,
+        "x_ppi": 641,
+        "y_ppi": 641,
+        "encoded_size": "97B",
+        "ratio": "0.1%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-038.png",
+        "bytes": 298801,
+        "sha256": "d139594157f35c3ec1dc2e90e32bd500625a7266107d8ffca2750e198d2c8eb6",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-039.png",
+        "bytes": 364,
+        "sha256": "bc00d53ad1eaf8671981f0492c368d108e58c6461f0de7c129818a1eccbb1032",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-20-eon-core.png"
+    },
+    {
+      "division": "ZenFlow",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 15,
+      "image": {
+        "page": 15,
+        "number": 40,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 214,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 15,
+        "number": 41,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 214,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-040.png",
+        "bytes": 135367,
+        "sha256": "374a2e0d765d6336c193b7b151482f844630400dcdb1d6595d145b62c9bf0ac1",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-041.png",
+        "bytes": 207,
+        "sha256": "9ea7067ac1909c91bc24ad73dd532bf2593c85e003f5cedc534d2e0bec67f91a",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-01-zenflow.png"
+    },
+    {
+      "division": "The Collective",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 17,
+      "image": {
+        "page": 17,
+        "number": 42,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 222,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 17,
+        "number": 43,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 222,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-042.png",
+        "bytes": 89047,
+        "sha256": "f4d213489c58f44cc3f2d41c764ee557d6021b9d1f0117068179b46b76c73652",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-043.png",
+        "bytes": 206,
+        "sha256": "825704ca5850671afb2689998cbf2c8bcb1790936c6686709d327a05834b0eee",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-02-the-collective.png"
+    },
+    {
+      "division": "Hybrid Living",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 19,
+      "image": {
+        "page": 19,
+        "number": 44,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 228,
+        "object_generation": 0,
+        "x_ppi": 445,
+        "y_ppi": 445,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 19,
+        "number": 45,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 228,
+        "object_generation": 0,
+        "x_ppi": 445,
+        "y_ppi": 445,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-044.png",
+        "bytes": 86827,
+        "sha256": "41d6164aeb84eccd1f3974e17b2f34785ba535c4843f69f524c0d5607e1ffe76",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-045.png",
+        "bytes": 207,
+        "sha256": "86db4570441aa5d8d960eadc143c0fc97cfcd0977bd263aaa018fb6e471655d9",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-03-hybrid-living.png"
+    },
+    {
+      "division": "Nexus Labs",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 21,
+      "image": {
+        "page": 21,
+        "number": 46,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 234,
+        "object_generation": 0,
+        "x_ppi": 445,
+        "y_ppi": 445,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 21,
+        "number": 47,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 234,
+        "object_generation": 0,
+        "x_ppi": 445,
+        "y_ppi": 445,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-046.png",
+        "bytes": 20273,
+        "sha256": "bf7f3403d862709a42806b908045d5b4d7aa4af6bd6f2444b2db6f4e9fec436d",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-047.png",
+        "bytes": 167,
+        "sha256": "5848a785d45b0dbcc116f45afe545fa3fe7fb32984df6f600e99bb61eb2a4364",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-04-nexus-labs.png"
+    },
+    {
+      "division": "Kinetic Edge",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 23,
+      "image": {
+        "page": 23,
+        "number": 48,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 240,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 23,
+        "number": 49,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 240,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-048.png",
+        "bytes": 109089,
+        "sha256": "0b22a548a9ae3c81e2b80a67492ba2bcdcd95dd6ca6426a2eb5007b69650e86b",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-049.png",
+        "bytes": 206,
+        "sha256": "c78990b5ac9caeaa07bb99e635ba2833faadfe097bc762dae74f813f994c450b",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-05-kinetic-edge.png"
+    },
+    {
+      "division": "Quantum Ledger",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 25,
+      "image": {
+        "page": 25,
+        "number": 50,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 246,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 25,
+        "number": 51,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 246,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-050.png",
+        "bytes": 89341,
+        "sha256": "41fafa111817d9c26d0a2426d9a492105c4bce58516a8adcc8974f13abc51750",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-051.png",
+        "bytes": 206,
+        "sha256": "c78990b5ac9caeaa07bb99e635ba2833faadfe097bc762dae74f813f994c450b",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-06-quantum-ledger.png"
+    },
+    {
+      "division": "Terra Axis",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 27,
+      "image": {
+        "page": 27,
+        "number": 52,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 252,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 27,
+        "number": 53,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 252,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-052.png",
+        "bytes": 36766,
+        "sha256": "ebde5c7e3032d139f9d726cdf2e441b1eab317376fbd7eb5c4e1fa8bb213a66c",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-053.png",
+        "bytes": 207,
+        "sha256": "69f7af2b0771afb6260bb289fae2981e6914897e2647582e7231335f6e23a6dc",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-07-terra-axis.png"
+    },
+    {
+      "division": "Binary Loom",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 29,
+      "image": {
+        "page": 29,
+        "number": 54,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 258,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 29,
+        "number": 55,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 258,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-054.png",
+        "bytes": 168815,
+        "sha256": "cd2d5169ad9ba8349824ba90ce282ea96b80629408222f565afcd418097cf035",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-055.png",
+        "bytes": 207,
+        "sha256": "eca93f71d21a2f942da6094976744d9a2ba8f13b5260d6d5af1cdf77c74c86dd",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-08-binary-loom.png"
+    },
+    {
+      "division": "Vector Shift",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 31,
+      "image": {
+        "page": 31,
+        "number": 56,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 264,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 31,
+        "number": 57,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 264,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-056.png",
+        "bytes": 119802,
+        "sha256": "ea009d957e42c0aca224b0555297f13345c63f7289cb8611560a735d323917fb",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-057.png",
+        "bytes": 191,
+        "sha256": "6a41d4fd992afd238db4e76c79483565212e5b904022bb33e34f78f80fbf7b03",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-09-vector-shift.png"
+    },
+    {
+      "division": "Aether Link",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 33,
+      "image": {
+        "page": 33,
+        "number": 58,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 270,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 33,
+        "number": 59,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 270,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-058.png",
+        "bytes": 127341,
+        "sha256": "fe9f6294851cc7e58cc2f5822b4977d91d2215b0dd7add4b284d641475f9e9ec",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-059.png",
+        "bytes": 207,
+        "sha256": "8bf646720494b62e00d87c5718ab03100c14dd697c11875c97660f3c2a176602",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-10-aether-link.png"
+    },
+    {
+      "division": "Obsidian Arc",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 35,
+      "image": {
+        "page": 35,
+        "number": 60,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 276,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 35,
+        "number": 61,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 276,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-060.png",
+        "bytes": 173071,
+        "sha256": "1c9f42dd88b24c2cf6047a0ca6f55295ec5084bc62e1bd06361ad96ef5092639",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-061.png",
+        "bytes": 193,
+        "sha256": "791abad8f2bff54509a754551bd298fc2716664f9308ac46b4bfa3d9519511db",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-11-obsidian-arc.png"
+    },
+    {
+      "division": "Civic Core",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 37,
+      "image": {
+        "page": 37,
+        "number": 62,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 282,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 37,
+        "number": 63,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 282,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-062.png",
+        "bytes": 94204,
+        "sha256": "9ae127d2d7bbd5ef91afef90837cc9b3d659b9f7393e2b81ef5e4817c7270932",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-063.png",
+        "bytes": 207,
+        "sha256": "cc23295f1e2d9279cc93bf5983fa5c9a3a668b979c6f73fffd651cd86c6830ad",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-12-civic-core.png"
+    },
+    {
+      "division": "Cognara Mind",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 39,
+      "image": {
+        "page": 39,
+        "number": 64,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 288,
+        "object_generation": 0,
+        "x_ppi": 411,
+        "y_ppi": 411,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 39,
+        "number": 65,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 288,
+        "object_generation": 0,
+        "x_ppi": 411,
+        "y_ppi": 411,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-064.png",
+        "bytes": 156738,
+        "sha256": "fd51998f776fb99161cf611c61d8382df9319276988ca281f09d3e98fd0d0168",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-065.png",
+        "bytes": 205,
+        "sha256": "be17a174a864653bdec8f6a4f5ae4ca260a80eb5116c2f79f3378d29e16f4f13",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-13-cognara-mind.png"
+    },
+    {
+      "division": "Vital Helix",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 41,
+      "image": {
+        "page": 41,
+        "number": 66,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 294,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 41,
+        "number": 67,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 294,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-066.png",
+        "bytes": 148033,
+        "sha256": "2556617c7b7b42c917b6939da8593a313269d92d5be831c2dea9385f2db28f67",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-067.png",
+        "bytes": 208,
+        "sha256": "8adabc9fa635fa7b4a148d5868d0fd32bb52e387d60129e14997ff8b167bc633",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-14-vital-helix.png"
+    },
+    {
+      "division": "Gaia Synthesis",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 43,
+      "image": {
+        "page": 43,
+        "number": 68,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 300,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 43,
+        "number": 69,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 300,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-068.png",
+        "bytes": 249474,
+        "sha256": "e234a92e9f670cd4e8ba4fca581efc96d64cebac3a07f8a79456edf4abf22d62",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-069.png",
+        "bytes": 200,
+        "sha256": "3d4a47cf71f6a757aaa5416034c88c3f40797436062582ebabd4ecbdb13248cb",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-15-gaia-synthesis.png"
+    },
+    {
+      "division": "Animus Prime",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 45,
+      "image": {
+        "page": 45,
+        "number": 70,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 306,
+        "object_generation": 0,
+        "x_ppi": 426,
+        "y_ppi": 426,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 45,
+        "number": 71,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 306,
+        "object_generation": 0,
+        "x_ppi": 426,
+        "y_ppi": 426,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-070.png",
+        "bytes": 154457,
+        "sha256": "f9f854c8822d4c4cb2d0644ba9496232cf42ab0252acad5d57a81a241472092d",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-071.png",
+        "bytes": 192,
+        "sha256": "3ae50b401be92d14c2cf1ab47f5df1563fd04711fd7020469ad9df44a02a7662",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-16-animus-prime.png"
+    },
+    {
+      "division": "Juris Guard",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 47,
+      "image": {
+        "page": 47,
+        "number": 72,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 312,
+        "object_generation": 0,
+        "x_ppi": 411,
+        "y_ppi": 411,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 47,
+        "number": 73,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 312,
+        "object_generation": 0,
+        "x_ppi": 411,
+        "y_ppi": 411,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-072.png",
+        "bytes": 150120,
+        "sha256": "710055117365efc092c8eb72d9d5ce299f5f4082114efa77fee2292b5b5a2eea",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-073.png",
+        "bytes": 204,
+        "sha256": "474be45aa6c02ac683ffd714f28b9339c1a1d8c2e963bda198c0200c693fd65a",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-17-juris-guard.png"
+    },
+    {
+      "division": "Signal Velocity",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 49,
+      "image": {
+        "page": 49,
+        "number": 74,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 318,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 49,
+        "number": 75,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 318,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-074.png",
+        "bytes": 95717,
+        "sha256": "246da3c4f444f0ed14ad3fed0e6f481966c9393591809e7797c8332bc91e0c53",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-075.png",
+        "bytes": 206,
+        "sha256": "62364c9fef9aa722fef848211cf809b55544d95178edd6bd96282883697c7393",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-18-signal-velocity.png"
+    },
+    {
+      "division": "Nomad Nexus",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 51,
+      "image": {
+        "page": 51,
+        "number": 76,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 324,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 51,
+        "number": 77,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 324,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-076.png",
+        "bytes": 89829,
+        "sha256": "be8b52af7be1168acd4e55840bfcab6cf95495320e9980687bdaef76d5863fd4",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-077.png",
+        "bytes": 207,
+        "sha256": "9ea7067ac1909c91bc24ad73dd532bf2593c85e003f5cedc534d2e0bec67f91a",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-19-nomad-nexus.png"
+    },
+    {
+      "division": "Eon Core",
+      "candidate_class": "detail-page-raster-fragment",
+      "page": 53,
+      "image": {
+        "page": 53,
+        "number": 78,
+        "kind": "image",
+        "width": 600,
+        "height": 420,
+        "color": "icc",
+        "components": 3,
+        "bpc": 8,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 330,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "738K",
+        "ratio": "100%"
+      },
+      "soft_mask": {
+        "page": 53,
+        "number": 79,
+        "kind": "smask",
+        "width": 600,
+        "height": 420,
+        "color": "gray",
+        "components": 1,
+        "bpc": 1,
+        "encoding": "image",
+        "interpolation": "no",
+        "object_id": 330,
+        "object_generation": 0,
+        "x_ppi": 419,
+        "y_ppi": 419,
+        "encoded_size": "30.8K",
+        "ratio": "100%"
+      },
+      "raw_image_extraction": {
+        "temporary_filename": "embed-078.png",
+        "bytes": 115796,
+        "sha256": "2e9bf6653753c4c71b41e7e87df2fc80648e6bd08fd0354a1240baeda46bd185",
+        "valid_png": true,
+        "retained": false
+      },
+      "raw_mask_extraction": {
+        "temporary_filename": "embed-079.png",
+        "bytes": 207,
+        "sha256": "2436a8e0c81dda45ca19448f9251e8c0ef8fadfd3950c84584cef985bc21f480",
+        "retained": false
+      },
+      "retained_candidate_path": "workstreams/asset-archivist/extracted-logo-candidates/detail-20-eon-core.png"
+    }
+  ],
+  "retained_logo_candidates": [
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-01-zenflow.png",
+      "division": "ZenFlow",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 0,
+      "source_pdf_mask_number": 1,
+      "width": 1287,
+      "height": 1310,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 744619,
+      "sha256": "096c12f71a13e24bdeaa386d6dc88685a5dd48c3913797178be00c011fa8e0bb",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-02-the-collective.png",
+      "division": "The Collective",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 2,
+      "source_pdf_mask_number": 3,
+      "width": 813,
+      "height": 650,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 199742,
+      "sha256": "e40df43cca73b3d0520ac0f02291acdf7303eaea49780a0a1833c5ea45c0e4f3",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-03-hybrid-living.png",
+      "division": "Hybrid Living",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 4,
+      "source_pdf_mask_number": 5,
+      "width": 1150,
+      "height": 1213,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 825011,
+      "sha256": "5d1027df10d5a13a8990ca6e9fa63fa88d5e104ed2dc6d87165367851dfa2945",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-04-nexus-labs.png",
+      "division": "Nexus Labs",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 6,
+      "source_pdf_mask_number": 7,
+      "width": 1023,
+      "height": 872,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 161500,
+      "sha256": "8f3ea462d0d0e1a79cbf76056de501a319e65fa496a12d9f0b4bcce16db93760",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-05-kinetic-edge.png",
+      "division": "Kinetic Edge",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 8,
+      "source_pdf_mask_number": 9,
+      "width": 1329,
+      "height": 1218,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 443390,
+      "sha256": "0081f716dfaa2ee9897815eb1d62160feed696c64b5936f73469c8f0e237b860",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-06-quantum-ledger.png",
+      "division": "Quantum Ledger",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 10,
+      "source_pdf_mask_number": 11,
+      "width": 1323,
+      "height": 1187,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 314002,
+      "sha256": "da29b53e65c5f2da55497093bf6b90af11e6b210c67dc2e164f3359b77f3327a",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-07-terra-axis.png",
+      "division": "Terra Axis",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 12,
+      "source_pdf_mask_number": 13,
+      "width": 1357,
+      "height": 1202,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 293529,
+      "sha256": "128cef5d094aaf38ef668aa5a32da44f659dc3e8705e39fd2dfb6916c3906f71",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-08-binary-loom.png",
+      "division": "Binary Loom",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 14,
+      "source_pdf_mask_number": 15,
+      "width": 694,
+      "height": 837,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 594885,
+      "sha256": "723d814a9f22821f4344b9fe15055fe36b798197c68eb9b544620e05f987ea7a",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-09-vector-shift.png",
+      "division": "Vector Shift",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 16,
+      "source_pdf_mask_number": 17,
+      "width": 1536,
+      "height": 837,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 673195,
+      "sha256": "87adce01ccb184c76ddcc5226a93087c1de15bd33bd98e1185d601c7426c99ed",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-10-aether-link.png",
+      "division": "Aether Link",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 18,
+      "source_pdf_mask_number": 19,
+      "width": 1214,
+      "height": 821,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 485828,
+      "sha256": "3aa3881b3117df49efd3e9923882815ce8e2a7e3d548f60455f8bf5a46fba21f",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-11-obsidian-arc.png",
+      "division": "Obsidian Arc",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 20,
+      "source_pdf_mask_number": 21,
+      "width": 1536,
+      "height": 837,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 1069959,
+      "sha256": "0b27acce4bf872ad02f20120a061a3ced469bdee6fcfaba0b7b34f434aaf347d",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-12-civic-core.png",
+      "division": "Civic Core",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 10,
+      "source_pdf_image_number": 22,
+      "source_pdf_mask_number": 23,
+      "width": 1536,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 681898,
+      "sha256": "0b1073440538c79582328413aef9ab614ade4911c2613ab5a57709842b6a4c14",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-13-cognara-mind.png",
+      "division": "Cognara Mind",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 11,
+      "source_pdf_image_number": 24,
+      "source_pdf_mask_number": 25,
+      "width": 1071,
+      "height": 838,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 660907,
+      "sha256": "b01596e1d83012a8aaedf7d15fb29e4588ce85edc7e65e400740e8bff3d6edd9",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-14-vital-helix.png",
+      "division": "Vital Helix",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 11,
+      "source_pdf_image_number": 26,
+      "source_pdf_mask_number": 27,
+      "width": 866,
+      "height": 817,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 488090,
+      "sha256": "6d7bd3f8d732339f5dddf440e10952643b9a522aa8c8e690fc30c1ca073647ee",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-15-gaia-synthesis.png",
+      "division": "Gaia Synthesis",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 11,
+      "source_pdf_image_number": 28,
+      "source_pdf_mask_number": 29,
+      "width": 1465,
+      "height": 837,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 1363415,
+      "sha256": "914ac883181745679c401028df90329f4a81df55d6572fd49d9eee405b9f1a1a",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-16-animus-prime.png",
+      "division": "Animus Prime",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 11,
+      "source_pdf_image_number": 30,
+      "source_pdf_mask_number": 31,
+      "width": 1536,
+      "height": 837,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 861007,
+      "sha256": "45a8005ffec00536cb08f70b603122b646c673aa8224f9fcbedd00aa3b684bde",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-17-juris-guard.png",
+      "division": "Juris Guard",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 11,
+      "source_pdf_image_number": 32,
+      "source_pdf_mask_number": 33,
+      "width": 1536,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 1426243,
+      "sha256": "5b1fc0327e77193dbf55f49f3eebc09bd6bc8786f223cdbfd768291798d0b4ea",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-18-signal-velocity.png",
+      "division": "Signal Velocity",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 11,
+      "source_pdf_image_number": 34,
+      "source_pdf_mask_number": 35,
+      "width": 981,
+      "height": 794,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 361464,
+      "sha256": "08333ce1d909c2aa1be4d506ade8a95036e3816bcec51326d69196b543e59209",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-19-nomad-nexus.png",
+      "division": "Nomad Nexus",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 11,
+      "source_pdf_image_number": 36,
+      "source_pdf_mask_number": 37,
+      "width": 937,
+      "height": 760,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 318684,
+      "sha256": "e75511cee67c0e64ddcd5c6a477207d0514b73db17aed798166070df7a2e67a3",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/gallery-20-eon-core.png",
+      "division": "Eon Core",
+      "candidate_class": "gallery-logo-mark",
+      "source_pdf_page": 11,
+      "source_pdf_image_number": 38,
+      "source_pdf_mask_number": 39,
+      "width": 801,
+      "height": 746,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "has_transparent_pixels": false,
+      "bytes": 340488,
+      "sha256": "4310f15c26fe94cf983ff08de8f888c6087cdf97263845fe851b50c722d1bff4",
+      "fitness_note": "primary extracted gallery candidate; includes the displayed logo/wordmark composition"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-01-zenflow.png",
+      "division": "ZenFlow",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 15,
+      "source_pdf_image_number": 40,
+      "source_pdf_mask_number": 41,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 152659,
+      "sha256": "dc66047fe877bce1ce5f90f5d389a8bb3a40fe94f6479448d2db24cae650c5d8",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-02-the-collective.png",
+      "division": "The Collective",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 17,
+      "source_pdf_image_number": 42,
+      "source_pdf_mask_number": 43,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 103187,
+      "sha256": "df601a34e1e57ee1a67cfb5a7b92647033e957c38fce47b043880fc5cb8666d0",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-03-hybrid-living.png",
+      "division": "Hybrid Living",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 19,
+      "source_pdf_image_number": 44,
+      "source_pdf_mask_number": 45,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 100466,
+      "sha256": "b2680bdc3635cb15bbc8e450429b0858883bb625b062180f8398e13b478b3386",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-04-nexus-labs.png",
+      "division": "Nexus Labs",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 21,
+      "source_pdf_image_number": 46,
+      "source_pdf_mask_number": 47,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 23802,
+      "sha256": "2f4c78c521781c2fc59b1b962534bc6ea2d2587a26edae6a211ecd8195a94d17",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-05-kinetic-edge.png",
+      "division": "Kinetic Edge",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 23,
+      "source_pdf_image_number": 48,
+      "source_pdf_mask_number": 49,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 124464,
+      "sha256": "1db27dbb727a7b86ff8c19498c8565b1ebd11f940fad2ea1fa8bc012af25baf8",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-06-quantum-ledger.png",
+      "division": "Quantum Ledger",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 25,
+      "source_pdf_image_number": 50,
+      "source_pdf_mask_number": 51,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 103942,
+      "sha256": "be4c73228e4e6c6dfbd39562e9cc5af0b91b60015ee96180286bb3606a5ecdd5",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-07-terra-axis.png",
+      "division": "Terra Axis",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 27,
+      "source_pdf_image_number": 52,
+      "source_pdf_mask_number": 53,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 43393,
+      "sha256": "4155191c611b9f21583af50f9e215bf1e2b211d43683bfebdfbe9f8bb884fdad",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-08-binary-loom.png",
+      "division": "Binary Loom",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 29,
+      "source_pdf_image_number": 54,
+      "source_pdf_mask_number": 55,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 193426,
+      "sha256": "6489c45effa5a1f00365e6d47422562c61160605a93a40e42d75a5f932932fe5",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-09-vector-shift.png",
+      "division": "Vector Shift",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 31,
+      "source_pdf_image_number": 56,
+      "source_pdf_mask_number": 57,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 136371,
+      "sha256": "bfccf48b1847761bbdcb506f7faf625ef08bdcbc065f4ae4c62e34e152ffba27",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-10-aether-link.png",
+      "division": "Aether Link",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 33,
+      "source_pdf_image_number": 58,
+      "source_pdf_mask_number": 59,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 146452,
+      "sha256": "9bffcadc195ff9f0816a994d9b0ec7ed0486e82e107b71c06b7752b98bb30000",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-11-obsidian-arc.png",
+      "division": "Obsidian Arc",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 35,
+      "source_pdf_image_number": 60,
+      "source_pdf_mask_number": 61,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 199584,
+      "sha256": "8569e1ce6bbc633d6835aac6e416ce23e06a4106d99d794d47d1791cfd7ce4b7",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-12-civic-core.png",
+      "division": "Civic Core",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 37,
+      "source_pdf_image_number": 62,
+      "source_pdf_mask_number": 63,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 108309,
+      "sha256": "ff397666528fa0c427c6260ab9b66a00133f72a8dbd74f5e32fe165765d7bcb5",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-13-cognara-mind.png",
+      "division": "Cognara Mind",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 39,
+      "source_pdf_image_number": 64,
+      "source_pdf_mask_number": 65,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 180914,
+      "sha256": "f4d07cc4f54358324b5b219fea08e80e72e0d0865c06fa0fef59c96e0b70943d",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-14-vital-helix.png",
+      "division": "Vital Helix",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 41,
+      "source_pdf_image_number": 66,
+      "source_pdf_mask_number": 67,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 172535,
+      "sha256": "3a0361bb388c094b761c06eb80283bd34d419d12f8d0af4593da79c289e76fce",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-15-gaia-synthesis.png",
+      "division": "Gaia Synthesis",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 43,
+      "source_pdf_image_number": 68,
+      "source_pdf_mask_number": 69,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 286751,
+      "sha256": "1ab3575c7e347bb51a575e1e35c4fc0c5a00cf50e00d115b22e09554737f12ec",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-16-animus-prime.png",
+      "division": "Animus Prime",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 45,
+      "source_pdf_image_number": 70,
+      "source_pdf_mask_number": 71,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 180250,
+      "sha256": "7f5fd946c5d70ba2deec7e7f7a9c9becb9e35c2e4dd7b1373c129587d92477ad",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-17-juris-guard.png",
+      "division": "Juris Guard",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 47,
+      "source_pdf_image_number": 72,
+      "source_pdf_mask_number": 73,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 172506,
+      "sha256": "cf05ebc9afbab70a9ed9b46eedeef4b8477e3151e7593b361133ea09d587eccb",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-18-signal-velocity.png",
+      "division": "Signal Velocity",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 49,
+      "source_pdf_image_number": 74,
+      "source_pdf_mask_number": 75,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 110575,
+      "sha256": "c8832a8c6247ea957c5a2f1ccc7500aaa0269af0b97d30b227ef89a83514718e",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-19-nomad-nexus.png",
+      "division": "Nomad Nexus",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 51,
+      "source_pdf_image_number": 76,
+      "source_pdf_mask_number": 77,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 103127,
+      "sha256": "214fc789428a55b211f924269db20942244ba28a08d4377fc7c647535396560c",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    },
+    {
+      "path": "workstreams/asset-archivist/extracted-logo-candidates/detail-20-eon-core.png",
+      "division": "Eon Core",
+      "candidate_class": "detail-page-raster-fragment",
+      "source_pdf_page": 53,
+      "source_pdf_image_number": 78,
+      "source_pdf_mask_number": 79,
+      "width": 600,
+      "height": 420,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "has_transparent_pixels": true,
+      "bytes": 133096,
+      "sha256": "0c73b4519c509f84f8f706d4be57f5810c3d417bdc1c61779e4766e7b44fb224",
+      "fitness_note": "secondary detail-page raster; may be a partial mark or supporting raster, not a complete logo"
+    }
+  ],
+  "workspace_media_outside_audit_workstream": [
+    {
+      "path": "collective-stock/assets/originals/collective-stock-homepage-design-concept.png",
+      "bytes": 1982133,
+      "sha256": "4f869a788b5552ab6849224060d1a1a5359cdbfb0d3e20d2b02383e5df127c6d",
+      "origin_classification": "current-session app copy of generated design concept",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "generated_images/exec-5c1a1c49-7954-4c2c-bb9a-b69843b5bc12.png",
+      "bytes": 1982133,
+      "sha256": "4f869a788b5552ab6849224060d1a1a5359cdbfb0d3e20d2b02383e5df127c6d",
+      "origin_classification": "current-session generated design concept",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-late-47.png",
+      "bytes": 120135,
+      "sha256": "5b65934526c190a2b1c0b2d25f92cda87b5e2c764bbfafb7914bc0a869e1eccd",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-late-48.png",
+      "bytes": 67812,
+      "sha256": "08d4efcf04432db9899916739d91b27876fc5ff5af3fa9193a72005fbae43639",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-late-49.png",
+      "bytes": 115097,
+      "sha256": "c0fdd717d17dba947bb6f04becb6abeb0bbb6500df647694b390f4b42b6fc209",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-late-50.png",
+      "bytes": 69318,
+      "sha256": "00d34c157260e85207e7720ecc8b579d347774d02268b06e38e104789e304203",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-late-51.png",
+      "bytes": 112851,
+      "sha256": "23d412fbbb8d401b9e4b512f81ab972badba131fbfdfae395e5b9533ab153ba8",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-late-52.png",
+      "bytes": 70344,
+      "sha256": "a85f178b224f5ddd56dbce6631431d87106bfcc37e452d6b62bbd14ed6f96465",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-late-53.png",
+      "bytes": 118285,
+      "sha256": "a212d82a703bf5dfa141d206020976488eaf44b1f22f06501d04b1eafad52a1d",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-late-divisions-contact.png",
+      "bytes": 1907270,
+      "sha256": "15a2a0016d430007f546b2b85d9f1b21872848a7ab92b8772fba99e1c6a61ec2",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 1232,
+      "height": 3168,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-logo-10.png",
+      "bytes": 211409,
+      "sha256": "67d9bb03e33b6a079ad45c92122c4ca33f50a9cf42a722b8a017ebde76df4d27",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-logo-11.png",
+      "bytes": 178377,
+      "sha256": "7271fc198c6623f47d90581efa64927afe38ccfd48da8f133b96e6bae3b97191",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-logo-12.png",
+      "bytes": 88922,
+      "sha256": "361a0420c3734846ebe81f1cd5f3a598eccb10d4a541d0c40ccb0ed5c63c4ee4",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-logo-13.png",
+      "bytes": 82361,
+      "sha256": "81170870ef5a9f1f20443b8ed4d7d3fd00927dfefceb226b2da3c45cc7829303",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/bible-logos-swatches-contact.png",
+      "bytes": 1597623,
+      "sha256": "63fa254d544354ebcfa5816b90c3b1ea5819c1e23d71433be4bae27a99593d6e",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 1232,
+      "height": 1584,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/build-cognara-142.png",
+      "bytes": 109216,
+      "sha256": "c3e28b66f0758bf855f8edace6b37371d7f9a49bad8912ef6a288ff8d32e278c",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/build-cognara-143.png",
+      "bytes": 126812,
+      "sha256": "6665c5ad8905bd33a3afc61bcf967db71375592bb00a68a9f6a3c571a526fec0",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/build-index-004.png",
+      "bytes": 147840,
+      "sha256": "a9ceba29f7f4eae25fb22ebb092bc22286876558ca254b11790e65c7307795cc",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/build-index-005.png",
+      "bytes": 106220,
+      "sha256": "d50e3cdd79df84f6adc956f43a3465fd321c174995ba3f2276636cff9a639c2c",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/build-qa-155.png",
+      "bytes": 64462,
+      "sha256": "1475b3542e4d78d4944813b6f6ba8cef23586d48971088732db3d0444bb25d7b",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/build-relevant-contact-v2.png",
+      "bytes": 1483038,
+      "sha256": "99dfff311313d6a212673b556e1af513cbd27b16c19ec49a0f837a89b8ee7f57",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 1608,
+      "height": 1378,
+      "mode": "RGB",
+      "valid_complete_image": true
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/build-relevant-contact.png",
+      "bytes": 1048576,
+      "sha256": "37b5ca057490c9441fc60af22e0c964b05320ef02efe09e3b051c60f72a3e049",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 1608,
+      "height": 1378,
+      "mode": "RGB",
+      "valid_complete_image": false,
+      "validation_error": "image file is truncated"
+    },
+    {
+      "path": "workstreams/brand-systems/tmp/pdf-renders/build-shell-013.png",
+      "bytes": 87925,
+      "sha256": "20170b148a149c52807d9207345ada4db5db711edc9d15a286aa01a77e0cec0f",
+      "origin_classification": "current-session PDF render intermediate",
+      "historical_chatgpt_project_asset_evidence": false,
+      "media_type": "image",
+      "width": 935,
+      "height": 1210,
+      "mode": "RGB",
+      "valid_complete_image": true
+    }
+  ],
+  "workspace_media_hash_reconciliation": {
+    "physical_file_count": 23,
+    "unique_sha256_count": 22,
+    "duplicate_hash_groups": [
+      {
+        "sha256": "4f869a788b5552ab6849224060d1a1a5359cdbfb0d3e20d2b02383e5df127c6d",
+        "paths": [
+          "collective-stock/assets/originals/collective-stock-homepage-design-concept.png",
+          "generated_images/exec-5c1a1c49-7954-4c2c-bb9a-b69843b5bc12.png"
+        ]
+      }
+    ],
+    "historical_chatgpt_project_image_count_confirmed": 0,
+    "note": "The generated_images asset, its app copy, and brand-systems PDF renders were created during the current build; none is evidence of a historical ChatGPT project image archive."
+  },
+  "media_type_totals_outside_audit_workstream": {
+    "images": 23,
+    "videos": 0,
+    "audio": 0
+  }
+}

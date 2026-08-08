@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "defaults": {
+    "division": "Collective AI Inc",
+    "divisionSlug": "collective-ai-inc",
+    "classification": "parent-brand",
+    "category": "Complete Archive",
+    "categorySlug": "complete-archive",
+    "license": "collective-ai-internal-use",
+    "visibility": "internal",
+    "approvalStatus": "source-verified"
+  },
+  "rules": [
+    {
+      "match": "collective-stock-homepage-design-concept",
+      "title": "Collective Stock Homepage Design Concept",
+      "category": "UI Mockups",
+      "categorySlug": "ui-mockups",
+      "series": "Collective Stock Product Design",
+      "source": "Generated in this ChatGPT project on 2026-08-08",
+      "prompt": "Production design reference for the Collective Stock premium media platform homepage.",
+      "intendedUse": ["Product design reference", "Frontend fidelity review", "Internal presentation"],
+      "tags": ["collective stock", "media library", "homepage", "ui concept", "dark editorial"],
+      "license": "public-download",
+      "visibility": "public",
+      "featured": true,
+      "revision": 1
+    },
+    {
+      "match": "gallery-",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "series": "Design System Bible Division Gallery Logos",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "license": "public-download",
+      "visibility": "public",
+      "intendedUse": ["Division identity", "Brand reference", "Gallery navigation"],
+      "tags": ["division logo", "design system", "brand mark", "Collective AI"]
+    },
+    {
+      "match": "detail-",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "series": "Design System Bible Division Detail Logos",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "license": "collective-ai-internal-use",
+      "visibility": "internal",
+      "intendedUse": ["Division identity detail", "Internal brand reference"],
+      "tags": ["division logo", "detail fragment", "design system", "Collective AI"]
+    }
+  ],
+  "occurrences": []
+}

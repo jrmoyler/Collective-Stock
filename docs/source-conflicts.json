@@ -1,0 +1,235 @@
+{
+  "precedence": [
+    "most recent explicit user instruction",
+    "newest division-specific skill",
+    "Design System Bible v3",
+    "MVP Build Guide",
+    "earlier project conversation context"
+  ],
+  "summary": {"resolved": 15, "unresolved": 6},
+  "conflicts": [
+    {
+      "id": "portfolio-order",
+      "topic": "20-division presentation order",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Design System Bible pages 2-3 and 14", "value": "ZenFlow, The Collective, Hybrid Living, Nexus Labs, Kinetic Edge, Quantum Ledger, Terra Axis, Binary Loom, Vector Shift, Aether Link, Obsidian Arc, Civic Core, Cognara Mind, Vital Helix, Gaia Synthesis, Animus Prime, Juris Guard, Signal Velocity, Nomad Nexus, Eon Core"},
+        {"source": "MVP Build Guide pages 4-5", "value": "ZenFlow, The Collective, Hybrid Living, Nexus Labs, Terra Axis, Vital Helix, Binary Loom, Quantum Ledger, Kinetic Edge, Obsidian Arc, Civic Core, Aether Link, Gaia Synthesis, Vector Shift, Animus Prime, Juris Guard, Signal Velocity, Nomad Nexus, Eon Core, Cognara Mind"}
+      ],
+      "resolution": "Use Design System Bible order. The MVP numbering remains useful only for catalog page references."
+    },
+    {
+      "id": "department-20-status",
+      "topic": "Whether division 20 is active or pending",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Collective AI parent skill", "value": "Department 20 reserved/pending"},
+        {"source": "Design System Bible pages 1-3", "value": "20 active divisions, including Cognara Mind"},
+        {"source": "Cognara Mind division skill", "value": "Fully defined Year 2 division"},
+        {"source": "MVP Build Guide pages 142-148", "value": "Cognara Mind is division 20 with six catalog products"}
+      ],
+      "resolution": "Treat Cognara Mind as active. The parent skill's pending slot is stale global metadata."
+    },
+    {
+      "id": "global-type-and-canvas",
+      "topic": "Global app typography and dark-mode contract",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Design System Bible pages 4-8 and 56-58", "value": "Space Grotesk; dark canvases; JetBrains Mono only for technical contexts"},
+        {"source": "MVP Build Guide page 3", "value": "Inter/Public Sans-style typography; white or near-white body cards are allowed"}
+      ],
+      "resolution": "Use Space Grotesk and dark primary canvases from the higher-priority design bible. Preserve the MVP guide's legibility rule, 14px minimum UI body size, and no-text-over-art rule."
+    },
+    {
+      "id": "agent-count",
+      "topic": "ZenFlow lattice size",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Parent brand reference dependency-arc example", "value": "450-agent lattice"},
+        {"source": "Design System Bible pages 5 and 16", "value": "600-agent lattice"},
+        {"source": "Parent master skill quality checklist", "value": "Use 600, not outdated 450"}
+      ],
+      "resolution": "Use 600 agents."
+    },
+    {
+      "id": "launch-year-nexus-terra",
+      "topic": "Nexus Labs and Terra Axis launch years",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Design System Bible", "value": "Nexus Labs Year 2; Terra Axis Year 3"},
+        {"source": "MVP Build Guide", "value": "Nexus Labs Year 1 active; Terra Axis Year 2 building"}
+      ],
+      "resolution": "Use Design System Bible launch years."
+    },
+    {
+      "id": "cognara-launch",
+      "topic": "Cognara Mind launch year",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Cognara Mind division skill", "value": "Year 2"},
+        {"source": "Design System Bible", "value": "Year 3"},
+        {"source": "MVP Build Guide", "value": "Year 2 active"}
+      ],
+      "resolution": "Use Year 2 from the newest division-specific skill."
+    },
+    {
+      "id": "cognara-identity",
+      "topic": "Cognara Mind palette, mark, persona, and products",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Cognara Mind division skill", "value": "Void Rose #120008, Cognara Deep #2A0018, Signal Rose #E0267E; shield with brain and pulse; Cognara Lens, Shift Protocol, MindFrame, Doctrine Engine"},
+        {"source": "Design System Bible pages 39-40", "value": "#0A0610 and neural bloom mark; MindOS, BehaviorForge, PsychoGraph, CogniCoach"},
+        {"source": "MVP Build Guide pages 142-148", "value": "Purple/orange/cyan palette and six older behavioral products"}
+      ],
+      "resolution": "Use the Cognara Mind skill. The Design System Bible's actual raster logo on page 11 visually supports the shield direction even though its division text describes a neural bloom."
+    },
+    {
+      "id": "juris-identity",
+      "topic": "Juris Guard palette, logo, and flagship names",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Juris Guard division skill", "value": "Legal Void #060810, Deep Slate #0E1020, Justice Crimson #DC2626; shield with circuit/gavel; JurisIQ, ContractForge, RegPulse, Sentinel Shield"},
+        {"source": "Design System Bible pages 47-48", "value": "Regulation Indigo #6366F1; scales with AI circuit mark"},
+        {"source": "MVP Build Guide pages 114-120", "value": "Gold/red palette and six generic platform names"}
+      ],
+      "resolution": "Use the Juris Guard division skill for identity and current flagship naming. Keep the build-guide products only as a dated catalog snapshot."
+    },
+    {
+      "id": "signal-identity",
+      "topic": "Signal Velocity palette, logo, and flagship names",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Signal Velocity division skill", "value": "Signal Black #050810, Velocity Dark #0B0F1E, Electric Cyan #06B6D4; radar dish with signal bolt; VelocityOS, SignalBoard, AdForge, PulseFeed"},
+        {"source": "Design System Bible pages 49-50", "value": "Conversion Coral #F43F5E; upward arrow with signal wave"},
+        {"source": "MVP Build Guide pages 121-127", "value": "Red/gold palette and six generic marketing platforms"}
+      ],
+      "resolution": "Use the Signal Velocity division skill."
+    },
+    {
+      "id": "nomad-identity",
+      "topic": "Nomad Nexus palette and product naming",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Nomad Nexus division skill", "value": "Nomad Void #050A0E, Deep Ocean #0B1520, Horizon Teal #0D9488; NomadOS, VisaPilot, NexusStay, FlowMap"},
+        {"source": "Design System Bible pages 51-52", "value": "Horizon Sand #FBBF24"},
+        {"source": "MVP Build Guide pages 128-134", "value": "Teal/blue/sand palette and six generic product names"}
+      ],
+      "resolution": "Use the Nomad Nexus division skill."
+    },
+    {
+      "id": "eon-identity",
+      "topic": "Eon Core palette and product naming",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Eon Core division skill", "value": "Eon Black #030608, Deep Life #08101A, Vital Emerald #059669, Longevity Cream #F5F0E8; EonOS, BioAge Engine, Protocol Builder, Eon Research Network"},
+        {"source": "Design System Bible pages 53-54", "value": "Longevity Aqua #06B6D4"},
+        {"source": "MVP Build Guide pages 135-141", "value": "Purple/pink palette and six generic longevity products"}
+      ],
+      "resolution": "Use the Eon Core division skill."
+    },
+    {
+      "id": "aether-product-set",
+      "topic": "Aether Link sixth product",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Aether Link division skill", "value": "The Mesh, Sky Net, Zero Point, Babel AI, Neuro-Bridge, Truth Lens"},
+        {"source": "MVP Build Guide pages 88-94", "value": "The Mesh Network, Babel AI, Truth Lens, Sky Net, Neuro-Bridge, Aether Link API Suite"}
+      ],
+      "resolution": "Use Zero Point in the current flagship set and retain Aether Link API Suite only in the dated catalog snapshot."
+    },
+    {
+      "id": "vector-palette",
+      "topic": "Vector Shift palette",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Vector Shift division skill", "value": "Void Navy #0A1628, Command Navy #0F2147, Velocity Silver #CBD5E1, Cobalt #1E3A8A"},
+        {"source": "Design System Bible pages 31-32", "value": "Velocity Silver #CBD5E1 on navy"},
+        {"source": "MVP Build Guide pages 102-107", "value": "Orange #F97316 and blue #2563EB"}
+      ],
+      "resolution": "Use the Vector Shift skill; it agrees with the higher-priority design bible on the silver identity."
+    },
+    {
+      "id": "vital-palette-and-logo",
+      "topic": "Vital Helix secondary color and original mark",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Vital Helix division skill", "value": "Bio Teal #14B8A6 plus Vital Orange #F97316; original split-color logo must not be recolored"},
+        {"source": "Design System Bible pages 41-42", "value": "Same teal/orange identity"},
+        {"source": "MVP Build Guide pages 50-55", "value": "Teal plus purple #8B5CF6"}
+      ],
+      "resolution": "Use teal/orange and preserve the original mark."
+    },
+    {
+      "id": "stale-15-language",
+      "topic": "Older division skills say they serve all 15 departments",
+      "status": "resolved",
+      "candidates": [
+        {"source": "Binary Loom, Aether Link, and Obsidian Arc division skills", "value": "All 15 departments"},
+        {"source": "Design System Bible", "value": "20 active divisions"}
+      ],
+      "resolution": "Portfolio count is global metadata, not division-specific identity. Use 20."
+    },
+    {
+      "id": "catalog-count-after-renames",
+      "topic": "115 catalog products versus newer current flagship sets",
+      "status": "unresolved",
+      "candidates": [
+        {"source": "MVP Build Guide", "value": "115 catalog products/platforms"},
+        {"source": "Newer division skills", "value": "Several divisions use renamed or regrouped 2-4 product systems"}
+      ],
+      "resolution": "Keep 115 only as a May 14, 2026 catalog snapshot. Do not claim it is the current deduplicated product count until the catalog is reconciled."
+    },
+    {
+      "id": "standalone-logo-assets",
+      "topic": "Production-ready logo files",
+      "status": "unresolved",
+      "candidates": [
+        {"source": "Design System Bible pages 10-11", "value": "Actual raster logo compositions are visibly embedded in the PDF"},
+        {"source": "Division brand references", "value": "Names files such as binary_loom_logo.png and vital_helix_logo.png"},
+        {"source": "project_sources inventory", "value": "No standalone logo files are supplied"}
+      ],
+      "resolution": "Treat PDF logos as visual approval references only. Obtain transparent SVG/PNG production assets before shipping; do not redraw or invent missing marks."
+    },
+    {
+      "id": "juris-brand-reference-missing",
+      "topic": "Juris Guard detailed brand reference",
+      "status": "unresolved",
+      "candidates": [
+        {"source": "Juris Guard SKILL.md", "value": "Directs readers to references/brand.md"},
+        {"source": "Supplied Juris Guard archive", "value": "The references directory is empty"}
+      ],
+      "resolution": "Use only the explicit quick-reference palette and mark description. Do not invent secondary colors, borders, glow values, or detailed component overrides."
+    },
+    {
+      "id": "white-backed-logo-exception",
+      "topic": "Dark-canvas rule versus white-backed approved logo compositions",
+      "status": "unresolved",
+      "candidates": [
+        {"source": "Design System Bible universal rules", "value": "All primary canvases are dark"},
+        {"source": "Design System Bible logo gallery and Vital Helix brand reference", "value": "Several raster marks visibly include white fields; Vital Helix explicitly keeps its original white-backed logo"}
+      ],
+      "resolution": "Keep the app canvas dark. Do not infer transparent or dark-mode logo variants from the PDF. For Vital Helix, preserve the supplied composition when the production asset arrives; for all others, request official transparent assets."
+    },
+    {
+      "id": "accent-collision-juris-nexus",
+      "topic": "Juris Guard and Nexus Labs share the same current primary accent",
+      "status": "unresolved",
+      "candidates": [
+        {"source": "Juris Guard division skill", "value": "Justice Crimson #DC2626"},
+        {"source": "Design System Bible Nexus Labs system", "value": "Creative Crimson #DC2626"},
+        {"source": "Design System Bible universal rule", "value": "Division primary accents should not collide"}
+      ],
+      "resolution": "Honor both confirmed palettes under source precedence. Do not invent a replacement hue. In cross-division UI, pair color with the division name and mark until an explicit palette revision resolves the collision."
+    },
+    {
+      "id": "changed-division-components",
+      "topic": "Component-level overrides for divisions whose new skills changed identity",
+      "status": "unresolved",
+      "candidates": [
+        {"source": "Newer Juris Guard, Signal Velocity, Nomad Nexus, Eon Core, and Cognara Mind skills", "value": "New palettes, marks, and personas without complete button/card/input specs"},
+        {"source": "Design System Bible division pages", "value": "Complete component specs built around superseded colors or personas"}
+      ],
+      "resolution": "Use parent components for the portfolio app and apply only confirmed canonical division colors. Do not carry over old division-specific radii, gradients, or motif treatments when they depend on a superseded identity."
+    }
+  ]
+}

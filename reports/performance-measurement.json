@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-08-08T14:26:39.225Z",
+  "url": "http://127.0.0.1:4173/",
+  "profile": {
+    "viewport": "412x915@2x",
+    "latencyMs": 150,
+    "downlinkMbps": 1.6,
+    "uplinkMbps": 0.75,
+    "cpuSlowdown": 4
+  },
+  "measurement": {
+    "lcp": 816,
+    "cls": 0.00026706349309887873,
+    "inp": 56,
+    "longTasks": 50,
+    "ttfb": 5.600000001490116,
+    "domContentLoaded": 835.3000000007451,
+    "loadEvent": 1505.4000000003725,
+    "transferSize": 512334,
+    "resources": 20,
+    "wallLoadMs": 3829
+  },
+  "interpretation": "Custom Playwright/CDP lab profile. This is not a Lighthouse score or field Core Web Vitals certification. INP is a single scripted interaction, not the field p98 statistic."
+}

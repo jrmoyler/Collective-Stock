@@ -1,0 +1,3931 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08T17:09:26.080Z",
+  "summary": {
+    "generatedAt": "2026-08-08T17:09:26.080Z",
+    "totalFilesDiscovered": 41,
+    "totalUniqueAssetsIngested": 41,
+    "totalOriginalOccurrences": 41,
+    "assignedToDivisions": 40,
+    "parentBrandAssets": 1,
+    "crossDivisionAssets": 0,
+    "exactDuplicates": 0,
+    "revisionsAndVariants": 0,
+    "missingOrInaccessible": 265,
+    "missingBatches": 20,
+    "brokenAssets": 0,
+    "unassignedAssets": 0,
+    "reconciliation": "41 discovered files = 41 unique ingested assets + 0 exact duplicate files; 41 provenance occurrences retained. 265 expected inaccessible outputs are external to the discovered-file equation."
+  },
+  "assets": [
+    {
+      "id": "cstk_4f869a788b5552ab6849",
+      "title": "Collective Stock Homepage Design Concept",
+      "slug": "collective-stock-homepage-design-concept",
+      "description": "A ui mockups asset from the Collective AI Inc collection.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "UI Mockups",
+      "categorySlug": "ui-mockups",
+      "originalFilename": "collective-stock-homepage-design-concept.png",
+      "source": "Generated in this ChatGPT project on 2026-08-08",
+      "series": "Collective Stock Product Design",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": "Production design reference for the Collective Stock premium media platform homepage.",
+      "width": 1024,
+      "height": 1536,
+      "aspectRatio": "2:3",
+      "orientation": "portrait",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 1982133,
+      "fileSizeHuman": "1.9 MB",
+      "contentHash": "4f869a788b5552ab6849224060d1a1a5359cdbfb0d3e20d2b02383e5df127c6d",
+      "perceptualHash": "602463635569496d",
+      "dominantColors": [
+        "#19222A",
+        "#11171C",
+        "#1F2B34"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "collective stock",
+        "media library",
+        "homepage",
+        "ui concept",
+        "dark editorial"
+      ],
+      "semanticTags": [
+        "collective stock",
+        "media library",
+        "homepage",
+        "ui concept",
+        "dark editorial"
+      ],
+      "altText": "Collective Stock Homepage Design Concept, ui mockups for Collective AI Inc.",
+      "intendedUse": [
+        "Product design reference",
+        "Frontend fidelity review",
+        "Internal presentation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/collective-stock-homepage-design-concept.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/collective-stock-homepage-design-concept-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/collective-stock-homepage-design-concept-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/collective-stock-homepage-design-concept-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/collective-stock-homepage-design-concept-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/collective-stock-homepage-design-concept-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/collective-stock-homepage-design-concept-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": true,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_9bffcadc195ff9f0816a",
+      "title": "Detail 10 Aether Link",
+      "slug": "detail-10-aether-link-png",
+      "description": "A brand sheets asset from the Aether Link collection.",
+      "division": "Aether Link",
+      "divisionSlug": "aether-link",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-10-aether-link.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 146452,
+      "fileSizeHuman": "143.0 KB",
+      "contentHash": "9bffcadc195ff9f0816a994d9b0ec7ed0486e82e107b71c06b7752b98bb30000",
+      "perceptualHash": "0e8e968e8e8e8e12",
+      "dominantColors": [
+        "#192222",
+        "#111717",
+        "#1F2A2B"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 10 Aether Link, brand sheets for Aether Link.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-10-aether-link.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-10-aether-link-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-10-aether-link-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-10-aether-link-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_3aa3881b3117df49efd3",
+      "title": "Gallery 10 Aether Link",
+      "slug": "gallery-10-aether-link-png",
+      "description": "A brand sheets asset from the Aether Link collection.",
+      "division": "Aether Link",
+      "divisionSlug": "aether-link",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-10-aether-link.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1214,
+      "height": 821,
+      "aspectRatio": "1214:821",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 485828,
+      "fileSizeHuman": "474.4 KB",
+      "contentHash": "3aa3881b3117df49efd3e9923882815ce8e2a7e3d548f60455f8bf5a46fba21f",
+      "perceptualHash": "9898981c981c369a",
+      "dominantColors": [
+        "#313B3F",
+        "#21282B",
+        "#3D494E"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 10 Aether Link, brand sheets for Aether Link.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-10-aether-link.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-10-aether-link-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-10-aether-link-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-10-aether-link-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-10-aether-link-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-10-aether-link-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-10-aether-link-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_7f5fd946c5d70ba2deec",
+      "title": "Detail 16 Animus Prime",
+      "slug": "detail-16-animus-prime-png",
+      "description": "A brand sheets asset from the Animus Prime collection.",
+      "division": "Animus Prime",
+      "divisionSlug": "animus-prime",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-16-animus-prime.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 180250,
+      "fileSizeHuman": "176.0 KB",
+      "contentHash": "7f5fd946c5d70ba2deec7e7f7a9c9becb9e35c2e4dd7b1373c129587d92477ad",
+      "perceptualHash": "0017372727276700",
+      "dominantColors": [
+        "#444C50",
+        "#2F3437",
+        "#555F64"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 16 Animus Prime, brand sheets for Animus Prime.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-16-animus-prime.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-16-animus-prime-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-16-animus-prime-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-16-animus-prime-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_45a8005ffec00536cb08",
+      "title": "Gallery 16 Animus Prime",
+      "slug": "gallery-16-animus-prime-png",
+      "description": "A brand sheets asset from the Animus Prime collection.",
+      "division": "Animus Prime",
+      "divisionSlug": "animus-prime",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-16-animus-prime.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1536,
+      "height": 837,
+      "aspectRatio": "512:279",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 861007,
+      "fileSizeHuman": "840.8 KB",
+      "contentHash": "45a8005ffec00536cb08f70b603122b646c673aa8224f9fcbedd00aa3b684bde",
+      "perceptualHash": "1737272727276726",
+      "dominantColors": [
+        "#6F7B82",
+        "#4B5458",
+        "#8999A1"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 16 Animus Prime, brand sheets for Animus Prime.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-16-animus-prime.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-16-animus-prime-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-16-animus-prime-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-16-animus-prime-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-16-animus-prime-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-16-animus-prime-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-16-animus-prime-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_6489c45effa5a1f00365",
+      "title": "Detail 08 Binary Loom",
+      "slug": "detail-08-binary-loom-png",
+      "description": "A brand sheets asset from the Binary Loom collection.",
+      "division": "Binary Loom",
+      "divisionSlug": "binary-loom",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-08-binary-loom.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 193426,
+      "fileSizeHuman": "188.9 KB",
+      "contentHash": "6489c45effa5a1f00365e6d47422562c61160605a93a40e42d75a5f932932fe5",
+      "perceptualHash": "1171696961697113",
+      "dominantColors": [
+        "#3E4853",
+        "#2A3139",
+        "#4D5967"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 08 Binary Loom, brand sheets for Binary Loom.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-08-binary-loom.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-08-binary-loom-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-08-binary-loom-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-08-binary-loom-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_723d814a9f22821f4344",
+      "title": "Gallery 08 Binary Loom",
+      "slug": "gallery-08-binary-loom-png",
+      "description": "A brand sheets asset from the Binary Loom collection.",
+      "division": "Binary Loom",
+      "divisionSlug": "binary-loom",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-08-binary-loom.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 694,
+      "height": 837,
+      "aspectRatio": "694:837",
+      "orientation": "portrait",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 594885,
+      "fileSizeHuman": "580.9 KB",
+      "contentHash": "723d814a9f22821f4344b9fe15055fe36b798197c68eb9b544620e05f987ea7a",
+      "perceptualHash": "f0ccccd4c8f1d0a8",
+      "dominantColors": [
+        "#A2B2C2",
+        "#6E7984",
+        "#C9DDF1"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 08 Binary Loom, brand sheets for Binary Loom.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-08-binary-loom.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-08-binary-loom-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-08-binary-loom-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-08-binary-loom-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_ff397666528fa0c427c6",
+      "title": "Detail 12 Civic Core",
+      "slug": "detail-12-civic-core-png",
+      "description": "A brand sheets asset from the Civic Core collection.",
+      "division": "Civic Core",
+      "divisionSlug": "civic-core",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-12-civic-core.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 108309,
+      "fileSizeHuman": "105.8 KB",
+      "contentHash": "ff397666528fa0c427c6260ab9b66a00133f72a8dbd74f5e32fe165765d7bcb5",
+      "perceptualHash": "292f4f0f1d0f4737",
+      "dominantColors": [
+        "#31363C",
+        "#212529",
+        "#3D434A"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 12 Civic Core, brand sheets for Civic Core.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-12-civic-core.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-12-civic-core-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-12-civic-core-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-12-civic-core-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_0b1073440538c7958232",
+      "title": "Gallery 12 Civic Core",
+      "slug": "gallery-12-civic-core-png",
+      "description": "A brand sheets asset from the Civic Core collection.",
+      "division": "Civic Core",
+      "divisionSlug": "civic-core",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-12-civic-core.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1536,
+      "height": 1536,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 681898,
+      "fileSizeHuman": "665.9 KB",
+      "contentHash": "0b1073440538c79582328413aef9ab614ade4911c2613ab5a57709842b6a4c14",
+      "perceptualHash": "0d72a64d4d371a68",
+      "dominantColors": [
+        "#243041",
+        "#19212C",
+        "#2D3C50"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 12 Civic Core, brand sheets for Civic Core.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-12-civic-core.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-12-civic-core-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-12-civic-core-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-12-civic-core-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-12-civic-core-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-12-civic-core-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-12-civic-core-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_f4d07cc4f54358324b5b",
+      "title": "Detail 13 Cognara Mind",
+      "slug": "detail-13-cognara-mind-png",
+      "description": "A brand sheets asset from the Cognara Mind collection.",
+      "division": "Cognara Mind",
+      "divisionSlug": "cognara-mind",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-13-cognara-mind.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 180914,
+      "fileSizeHuman": "176.7 KB",
+      "contentHash": "f4d07cc4f54358324b5b219fea08e80e72e0d0865c06fa0fef59c96e0b70943d",
+      "perceptualHash": "150f0f07074f0665",
+      "dominantColors": [
+        "#211016",
+        "#160B0F",
+        "#29131B"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 13 Cognara Mind, brand sheets for Cognara Mind.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-13-cognara-mind.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-13-cognara-mind-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-13-cognara-mind-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-13-cognara-mind-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_b01596e1d83012a8aaed",
+      "title": "Gallery 13 Cognara Mind",
+      "slug": "gallery-13-cognara-mind-png",
+      "description": "A brand sheets asset from the Cognara Mind collection.",
+      "division": "Cognara Mind",
+      "divisionSlug": "cognara-mind",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-13-cognara-mind.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1071,
+      "height": 838,
+      "aspectRatio": "1071:838",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 660907,
+      "fileSizeHuman": "645.4 KB",
+      "contentHash": "b01596e1d83012a8aaedf7d15fb29e4588ce85edc7e65e400740e8bff3d6edd9",
+      "perceptualHash": "3e7e3abe3e3c3830",
+      "dominantColors": [
+        "#2B1319",
+        "#1D0D11",
+        "#35181F"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 13 Cognara Mind, brand sheets for Cognara Mind.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-13-cognara-mind.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-13-cognara-mind-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-13-cognara-mind-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-13-cognara-mind-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-13-cognara-mind-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-13-cognara-mind-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-13-cognara-mind-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_0c73b4519c509f84f8f7",
+      "title": "Detail 20 Eon Core",
+      "slug": "detail-20-eon-core-png",
+      "description": "A brand sheets asset from the Eon Core collection.",
+      "division": "Eon Core",
+      "divisionSlug": "eon-core",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-20-eon-core.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 133096,
+      "fileSizeHuman": "130.0 KB",
+      "contentHash": "0c73b4519c509f84f8f706d4be57f5810c3d417bdc1c61779e4766e7b44fb224",
+      "perceptualHash": "b2a6b2b2a2b2b2ae",
+      "dominantColors": [
+        "#403F45",
+        "#2C2B2F",
+        "#4F4E56"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 20 Eon Core, brand sheets for Eon Core.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-20-eon-core.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-20-eon-core-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-20-eon-core-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-20-eon-core-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_4310f15c26fe94cf983f",
+      "title": "Gallery 20 Eon Core",
+      "slug": "gallery-20-eon-core-png",
+      "description": "A brand sheets asset from the Eon Core collection.",
+      "division": "Eon Core",
+      "divisionSlug": "eon-core",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-20-eon-core.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 801,
+      "height": 746,
+      "aspectRatio": "801:746",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 340488,
+      "fileSizeHuman": "332.5 KB",
+      "contentHash": "4310f15c26fe94cf983ff08de8f888c6087cdf97263845fe851b50c722d1bff4",
+      "perceptualHash": "69e1616161699e9e",
+      "dominantColors": [
+        "#D6D4DC",
+        "#919096",
+        "#FFFFFF"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 20 Eon Core, brand sheets for Eon Core.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-20-eon-core.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-20-eon-core-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-20-eon-core-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-20-eon-core-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-20-eon-core-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-20-eon-core-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-20-eon-core-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_1ab3575c7e347bb51a57",
+      "title": "Detail 15 Gaia Synthesis",
+      "slug": "detail-15-gaia-synthesis-png",
+      "description": "A brand sheets asset from the Gaia Synthesis collection.",
+      "division": "Gaia Synthesis",
+      "divisionSlug": "gaia-synthesis",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-15-gaia-synthesis.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 286751,
+      "fileSizeHuman": "280.0 KB",
+      "contentHash": "1ab3575c7e347bb51a575e1e35c4fc0c5a00cf50e00d115b22e09554737f12ec",
+      "perceptualHash": "2b0f0f2f2f0f0f08",
+      "dominantColors": [
+        "#2A2E29",
+        "#1C1F1C",
+        "#343933"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 15 Gaia Synthesis, brand sheets for Gaia Synthesis.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-15-gaia-synthesis.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-15-gaia-synthesis-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-15-gaia-synthesis-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-15-gaia-synthesis-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_914ac883181745679c40",
+      "title": "Gallery 15 Gaia Synthesis",
+      "slug": "gallery-15-gaia-synthesis-png",
+      "description": "A brand sheets asset from the Gaia Synthesis collection.",
+      "division": "Gaia Synthesis",
+      "divisionSlug": "gaia-synthesis",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-15-gaia-synthesis.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1465,
+      "height": 837,
+      "aspectRatio": "1465:837",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 1363415,
+      "fileSizeHuman": "1.3 MB",
+      "contentHash": "914ac883181745679c401028df90329f4a81df55d6572fd49d9eee405b9f1a1a",
+      "perceptualHash": "0f0f072f0f0f0f1e",
+      "dominantColors": [
+        "#363C37",
+        "#252926",
+        "#434B45"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 15 Gaia Synthesis, brand sheets for Gaia Synthesis.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-15-gaia-synthesis.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-15-gaia-synthesis-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-15-gaia-synthesis-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-15-gaia-synthesis-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-15-gaia-synthesis-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-15-gaia-synthesis-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-15-gaia-synthesis-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_b2680bdc3635cb15bbc8",
+      "title": "Detail 03 Hybrid Living",
+      "slug": "detail-03-hybrid-living-png",
+      "description": "A brand sheets asset from the Hybrid Living collection.",
+      "division": "Hybrid Living",
+      "divisionSlug": "hybrid-living",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-03-hybrid-living.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 100466,
+      "fileSizeHuman": "98.1 KB",
+      "contentHash": "b2680bdc3635cb15bbc8e450429b0858883bb625b062180f8398e13b478b3386",
+      "perceptualHash": "61694d4945613156",
+      "dominantColors": [
+        "#353B41",
+        "#24282C",
+        "#424A50"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 03 Hybrid Living, brand sheets for Hybrid Living.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-03-hybrid-living.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-03-hybrid-living-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-03-hybrid-living-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-03-hybrid-living-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_5d1027df10d5a13a8990",
+      "title": "Gallery 03 Hybrid Living",
+      "slug": "gallery-03-hybrid-living-png",
+      "description": "A brand sheets asset from the Hybrid Living collection.",
+      "division": "Hybrid Living",
+      "divisionSlug": "hybrid-living",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-03-hybrid-living.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1150,
+      "height": 1213,
+      "aspectRatio": "1150:1213",
+      "orientation": "portrait",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 825011,
+      "fileSizeHuman": "805.7 KB",
+      "contentHash": "5d1027df10d5a13a8990ca6e9fa63fa88d5e104ed2dc6d87165367851dfa2945",
+      "perceptualHash": "6969496172b2fcdc",
+      "dominantColors": [
+        "#BFC4C6",
+        "#828587",
+        "#EDF3F6"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 03 Hybrid Living, brand sheets for Hybrid Living.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-03-hybrid-living.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-03-hybrid-living-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-03-hybrid-living-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-03-hybrid-living-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-03-hybrid-living-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-03-hybrid-living-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-03-hybrid-living-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_cf05ebc9afbab70a9ed9",
+      "title": "Detail 17 Juris Guard",
+      "slug": "detail-17-juris-guard-png",
+      "description": "A brand sheets asset from the Juris Guard collection.",
+      "division": "Juris Guard",
+      "divisionSlug": "juris-guard",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-17-juris-guard.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 172506,
+      "fileSizeHuman": "168.5 KB",
+      "contentHash": "cf05ebc9afbab70a9ed9b46eedeef4b8477e3151e7593b361133ea09d587eccb",
+      "perceptualHash": "0e0e060e86060e0a",
+      "dominantColors": [
+        "#1F1E19",
+        "#151411",
+        "#26251F"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 17 Juris Guard, brand sheets for Juris Guard.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-17-juris-guard.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-17-juris-guard-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-17-juris-guard-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-17-juris-guard-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_5b1fc0327e77193dbf55",
+      "title": "Gallery 17 Juris Guard",
+      "slug": "gallery-17-juris-guard-png",
+      "description": "A brand sheets asset from the Juris Guard collection.",
+      "division": "Juris Guard",
+      "divisionSlug": "juris-guard",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-17-juris-guard.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1536,
+      "height": 1536,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 1426243,
+      "fileSizeHuman": "1.4 MB",
+      "contentHash": "5b1fc0327e77193dbf55f49f3eebc09bd6bc8786f223cdbfd768291798d0b4ea",
+      "perceptualHash": "cc070b071b8e0f02",
+      "dominantColors": [
+        "#383B38",
+        "#262826",
+        "#464A46"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 17 Juris Guard, brand sheets for Juris Guard.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-17-juris-guard.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-17-juris-guard-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-17-juris-guard-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-17-juris-guard-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-17-juris-guard-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-17-juris-guard-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-17-juris-guard-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_1db27dbb727a7b86ff8c",
+      "title": "Detail 05 Kinetic Edge",
+      "slug": "detail-05-kinetic-edge-png",
+      "description": "A brand sheets asset from the Kinetic Edge collection.",
+      "division": "Kinetic Edge",
+      "divisionSlug": "kinetic-edge",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-05-kinetic-edge.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 124464,
+      "fileSizeHuman": "121.5 KB",
+      "contentHash": "1db27dbb727a7b86ff8c19498c8565b1ebd11f940fad2ea1fa8bc012af25baf8",
+      "perceptualHash": "494d1d131b070f0d",
+      "dominantColors": [
+        "#1E1E1E",
+        "#151514",
+        "#252525"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 05 Kinetic Edge, brand sheets for Kinetic Edge.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-05-kinetic-edge.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-05-kinetic-edge-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-05-kinetic-edge-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-05-kinetic-edge-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_0081f716dfaa2ee98978",
+      "title": "Gallery 05 Kinetic Edge",
+      "slug": "gallery-05-kinetic-edge-png",
+      "description": "A brand sheets asset from the Kinetic Edge collection.",
+      "division": "Kinetic Edge",
+      "divisionSlug": "kinetic-edge",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-05-kinetic-edge.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1329,
+      "height": 1218,
+      "aspectRatio": "443:406",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 443390,
+      "fileSizeHuman": "433.0 KB",
+      "contentHash": "0081f716dfaa2ee9897815eb1d62160feed696c64b5936f73469c8f0e237b860",
+      "perceptualHash": "58989c9c77678800",
+      "dominantColors": [
+        "#393938",
+        "#272726",
+        "#464646"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 05 Kinetic Edge, brand sheets for Kinetic Edge.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-05-kinetic-edge.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-05-kinetic-edge-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-05-kinetic-edge-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-05-kinetic-edge-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-05-kinetic-edge-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-05-kinetic-edge-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-05-kinetic-edge-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_2f4c78c521781c2fc59b",
+      "title": "Detail 04 Nexus Labs",
+      "slug": "detail-04-nexus-labs-png",
+      "description": "A brand sheets asset from the Nexus Labs collection.",
+      "division": "Nexus Labs",
+      "divisionSlug": "nexus-labs",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-04-nexus-labs.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 23802,
+      "fileSizeHuman": "23.2 KB",
+      "contentHash": "2f4c78c521781c2fc59b1b962534bc6ea2d2587a26edae6a211ecd8195a94d17",
+      "perceptualHash": "0400554d4d4d0004",
+      "dominantColors": [
+        "#181714",
+        "#10100E",
+        "#1E1D19"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 04 Nexus Labs, brand sheets for Nexus Labs.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-04-nexus-labs.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-04-nexus-labs-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-04-nexus-labs-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-04-nexus-labs-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_8f3ea462d0d0e1a79cbf",
+      "title": "Gallery 04 Nexus Labs",
+      "slug": "gallery-04-nexus-labs-png",
+      "description": "A brand sheets asset from the Nexus Labs collection.",
+      "division": "Nexus Labs",
+      "divisionSlug": "nexus-labs",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-04-nexus-labs.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1023,
+      "height": 872,
+      "aspectRatio": "1023:872",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 161500,
+      "fileSizeHuman": "157.7 KB",
+      "contentHash": "8f3ea462d0d0e1a79cbf76056de501a319e65fa496a12d9f0b4bcce16db93760",
+      "perceptualHash": "b271cccc78718686",
+      "dominantColors": [
+        "#EFEFEE",
+        "#A3A2A2",
+        "#FFFFFF"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 04 Nexus Labs, brand sheets for Nexus Labs.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-04-nexus-labs.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-04-nexus-labs-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-04-nexus-labs-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-04-nexus-labs-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-04-nexus-labs-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-04-nexus-labs-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-04-nexus-labs-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_214fc789428a55b211f9",
+      "title": "Detail 19 Nomad Nexus",
+      "slug": "detail-19-nomad-nexus-png",
+      "description": "A brand sheets asset from the Nomad Nexus collection.",
+      "division": "Nomad Nexus",
+      "divisionSlug": "nomad-nexus",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-19-nomad-nexus.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 103127,
+      "fileSizeHuman": "100.7 KB",
+      "contentHash": "214fc789428a55b211f924269db20942244ba28a08d4377fc7c647535396560c",
+      "perceptualHash": "869e8a8e8a8aa2b2",
+      "dominantColors": [
+        "#484741",
+        "#31302C",
+        "#5A5851"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 19 Nomad Nexus, brand sheets for Nomad Nexus.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-19-nomad-nexus.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-19-nomad-nexus-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-19-nomad-nexus-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-19-nomad-nexus-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_e75511cee67c0e64ddcd",
+      "title": "Gallery 19 Nomad Nexus",
+      "slug": "gallery-19-nomad-nexus-png",
+      "description": "A brand sheets asset from the Nomad Nexus collection.",
+      "division": "Nomad Nexus",
+      "divisionSlug": "nomad-nexus",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-19-nomad-nexus.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 937,
+      "height": 760,
+      "aspectRatio": "937:760",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 318684,
+      "fileSizeHuman": "311.2 KB",
+      "contentHash": "e75511cee67c0e64ddcd5c6a477207d0514b73db17aed798166070df7a2e67a3",
+      "perceptualHash": "4c696969696092a2",
+      "dominantColors": [
+        "#E0DED7",
+        "#999792",
+        "#FFFFFF"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 19 Nomad Nexus, brand sheets for Nomad Nexus.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-19-nomad-nexus.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-19-nomad-nexus-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-19-nomad-nexus-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-19-nomad-nexus-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-19-nomad-nexus-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-19-nomad-nexus-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-19-nomad-nexus-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_8569e1ce6bbc633d6835",
+      "title": "Detail 11 Obsidian Arc",
+      "slug": "detail-11-obsidian-arc-png",
+      "description": "A brand sheets asset from the Obsidian Arc collection.",
+      "division": "Obsidian Arc",
+      "divisionSlug": "obsidian-arc",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-11-obsidian-arc.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 199584,
+      "fileSizeHuman": "194.9 KB",
+      "contentHash": "8569e1ce6bbc633d6835aac6e416ce23e06a4106d99d794d47d1791cfd7ce4b7",
+      "perceptualHash": "000f17172b374700",
+      "dominantColors": [
+        "#2D373B",
+        "#1E2528",
+        "#38444A"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 11 Obsidian Arc, brand sheets for Obsidian Arc.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-11-obsidian-arc.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-11-obsidian-arc-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-11-obsidian-arc-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-11-obsidian-arc-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_0b27acce4bf872ad02f2",
+      "title": "Gallery 11 Obsidian Arc",
+      "slug": "gallery-11-obsidian-arc-png",
+      "description": "A brand sheets asset from the Obsidian Arc collection.",
+      "division": "Obsidian Arc",
+      "divisionSlug": "obsidian-arc",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-11-obsidian-arc.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1536,
+      "height": 837,
+      "aspectRatio": "512:279",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 1069959,
+      "fileSizeHuman": "1.0 MB",
+      "contentHash": "0b27acce4bf872ad02f20120a061a3ced469bdee6fcfaba0b7b34f434aaf347d",
+      "perceptualHash": "0f1317132b134703",
+      "dominantColors": [
+        "#45545B",
+        "#2F393E",
+        "#566971"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 11 Obsidian Arc, brand sheets for Obsidian Arc.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-11-obsidian-arc.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-11-obsidian-arc-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-11-obsidian-arc-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-11-obsidian-arc-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-11-obsidian-arc-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-11-obsidian-arc-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-11-obsidian-arc-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_be4c73228e4e6c6dfbd3",
+      "title": "Detail 06 Quantum Ledger",
+      "slug": "detail-06-quantum-ledger-png",
+      "description": "A brand sheets asset from the Quantum Ledger collection.",
+      "division": "Quantum Ledger",
+      "divisionSlug": "quantum-ledger",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-06-quantum-ledger.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 103942,
+      "fileSizeHuman": "101.5 KB",
+      "contentHash": "be4c73228e4e6c6dfbd39562e9cc5af0b91b60015ee96180286bb3606a5ecdd5",
+      "perceptualHash": "17170f17471d150d",
+      "dominantColors": [
+        "#1C2123",
+        "#131618",
+        "#22292B"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 06 Quantum Ledger, brand sheets for Quantum Ledger.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-06-quantum-ledger.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-06-quantum-ledger-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-06-quantum-ledger-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-06-quantum-ledger-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_da29b53e65c5f2da5549",
+      "title": "Gallery 06 Quantum Ledger",
+      "slug": "gallery-06-quantum-ledger-png",
+      "description": "A brand sheets asset from the Quantum Ledger collection.",
+      "division": "Quantum Ledger",
+      "divisionSlug": "quantum-ledger",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-06-quantum-ledger.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1323,
+      "height": 1187,
+      "aspectRatio": "1323:1187",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 314002,
+      "fileSizeHuman": "306.6 KB",
+      "contentHash": "da29b53e65c5f2da55497093bf6b90af11e6b210c67dc2e164f3359b77f3327a",
+      "perceptualHash": "9c9c9a9857538020",
+      "dominantColors": [
+        "#2B2F34",
+        "#1D2023",
+        "#363B40"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 06 Quantum Ledger, brand sheets for Quantum Ledger.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-06-quantum-ledger.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-06-quantum-ledger-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-06-quantum-ledger-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-06-quantum-ledger-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-06-quantum-ledger-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-06-quantum-ledger-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-06-quantum-ledger-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_c8832a8c6247ea957c5a",
+      "title": "Detail 18 Signal Velocity",
+      "slug": "detail-18-signal-velocity-png",
+      "description": "A brand sheets asset from the Signal Velocity collection.",
+      "division": "Signal Velocity",
+      "divisionSlug": "signal-velocity",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-18-signal-velocity.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 110575,
+      "fileSizeHuman": "108.0 KB",
+      "contentHash": "c8832a8c6247ea957c5a2f1ccc7500aaa0269af0b97d30b227ef89a83514718e",
+      "perceptualHash": "8a92b2b2b292b2a6",
+      "dominantColors": [
+        "#343D4B",
+        "#232A33",
+        "#414C5D"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 18 Signal Velocity, brand sheets for Signal Velocity.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-18-signal-velocity.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-18-signal-velocity-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-18-signal-velocity-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-18-signal-velocity-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_08333ce1d909c2aa1be4",
+      "title": "Gallery 18 Signal Velocity",
+      "slug": "gallery-18-signal-velocity-png",
+      "description": "A brand sheets asset from the Signal Velocity collection.",
+      "division": "Signal Velocity",
+      "divisionSlug": "signal-velocity",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-18-signal-velocity.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 981,
+      "height": 794,
+      "aspectRatio": "981:794",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 361464,
+      "fileSizeHuman": "353.0 KB",
+      "contentHash": "08333ce1d909c2aa1be4d506ade8a95036e3816bcec51326d69196b543e59209",
+      "perceptualHash": "307032b271729c98",
+      "dominantColors": [
+        "#DFE7F2",
+        "#989DA4",
+        "#FFFFFF"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 18 Signal Velocity, brand sheets for Signal Velocity.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-18-signal-velocity.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-18-signal-velocity-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-18-signal-velocity-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-18-signal-velocity-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-18-signal-velocity-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-18-signal-velocity-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-18-signal-velocity-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_4155191c611b9f21583a",
+      "title": "Detail 07 Terra Axis",
+      "slug": "detail-07-terra-axis-png",
+      "description": "A brand sheets asset from the Terra Axis collection.",
+      "division": "Terra Axis",
+      "divisionSlug": "terra-axis",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-07-terra-axis.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 43393,
+      "fileSizeHuman": "42.4 KB",
+      "contentHash": "4155191c611b9f21583af50f9e215bf1e2b211d43683bfebdfbe9f8bb884fdad",
+      "perceptualHash": "2d29393169617169",
+      "dominantColors": [
+        "#726574",
+        "#4E444F",
+        "#8D7D90"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 07 Terra Axis, brand sheets for Terra Axis.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-07-terra-axis.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-07-terra-axis-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-07-terra-axis-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-07-terra-axis-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_128cef5d094aaf38ef66",
+      "title": "Gallery 07 Terra Axis",
+      "slug": "gallery-07-terra-axis-png",
+      "description": "A brand sheets asset from the Terra Axis collection.",
+      "division": "Terra Axis",
+      "divisionSlug": "terra-axis",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-07-terra-axis.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1357,
+      "height": 1202,
+      "aspectRatio": "1357:1202",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 293529,
+      "fileSizeHuman": "286.6 KB",
+      "contentHash": "128cef5d094aaf38ef668aa5a32da44f659dc3e8705e39fd2dfb6916c3906f71",
+      "perceptualHash": "2d5939717171e4c4",
+      "dominantColors": [
+        "#E3D5E4",
+        "#9A919B",
+        "#FFFFFF"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 07 Terra Axis, brand sheets for Terra Axis.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-07-terra-axis.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-07-terra-axis-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-07-terra-axis-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-07-terra-axis-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-07-terra-axis-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-07-terra-axis-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-07-terra-axis-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_df601a34e1e57ee1a67c",
+      "title": "Detail 02 The Collective",
+      "slug": "detail-02-the-collective-png",
+      "description": "A brand sheets asset from the The Collective collection.",
+      "division": "The Collective",
+      "divisionSlug": "the-collective",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-02-the-collective.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 103187,
+      "fileSizeHuman": "100.8 KB",
+      "contentHash": "df601a34e1e57ee1a67cfb5a7b92647033e957c38fce47b043880fc5cb8666d0",
+      "perceptualHash": "12326a4e4a6a3a12",
+      "dominantColors": [
+        "#4F555C",
+        "#353A3E",
+        "#616972"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 02 The Collective, brand sheets for The Collective.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-02-the-collective.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-02-the-collective-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-02-the-collective-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-02-the-collective-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_e40df43cca73b3d0520a",
+      "title": "Gallery 02 The Collective",
+      "slug": "gallery-02-the-collective-png",
+      "description": "A brand sheets asset from the The Collective collection.",
+      "division": "The Collective",
+      "divisionSlug": "the-collective",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-02-the-collective.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 813,
+      "height": 650,
+      "aspectRatio": "813:650",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 199742,
+      "fileSizeHuman": "195.1 KB",
+      "contentHash": "e40df43cca73b3d0520ac0f02291acdf7303eaea49780a0a1833c5ea45c0e4f3",
+      "perceptualHash": "b26948c84971b2aa",
+      "dominantColors": [
+        "#DDE2E8",
+        "#969A9E",
+        "#FFFFFF"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 02 The Collective, brand sheets for The Collective.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-02-the-collective.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-02-the-collective-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-02-the-collective-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-02-the-collective-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-02-the-collective-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-02-the-collective-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-02-the-collective-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_bfccf48b1847761bbdcb",
+      "title": "Detail 09 Vector Shift",
+      "slug": "detail-09-vector-shift-png",
+      "description": "A brand sheets asset from the Vector Shift collection.",
+      "division": "Vector Shift",
+      "divisionSlug": "vector-shift",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-09-vector-shift.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 136371,
+      "fileSizeHuman": "133.2 KB",
+      "contentHash": "bfccf48b1847761bbdcb506f7faf625ef08bdcbc065f4ae4c62e34e152ffba27",
+      "perceptualHash": "000d4b6725674300",
+      "dominantColors": [
+        "#2B343D",
+        "#1E2329",
+        "#36414B"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 09 Vector Shift, brand sheets for Vector Shift.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-09-vector-shift.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-09-vector-shift-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-09-vector-shift-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-09-vector-shift-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_87adce01ccb184c76ddc",
+      "title": "Gallery 09 Vector Shift",
+      "slug": "gallery-09-vector-shift-png",
+      "description": "A brand sheets asset from the Vector Shift collection.",
+      "division": "Vector Shift",
+      "divisionSlug": "vector-shift",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-09-vector-shift.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1536,
+      "height": 837,
+      "aspectRatio": "512:279",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 673195,
+      "fileSizeHuman": "657.4 KB",
+      "contentHash": "87adce01ccb184c76ddcc5226a93087c1de15bd33bd98e1185d601c7426c99ed",
+      "perceptualHash": "554b6b272567434c",
+      "dominantColors": [
+        "#465461",
+        "#2F3942",
+        "#566878"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 09 Vector Shift, brand sheets for Vector Shift.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-09-vector-shift.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-09-vector-shift-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-09-vector-shift-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-09-vector-shift-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-09-vector-shift-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-09-vector-shift-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-09-vector-shift-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_3a0361bb388c094b761c",
+      "title": "Detail 14 Vital Helix",
+      "slug": "detail-14-vital-helix-png",
+      "description": "A brand sheets asset from the Vital Helix collection.",
+      "division": "Vital Helix",
+      "divisionSlug": "vital-helix",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-14-vital-helix.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 172535,
+      "fileSizeHuman": "168.5 KB",
+      "contentHash": "3a0361bb388c094b761c06eb80283bd34d419d12f8d0af4593da79c289e76fce",
+      "perceptualHash": "60c9c8c9c9c9c9d8",
+      "dominantColors": [
+        "#85887D",
+        "#5B5C55",
+        "#A5A89B"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 14 Vital Helix, brand sheets for Vital Helix.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-14-vital-helix.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-14-vital-helix-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-14-vital-helix-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-14-vital-helix-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_6d7bd3f8d732339f5ddd",
+      "title": "Gallery 14 Vital Helix",
+      "slug": "gallery-14-vital-helix-png",
+      "description": "A brand sheets asset from the Vital Helix collection.",
+      "division": "Vital Helix",
+      "divisionSlug": "vital-helix",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-14-vital-helix.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 866,
+      "height": 817,
+      "aspectRatio": "866:817",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 488090,
+      "fileSizeHuman": "476.7 KB",
+      "contentHash": "6d7bd3f8d732339f5dddf440e10952643b9a522aa8c8e690fc30c1ca073647ee",
+      "perceptualHash": "68e8ccccc8cc92b6",
+      "dominantColors": [
+        "#D9DBD0",
+        "#94958D",
+        "#FFFFFF"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 14 Vital Helix, brand sheets for Vital Helix.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-14-vital-helix.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-14-vital-helix-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-14-vital-helix-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-14-vital-helix-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-14-vital-helix-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-14-vital-helix-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-14-vital-helix-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_dc66047fe877bce1ce5f",
+      "title": "Detail 01 Zenflow",
+      "slug": "detail-01-zenflow-png",
+      "description": "A brand sheets asset from the ZenFlow collection.",
+      "division": "ZenFlow",
+      "divisionSlug": "zenflow",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "detail-01-zenflow.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Detail Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 600,
+      "height": 420,
+      "aspectRatio": "10:7",
+      "orientation": "landscape",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 152659,
+      "fileSizeHuman": "149.1 KB",
+      "contentHash": "dc66047fe877bce1ce5f90f5d389a8bb3a40fe94f6479448d2db24cae650c5d8",
+      "perceptualHash": "ae8696868e868e8e",
+      "dominantColors": [
+        "#29292B",
+        "#1C1C1D",
+        "#323335"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "detail fragment",
+        "design system",
+        "Collective AI"
+      ],
+      "altText": "Detail 01 Zenflow, brand sheets for ZenFlow.",
+      "intendedUse": [
+        "Division identity detail",
+        "Internal brand reference"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "internal",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/detail-01-zenflow.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/detail-01-zenflow-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/detail-01-zenflow-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/detail-01-zenflow-thumbnail-360.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    },
+    {
+      "id": "cstk_096c12f71a13e24bdeaa",
+      "title": "Gallery 01 Zenflow",
+      "slug": "gallery-01-zenflow-png",
+      "description": "A brand sheets asset from the ZenFlow collection.",
+      "division": "ZenFlow",
+      "divisionSlug": "zenflow",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Brand Sheets",
+      "categorySlug": "brand-sheets",
+      "originalFilename": "gallery-01-zenflow.png",
+      "source": "Extracted from the supplied Collective AI Design System Bible v3",
+      "series": "Design System Bible Division Gallery Logos",
+      "batch": "Local source audit",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-08-08",
+      "prompt": null,
+      "width": 1287,
+      "height": 1310,
+      "aspectRatio": "1287:1310",
+      "orientation": "portrait",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 744619,
+      "fileSizeHuman": "727.2 KB",
+      "contentHash": "096c12f71a13e24bdeaa386d6dc88685a5dd48c3913797178be00c011fa8e0bb",
+      "perceptualHash": "0d46c6860e0c9a04",
+      "dominantColors": [
+        "#3D4047",
+        "#2A2C30",
+        "#4C4F58"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "division logo",
+        "design system",
+        "brand mark",
+        "Collective AI"
+      ],
+      "altText": "Gallery 01 Zenflow, brand sheets for ZenFlow.",
+      "intendedUse": [
+        "Division identity",
+        "Brand reference",
+        "Gallery navigation"
+      ],
+      "license": {
+        "slug": "public-download"
+      },
+      "visibility": "public",
+      "originalDownloadPath": "/assets/originals/design-bible-logos/gallery-01-zenflow.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-01-zenflow-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-01-zenflow-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-01-zenflow-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gallery-01-zenflow-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gallery-01-zenflow-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gallery-01-zenflow-card-800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified"
+    }
+  ]
+}
