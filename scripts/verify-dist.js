@@ -2,21 +2,47 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
 import { ROOT, readJson } from "./lib/asset-utils.js";
+import { PUBLIC_FORBIDDEN_FIELDS } from "../src/data/public-asset.js";
 
-const required = ["index.html", "division.html", "asset.html", "collections.html", "audit.html", "divisions/zenflow.html", "collections/complete-archive.html", "assets/manifests/asset-manifest.json", "assets/manifests/divisions.json", "assets/manifests/audit-summary.json"];
+const required = [
+  "index.html",
+  "division.html",
+  "asset.html",
+  "collections.html",
+  "audit.html",
+  "divisions/zenflow.html",
+  "collections/complete-archive.html",
+  "collections/component-sheets.html",
+  "collections/division-intro-videos.html",
+  "assets/manifests/asset-manifest.json",
+  "assets/manifests/divisions.json",
+  "assets/manifests/audit-summary.json"
+];
 const missing = [];
 for (const file of required) {
   try { await fs.access(path.join(ROOT, "dist", file)); } catch { missing.push(file); }
 }
 if (missing.length) throw new Error(`Distribution is incomplete: ${missing.join(", ")}`);
 const publicManifest = await readJson(path.join(ROOT, "dist/assets/manifests/asset-manifest.json"), { assets: [] });
+const componentSheets = publicManifest.assets.filter((asset) => asset.categorySlug === "component-sheets");
+const introFilms = publicManifest.assets.filter((asset) => asset.categorySlug === "division-intro-videos");
+if (componentSheets.length !== 21) missing.push(`component-sheets: expected 21 public records, found ${componentSheets.length}`);
+if (introFilms.length !== 20) missing.push(`division-intro-videos: expected 20 public records, found ${introFilms.length}`);
 for (const asset of publicManifest.assets) {
+  if (asset.downloadAuthorization === "public" && ["collective-ai-internal-use", "restricted-approval-required"].includes(asset.license?.slug)) {
+    missing.push(`${asset.id}: restricted license cannot allow anonymous original downloads`);
+  }
+  for (const field of PUBLIC_FORBIDDEN_FIELDS) {
+    if (Object.hasOwn(asset, field)) missing.push(`${asset.id}: anonymous manifest exposes ${field}`);
+  }
   for (const rendition of asset.optimizedRenditions || []) {
     try { await fs.access(path.join(ROOT, "dist", rendition.path.replace(/^\//, ""))); }
     catch { missing.push(`${asset.id}: ${rendition.path}`); }
   }
   if (asset.mediaType === "video") {
     if (!asset.previewPath) missing.push(`${asset.id}: missing public video preview path`);
+    else if (!asset.previewPath.startsWith("/assets/previews/")) missing.push(`${asset.id}: public preview is not an isolated muted derivative`);
+    else if (asset.previewAudio !== "muted") missing.push(`${asset.id}: public preview is not declared muted`);
     else {
       try { await fs.access(path.join(ROOT, "dist", asset.previewPath.replace(/^\//, ""))); }
       catch { missing.push(`${asset.id}: ${asset.previewPath}`); }

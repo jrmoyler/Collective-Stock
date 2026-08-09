@@ -44,7 +44,8 @@ Collective Stock is a progressively enhanced, multi-entry Vite application made 
 │   ├── optimized/         # AVIF/WebP/JPEG responsive renditions
 │   ├── logos/             # Approved source-extracted logo references
 │   ├── posters/           # Video/static fallback posters
-│   ├── video/             # Original motion assets and future HLS sources
+│   ├── previews/          # Public muted H.264 video derivatives
+│   ├── video/             # Private original motion assets and future HLS sources
 │   └── manifests/         # Source map, assets, provenance, audit and search data
 ├── src/
 │   ├── components/        # DOM components and composite controls
@@ -71,9 +72,11 @@ Collective Stock is a progressively enhanced, multi-entry Vite application made 
 
 ## Security model
 
-- Static `dist` contains public optimized renditions only.
+- Static `dist` contains public optimized image renditions and muted video preview derivatives only.
 - `/api/manifest` requires a valid internal HMAC token before returning private assets or their provenance occurrences.
-- `/api/download` resolves a manifest ID, validates access, normalizes the path, confines it to the original/video roots, and streams with attachment headers.
+- Anonymous manifest records are projected onto discovery fields; original paths, filenames, hashes, prompts, source URLs, and all provenance occurrences are stripped.
+- `/api/download` resolves a manifest ID, enforces its `downloadAuthorization`, normalizes the path, confines it to the original/video roots, and streams from a local file or configured private origin with attachment headers.
+- Vercel functions include manifests only. Private original bytes stay in object storage rather than static or serverless bundles.
 - Private API responses are `no-store` and `noindex`; no secret is bundled into client JavaScript.
 - A restrictive CSP, framing denial, permission policy, referrer policy, MIME sniffing protection and same-origin isolation headers are supplied in `vercel.json`.
 - Rate limiting and identity-provider token issuance belong at the edge/auth integration boundary; the handlers are structured for both.

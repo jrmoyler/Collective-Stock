@@ -12,26 +12,30 @@ function select(label, name, values, current, formatLabel = (value) => value) {
 const titleCase = (value = "") => value.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
 
 export class FilterBar extends EventTarget {
-  constructor({ state, facets, divisions = [], total = 0 }) {
+  constructor({ state, facets, divisions = [], total = 0, locked = [] }) {
     super();
     this.state = state;
     this.facets = facets;
     this.divisions = divisions;
     this.total = total;
+    this.locked = new Set(locked);
     this.root = this.#render();
   }
 
   #render() {
     const divisionNames = new Map(this.divisions.map((item) => [item.slug, item.name]));
-    const controls = el("div", { class: "filter-controls" }, [
-      select("All divisions", "division", this.facets.division, this.state.division, (value) => divisionNames.get(value) || titleCase(value)),
-      select("All categories", "category", this.facets.category, this.state.category, titleCase),
-      select("All media", "mediaType", this.facets.mediaType, this.state.mediaType, titleCase),
-      select("All orientations", "orientation", this.facets.orientation, this.state.orientation, titleCase),
-      select("All licenses", "license", this.facets.license, this.state.license, titleCase),
-      select("All access", "visibility", this.facets.visibility, this.state.visibility, titleCase),
-      select("All formats", "format", this.facets.format, this.state.format, (value) => String(value).toUpperCase())
-    ]);
+    const filters = [
+      ["All divisions", "division", this.facets.division, (value) => divisionNames.get(value) || titleCase(value)],
+      ["All categories", "category", this.facets.category, titleCase],
+      ["All media", "mediaType", this.facets.mediaType, titleCase],
+      ["All orientations", "orientation", this.facets.orientation, titleCase],
+      ["All licenses", "license", this.facets.license, titleCase],
+      ["All access", "visibility", this.facets.visibility, titleCase],
+      ["All formats", "format", this.facets.format, (value) => String(value).toUpperCase()]
+    ];
+    const controls = el("div", { class: "filter-controls" }, filters
+      .filter(([, name]) => !this.locked.has(name))
+      .map(([label, name, values, formatLabel]) => select(label, name, values, this.state[name], formatLabel)));
     controls.querySelectorAll("select").forEach((control) => control.addEventListener("change", () => this.dispatchEvent(new CustomEvent("change", { detail: { name: control.name, value: control.value } }))));
     const sort = el("select", { name: "sort", "aria-label": "Sort media" }, [
       el("option", { value: "featured", selected: this.state.sort === "featured", text: "Curated" }),

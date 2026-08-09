@@ -18,26 +18,66 @@ function named(indexes, division, baseTitle) {
 }
 
 named([1, 2, 3, 4, 5, 6, 7, 8, 9, 13], "Collective AI Inc", "Collective AI Stock");
-named([10, 14, 22, 24, 25, 26, 36, 39, 49, 55], "ZenFlow", "ZenFlow Stock");
-named([12, 20, 21, 30, 33, 40, 44, 45, 52, 65], "Binary Loom", "Binary Loom Stock");
 named([15, 16, 17, 34, 35, 37, 41, 42, 43, 46], "Terra Axis", "Terra Axis Stock");
 named([18, 19, 23, 27, 28, 29, 31, 32, 38, 66], "Vital Helix", "Vital Helix Stock");
-named([89, 92, 104, 107, 108, 121, 122, 126, 127, 129], "Vector Shift", "Vector Shift Stock");
-named([98, 101, 105, 109, 116, 117, 118, 119, 120, 128], "Nomad Nexus", "Nomad Nexus Stock");
 
-add(11, "ZenFlow", "Videos", "Misty Green Mountain Flyover", { confidence: "medium" });
-add(59, "Gaia Synthesis", "Videos", "Storm over Golden Fields", { confidence: "medium" });
+const curatedStockTitles = [
+  [10, "ZenFlow", "Luminous Intelligence Portal"],
+  [14, "ZenFlow", "Architectural Intelligence Medallion"],
+  [22, "ZenFlow", "ZenFlow Gallery Threshold"],
+  [24, "ZenFlow", "Moonlit Digital Meditation"],
+  [25, "ZenFlow", "River of Neural Light"],
+  [26, "ZenFlow", "Orbital Intelligence Seal"],
+  [36, "ZenFlow", "Holographic Balance Meditation"],
+  [39, "ZenFlow", "Connected Intelligence Globe"],
+  [49, "ZenFlow", "Agent Lattice Tree"],
+  [55, "ZenFlow", "ZenFlow Visual Collection"],
+  [12, "Binary Loom", "Holographic Cloud Circuit Emblem"],
+  [20, "Binary Loom", "Cloud Network over City"],
+  [21, "Binary Loom", "Secure Code Shield"],
+  [30, "Binary Loom", "Flowing Binary Data Wave"],
+  [33, "Binary Loom", "Developer Workstation and Code"],
+  [40, "Binary Loom", "Luminous Processor Core"],
+  [44, "Binary Loom", "Transparent Circuit Module"],
+  [45, "Binary Loom", "Binary Data Corridor"],
+  [52, "Binary Loom", "Fiber Data Streams"],
+  [65, "Binary Loom", "Binary Loom Visual Collection"],
+  [89, "Vector Shift", "Pixel-Shift Eagle Emblem"],
+  [92, "Vector Shift", "Forward Momentum Portal"],
+  [104, "Vector Shift", "High-Speed Data Corridor"],
+  [107, "Vector Shift", "Accelerated Future Gateway"],
+  [108, "Vector Shift", "Vector Shift Operations Center"],
+  [121, "Vector Shift", "Digital Eagle Brand Poster"],
+  [122, "Vector Shift", "Global Velocity Dashboard"],
+  [126, "Vector Shift", "Connected World Momentum"],
+  [127, "Vector Shift", "Precision Gear Drive"],
+  [129, "Vector Shift", "Metropolitan Velocity Light Trails"],
+  [98, "Nomad Nexus", "Remote Work from Coastal Retreat"],
+  [101, "Nomad Nexus", "Global Travel Network Globe"],
+  [105, "Nomad Nexus", "Mobile Travel Analytics"],
+  [109, "Nomad Nexus", "Global Access Pass"],
+  [116, "Nomad Nexus", "Nomad Nexus Mobile Companion"],
+  [117, "Nomad Nexus", "Distributed Team Workspace"],
+  [118, "Nomad Nexus", "Global Airport Departure"],
+  [119, "Nomad Nexus", "Sunset Remote Work Overlook"],
+  [120, "Nomad Nexus", "Connected Travel Expedition"],
+  [128, "Nomad Nexus", "Nomad Nexus Visual Collection"]
+];
+curatedStockTitles.forEach(([index, division, title]) => add(index, division, "Stock Images", title, { confidence: "high" }));
+
+add(11, "Collective AI Inc", "Videos", "Misty Green Mountain Flyover", { confidence: "medium", classification: "cross-division" });
+add(59, "Collective AI Inc", "Videos", "Storm over Golden Fields", { confidence: "medium", classification: "cross-division" });
 
 const rows = `
-47|Kinetic Edge|Hero Images|Autonomous Rover at Industrial Site|medium
+47|Vector Shift|Hero Images|Autonomous Rover at Industrial Site|medium
 48|Quantum Ledger|Hero Images|Quantum Vault Access|high
-50|Kinetic Edge|Stock Images|Humanoid Robotics Operations Center|medium
+50|Animus Prime|Stock Images|Humanoid Robotics Operations Center|medium
 51|Quantum Ledger|Hero Images|Data-Wrapped Ledger Pillar|high
-53|Kinetic Edge|Stock Images|Autonomous Warehouse Fleet|high
+53|Vector Shift|Stock Images|Autonomous Warehouse Fleet|high
 54|Quantum Ledger|Stock Images|Quantum Ledger Mobile App|high
 56|Quantum Ledger|Stock Images|Quantum Data Center|medium
-57|Kinetic Edge|Stock Images|Robotic Interface Touch|medium
-58|Kinetic Edge|Hero Images|Industrial Mech in Hangar|high
+57|Animus Prime|Stock Images|Robotic Interface Touch|medium
+58|Animus Prime|Hero Images|Industrial Mech in Hangar|high
 60|Quantum Ledger|Stock Images|Global Ledger Operations Center|medium
 61|Animus Prime|Stock Images|Humanoid Systems Calibration|high
 62|Civic Core|Stock Images|Community Impact Dashboard|high
@@ -165,7 +205,7 @@ const rows = `
 206|Nexus Labs|Hero Images|Nexus Monumental Portal|high
 207|Nexus Labs|Hero Images|Nexus Containment Capsule|high
 208|Nexus Labs|Hero Images|Nexus Research Console|high
-209|Juris Guard|Reference Images|Digital Justice Shield|high
+209|Juris Guard|Reference Images|Digital Justice Shield at the Civic Court|high
 210|Hybrid Living|Stock Images|Hybrid Living Strategy Meeting|medium
 211|Nexus Labs|Reference Images|Nexus Crystal Mark|high
 212|Nexus Labs|Hero Images|Nexus Holographic Lab|high
@@ -201,7 +241,7 @@ const rows = `
 242|Hybrid Living|Stock Images|Open Coworking Session|high
 243|Nexus Labs|Hero Images|Quantum Cube Stage|high
 244|Hybrid Living|Stock Images|Connected-Home Mobile Check-In|medium
-245|Juris Guard|Hero Images|Digital Justice Shield|high
+245|Juris Guard|Hero Images|Circuit Crest of Digital Justice|high
 246|The Collective|Hero Images|Collective Intelligence Command Room|high
 247|The Collective|Stock Images|Community Dinner|medium
 248|Hybrid Living|Stock Images|Couple Working from Home|high
@@ -248,8 +288,8 @@ const rows = `
 302|Aether Link|Hero Images|Deep-Space Radio Array|high
 306|Terra Axis|Hero Images|Sustainable Terrace City|high
 313|Collective AI Inc|Reference Images|Division Visual-Language Moodboard|high|cross-division
-317|ZenFlow|Videos|Breakthrough Light over Mountains|medium
-319|Eon Core|Videos|Volumetric Light Portal|low
+317|Collective AI Inc|Videos|Breakthrough Light over Mountains|medium|cross-division
+319|Collective AI Inc|Videos|Volumetric Light Portal|low|cross-division
 326|Cognara Mind|Hero Images|Haloed Intelligence Profile|high
 327|Signal Velocity|Website Backgrounds|Streaming Signal Waves|medium
 328|Cognara Mind|Reference Images|Dual-Energy Thoughtforms|low

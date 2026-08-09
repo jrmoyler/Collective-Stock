@@ -1,6 +1,7 @@
 import fsp from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
+import { publicAssetRecord, publicProvenanceRecord } from "../src/data/public-asset.js";
 
 const load = (filename, fallback) => fsp.readFile(path.join(process.cwd(), "assets/manifests", filename), "utf8").then(JSON.parse).catch(() => fallback);
 
@@ -26,13 +27,14 @@ export default async function handler(request, response) {
   const [manifest, divisions, provenance, audit] = await Promise.all([
     load("asset-manifest.json", { assets: [] }), load("divisions.json", []), load("source-provenance.json", { occurrences: [] }), load("audit-summary.json", {})
   ]);
-  const assets = internal ? manifest.assets : manifest.assets.filter((asset) => asset.visibility === "public");
-  const ids = new Set(assets.map((asset) => asset.id));
+  const assets = internal
+    ? manifest.assets
+    : manifest.assets.filter((asset) => asset.visibility === "public").map(publicAssetRecord);
   return response.status(200).json({
     ...manifest,
     assets,
     divisions,
-    provenance: { ...provenance, occurrences: internal ? provenance.occurrences : provenance.occurrences.filter((item) => ids.has(item.assetId)) },
+    provenance: internal ? provenance : publicProvenanceRecord(provenance),
     audit: internal ? audit : { ...audit, publicAssets: assets.length },
     access: internal ? "internal" : "public"
   });

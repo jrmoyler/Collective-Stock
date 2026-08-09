@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-08T14:37:53.869Z",
+  "generatedAt": "2026-08-09T05:28:00.000Z",
   "lighthouse": {
     "profile": "mobile",
-    "performance": 98,
+    "performance": 100,
     "accessibility": 100,
     "bestPractices": 100,
     "seo": 100,
-    "fcpMs": 1807.518,
-    "lcpMs": 1807.518,
+    "fcpMs": 1506.087,
+    "lcpMs": 1506.087,
     "tbtMs": 0,
     "cls": 0.0003301087551392436,
     "source": "reports/lighthouse-mobile.json"
@@ -18,19 +18,19 @@
     "downlinkMbps": 1.6,
     "uplinkMbps": 0.75,
     "cpuSlowdown": 4,
-    "lcpMs": 816,
-    "cls": 0.00026706349309887873,
-    "scriptedInteractionDurationMs": 56,
-    "domContentLoadedMs": 835.3,
-    "loadEventMs": 1505.4,
-    "transferBytes": 512334,
+    "lcpMs": 884,
+    "cls": 0.00059408,
+    "scriptedInteractionDurationMs": 80,
+    "domContentLoadedMs": 910.6,
+    "loadEventMs": 1572.5,
+    "transferBytes": 1868442,
     "resourceCount": 20,
     "source": "reports/performance-measurement.json"
   },
   "fieldCertification": false,
   "targetStatus": {
     "lighthouseScores": "pass",
-    "lcp": "pass-with-692ms-margin",
+    "lcp": "pass-with-994ms-margin",
     "cls": "pass",
     "inp": "lab-pass-field-unverified"
   }

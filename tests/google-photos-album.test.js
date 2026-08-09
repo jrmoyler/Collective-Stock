@@ -42,7 +42,10 @@ describe("Google Photos album ingestion", () => {
       expect(video.width).toBeGreaterThan(0);
       expect(video.height).toBeGreaterThan(0);
       expect(video.posterPath).toMatch(/^\/assets\/posters\/.+\.jpg$/);
-      expect(video.previewPath).toBe(video.originalDownloadPath);
+      expect(video.previewPath).toMatch(/^\/assets\/previews\/.+-preview\.mp4$/);
+      expect(video.previewPath).not.toBe(video.originalDownloadPath);
+      expect(video.previewAudio).toBe("muted");
+      expect(video.downloadAuthorization).toBe("authenticated");
     });
   });
 });

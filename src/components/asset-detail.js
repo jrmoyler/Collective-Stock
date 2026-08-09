@@ -12,12 +12,14 @@ function metadataRow(label, value) {
 export function AssetDetail({ asset, assets, favorites, toast, onPreview }) {
   const license = getLicense(asset.license?.slug);
   const preview = asset.mediaType === "video"
-    ? el("video", { src: asset.previewPath || (asset.visibility === "public" ? asset.originalDownloadPath : undefined), poster: asset.posterPath || "/assets/posters/media-fallback.svg", controls: true, playsInline: true, preload: "metadata" })
+    ? el("video", { src: asset.previewPath, poster: asset.posterPath || "/assets/posters/media-fallback.svg", controls: true, muted: asset.previewAudio === "muted", playsInline: true, preload: "metadata", "aria-label": `Preview ${asset.title}` })
     : el("img", { src: optimizedPath(asset, "large"), alt: asset.altText || asset.title, width: asset.width, height: asset.height, decoding: "async", fetchPriority: "high" });
-  const save = el("button", { class: "button button--secondary", type: "button", "aria-pressed": String(favorites.has(asset.id)) }, [icon("heart"), el("span", { text: favorites.has(asset.id) ? "Saved" : "Save asset" })]);
+  const initiallySaved = favorites.has(asset.id);
+  const save = el("button", { class: "button button--secondary", type: "button", "aria-pressed": String(initiallySaved), "aria-label": initiallySaved ? `Remove ${asset.title} from saved assets` : `Save ${asset.title}` }, [icon("heart"), el("span", { text: initiallySaved ? "Saved" : "Save asset" })]);
   save.addEventListener("click", () => {
     const next = favorites.toggle(asset.id);
     save.setAttribute("aria-pressed", String(next));
+    save.setAttribute("aria-label", next ? `Remove ${asset.title} from saved assets` : `Save ${asset.title}`);
     save.querySelector("span").textContent = next ? "Saved" : "Save asset";
     toast.show(next ? "Saved to your collection" : "Removed from saved assets");
   });
@@ -35,7 +37,7 @@ export function AssetDetail({ asset, assets, favorites, toast, onPreview }) {
         el("p", { class: "detail-kicker mono", text: `${asset.division} / ${asset.category}` }),
         el("h1", { text: asset.title }),
         el("p", { class: "asset-description", text: asset.description || asset.altText }),
-        el("div", { class: "asset-badges" }, [LicenseBadge(asset, { full: true }), el("span", { class: "visibility-badge", text: asset.visibility === "public" ? "Public asset" : "Private / internal asset" })]),
+        el("div", { class: "asset-badges" }, [LicenseBadge(asset, { full: true }), el("span", { class: "visibility-badge", text: asset.visibility === "public" ? (asset.downloadAuthorization === "public" ? "Public download" : "Public preview · original restricted") : "Private / internal asset" })]),
         el("div", { class: "asset-actions" }, [save, copy]),
         el("section", { class: "download-panel" }, [el("h2", { text: "Available files" }), DownloadMenu(asset, { toast })]),
         el("dl", { class: "asset-metadata" }, [
@@ -45,6 +47,12 @@ export function AssetDetail({ asset, assets, favorites, toast, onPreview }) {
           metadataRow("File size", asset.fileSizeHuman),
           metadataRow("Series", asset.series),
           metadataRow("Revision", `v${asset.revision || 1}`),
+          ...(asset.mediaType === "video" ? [
+            metadataRow("Preview audio", asset.previewAudio === "muted" ? "Muted public derivative" : asset.previewAudio),
+            metadataRow("Source audio", asset.audioProfile),
+            metadataRow("Captions", asset.captionStatus)
+          ] : []),
+          metadataRow("Original access", asset.downloadAuthorization === "public" ? "Public download" : "Authenticated approval required"),
           metadataRow("Asset ID", asset.id)
         ])
       ])

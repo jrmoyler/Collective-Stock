@@ -9,14 +9,14 @@
     "cpuSlowdown": 4
   },
   "measurement": {
-    "lcp": 816,
-    "cls": 0.00026706349309887873,
-    "inp": 64,
-    "longTasks": 56,
+    "lcp": 884,
+    "cls": 0.00059408,
+    "inp": 80,
+    "longTasks": 147,
     "ttfb": 5.200000002980232,
-    "domContentLoaded": 833.6000000014901,
-    "loadEvent": 1497.6000000014901,
-    "transferSize": 1823664,
+    "domContentLoaded": 910.6,
+    "loadEvent": 1572.5,
+    "transferSize": 1868442,
     "resources": 20,
     "wallLoadMs": 10409
   },

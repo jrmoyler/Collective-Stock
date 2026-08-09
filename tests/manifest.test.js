@@ -22,14 +22,38 @@ describe("asset manifest contract", () => {
     expect(manifest.assets.every((asset) => divisions.some((division) => division.slug === asset.divisionSlug))).toBe(true);
   });
   it("retains all required discovery and rights fields", () => {
-    const required = ["id", "title", "slug", "division", "mediaType", "category", "originalFilename", "source", "width", "height", "aspectRatio", "contentHash", "perceptualHash", "dominantColors", "focalPoint", "searchKeywords", "semanticTags", "altText", "intendedUse", "license", "visibility", "originalDownloadPath", "optimizedRenditions", "approvalStatus"];
+    const required = ["id", "title", "slug", "division", "mediaType", "category", "originalFilename", "source", "width", "height", "aspectRatio", "contentHash", "perceptualHash", "dominantColors", "focalPoint", "searchKeywords", "semanticTags", "altText", "intendedUse", "license", "visibility", "downloadAuthorization", "originalDownloadPath", "optimizedRenditions", "approvalStatus"];
     manifest.assets.forEach((asset) => required.forEach((field) => expect(asset, `${asset.id} ${field}`).toHaveProperty(field)));
   });
   it("reconciles every supplied file without silently counting inferred history", () => {
     expect(audit.totalFilesDiscovered).toBe(audit.totalUniqueAssetsIngested + audit.exactDuplicates);
-    expect(audit.totalFilesDiscovered).toBeGreaterThanOrEqual(330);
-    expect(audit.missingOrInaccessible).toBe(0);
+    expect(audit.totalFilesDiscovered).toBeGreaterThanOrEqual(392);
+    expect(audit.missingOrInaccessible).toBe(1);
+    expect(audit.missingBatches).toBe(1);
     expect(audit.brokenAssets).toBe(0);
     expect(audit.unassignedAssets).toBe(0);
+  });
+  it("publishes complete named component and intro-film libraries", () => {
+    const componentLibrary = manifest.assets.filter((asset) => asset.series === "Collective AI Inc Component Library");
+    const components = componentLibrary.filter((asset) => asset.categorySlug === "component-sheets");
+    const brandReferences = componentLibrary.filter((asset) => asset.categorySlug === "reference-images" && asset.title.endsWith("— Brand Reference Sheet"));
+    const intros = manifest.assets.filter((asset) => asset.series === "Division Intro Video Library" && asset.categorySlug === "division-intro-videos");
+    expect(components).toHaveLength(21);
+    expect(brandReferences).toHaveLength(21);
+    expect(intros).toHaveLength(20);
+    expect(intros.filter((asset) => asset.classification === "cross-division")).toHaveLength(1);
+    intros.forEach((asset) => {
+      expect(asset.audioProfile).toBeTruthy();
+      expect(asset.captionStatus).toBeTruthy();
+      expect(asset.posterPath).toBeTruthy();
+      expect(asset.previewPath).toMatch(/^\/assets\/previews\/.+-preview\.mp4$/);
+      expect(asset.previewAudio).toBe("muted");
+      expect(asset.downloadAuthorization).toBe("authenticated");
+    });
+    expect(manifest.assets.filter((asset) => asset.downloadAuthorization === "public")
+      .every((asset) => !["collective-ai-internal-use", "restricted-approval-required"].includes(asset.license?.slug))).toBe(true);
+    expect(new Set(manifest.assets.map((asset) => asset.title)).size).toBe(manifest.assets.length);
+    const genericMachineTitle = /^(?:[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}|(?:detail|gallery)\s+\d+|.+\s+stock\s+\d+)$/i;
+    expect(manifest.assets.some((asset) => genericMachineTitle.test(asset.title))).toBe(false);
   });
 });

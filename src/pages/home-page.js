@@ -4,13 +4,9 @@ import { MediaCard, optimizedPath } from "../components/media-card.js";
 import { LicenseBadge } from "../components/license-badge.js";
 import { enhanceMasonry } from "../media/masonry-grid.js";
 import { collectionRoute, divisionRoute } from "../utils/routes.js";
+import { collectionDefinition } from "../data/collection-definitions.js";
 
-const COLLECTIONS = [
-  ["hero-images", "Hero images", "High-impact first impressions"],
-  ["brand-sheets", "Brand systems", "Reference, component and specification sheets"],
-  ["motion-references", "Motion references", "Movement, timing and cinematic direction"],
-  ["complete-archive", "Complete archive", "Every accessible asset, fully reconciled"]
-];
+const COLLECTIONS = ["hero-images", "reference-images", "videos", "complete-archive"];
 
 function mediaMosaic(assets, onPreview) {
   const selected = assets.slice(0, 7);
@@ -32,20 +28,38 @@ function divisionRail(divisions, counts) {
   ])));
 }
 
-function collectionRail(assets) {
-  return el("div", { class: "collection-rail" }, COLLECTIONS.map(([slug, title, description], index) => {
-    const asset = assets[index % Math.max(assets.length, 1)];
+function collectionRail(assets, index) {
+  return el("div", { class: "collection-rail" }, COLLECTIONS.map((slug) => {
+    const definition = collectionDefinition(slug);
+    const asset = index.query(definition.constraints)[0] || assets[0];
     return el("a", { class: "collection-tile", href: collectionRoute(slug) }, [
       asset ? el("img", { src: optimizedPath(asset), alt: "", width: asset.width, height: asset.height, loading: "lazy", decoding: "async" }) : null,
-      el("span", { class: "collection-tile__content" }, [el("strong", { text: title }), el("small", { text: description }), icon("arrow")])
+      el("span", { class: "collection-tile__content" }, [el("strong", { text: definition.title }), el("small", { text: definition.description }), icon("arrow")])
+    ]);
+  }));
+}
+
+function featuredLibraries(assets, index) {
+  return el("div", { class: "featured-library-grid" }, ["component-sheets", "division-intro-videos"].map((slug) => {
+    const definition = collectionDefinition(slug);
+    const matches = index.query(definition.constraints);
+    const asset = matches[0];
+    return el("a", { class: `featured-library-card is-${slug}`, href: collectionRoute(slug) }, [
+      asset ? el("img", { src: optimizedPath(asset, "large"), alt: "", width: asset.width, height: asset.height, loading: "lazy", decoding: "async" }) : null,
+      el("span", { class: "featured-library-card__veil", "aria-hidden": "true" }),
+      el("span", { class: "featured-library-card__content" }, [
+        el("span", { class: "featured-library-card__count mono", text: `${formatCount(matches.length)} verified assets` }),
+        el("strong", { text: definition.title }),
+        el("small", { text: definition.description }),
+        el("span", { class: "featured-library-card__action" }, ["Open library", icon("arrow")])
+      ])
     ]);
   }));
 }
 
 function motionRail(assets, onPreview) {
-  const motion = assets.filter((asset) => asset.mediaType === "video" || asset.categorySlug === "motion-references").slice(0, 6);
-  const fallback = assets.slice(0, 6);
-  const tiles = motion.length ? motion : fallback;
+  const tiles = assets.filter((asset) => asset.categorySlug === "division-intro-videos").slice(0, 6);
+  if (!tiles.length) return el("div", { class: "motion-empty", text: "Division intro films are being prepared for this archive." });
   // The rail draws its column count from the tiles it actually has, so a short
   // archive fills the row instead of leaving empty tracks on the right.
   return el("div", { class: "motion-rail", style: `--rail-columns:${Math.max(tiles.length, 1)}` }, tiles.map((asset) => el("button", { class: `motion-tile ${asset.mediaType === "video" ? "is-video" : "is-static"}`, type: "button", "aria-label": `Preview ${asset.mediaType === "video" ? "motion" : "static motion reference"}: ${asset.title}`, onClick: () => onPreview(asset) }, [
@@ -70,9 +84,13 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
         el("h1", {}, ["Every vision.", el("br"), "One collective intelligence."]),
         el("p", { text: "Photography, branded reference imagery, motion, and spatial media—curated from the Collective AI ecosystem." }),
         search.root,
-        el("div", { class: "hero-quick-links", "aria-label": "Media type shortcuts" }, [["All media", "complete-archive"], ["Photography", "stock-images"], ["Reference", "reference-images"], ["Motion", "videos"], ["Spatial", "3d-spatial-media"]].map(([label, slug], i) => el("a", { href: collectionRoute(slug), class: i === 0 ? "is-active" : "", text: label })))
+        el("nav", { class: "hero-quick-links", "aria-label": "Media type shortcuts" }, [["All media", "complete-archive"], ["Components", "component-sheets"], ["Intro films", "division-intro-videos"], ["Photography", "stock-images"], ["Reference", "reference-images"]].map(([label, slug]) => el("a", { href: collectionRoute(slug), text: label })))
       ]),
       visualAssets.length ? mediaMosaic(visualAssets, onPreview) : el("div", { class: "hero-empty" }, [diamondStar(), el("p", { text: "The source archive is being reconciled." })])
+    ]),
+    el("section", { class: "home-band featured-libraries" }, [
+      el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "New production libraries" }), el("h2", { text: "Build the brand. Set it in motion." })]), el("p", { text: "Complete implementation systems and cinematic identity films—named, verified, and ready to use." })]),
+      featuredLibraries(assets, index)
     ]),
     el("section", { class: "home-band featured-divisions" }, [
       el("div", { class: "section-heading section-heading--side" }, [el("div", {}, [el("p", { class: "section-label", text: "The complete ecosystem" }), el("h2", { text: "Featured divisions" })]), el("a", { href: collectionRoute("complete-archive") }, ["Browse all media", icon("arrow")])]),
@@ -80,14 +98,14 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
     ]),
     el("section", { class: "home-band curated-collections" }, [
       el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Editorial discovery" }), el("h2", { text: "Curated collections" })]), el("p", { text: "Built for the way creative teams actually search: by intention, format, division, and rights." })]),
-      collectionRail(visualAssets)
+      collectionRail(visualAssets, index)
     ]),
     el("section", { class: "home-band recently-added" }, [
       el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Archive pulse" }), el("h2", { text: "Recently added" })]), el("a", { href: collectionRoute("recently-added") }, ["View all recent media", icon("arrow")])]),
       recentGrid
     ]),
     el("section", { class: "home-band motion-showcase" }, [
-      el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Built for motion" }), el("h2", { text: "Motion showcase" })]), el("p", { text: "Poster-first previews, viewport-aware playback, static fallbacks, and reduced-motion support are built into the media layer." })]),
+      el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Division identity in motion" }), el("h2", { text: "Intro film collection" })]), el("a", { href: collectionRoute("division-intro-videos") }, ["View all intro films", icon("arrow")])]),
       motionRail(assets, onPreview)
     ]),
     el("section", { class: "home-band licensing-section", id: "licensing" }, [
@@ -99,6 +117,6 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
         ["Future ready", "Rights-managed, royalty-free, and custom licenses share one model.", "layers"]
       ].map(([title, description, iconName]) => el("article", {}, [el("span", { class: "license-principle__icon" }, [icon(iconName)]), el("h3", { text: title }), el("p", { text: description })])))
     ]),
-    audit?.missingOrInaccessible > 0 ? el("aside", { class: "audit-notice" }, [icon("lock"), el("div", {}, [el("strong", { text: "Archive audit in progress" }), el("p", { text: `${formatCount(audit.missingOrInaccessible)} expected historical outputs are documented as inaccessible in this environment. No substitutes or silent omissions were used.` })]), el("a", { href: "/audit.html", text: "Read the audit" })]) : null
+    audit?.missingOrInaccessible > 0 ? el("aside", { class: "audit-notice" }, [icon("lock"), el("div", {}, [el("strong", { text: "Source ingest needs one follow-up" }), el("p", { text: `${formatCount(audit.missingOrInaccessible)} source archive is documented as inaccessible through the current provider limit. No substitutes or silent omissions were used.` })]), el("a", { href: "/audit.html", text: "Read the audit" })]) : null
   ]);
 }

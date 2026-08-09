@@ -1,4 +1,5 @@
 import { el } from "./dom.js";
+import { collectionDefinition } from "../data/collection-definitions.js";
 
 function meta(name, content, property = false) {
   const selector = property ? `meta[property="${name}"]` : `meta[name="${name}"]`;
@@ -9,8 +10,9 @@ function meta(name, content, property = false) {
 export function updateDocumentMetadata({ page, state, assets, divisions }) {
   const asset = page === "asset" ? assets.find((item) => item.id === state.id) : null;
   const division = page === "division" ? divisions.find((item) => item.slug === state.division) : null;
-  const title = asset ? `${asset.title} — Collective Stock` : division ? `${division.name} Stock Media — Collective Stock` : page === "collections" ? "Curated Media Collections — Collective Stock" : page === "audit" ? "Asset Audit — Collective Stock" : "Collective Stock — The Collective AI Media Library";
-  const description = asset ? `${asset.title}: ${asset.category} for ${asset.division}. Review dimensions, rights, source metadata, and available renditions.` : division ? `Browse the complete ${division.name} media collection, with approved reference imagery, brand sheets, concepts, and revisions.` : "Search and license the Collective AI Inc media archive across twenty distinct divisions.";
+  const collection = page === "collections" ? collectionDefinition(state.collection) : null;
+  const title = asset ? `${asset.title} — Collective Stock` : division ? `${division.name} Stock Media — Collective Stock` : collection ? `${collection.title} — Collective Stock` : page === "audit" ? "Asset Audit — Collective Stock" : "Collective Stock — The Collective AI Media Library";
+  const description = asset ? `${asset.title}: ${asset.category} for ${asset.division}. Review dimensions, rights, source metadata, and available renditions.` : division ? `Browse the complete ${division.name} media collection, with approved reference imagery, brand sheets, concepts, and revisions.` : collection ? collection.description : "Search and license the Collective AI Inc media archive across twenty distinct divisions.";
   const canonical = asset ? `/assets/${asset.id}` : division ? `/divisions/${division.slug}` : page === "collections" ? `/collections/${state.collection}` : page === "audit" ? "/audit" : "/";
   document.title = title;
   meta("description", description);
