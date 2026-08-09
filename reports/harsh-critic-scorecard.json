@@ -1,5 +1,8 @@
 {
   "schemaVersion": "1.1.0",
+  "status": "superseded-inventory-snapshot",
+  "supersededBy": ["assets/manifests/google-photos-album-map.json", "assets/manifests/audit-summary.json", "reports/qa-report.md"],
+  "supersessionNote": "This independent review predates the 330-item Google Photos ingestion. Its inventory counts are historical; accessibility, authentication, and production-verification findings require a separate re-review.",
   "reviewDate": "2026-08-08",
   "reviewPass": 2,
   "reviewerRole": "Independent Harsh Critic",

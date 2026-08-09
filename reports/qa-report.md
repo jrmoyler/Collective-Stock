@@ -2,11 +2,12 @@
 
 ## Final automated result
 
-- Asset pipeline validation: **41 assets validated; 0 broken references; 0 unassigned assets**.
-- Vitest: **12/12 passed** across manifest, licensing and search/ranking contracts.
-- Playwright: **9 passed, 1 deliberate desktop skip**. The skipped case is the mobile-only navigation contract in the desktop project, not an unexecuted product path; the same case passes in the mobile project.
+- Asset pipeline validation: **371 assets validated; 0 broken references; 0 unassigned assets**.
+- Google Photos reconciliation: **330/330 album entries ingested; 330 unique hashes; 0 missing; 0 duplicates**.
+- Vitest: **15/15 passed** across album reconciliation, manifest, licensing and search/ranking contracts.
+- Playwright: **11 passed, 1 deliberate desktop skip**. The skipped case is the mobile-only navigation contract in the desktop project, not an unexecuted product path; the same case passes in the mobile project. Both browser profiles verify the four-item video collection and a real MP4 response.
 - Production build: **passed**, including Tailwind minification, Vite multi-entry build, public/private distribution split, pre-rendered route generation and critical-entry verification.
-- Lighthouse mobile: **98 Performance / 100 Accessibility / 100 Best Practices / 100 SEO** with 1,808 ms LCP and 0.00033 CLS.
+- Lighthouse mobile: **100 Performance / 100 Accessibility / 100 Best Practices / 100 SEO** with 1,506 ms LCP, 0 ms TBT and 0.00033 CLS.
 
 ## Browser and responsive coverage
 
@@ -44,4 +45,6 @@ The independent accessibility/security review remains authoritative for unautoma
 
 ## Evidence limitations and release verdict
 
-The functional site and local media set pass their build, asset, responsive and performance gates. The overall product is **not approved as the complete zero-omission project archive** because 265 expected historical outputs remain inaccessible, several content collections are necessarily empty, and real video/private-auth provider payloads are unavailable for end-to-end production certification. No unrelated stock or cloned media was substituted to manufacture coverage.
+The Google Photos export is approved for ingestion: every one of its 330 entries is present, unique, assigned, searchable, and traceable to the source archive. The complete repository has 371 unique assets and includes four working video fixtures. No unrelated stock or cloned media was substituted to manufacture coverage.
+
+This approval is scoped to the supplied export. It does not certify that the album contains every output from every historical conversation, and production identity-provider/private-download integration still requires deployed end-to-end verification.

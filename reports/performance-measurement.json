@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T14:26:39.225Z",
+  "generatedAt": "2026-08-09T01:23:46.471Z",
   "url": "http://127.0.0.1:4173/",
   "profile": {
     "viewport": "412x915@2x",
@@ -11,14 +11,14 @@
   "measurement": {
     "lcp": 816,
     "cls": 0.00026706349309887873,
-    "inp": 56,
-    "longTasks": 50,
-    "ttfb": 5.600000001490116,
-    "domContentLoaded": 835.3000000007451,
-    "loadEvent": 1505.4000000003725,
-    "transferSize": 512334,
+    "inp": 64,
+    "longTasks": 56,
+    "ttfb": 5.200000002980232,
+    "domContentLoaded": 833.6000000014901,
+    "loadEvent": 1497.6000000014901,
+    "transferSize": 1823664,
     "resources": 20,
-    "wallLoadMs": 3829
+    "wallLoadMs": 10409
   },
   "interpretation": "Custom Playwright/CDP lab profile. This is not a Lighthouse score or field Core Web Vitals certification. INP is a single scripted interaction, not the field p98 statistic."
 }

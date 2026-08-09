@@ -1,7 +1,11 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import sharp from "sharp";
+
+const exec = promisify(execFile);
 
 export const ROOT = path.resolve(import.meta.dirname, "../..");
 export const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif", ".tif", ".tiff"]);
@@ -56,6 +60,28 @@ export async function imageMetadata(file) {
     hasAlpha: Boolean(metadata.hasAlpha),
     dominantColors: [color(r, g, b), color(r * .68, g * .68, b * .68), color(r * 1.24, g * 1.24, b * 1.24)],
     perceptualHash: pHash
+  };
+}
+
+export async function videoMetadata(file) {
+  const extension = path.extname(file).slice(1).toLowerCase();
+  const { stdout } = await exec("ffprobe", [
+    "-v", "error",
+    "-select_streams", "v:0",
+    "-show_entries", "stream=width,height,duration,codec_name:format=duration,format_name",
+    "-of", "json",
+    file
+  ]);
+  const parsed = JSON.parse(stdout);
+  const stream = parsed.streams?.[0] || {};
+  return {
+    width: Number(stream.width || 0),
+    height: Number(stream.height || 0),
+    duration: Number(stream.duration || parsed.format?.duration || 0),
+    codec: stream.codec_name || null,
+    fileFormat: extension || parsed.format?.format_name?.split(",")[0] || "mp4",
+    dominantColors: ["#0D1326", "#09101D", "#15203A"],
+    perceptualHash: null
   };
 }
 

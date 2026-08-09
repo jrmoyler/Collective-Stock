@@ -1,5 +1,7 @@
 # Collective Stock accessibility, SEO, and security audit — second verification pass
 
+> **Historical pre-ingestion review.** Inventory, route-count, video-fixture, and missing-file observations below describe the original 41-file build. After the Google Photos ingestion, the current automated evidence is 371 validated assets, 351 public assets, four videos, 393 sitemap URLs, 15 unit tests, eleven E2E passes, and Lighthouse 100/100/100/100. The open authentication and manual accessibility findings remain valid until separately verified.
+
 **Verdict: NOT APPROVED.** This is an independent verification report, not an implementation sign-off. The revision resolves six original accessibility/SEO/security findings and the high Sharp advisory, but one high-severity production blocker remains: authenticated users still have no complete server-rendered/private detail route and no implemented token-issuance/session path that connects the internal manifest to private downloads. Seven medium and three low findings also remain.
 
 Audit date: 2026-08-08 (America/New_York)  

@@ -1,0 +1,4048 @@
+{
+  "schemaVersion": 1,
+  "sourceZipFilename": "Collective Stock-1-001.zip",
+  "fileSize": 482087230,
+  "contentHash": "931ca1af2ca41046ef2b89a90567aa7b64878c469e8c022496f9ae8b5393e4b1",
+  "chunkSize": 716800,
+  "chunkCount": 673,
+  "chunks": [
+    {
+      "order": 1,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0001",
+      "size": 716800,
+      "contentHash": "62eab384c1f292f324543471dc747319d5513f272b0b2e2945dd84ceaa25eb46"
+    },
+    {
+      "order": 2,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0002",
+      "size": 716800,
+      "contentHash": "f45351c85787be12ce2c38da31eb934d24d31a89bdf12463de194f4c7e366f14"
+    },
+    {
+      "order": 3,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0003",
+      "size": 716800,
+      "contentHash": "93e5c577da2719960e0ded7b3e76d114bb628ad2a0f6d4600fb9c5250ec2ba7e"
+    },
+    {
+      "order": 4,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0004",
+      "size": 716800,
+      "contentHash": "651574e8e08c03dd5ee27a898f9ce7f8d151c7d49fa65a1557677c861f249b95"
+    },
+    {
+      "order": 5,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0005",
+      "size": 716800,
+      "contentHash": "76b4d8f5c45cc15628020dde6060eae83b1d419d612a57bbf4ac70adfb5ab062"
+    },
+    {
+      "order": 6,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0006",
+      "size": 716800,
+      "contentHash": "b12304bfeb28be619d75c2243c1e466d5ef384bc715d12ad832fdf39de73e02f"
+    },
+    {
+      "order": 7,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0007",
+      "size": 716800,
+      "contentHash": "cb5f2c4c5af75f7b2aab79b6f90ad9d97b13a26fde9475eb9935e2253e68399c"
+    },
+    {
+      "order": 8,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0008",
+      "size": 716800,
+      "contentHash": "f3ac688ec885d81a5938588b74bf777e5df94300438769d024a01f5619a64a51"
+    },
+    {
+      "order": 9,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0009",
+      "size": 716800,
+      "contentHash": "fe197fee25d3ee093d31bb944a3533faaf572dd9c26fdfda530ecd74b997be3e"
+    },
+    {
+      "order": 10,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0010",
+      "size": 716800,
+      "contentHash": "f5795086d1a6037d8f4ded2acffe26c820ad03183d3c8d8db9a630d78824daa7"
+    },
+    {
+      "order": 11,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0011",
+      "size": 716800,
+      "contentHash": "4ae2785bec61c91a93abc8fc2286927cdb621ab9c30da1274a8cf1eec07fa814"
+    },
+    {
+      "order": 12,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0012",
+      "size": 716800,
+      "contentHash": "5e4139f58456972e94e122a735aa77dea7fc3f13be5f9572958a8a451c62e95b"
+    },
+    {
+      "order": 13,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0013",
+      "size": 716800,
+      "contentHash": "7cc1b283ca83c03570ef78ac30dcbe977f9b071499edcac3060e577fd345d0a1"
+    },
+    {
+      "order": 14,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0014",
+      "size": 716800,
+      "contentHash": "af2564630bb98c514380ed668434518b2a1d65f0e7f11d91d1b4f49ef4387ed2"
+    },
+    {
+      "order": 15,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0015",
+      "size": 716800,
+      "contentHash": "22b609469f18c8dd7d07508b9ac63ac6bd085b36532a3d2911c276c049d23db2"
+    },
+    {
+      "order": 16,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0016",
+      "size": 716800,
+      "contentHash": "39cbe1ce9a1bee9752c5dc48cbdf3392f37fe530ca0956ce882e2ca7dea79f48"
+    },
+    {
+      "order": 17,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0017",
+      "size": 716800,
+      "contentHash": "5aa4742e32778c91d13501e49f9a780061f70b9d7a00f7348beb0885ccfc8ab0"
+    },
+    {
+      "order": 18,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0018",
+      "size": 716800,
+      "contentHash": "b23434040d7d31cc8b09713c9dbb016e75085086f5c571a986e9a07509eb402a"
+    },
+    {
+      "order": 19,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0019",
+      "size": 716800,
+      "contentHash": "36504a66164e4a78f7ab9e10d23affdc186d6e84ad04e1f776ae7fe95d5250b8"
+    },
+    {
+      "order": 20,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0020",
+      "size": 716800,
+      "contentHash": "f3fed95cfec5bb54a19c291293e944dacb78126802cf99415fdf5e48633727d4"
+    },
+    {
+      "order": 21,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0021",
+      "size": 716800,
+      "contentHash": "89da78a0f457a5dcb08ecac7501cf87b530133d05a99218bcca87050de860bab"
+    },
+    {
+      "order": 22,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0022",
+      "size": 716800,
+      "contentHash": "d233ad4afe4e86aaffe2e66d701b7f6f3ae48c8e44515e998d6fed35ed35d92d"
+    },
+    {
+      "order": 23,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0023",
+      "size": 716800,
+      "contentHash": "e90cae587ca7808de9a65e93ccaeff8132c6fe30722299a0848aee0079d72064"
+    },
+    {
+      "order": 24,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0024",
+      "size": 716800,
+      "contentHash": "602f3681afda2c843eda55cad4bf187ce05c1e9634ae27f61a93cafce7441092"
+    },
+    {
+      "order": 25,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0025",
+      "size": 716800,
+      "contentHash": "f2e16d972bd4ae9ec61ddc638abd3b9e5859af1fb7fa79c635a0aa2669d97a5c"
+    },
+    {
+      "order": 26,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0026",
+      "size": 716800,
+      "contentHash": "fd246d65e56d3537f3f474bd9507eb3811e0662caf5a996cd585e5469f1a1786"
+    },
+    {
+      "order": 27,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0027",
+      "size": 716800,
+      "contentHash": "5a2fdd48ae68fe0f6e20f3e17923e83c32491e45e119a5ccf2c4cd7b455b6ea0"
+    },
+    {
+      "order": 28,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0028",
+      "size": 716800,
+      "contentHash": "4c54bbd8d9e666ad47c0c1df4d213c39ca141b8796e4ec47e6e7be261b9d3cf4"
+    },
+    {
+      "order": 29,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0029",
+      "size": 716800,
+      "contentHash": "3281c6f46560e3e5c48a08a4748ee2d975656c0eaeac6734019a72d698b34119"
+    },
+    {
+      "order": 30,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0030",
+      "size": 716800,
+      "contentHash": "6c3cca7ed35565492d90284d9902a58718d9741f289d33e544a93f596d418b47"
+    },
+    {
+      "order": 31,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0031",
+      "size": 716800,
+      "contentHash": "1a7e26e71d6798fd06ad2db18a3a0751f41c0b97ed8f964300d5deb566d48c03"
+    },
+    {
+      "order": 32,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0032",
+      "size": 716800,
+      "contentHash": "3ad8614e088e867badac6a6063ef9915ab4c41f9aa03920601e01829463e35c4"
+    },
+    {
+      "order": 33,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0033",
+      "size": 716800,
+      "contentHash": "fb7fb1802ef901a3f82440ea4fca407a9131154f495c2c331b7f1af17e97bf7c"
+    },
+    {
+      "order": 34,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0034",
+      "size": 716800,
+      "contentHash": "ac088b479f0f5d01b31e92a296e5640b4c1d78d4303a7d95328b9fca2d1add53"
+    },
+    {
+      "order": 35,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0035",
+      "size": 716800,
+      "contentHash": "c111a16fbf741423f7c59c66440f16bd852e708f9cdab8ae53225bd6a692d975"
+    },
+    {
+      "order": 36,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0036",
+      "size": 716800,
+      "contentHash": "80d7728f11754574e16df87e7962f7c4d67035ce8aa47911c0c1f1a0ca2a0b5a"
+    },
+    {
+      "order": 37,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0037",
+      "size": 716800,
+      "contentHash": "62d840d9c3a80ee41a9dc939cfeaeb6456f23d392fca4f5f7e8f4f692a0de87d"
+    },
+    {
+      "order": 38,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0038",
+      "size": 716800,
+      "contentHash": "3ad10716f66e90e4f740318bcf97318c0104ad33fc91cb4f3d208182288d4195"
+    },
+    {
+      "order": 39,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0039",
+      "size": 716800,
+      "contentHash": "8cb0fa0be6a1b78eadfbf6cd86b8daa3c301312a06d9a4c0f398051b50434bc8"
+    },
+    {
+      "order": 40,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0040",
+      "size": 716800,
+      "contentHash": "1e839a6e7f026a16ab02b9a1c08fc7c4eb2595b2fbe21ebf4d97037d62806a8f"
+    },
+    {
+      "order": 41,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0041",
+      "size": 716800,
+      "contentHash": "f10fc82e9043a693e4fb9863162281029b2ee2371f7522a16be2652c82a0cbd0"
+    },
+    {
+      "order": 42,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0042",
+      "size": 716800,
+      "contentHash": "048eca7dd9eea2e50e2a30ff214f641eece32ac31240fdc75f7fcdcd21f4fc86"
+    },
+    {
+      "order": 43,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0043",
+      "size": 716800,
+      "contentHash": "d918a89d16779d1c110ca3d0714a5c94a171d544a4fcb896613825e0e3a68284"
+    },
+    {
+      "order": 44,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0044",
+      "size": 716800,
+      "contentHash": "45d51f68e554b4ebed5a6090a004204e5b8cc572752fedb7e95bb271df56f9d2"
+    },
+    {
+      "order": 45,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0045",
+      "size": 716800,
+      "contentHash": "c796f78065cfa35602a71ba0bdd31ba9dbb1f7583face56b09f62cd884fbe091"
+    },
+    {
+      "order": 46,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0046",
+      "size": 716800,
+      "contentHash": "58f7dad99d44628ba4dfb67e41d2b7d17ecfe753f27c40f9a1962e00340e2edb"
+    },
+    {
+      "order": 47,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0047",
+      "size": 716800,
+      "contentHash": "dadc024eb2028cbf4438567d669045517a5c08e31d97b93cf8dafb19294e6016"
+    },
+    {
+      "order": 48,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0048",
+      "size": 716800,
+      "contentHash": "c5bead2d43a682cc0843c6c3c73e79e0727503cbe7956d6670912945d1cd7ad1"
+    },
+    {
+      "order": 49,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0049",
+      "size": 716800,
+      "contentHash": "08175bf38cc2ced7610e2956e17eaa376ce30733788e150c7815af9ba3a9fe87"
+    },
+    {
+      "order": 50,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0050",
+      "size": 716800,
+      "contentHash": "6bd1979fe58c0df87669c0b73989dbe59237cf101bac7bb9f68914a17234850d"
+    },
+    {
+      "order": 51,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0051",
+      "size": 716800,
+      "contentHash": "b9b7254bcf0e2f72bffda5fd1e0231462f53fa2dc3da9f24f6b05409017af575"
+    },
+    {
+      "order": 52,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0052",
+      "size": 716800,
+      "contentHash": "722760bdda9e58b85742824c9bd4fd14ada4288abc0ded8d450bf302673bbe36"
+    },
+    {
+      "order": 53,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0053",
+      "size": 716800,
+      "contentHash": "141bea3ab73a74b439dbc117a33147b94bdb6736c216c05e8f2bea8c7b98d7f8"
+    },
+    {
+      "order": 54,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0054",
+      "size": 716800,
+      "contentHash": "c9d67408f2dd341c940f975a8585ab03bd0a241762a4c9c4ba9b3dd5e68509d0"
+    },
+    {
+      "order": 55,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0055",
+      "size": 716800,
+      "contentHash": "0c488eb45ff1640d464cab0a35a528d9c9aff878fa8bbdf47a7acc5a04248610"
+    },
+    {
+      "order": 56,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0056",
+      "size": 716800,
+      "contentHash": "eb5de2e0a4c40e2813402e16447a5da768dd3c405ca2ab976feaae714770d06f"
+    },
+    {
+      "order": 57,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0057",
+      "size": 716800,
+      "contentHash": "6626ac3f640f1b71804343d00e2b10967875e53add8db55b04ffb985228ee5ed"
+    },
+    {
+      "order": 58,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0058",
+      "size": 716800,
+      "contentHash": "8cacd7e9c2405757301bce0ea5cc6117cdbc97111d765998c83aff119c3cfedc"
+    },
+    {
+      "order": 59,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0059",
+      "size": 716800,
+      "contentHash": "7eb9d28e21a9a7d1d905a47f9c43c6f7df242a8404df2777e20b38eeb630c3a9"
+    },
+    {
+      "order": 60,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0060",
+      "size": 716800,
+      "contentHash": "596705abed52a7925aeb9fff802604fbd1c62cd9c2988d012ea754c0d27e40aa"
+    },
+    {
+      "order": 61,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0061",
+      "size": 716800,
+      "contentHash": "6757f6ba1a39e317799ab0076abbfcfe3f52c9063438cc616717984b1660b8ff"
+    },
+    {
+      "order": 62,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0062",
+      "size": 716800,
+      "contentHash": "bc286c074b5479b8298445b89c95d84eb3f60b00139e95f2b445148eca29f207"
+    },
+    {
+      "order": 63,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0063",
+      "size": 716800,
+      "contentHash": "1b2341a538a57bf04280b66da3b14ae571ad5fa448e10459f22f65988914d38e"
+    },
+    {
+      "order": 64,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0064",
+      "size": 716800,
+      "contentHash": "d4586466e7aefd094dd5429edb7765f8bf72535976a1578a24e002b7628912de"
+    },
+    {
+      "order": 65,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0065",
+      "size": 716800,
+      "contentHash": "5a444a14894022c2e962fd8d97e0375ea33f9fa1c7212576f519bb0cf8708e25"
+    },
+    {
+      "order": 66,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0066",
+      "size": 716800,
+      "contentHash": "caba044912665fdea9eb8917873089d6387269ebaf50624b060e0f5bef37cc0a"
+    },
+    {
+      "order": 67,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0067",
+      "size": 716800,
+      "contentHash": "49ff8b01fc32db73bebe2eebcc63e6f928875ac7475f4b9c5157e130226c6d68"
+    },
+    {
+      "order": 68,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0068",
+      "size": 716800,
+      "contentHash": "2c3a2a25007b7b136824320044facbbdffa1026e87dbdaece24e61c7739cf814"
+    },
+    {
+      "order": 69,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0069",
+      "size": 716800,
+      "contentHash": "a63577ec987bbf8f14555ae8b0fc6e8320a8c9bf022b76ba90d5cd5e40a27015"
+    },
+    {
+      "order": 70,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0070",
+      "size": 716800,
+      "contentHash": "fd74da81c06646ed2dc46a1b3f5cc0ff3a98666c5948ad83606296254335e9a5"
+    },
+    {
+      "order": 71,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0071",
+      "size": 716800,
+      "contentHash": "30910981e65952ad72c9d5fb7239f01af27ca16202d25d06a23e66770dc96faf"
+    },
+    {
+      "order": 72,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0072",
+      "size": 716800,
+      "contentHash": "9746ff667f1aa8ebaadfcbb654c834a4249edc67d6f4e4a7840130b01be46694"
+    },
+    {
+      "order": 73,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0073",
+      "size": 716800,
+      "contentHash": "f7e58c4c471077deb47b3101df1353be61f1b1305145711c7a7e73f5249de0d4"
+    },
+    {
+      "order": 74,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0074",
+      "size": 716800,
+      "contentHash": "6cc86b8f5bec81c4df353be6e04e3497686dbaf82355136bc12bc28cdf564d74"
+    },
+    {
+      "order": 75,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0075",
+      "size": 716800,
+      "contentHash": "a02a2e281593f09644e28ee6e76ca844d0015014b354a82e215bb7f2009aa043"
+    },
+    {
+      "order": 76,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0076",
+      "size": 716800,
+      "contentHash": "c7edb315b54555820e597e1edb7134dc0d965b1575de312d4f2a3be521f5ead2"
+    },
+    {
+      "order": 77,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0077",
+      "size": 716800,
+      "contentHash": "10a695fab60a5349d99bea6f79ce804076ebe63ef9f57107264184e56221dec0"
+    },
+    {
+      "order": 78,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0078",
+      "size": 716800,
+      "contentHash": "a383a270808e8ce93401ab55e613ecf04070311a97a5617ba97d7b53f06a509c"
+    },
+    {
+      "order": 79,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0079",
+      "size": 716800,
+      "contentHash": "d2a3c64bf3c65578d38d215e5ff61615b5ebc75bc9c591f6de393ed08ea947f6"
+    },
+    {
+      "order": 80,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0080",
+      "size": 716800,
+      "contentHash": "4061f2b973fc1d6f4ca031e4dd770ab89900b3baa15bfb4a1d33fa19a9d32425"
+    },
+    {
+      "order": 81,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0081",
+      "size": 716800,
+      "contentHash": "3435a751c249b2ba49b1dc85eb5cacc491d8652da5a2688c09e120ec0333ffcd"
+    },
+    {
+      "order": 82,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0082",
+      "size": 716800,
+      "contentHash": "6ca2bca2056552de4b34cfc15a987ea243c422bc0c21a739978b9c68b1b289fa"
+    },
+    {
+      "order": 83,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0083",
+      "size": 716800,
+      "contentHash": "8be2c125f97270fd4c878202dd862836d2ae3122bd5f7d486d4b6662b92a285c"
+    },
+    {
+      "order": 84,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0084",
+      "size": 716800,
+      "contentHash": "db018352da05d7c3ee6de6ec78fcb13fe6a2a4cbb305cac66ba99e201df78c37"
+    },
+    {
+      "order": 85,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0085",
+      "size": 716800,
+      "contentHash": "415a55313f19c361bae75b05d32818dc72ad6838498d95d7b2161973c9ec650b"
+    },
+    {
+      "order": 86,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0086",
+      "size": 716800,
+      "contentHash": "5ca1921f10aa7df2c786159e004176138f8836ae456c05685411466a5282dde1"
+    },
+    {
+      "order": 87,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0087",
+      "size": 716800,
+      "contentHash": "75a0d0551e5a638e8da9731ee9f40a6aa3c62cc4d4718ead60b06b3aa593750e"
+    },
+    {
+      "order": 88,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0088",
+      "size": 716800,
+      "contentHash": "478793498307af3c249cf6af8da59442d53d141ae9f3bccc277ac662524eee7d"
+    },
+    {
+      "order": 89,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0089",
+      "size": 716800,
+      "contentHash": "383368ca6f37696a7d7003403782f878f78c494788fb15917d0a8a718b3b053a"
+    },
+    {
+      "order": 90,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0090",
+      "size": 716800,
+      "contentHash": "d07a1b4d4a368c102f8d007a73d008e590f375f7c1e6da6961683e7e02e7e4bb"
+    },
+    {
+      "order": 91,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0091",
+      "size": 716800,
+      "contentHash": "f240bcca7fea0c4fabb437a9e647cdd3d2fa3915388563ad0a9e6de3b3756e5f"
+    },
+    {
+      "order": 92,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0092",
+      "size": 716800,
+      "contentHash": "3511b3f9e47aa30b269ea5a4c7865ff7f02d02f06eaf26b21a42a1569993a9c0"
+    },
+    {
+      "order": 93,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0093",
+      "size": 716800,
+      "contentHash": "a811e1170b1e11e468c5e8a6444e99f64d6ca115a55d86d8a28c4519fe40ad40"
+    },
+    {
+      "order": 94,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0094",
+      "size": 716800,
+      "contentHash": "ed420edf4fcd2ea49be30e16876f9bc45042a764638aab5cac6ac9778ad51b59"
+    },
+    {
+      "order": 95,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0095",
+      "size": 716800,
+      "contentHash": "c054985305747d78dac712280fe25e8587d908125aac6baa7783dee4d5962a35"
+    },
+    {
+      "order": 96,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0096",
+      "size": 716800,
+      "contentHash": "92be03ed8587b5a3f095ebff7f43430673fbeed0aa5901342eab08a2634b3429"
+    },
+    {
+      "order": 97,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0097",
+      "size": 716800,
+      "contentHash": "4ebd6f4f1d3c60f3cf08642960820e6769d8a00a72ef9249067de9d3c6e79f68"
+    },
+    {
+      "order": 98,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0098",
+      "size": 716800,
+      "contentHash": "fdfd5fd9cbe4421270cc42aea99963c65dc370b1a054b68af28fcc48ea3e0315"
+    },
+    {
+      "order": 99,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0099",
+      "size": 716800,
+      "contentHash": "f65236add4b380805029773e2a43b1c8cb7866ed736e36a54b42c4546f2539fa"
+    },
+    {
+      "order": 100,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0100",
+      "size": 716800,
+      "contentHash": "41760ef41e5b5b313d8442a4a4d209b09ea30c9711c74ed508710dfe0d9f6e23"
+    },
+    {
+      "order": 101,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0101",
+      "size": 716800,
+      "contentHash": "cdc5e2cd78bfaaa8d826050d852b50b8aa71d37354262872a374aaf3dfd3a99b"
+    },
+    {
+      "order": 102,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0102",
+      "size": 716800,
+      "contentHash": "303c10c7c0b3837bd14968dad5545d427b57ef46f9b402decda05e87fe1afefd"
+    },
+    {
+      "order": 103,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0103",
+      "size": 716800,
+      "contentHash": "91bb4593636f3baf884d3cc33388b6c2216cd6d43d248fd741208577689be735"
+    },
+    {
+      "order": 104,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0104",
+      "size": 716800,
+      "contentHash": "be8a63d1eb94bec8f79a0634f9dee1c58ad3345799a67c857b3c7cf882297111"
+    },
+    {
+      "order": 105,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0105",
+      "size": 716800,
+      "contentHash": "a527febb9a26a9bb59a615fa1e48306af5ea6d00274102584cc99ae3696eb423"
+    },
+    {
+      "order": 106,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0106",
+      "size": 716800,
+      "contentHash": "42851b23ce6215d035567636ce76f7e5fc2d1749309eb04bfedab1ec98a8dfad"
+    },
+    {
+      "order": 107,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0107",
+      "size": 716800,
+      "contentHash": "e4b934dec84272f0944a8c88b3c3c73d20f14228b07e429bd51cd0e70519b713"
+    },
+    {
+      "order": 108,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0108",
+      "size": 716800,
+      "contentHash": "14f00a85eccbe5b9065c4a7948c91d4aba62f55ca1144892ff409d86d403734a"
+    },
+    {
+      "order": 109,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0109",
+      "size": 716800,
+      "contentHash": "eea8c14f6e74340f8185438b77dfd09545050f3186dd3c2ecf6d130925472b2c"
+    },
+    {
+      "order": 110,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0110",
+      "size": 716800,
+      "contentHash": "52c7dff525bfb65bdb53ce248cdbc579f90816569faf2f3c2b663f39d26bc4d5"
+    },
+    {
+      "order": 111,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0111",
+      "size": 716800,
+      "contentHash": "0fdfc070167c97fb3daff0cc324d07b7b7c870ead9360ddb7c0feb5ea6488c0b"
+    },
+    {
+      "order": 112,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0112",
+      "size": 716800,
+      "contentHash": "0a20a74581fa063ffc4ef426fd44ca2468fdfc9121f6805f16d2241f8503d393"
+    },
+    {
+      "order": 113,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0113",
+      "size": 716800,
+      "contentHash": "dcfa15e35f40b5cde9214cfe31492f87c9f643385287f9fd108f73e2fe141271"
+    },
+    {
+      "order": 114,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0114",
+      "size": 716800,
+      "contentHash": "98af69ee752b196288f791d42773ba481514a56aa93119cf9e449f0b66594e22"
+    },
+    {
+      "order": 115,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0115",
+      "size": 716800,
+      "contentHash": "083816c0bc8abb6b18fbac22e64999150e2b312328c41fd6cd83f683314460fe"
+    },
+    {
+      "order": 116,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0116",
+      "size": 716800,
+      "contentHash": "3e0abfaf9bd5df0504216cd8266820e57e63ee091ae89b9ea0bbcf3067cac4a1"
+    },
+    {
+      "order": 117,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0117",
+      "size": 716800,
+      "contentHash": "92a700efadc8a668a77b56b9593a532385ece017390c99542aa1d964c4ccb7e0"
+    },
+    {
+      "order": 118,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0118",
+      "size": 716800,
+      "contentHash": "1018edcc6f32b73d53274c63a2c5e9ff02bb964dfaec6c1bb93f68a484a7a0b6"
+    },
+    {
+      "order": 119,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0119",
+      "size": 716800,
+      "contentHash": "27fae6545c726602e0c17e8f731a51ec688064758d4e0a0416f907502acb7c21"
+    },
+    {
+      "order": 120,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0120",
+      "size": 716800,
+      "contentHash": "538e80dcf759f1b1dac5fa72d915187fa19bce9075d1611ee202565a1ca2f834"
+    },
+    {
+      "order": 121,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0121",
+      "size": 716800,
+      "contentHash": "ecddcbad31a0713ce9d8b15c8016898cea2fb6db2f7711857d9c81cf8ae08650"
+    },
+    {
+      "order": 122,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0122",
+      "size": 716800,
+      "contentHash": "6b9dc70be28c008f590c1012722490182405c3bdb00949ed5e0ff1c56057b7c0"
+    },
+    {
+      "order": 123,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0123",
+      "size": 716800,
+      "contentHash": "91de5b9f5a911c8eda432a0df9cdc44bd4a7b9488c27de2330685209a8ebc254"
+    },
+    {
+      "order": 124,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0124",
+      "size": 716800,
+      "contentHash": "ef7337aa816b8025d7b0b5a9f8c3188ea1bf543bda5bde6f91ebd1cf1b8ea2a4"
+    },
+    {
+      "order": 125,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0125",
+      "size": 716800,
+      "contentHash": "e93bc81601c077e70c2e441bdae70f18e2f4d86909309fd1bab3275954bc84d2"
+    },
+    {
+      "order": 126,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0126",
+      "size": 716800,
+      "contentHash": "98d124d876fa1351b14594452b5354d4b054c73487609dae3dde22435ce38095"
+    },
+    {
+      "order": 127,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0127",
+      "size": 716800,
+      "contentHash": "70a13328df932e23215298571950cb05b74177ac7a7f77aca3b125c70f06bcb0"
+    },
+    {
+      "order": 128,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0128",
+      "size": 716800,
+      "contentHash": "0c3c57c29c02cdb20b8237e46b08735e1c32b612932614e83d43d5922436383d"
+    },
+    {
+      "order": 129,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0129",
+      "size": 716800,
+      "contentHash": "b0d63e79f0035f16361c4daaa065c6c5b47db819eb0fcaca705cda29b1d443d5"
+    },
+    {
+      "order": 130,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0130",
+      "size": 716800,
+      "contentHash": "430fbffc0251e9829f79b6dcdf684adb16414862d174e6009bc581cc99de922a"
+    },
+    {
+      "order": 131,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0131",
+      "size": 716800,
+      "contentHash": "bb0ae28f954ad0d84fe86013eac5771f4c54ae64b4790c0ff34ad30c9ab32fb5"
+    },
+    {
+      "order": 132,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0132",
+      "size": 716800,
+      "contentHash": "4d370bef3af53a7f43f13161dea536b19a10419a98c140214e4500890c7dd7a0"
+    },
+    {
+      "order": 133,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0133",
+      "size": 716800,
+      "contentHash": "b15e92330cb2f3bc8797febf0d92a6339840599ce5f034b96ad129b2edfbf9d6"
+    },
+    {
+      "order": 134,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0134",
+      "size": 716800,
+      "contentHash": "a0a23a63a25a29883c0b8be375f01f450e979875259fd537d78445e0f8c1a585"
+    },
+    {
+      "order": 135,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0135",
+      "size": 716800,
+      "contentHash": "de32fd871c4f497057eeb2cc3c3d33b0198e30510e2066a67512e5ce5d35d896"
+    },
+    {
+      "order": 136,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0136",
+      "size": 716800,
+      "contentHash": "1acdfc629ecc0f0f1568759c808b6b1085ef01353d3a73bfb2c6d14e210f40bb"
+    },
+    {
+      "order": 137,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0137",
+      "size": 716800,
+      "contentHash": "7a8940229172cbd15f74db0673420e3facca01e48343823ac35bd6407c57cdff"
+    },
+    {
+      "order": 138,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0138",
+      "size": 716800,
+      "contentHash": "22f5f64735c3782948b5f19203f9d70b933b9315787976d171ad87c2577bd1b7"
+    },
+    {
+      "order": 139,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0139",
+      "size": 716800,
+      "contentHash": "a89bd9631b750f84523e15e2423fb5b0ddc4d04ff11612d8c3520741b5603f45"
+    },
+    {
+      "order": 140,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0140",
+      "size": 716800,
+      "contentHash": "e1e20193185e3fbdff0bab15e96d7c06caf1943a95ff576fdcf9356532ca3b54"
+    },
+    {
+      "order": 141,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0141",
+      "size": 716800,
+      "contentHash": "c7c5bcea9d0d100dc243afee79b4e961566bf837854f2af0f0da27993f68bb76"
+    },
+    {
+      "order": 142,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0142",
+      "size": 716800,
+      "contentHash": "b76b3b89a387e3e41ef079ce29d5c9c4c4643938f5d90115edab89b0b77849ae"
+    },
+    {
+      "order": 143,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0143",
+      "size": 716800,
+      "contentHash": "50ff363bc08934e67edd35cc476d3098c85ed4909cc11b1d241e4b2778b8e10c"
+    },
+    {
+      "order": 144,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0144",
+      "size": 716800,
+      "contentHash": "edd3bd8ff313147db5e101e9c26d1c6735ef786dbb4b21324dde6bf58651c371"
+    },
+    {
+      "order": 145,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0145",
+      "size": 716800,
+      "contentHash": "8b055f73c14540d89ae3679d2f5d0fd0809fab15fdab80295eab1e9dcf547ff6"
+    },
+    {
+      "order": 146,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0146",
+      "size": 716800,
+      "contentHash": "9c8f703750cd4b80244ec99060b602dc8c611e0dc881fa19fbd49fbc3b4446de"
+    },
+    {
+      "order": 147,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0147",
+      "size": 716800,
+      "contentHash": "229c72d201a634e040da8598073c1157ffcc31144e39ccba27be42c51d50a977"
+    },
+    {
+      "order": 148,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0148",
+      "size": 716800,
+      "contentHash": "8c9e8bf29421d64b4584c76cf6a57612c1cdcde8eb0fe69c1080e1b0d2a3c828"
+    },
+    {
+      "order": 149,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0149",
+      "size": 716800,
+      "contentHash": "dae8a4bbf58d14e11850c4c9bf8c3182cbd6d3b8c2df458a65608924dc6cb67f"
+    },
+    {
+      "order": 150,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0150",
+      "size": 716800,
+      "contentHash": "fd462c4caae9f87d29a30c08fa161e9c2fd056a7e6beebcd0a96595d93e6171e"
+    },
+    {
+      "order": 151,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0151",
+      "size": 716800,
+      "contentHash": "4792bdeb5643201a43cf15a26d662f96f1aa129c6a7c8d14bcec5ef0f01a6161"
+    },
+    {
+      "order": 152,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0152",
+      "size": 716800,
+      "contentHash": "5413b8d3abc3a1f2fc7c90a0f3ddd4b1f3f144e8798e315ea9855a0447d2cc98"
+    },
+    {
+      "order": 153,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0153",
+      "size": 716800,
+      "contentHash": "c7769c3d2802f3c5bb5e58889ef2645e1aaedcfebc9baeecedc664587f6f99cf"
+    },
+    {
+      "order": 154,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0154",
+      "size": 716800,
+      "contentHash": "cd772e2ea89bfdcf32f0d0de2b0dfcd8c902523be4311acb43b6030b943a873a"
+    },
+    {
+      "order": 155,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0155",
+      "size": 716800,
+      "contentHash": "97de688821b6d108bc73e4826b4d0ad78fe712a86f5f0e2df88e97981cf08e8f"
+    },
+    {
+      "order": 156,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0156",
+      "size": 716800,
+      "contentHash": "601ea9a4f891249f1bb6874bf824964239831ecc6dd33d60b3d3a2fbcb08e12a"
+    },
+    {
+      "order": 157,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0157",
+      "size": 716800,
+      "contentHash": "f60651d18f387095edc8d84105d9eefb8c55a4137e62a5aafe72ed4e3c4f50e6"
+    },
+    {
+      "order": 158,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0158",
+      "size": 716800,
+      "contentHash": "3ec5a48b5f8d55deaeda796908dbafe6c6cf8e1cf62b0a1d49949bdc522f2c27"
+    },
+    {
+      "order": 159,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0159",
+      "size": 716800,
+      "contentHash": "726e66a8ef753adeca79fd7a99c7cc8bdffd284635501990daac150bc28a7d3e"
+    },
+    {
+      "order": 160,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0160",
+      "size": 716800,
+      "contentHash": "7eae1d5f494b3409e77756a897a4284cf1c20b05fc30dd531c9db7d0ecad57aa"
+    },
+    {
+      "order": 161,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0161",
+      "size": 716800,
+      "contentHash": "f9f7a2c5a6b5d9e64a1eeba51cdad046d0325479704ca2d992539d74f268cb63"
+    },
+    {
+      "order": 162,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0162",
+      "size": 716800,
+      "contentHash": "1d9109b94170255df7feff1d7d71f7ab3069c85f6f9aafcc5371270f79cf9704"
+    },
+    {
+      "order": 163,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0163",
+      "size": 716800,
+      "contentHash": "2eddf294fbd097f22847f84bfbe990f3aa801e21447bbe33dcf56cc2caad980a"
+    },
+    {
+      "order": 164,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0164",
+      "size": 716800,
+      "contentHash": "404f6063de5e02f24ef89dfe3162856ae4232bbfbc79bd9ae7e792320fa8e2d1"
+    },
+    {
+      "order": 165,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0165",
+      "size": 716800,
+      "contentHash": "27b08e2f5d5722daa7d1c394865eba250476616a032ba11c2c9d16d6f26d5417"
+    },
+    {
+      "order": 166,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0166",
+      "size": 716800,
+      "contentHash": "ad12971acc022d5b99b66208c0edfa26272b73fc38f1df461f57e007e94b3be5"
+    },
+    {
+      "order": 167,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0167",
+      "size": 716800,
+      "contentHash": "da87d98d8d9c0a20bc489b15e7f0e3c419aeca590037b22e744ac2255b1b9f40"
+    },
+    {
+      "order": 168,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0168",
+      "size": 716800,
+      "contentHash": "054cafc9b972fc329333cfaa4af30de7fac10c77d068d314fc3c84bf64312bd6"
+    },
+    {
+      "order": 169,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0169",
+      "size": 716800,
+      "contentHash": "ff687f18827388db2ca3f5b2fb874eddf27653107d23ceefc85fb9edd8bab68a"
+    },
+    {
+      "order": 170,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0170",
+      "size": 716800,
+      "contentHash": "a886a9aeb6a99ad9de536944d0641fdc3e6e729fbc74b5cbab5ddc0b9bfeb099"
+    },
+    {
+      "order": 171,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0171",
+      "size": 716800,
+      "contentHash": "e558f703dccda92714cee0463b18820e10c2619e6e123ede185955851a7f36d7"
+    },
+    {
+      "order": 172,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0172",
+      "size": 716800,
+      "contentHash": "0303f8e6917dfaa329e0cc8044b2c8830b6a53511914af1ae67014538993ff28"
+    },
+    {
+      "order": 173,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0173",
+      "size": 716800,
+      "contentHash": "38ac805901b097d6fa408cf80b2e8527461488db41500cda5d080f7831dcfff8"
+    },
+    {
+      "order": 174,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0174",
+      "size": 716800,
+      "contentHash": "ca68a755ffb6d6d446de6fba24f881b98799f8f633506f66ae504e1d32ef7d1f"
+    },
+    {
+      "order": 175,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0175",
+      "size": 716800,
+      "contentHash": "16b94395c6b1323451f57b409117fb6c79239870b7489540513c028eb82a400a"
+    },
+    {
+      "order": 176,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0176",
+      "size": 716800,
+      "contentHash": "893562887bc38fab43925cadc41711366247602273c714b195ba809e12840ee9"
+    },
+    {
+      "order": 177,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0177",
+      "size": 716800,
+      "contentHash": "34c40d69dd49c19e768e410941729033f96124f61cfc446acb35dfb9ab33d709"
+    },
+    {
+      "order": 178,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0178",
+      "size": 716800,
+      "contentHash": "dd74f4567c9494a8419ed3e11b4afa9714d1cba42012d72a1681dcd6523fe29c"
+    },
+    {
+      "order": 179,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0179",
+      "size": 716800,
+      "contentHash": "18b24685800c13dbc39f723194f00e3875d3f7e7a31b45c3b10d22170fbc4ee9"
+    },
+    {
+      "order": 180,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0180",
+      "size": 716800,
+      "contentHash": "89eb0bdf239d5eba0316ee4e31d4019fbdad00f5909a346bfccc541e7b952e07"
+    },
+    {
+      "order": 181,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0181",
+      "size": 716800,
+      "contentHash": "233067ea15cf095fb4b0e018994f93361d4d3b1fc1dec1625015cb5ff1cac884"
+    },
+    {
+      "order": 182,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0182",
+      "size": 716800,
+      "contentHash": "95174f29aa6f93d9934d69256870a45105aa3bd3eae3a37c38c78dee9f257a8f"
+    },
+    {
+      "order": 183,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0183",
+      "size": 716800,
+      "contentHash": "f9222e119b0f7f189eaa5aa0086fb5ca3f2c5b3855e2b00cf77fdfa757865a2e"
+    },
+    {
+      "order": 184,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0184",
+      "size": 716800,
+      "contentHash": "9102258bf028bcacbc38999e977b96f6bd7a2d9dccc81a281fc3d48ba6adf11f"
+    },
+    {
+      "order": 185,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0185",
+      "size": 716800,
+      "contentHash": "3e39a34983d87a73b7f47a597cc8fe6dc0c49a98c88286c73498cfdc77f7564f"
+    },
+    {
+      "order": 186,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0186",
+      "size": 716800,
+      "contentHash": "3918f55b6a268ddc1770466efbac299e0fbf349723067b61d39fd273833cf34e"
+    },
+    {
+      "order": 187,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0187",
+      "size": 716800,
+      "contentHash": "3c3a60e9da6f2d7e98c6797ff20f286258bf65b05ed67fd07d83a7b43e107bfa"
+    },
+    {
+      "order": 188,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0188",
+      "size": 716800,
+      "contentHash": "4ab24ae86458767569488658d6ff73d6c5da82f142cb8d90ba35f3af63a3cb3a"
+    },
+    {
+      "order": 189,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0189",
+      "size": 716800,
+      "contentHash": "efd855a218f5a87ee79dcaa0ef50d69f521d519e2ff1f7685870cce62aa2d944"
+    },
+    {
+      "order": 190,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0190",
+      "size": 716800,
+      "contentHash": "09d5810a9d5b74ab407ed9c41f3f4d30b145f68742ee97a9e2e3d8c7b114d4c4"
+    },
+    {
+      "order": 191,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0191",
+      "size": 716800,
+      "contentHash": "150bf2767c57629975939d7918e2846df017c3ced113ab834e8c0ae0269aecba"
+    },
+    {
+      "order": 192,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0192",
+      "size": 716800,
+      "contentHash": "b810ebdc67912a19a49530b271c490942b9c19d6ec41ee63512aaea8d4b09236"
+    },
+    {
+      "order": 193,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0193",
+      "size": 716800,
+      "contentHash": "5d3616bbf3b97d218f8d52d3c9b5a3f8a3010c1b0c5b129b6215ff746afd732e"
+    },
+    {
+      "order": 194,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0194",
+      "size": 716800,
+      "contentHash": "4b95ccc7b7de868b8c43e75c5a824295eae1fb36f8ca7c706847fc7598fddd38"
+    },
+    {
+      "order": 195,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0195",
+      "size": 716800,
+      "contentHash": "440440a578bef4339cdeb91f3de33cda8ce6de7aeba1daf6a343cae7da7524d9"
+    },
+    {
+      "order": 196,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0196",
+      "size": 716800,
+      "contentHash": "acd5f0feed168ba37827e93c02dd369b807a806fda7e3632e3635bb460e305ea"
+    },
+    {
+      "order": 197,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0197",
+      "size": 716800,
+      "contentHash": "e951adf2a9a67d1d7c949ad9d33734be41076cb0b560fafcd945258ac6bb7875"
+    },
+    {
+      "order": 198,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0198",
+      "size": 716800,
+      "contentHash": "19baedaea277d523c878337662604aebd1b1e7ddb2cceb627e70f4b2adc831b6"
+    },
+    {
+      "order": 199,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0199",
+      "size": 716800,
+      "contentHash": "b58a95b7bc46587a46c5e1037f237f43ce169016d520435eee7c9b92ae2d7e90"
+    },
+    {
+      "order": 200,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0200",
+      "size": 716800,
+      "contentHash": "39f671768e5b612a34040b3bd43635eff9ffb30e52b015557bd4e26e6e261327"
+    },
+    {
+      "order": 201,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0201",
+      "size": 716800,
+      "contentHash": "8bb2f37050f7f1d11c8e8903bc68a785ac7fd3f0b5c5216ae4865de9f8afa4f8"
+    },
+    {
+      "order": 202,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0202",
+      "size": 716800,
+      "contentHash": "94918b90a41f4e76ccd0f1182fe83414ae27823026cf46540e0849c59b5ff16f"
+    },
+    {
+      "order": 203,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0203",
+      "size": 716800,
+      "contentHash": "5916bb97c2a0bab58c04563a9880cd494d308bc8e799195239c33cb2ce5df456"
+    },
+    {
+      "order": 204,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0204",
+      "size": 716800,
+      "contentHash": "c23d9035582b93431e1424c98fdb271faeb1a40000295a5e4181853ac40f5fbd"
+    },
+    {
+      "order": 205,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0205",
+      "size": 716800,
+      "contentHash": "906fcaf87403fe64b7cef683541403458bd58bc7b70e6b78979f0bc4f8274fc7"
+    },
+    {
+      "order": 206,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0206",
+      "size": 716800,
+      "contentHash": "d6ec2b39b8a0b9d337d69e8382c8d2821d9a42eff7c97fe280532792d45eed24"
+    },
+    {
+      "order": 207,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0207",
+      "size": 716800,
+      "contentHash": "e02366357e9d5ddaa6866328a39f71be866e1b90df408570d7b4ec4debcad291"
+    },
+    {
+      "order": 208,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0208",
+      "size": 716800,
+      "contentHash": "03320836b90800f1fcad87035dd0c559aa250c328d942f9ce74ba31ab33c282c"
+    },
+    {
+      "order": 209,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0209",
+      "size": 716800,
+      "contentHash": "ced71fe33834f6cc81cc23aaa20354be3df6f7301ccd583f4740afb45f233d89"
+    },
+    {
+      "order": 210,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0210",
+      "size": 716800,
+      "contentHash": "49f0f4dd290e0d3becb5c07022925cb286446348c49fdf0ab2f405d626a2c5eb"
+    },
+    {
+      "order": 211,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0211",
+      "size": 716800,
+      "contentHash": "564e4f1542407eefb47c288845a9c3995a095f3575e04971aeb3bc34a87ebc2d"
+    },
+    {
+      "order": 212,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0212",
+      "size": 716800,
+      "contentHash": "e27f2b8cb1d5a14d9ad7cb0ee5f80e1e495d5733b34eb2e5ad84973baf90ec80"
+    },
+    {
+      "order": 213,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0213",
+      "size": 716800,
+      "contentHash": "6724bdf14bcd3aca2aea2763add58c3152458ad62334e10b7f5010fcd1f2dfdf"
+    },
+    {
+      "order": 214,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0214",
+      "size": 716800,
+      "contentHash": "640adfc74aa664572509530fd82d02d2802e5647f0b6b7ddc203ce610db03ea7"
+    },
+    {
+      "order": 215,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0215",
+      "size": 716800,
+      "contentHash": "b3c0e707632de808074ebfd948be6f4289500fc0d4f4d66a093eba4e6b391eee"
+    },
+    {
+      "order": 216,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0216",
+      "size": 716800,
+      "contentHash": "15f8fca95ed302887584621ade9c30de991051b48ba62abee96061e4451bb9f3"
+    },
+    {
+      "order": 217,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0217",
+      "size": 716800,
+      "contentHash": "c7f72b89d1d13959a6b02ee1c7db8820826237a90186643ae3c2da0d45ddbd56"
+    },
+    {
+      "order": 218,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0218",
+      "size": 716800,
+      "contentHash": "2bb3ed14730f4639cfd0fc2dd6d93f75d7144aa91c64c4964d70e919b9ca59dd"
+    },
+    {
+      "order": 219,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0219",
+      "size": 716800,
+      "contentHash": "3371a5be9bd51ff61196b7012411e0b12a41f3d492a9743a872497a394105c86"
+    },
+    {
+      "order": 220,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0220",
+      "size": 716800,
+      "contentHash": "da8081db2b03b6b84e0f9c71cb5b381225de24287bfcee442f2ea64a0a2bfb6e"
+    },
+    {
+      "order": 221,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0221",
+      "size": 716800,
+      "contentHash": "8c59f623d1bf9b0baa66e7ab028124fa91ba0e612ecdb59721a31f1859624449"
+    },
+    {
+      "order": 222,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0222",
+      "size": 716800,
+      "contentHash": "20c60b22b9c565aab3120dd146743b0279ee58b1f548739232b23f954e2404a1"
+    },
+    {
+      "order": 223,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0223",
+      "size": 716800,
+      "contentHash": "b117b0005a92c01ac029c493af1cf299d7259488b7d17f313458fa2b580cd39b"
+    },
+    {
+      "order": 224,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0224",
+      "size": 716800,
+      "contentHash": "bb2b48972910e2fea4bfbb0a3cc7bc8ef2e8068986aaaae9d9fc9dd9cec05441"
+    },
+    {
+      "order": 225,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0225",
+      "size": 716800,
+      "contentHash": "e51bd1a65b431b2d8164540a6a65d5e79ecd249ad202e53500dcdb10f60f7285"
+    },
+    {
+      "order": 226,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0226",
+      "size": 716800,
+      "contentHash": "1e3d3ce183d0edabf8db8e04e8d7e0b1aaa758c07dc75a056a429a4e9ebaa1ef"
+    },
+    {
+      "order": 227,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0227",
+      "size": 716800,
+      "contentHash": "bfb29e8301d58d53321f6febbc4f2ecd5925eddf827772d1e7e9bf13af8535f8"
+    },
+    {
+      "order": 228,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0228",
+      "size": 716800,
+      "contentHash": "507a38454426c2e61556fd54a8e3c929a96572cbd0008906fd22f35f7c60509d"
+    },
+    {
+      "order": 229,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0229",
+      "size": 716800,
+      "contentHash": "eacf6e90c5dde1e31493662a8eb64bc9cc33116c8b2a94fbd73db01ead4f00de"
+    },
+    {
+      "order": 230,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0230",
+      "size": 716800,
+      "contentHash": "0e549490a6ff262f1cc80d233cb004cd0e9a2be3924e42fa9f23632b95c07f35"
+    },
+    {
+      "order": 231,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0231",
+      "size": 716800,
+      "contentHash": "68cd7712d66effc637965b5ee86a0a18c9ea296a5051c6616bff45b401285c36"
+    },
+    {
+      "order": 232,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0232",
+      "size": 716800,
+      "contentHash": "d0caeccd7a91c92869596caf36979ac14ab1e46e352e65fe03a47f15ed169350"
+    },
+    {
+      "order": 233,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0233",
+      "size": 716800,
+      "contentHash": "bc49461961ce01504ae2dba9050a02fc48002fbc78b35f206e8ac2d210ca7e3c"
+    },
+    {
+      "order": 234,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0234",
+      "size": 716800,
+      "contentHash": "79f9c7996644743854a26272c7f6557acf0e16cc1b2cf056dd3ec5bd512e4695"
+    },
+    {
+      "order": 235,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0235",
+      "size": 716800,
+      "contentHash": "f7b7e3fb80d701e806b50c2380f836c872c048bb433e1f1b2d44a2b17cd4b59e"
+    },
+    {
+      "order": 236,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0236",
+      "size": 716800,
+      "contentHash": "e275813c133dfbaece19615f4b4b5d50aca0c72650e506d282eb47a5e72fa727"
+    },
+    {
+      "order": 237,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0237",
+      "size": 716800,
+      "contentHash": "7672c379fddf917d6c7ac4629405042ba49609881a79c46ab461156542e3f22f"
+    },
+    {
+      "order": 238,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0238",
+      "size": 716800,
+      "contentHash": "40ac786730cb427003110b4188555d6f0718af7f17894b49b7087198c7db2563"
+    },
+    {
+      "order": 239,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0239",
+      "size": 716800,
+      "contentHash": "240a75257415612621e446c15e0d7a4a9e89d1297f13191a4321a6e7a6d4f4a7"
+    },
+    {
+      "order": 240,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0240",
+      "size": 716800,
+      "contentHash": "fdba3cde139c48c619844c450f75614482faee89b46d0f82fa36547fd4656693"
+    },
+    {
+      "order": 241,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0241",
+      "size": 716800,
+      "contentHash": "a8c8659da55f92888956db89add33e26ac13ef91b1df9cb58e727ab88d8ad72a"
+    },
+    {
+      "order": 242,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0242",
+      "size": 716800,
+      "contentHash": "c0ead6722bf0093c9c3aeceaf2be339f1e9288b73c3ea1fe5103117a4bc76157"
+    },
+    {
+      "order": 243,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0243",
+      "size": 716800,
+      "contentHash": "878d67405c9efc87b34864850bd8b82df3e7ab349733a874c8dd067890684b7e"
+    },
+    {
+      "order": 244,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0244",
+      "size": 716800,
+      "contentHash": "c3b11a315c5015e80a2477ea208d9ee42da1f7b313431c7b58c053e6a51e4446"
+    },
+    {
+      "order": 245,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0245",
+      "size": 716800,
+      "contentHash": "ab653f460027e6722034409ff26d8e3db5666aae3c12a2c71b9069c3af67685a"
+    },
+    {
+      "order": 246,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0246",
+      "size": 716800,
+      "contentHash": "6b30be1037de689ed4a0a1fd4aa4595fd9ef051b8b5ca7539aed291e61c3bdba"
+    },
+    {
+      "order": 247,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0247",
+      "size": 716800,
+      "contentHash": "e697a1c5a40d8f694ac10cc3f64ce8928fb4d5d7e1b687a30287c1b3d625b178"
+    },
+    {
+      "order": 248,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0248",
+      "size": 716800,
+      "contentHash": "079b3b7dd3035621076365c70bc1abe2e7955b623aca3810a5c329f27952de7b"
+    },
+    {
+      "order": 249,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0249",
+      "size": 716800,
+      "contentHash": "2e727184b1d5a225787b0f1c095ec63f59d7f6b05f3133b10aa773815a8aa52c"
+    },
+    {
+      "order": 250,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0250",
+      "size": 716800,
+      "contentHash": "3ea3e65ceaeb977fcb7ab4b40026f852cca93cd1d860f45b6ef9ade2d15390d7"
+    },
+    {
+      "order": 251,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0251",
+      "size": 716800,
+      "contentHash": "72f9edf00aa56f5dd6c421892203744ae4eb989f1dccc2e4511a3f37dc10a8d3"
+    },
+    {
+      "order": 252,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0252",
+      "size": 716800,
+      "contentHash": "66f60944c03c4a5936267f2555ddb1777e9b56368a244d205137c76a38265dfe"
+    },
+    {
+      "order": 253,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0253",
+      "size": 716800,
+      "contentHash": "0d74688bdb4fc6799c181400e9aa44fcbed1b275f94a44f871d12562325b772c"
+    },
+    {
+      "order": 254,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0254",
+      "size": 716800,
+      "contentHash": "ebe8ec547a3aefc29fd5d3171146d60cdf4d4fcb1dfee15dbc50dda462268d27"
+    },
+    {
+      "order": 255,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0255",
+      "size": 716800,
+      "contentHash": "db874cdca882187361f3e5d7e095d1a3f9ad332a16b6d64f6495c09e111f7702"
+    },
+    {
+      "order": 256,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0256",
+      "size": 716800,
+      "contentHash": "7eaaafaa0458c0fdf7695e877a77b64c56587805c7a2d92176f4a1b38da2c744"
+    },
+    {
+      "order": 257,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0257",
+      "size": 716800,
+      "contentHash": "4b38a65a68766839d3350b31ee07898266f005a42b00835b0713cb9156efd702"
+    },
+    {
+      "order": 258,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0258",
+      "size": 716800,
+      "contentHash": "911780a76c83076ee2eb05fbfff8d543d9f82b6c7b0d0a1cd1c881f9475b9ba2"
+    },
+    {
+      "order": 259,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0259",
+      "size": 716800,
+      "contentHash": "e659951dc29cec95650a6e06a51048c3c8e66f0c1641b6f8388fbadfbcf2b003"
+    },
+    {
+      "order": 260,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0260",
+      "size": 716800,
+      "contentHash": "823da72bc308da9221a1b314066ba4a4a199e3a146ebbbfbb0f65e862bd2a8b7"
+    },
+    {
+      "order": 261,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0261",
+      "size": 716800,
+      "contentHash": "46611ddcacc5a055da63d32873fd6c09620483c570ec893d98dfc4fdb97f470c"
+    },
+    {
+      "order": 262,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0262",
+      "size": 716800,
+      "contentHash": "ad53d85c7bd38225e8feb87fc467d5fe0fead1a76c135baf3cfeae6bc3ffa46e"
+    },
+    {
+      "order": 263,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0263",
+      "size": 716800,
+      "contentHash": "a108b47e023a506053aaaab81f6579e4814be9328045e9743ffa7e71d1ae1aa2"
+    },
+    {
+      "order": 264,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0264",
+      "size": 716800,
+      "contentHash": "7d8a90f598f5765ee2ffc8dd9812cbe590fad3ae6ef6e5c58549d4719e55084d"
+    },
+    {
+      "order": 265,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0265",
+      "size": 716800,
+      "contentHash": "b78a9cea21c022c8eeed35b415f5093cd0e0d54872083f38d9df770d156be54b"
+    },
+    {
+      "order": 266,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0266",
+      "size": 716800,
+      "contentHash": "8ddf425a27b02c695fbb0b6233f6784dbc1f4d11b3e083e7fe398899e545a20c"
+    },
+    {
+      "order": 267,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0267",
+      "size": 716800,
+      "contentHash": "6ed43accd772865df505117feb7d930ea530a00d24cb36b0f097df86bd38a82e"
+    },
+    {
+      "order": 268,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0268",
+      "size": 716800,
+      "contentHash": "f5327b84639c6b6765dcd1aa99f7baaad550c6710cf2325726567bdc8401b413"
+    },
+    {
+      "order": 269,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0269",
+      "size": 716800,
+      "contentHash": "ed87e8ad754db8dfb815b3b73cab695f87293d36ea88ceb86196e6dbe7214da5"
+    },
+    {
+      "order": 270,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0270",
+      "size": 716800,
+      "contentHash": "78f133b52e3b1c1f0ac975d08bd345e1ddb51c83c38b5fa2163ad6523adb6a57"
+    },
+    {
+      "order": 271,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0271",
+      "size": 716800,
+      "contentHash": "dfcff6df2d60fcaa6ab7cbde7b4e921b67765dd0cd90188a767773aedf74ca57"
+    },
+    {
+      "order": 272,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0272",
+      "size": 716800,
+      "contentHash": "e97bfca8d347667cdcad3feed8d35c2223aff087d1ebaef6f0d36c1f1c368448"
+    },
+    {
+      "order": 273,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0273",
+      "size": 716800,
+      "contentHash": "4efa4a3264590f686d0a3adc6e4f6ea95f4baa0602bbcfadf7948f3778eb42bf"
+    },
+    {
+      "order": 274,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0274",
+      "size": 716800,
+      "contentHash": "d2e1a42a835f0971ddc2403b766c4ec9b2e4f213791fe6ab08535bbaf07c7197"
+    },
+    {
+      "order": 275,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0275",
+      "size": 716800,
+      "contentHash": "b65efcb1b1cbc5f7a9743c8105101131ca49659255f68460ac49eb4d74c0b2b3"
+    },
+    {
+      "order": 276,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0276",
+      "size": 716800,
+      "contentHash": "a22706fb8db03910c52d64c4e8d929cf481993e5536e79c0d0261e49564a58c2"
+    },
+    {
+      "order": 277,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0277",
+      "size": 716800,
+      "contentHash": "e5074f5c7ee16fdafea3500d562c9672406b37c92f6214274ebdf582f58874e5"
+    },
+    {
+      "order": 278,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0278",
+      "size": 716800,
+      "contentHash": "d13d6eefa933d8b465f93badd2529065b20beb5da0b47cdd07f5e3f7faa485a3"
+    },
+    {
+      "order": 279,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0279",
+      "size": 716800,
+      "contentHash": "ec9f0c2e29bf874d3bfca5946866f5b7ebeb4c8fb75f7f28d0939e70ba835e73"
+    },
+    {
+      "order": 280,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0280",
+      "size": 716800,
+      "contentHash": "344654dedf8bf2b321b613943c8d29dde9678c1f0b31bb0554a740d358aebb25"
+    },
+    {
+      "order": 281,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0281",
+      "size": 716800,
+      "contentHash": "3c73b9f38c2590e2541f9ebfc66dd3fa8703dd92b706efc0fb600fc43e9b745e"
+    },
+    {
+      "order": 282,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0282",
+      "size": 716800,
+      "contentHash": "f88d1c9a1a06cd29f2ec674b14a64bdf7c048a68b41c7e0bee2407b21cdd0171"
+    },
+    {
+      "order": 283,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0283",
+      "size": 716800,
+      "contentHash": "292c9b43a321d500204914547279dd292c16c2b199901f23246eaf86b09f69bf"
+    },
+    {
+      "order": 284,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0284",
+      "size": 716800,
+      "contentHash": "c25cf077f654b5fcc579fbea40131d121ae5331db0f91be4d658ddb2701342f6"
+    },
+    {
+      "order": 285,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0285",
+      "size": 716800,
+      "contentHash": "ac13abbde00c5863523877bbee880cee0aa3583ea5d2116effa8821077b7cd34"
+    },
+    {
+      "order": 286,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0286",
+      "size": 716800,
+      "contentHash": "1f9f0825b3307428cd7ee4938962eb634c10e392262bc7e723bc6ab3ad7b5391"
+    },
+    {
+      "order": 287,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0287",
+      "size": 716800,
+      "contentHash": "0c9cc8cd644a828be3ad29c5789fe7a1068a62be591fa10e060b74b13bab8851"
+    },
+    {
+      "order": 288,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0288",
+      "size": 716800,
+      "contentHash": "6ebce7d41fd16f241591d989dbf9439db374f2ee9cd7d5bfc5636fda96f21e46"
+    },
+    {
+      "order": 289,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0289",
+      "size": 716800,
+      "contentHash": "94ffec4b3c05db823c92cd2c8040a17682a175011d790baef60192df18b5ff4f"
+    },
+    {
+      "order": 290,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0290",
+      "size": 716800,
+      "contentHash": "10f3c0b97a3e68955c1e74003d9ad7e1b39b200a2d2101a002d72fe59045028a"
+    },
+    {
+      "order": 291,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0291",
+      "size": 716800,
+      "contentHash": "e2eab10ef7c9214a6ea40672c6949bfa5f5cbb4319ce75c4d74b649027de07bc"
+    },
+    {
+      "order": 292,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0292",
+      "size": 716800,
+      "contentHash": "ad8ef4bd866d0cf6993923a0fef8442229a6362b2766fbbeffbf119323029a76"
+    },
+    {
+      "order": 293,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0293",
+      "size": 716800,
+      "contentHash": "6a146d1b703373439e9c01d1f1da315a84576b7088dbb94b762da72df38cdd0a"
+    },
+    {
+      "order": 294,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0294",
+      "size": 716800,
+      "contentHash": "50c34bd59866a8a6f8d91eebf61c115cd81f56f8d6cea248a7ce3bba2ee24131"
+    },
+    {
+      "order": 295,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0295",
+      "size": 716800,
+      "contentHash": "66c93c42d6eae2968768c34908e2c6b3ab8299d356c917de698add7b9da8c513"
+    },
+    {
+      "order": 296,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0296",
+      "size": 716800,
+      "contentHash": "b44358e6d837a122e40f19e6bad98c956c6cf0031035ac415a27b99fa3255687"
+    },
+    {
+      "order": 297,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0297",
+      "size": 716800,
+      "contentHash": "5fae90b722ee225393fb7e328ba3f9de2b3a49499071e3a621cbc7addef28213"
+    },
+    {
+      "order": 298,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0298",
+      "size": 716800,
+      "contentHash": "72be18573db81009538656dd19415e224704f4b33dcdf2cf0ad4004abb59d3f3"
+    },
+    {
+      "order": 299,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0299",
+      "size": 716800,
+      "contentHash": "a1a8aa0bd4939a2f9611402ceb5938fde3db272e4464192c1b522cbaca4372a9"
+    },
+    {
+      "order": 300,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0300",
+      "size": 716800,
+      "contentHash": "0b96148bb545c27c986ffca1a72212ee2f6bf324b7d1b1dd0abb25412f0cc892"
+    },
+    {
+      "order": 301,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0301",
+      "size": 716800,
+      "contentHash": "1a2ad0748bc414b01abe8b6f9620d0cedad80ebc4d50e25d02443ab5538d8eb9"
+    },
+    {
+      "order": 302,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0302",
+      "size": 716800,
+      "contentHash": "7c6c1964e87bdc2a0dfb1d2229599d494040e88ce25e28231fe8f6196fa53e8e"
+    },
+    {
+      "order": 303,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0303",
+      "size": 716800,
+      "contentHash": "414d56919716d65761f9008afa7725f01f2941ee599a6c2ae1e26d6c836c68d3"
+    },
+    {
+      "order": 304,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0304",
+      "size": 716800,
+      "contentHash": "85ef95213b29d3d2a8a0d2dace2758d4a6e162463e51f2ebe5e6aaa19c37624a"
+    },
+    {
+      "order": 305,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0305",
+      "size": 716800,
+      "contentHash": "e9db65808c6e4d4020c8fff1a18c61a8077dd2d7a839e3cd94330abb4de36e52"
+    },
+    {
+      "order": 306,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0306",
+      "size": 716800,
+      "contentHash": "236790b3b8160305a21ca313f4ac87afc439838eb4548460eabd1eb8e231c53f"
+    },
+    {
+      "order": 307,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0307",
+      "size": 716800,
+      "contentHash": "55a6148f47d0071270b5b5a9788c11b0405d2d028edbde0e70997eff8e623993"
+    },
+    {
+      "order": 308,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0308",
+      "size": 716800,
+      "contentHash": "60cea1fa89f6c42b704daf3b2a65484311c36ff37f29a74e2d9a5ace4fe37d6f"
+    },
+    {
+      "order": 309,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0309",
+      "size": 716800,
+      "contentHash": "a0b595d409966b7ee9793c13fc61ebcefc7f8477951f09cdbd1e65854bf15835"
+    },
+    {
+      "order": 310,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0310",
+      "size": 716800,
+      "contentHash": "c6bb26857eaf411219c70cd3eed178d166270906f03212614c267fe227aa2382"
+    },
+    {
+      "order": 311,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0311",
+      "size": 716800,
+      "contentHash": "4fe5d2624c40299a67306fb1b599f4c3b2a21752a6b5a0b439d2f0edd32f62b5"
+    },
+    {
+      "order": 312,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0312",
+      "size": 716800,
+      "contentHash": "2dc67c5b9c3a370e59ce35e399b97b253e107e822fdd230672d50ea05faae624"
+    },
+    {
+      "order": 313,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0313",
+      "size": 716800,
+      "contentHash": "0720ec76c6c8711cfcf2c14a4072d04d8ccaa7907f57018f5901f95ad1521199"
+    },
+    {
+      "order": 314,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0314",
+      "size": 716800,
+      "contentHash": "b3c9efac54b528a97eeb6057ed5b0de4e1c9c6b6964905c5cbe6df9be2d8a93d"
+    },
+    {
+      "order": 315,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0315",
+      "size": 716800,
+      "contentHash": "fa4a832b4a0856611463c68fe3dca00c80052732ea7ba2523e0304bbf111e886"
+    },
+    {
+      "order": 316,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0316",
+      "size": 716800,
+      "contentHash": "7fe57f4bf9f83d1c656f50bbd0a5fb96a0004d606eaa23216d5183fca93fb2f6"
+    },
+    {
+      "order": 317,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0317",
+      "size": 716800,
+      "contentHash": "1a01dfb6823d361e7df725342d4810f58700e42eb8ec1146512cf4aa7e482225"
+    },
+    {
+      "order": 318,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0318",
+      "size": 716800,
+      "contentHash": "1ad6ad7ae48c025673192f91039416411c4711f297fd650357915df514cf68aa"
+    },
+    {
+      "order": 319,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0319",
+      "size": 716800,
+      "contentHash": "941282aace0086e0bfcb4140b27f553c4774c1396bb97916e6bc0f66fd52ac6c"
+    },
+    {
+      "order": 320,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0320",
+      "size": 716800,
+      "contentHash": "85df9e41c4cb3d6bf5b64d715392a77d5199ed1390be3cda37afda0b998ee441"
+    },
+    {
+      "order": 321,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0321",
+      "size": 716800,
+      "contentHash": "7c02ba5a9be0b8d0337805f36eb935f4241bca0ce69a2bc45ce421b21f34323d"
+    },
+    {
+      "order": 322,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0322",
+      "size": 716800,
+      "contentHash": "3f39fdf26117ed609383889889f7d992bbe35db47916250243cbdebbbc570886"
+    },
+    {
+      "order": 323,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0323",
+      "size": 716800,
+      "contentHash": "9401579db9530e710118c168454265da9160e8b7d6fe6182a420ae4ff2b55543"
+    },
+    {
+      "order": 324,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0324",
+      "size": 716800,
+      "contentHash": "907f9034cffa97dc493caaa8845fe875db13fd92f984f8cac7681d321664e5ae"
+    },
+    {
+      "order": 325,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0325",
+      "size": 716800,
+      "contentHash": "730ce4726c35ab3f79ad9bbc94c3ccc8bb4c8990420bc8b4cb4479c0ade967aa"
+    },
+    {
+      "order": 326,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0326",
+      "size": 716800,
+      "contentHash": "2576b721a55506f2ca5ac6ba5902561dbbc9b08f43b97c86b5f8223e41954c22"
+    },
+    {
+      "order": 327,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0327",
+      "size": 716800,
+      "contentHash": "5aa76a1a48cfbd01664df35a7c3973a8236caaf1efc80d8f840b837f8a12540a"
+    },
+    {
+      "order": 328,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0328",
+      "size": 716800,
+      "contentHash": "b961d71029c2fd2cc6cb07e3519e2dd956ca69b4f6e5b54c8089de324d4ebde8"
+    },
+    {
+      "order": 329,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0329",
+      "size": 716800,
+      "contentHash": "1f0392c49455f733a272a85bbedb68e73d8ab1d440adb2eb24d962de3c794f69"
+    },
+    {
+      "order": 330,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0330",
+      "size": 716800,
+      "contentHash": "377dd4bf784ff1cdf743ba6665ab49fa924f6049fb2aa966859aa10c22116840"
+    },
+    {
+      "order": 331,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0331",
+      "size": 716800,
+      "contentHash": "b7d3084de0866b13473e0b963af09580fde42648bddfeeaadfa0e1baedf552ea"
+    },
+    {
+      "order": 332,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0332",
+      "size": 716800,
+      "contentHash": "8e2ad295780460b17e7a62c906ddff700a13b2e7997550e048315883e88a8794"
+    },
+    {
+      "order": 333,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0333",
+      "size": 716800,
+      "contentHash": "8960a5a0d2992095d5767517f217bf9d121104ce2fb5700628af5cd7dd696236"
+    },
+    {
+      "order": 334,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0334",
+      "size": 716800,
+      "contentHash": "ddc83abb5cd1fb27623e3ab709f2c1d46c04983cf7e8e24f8b3ca25ff202845c"
+    },
+    {
+      "order": 335,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0335",
+      "size": 716800,
+      "contentHash": "c39287fc3c2c544543b78b46233e3b0ec22dbb8652495c470b6ac506f4ff0a8d"
+    },
+    {
+      "order": 336,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0336",
+      "size": 716800,
+      "contentHash": "bbe7f20665328f1ac07b2a2db22fa539a1a8c79fe0bba606551972c5948d89c0"
+    },
+    {
+      "order": 337,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0337",
+      "size": 716800,
+      "contentHash": "c1a20337a08aedcf611f6dce5f049f064d924b482818023a97aafa0f1da4291b"
+    },
+    {
+      "order": 338,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0338",
+      "size": 716800,
+      "contentHash": "ae5768655906d01f4603a7e22e60d69f35fd180e037b6ba694459c905c233cea"
+    },
+    {
+      "order": 339,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0339",
+      "size": 716800,
+      "contentHash": "8e7e14e94bef4d71b5426ec672ce8db525b46dee48cf35b5aebb32b9ad22084d"
+    },
+    {
+      "order": 340,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0340",
+      "size": 716800,
+      "contentHash": "f123c5ad362c5648d29304a2a46ed866f49524ea958b46acb68b81ad9654e5b5"
+    },
+    {
+      "order": 341,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0341",
+      "size": 716800,
+      "contentHash": "b7b4683c98e8032103a33e333ecaa459d22906b75944bc5c083b2de4e3ec237d"
+    },
+    {
+      "order": 342,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0342",
+      "size": 716800,
+      "contentHash": "42dc986bd78fa0cd815c606fc95f5e221b38c0a926481574afefe68bdf37647d"
+    },
+    {
+      "order": 343,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0343",
+      "size": 716800,
+      "contentHash": "673a367e3587ef7919a6479892fe2f8cc569e7280e552cb25aa3bd6b7eacc11d"
+    },
+    {
+      "order": 344,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0344",
+      "size": 716800,
+      "contentHash": "28fd12d456929199bda33efb24c0bf80f6078f3e18d177313d78f7bf3211173a"
+    },
+    {
+      "order": 345,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0345",
+      "size": 716800,
+      "contentHash": "3729f3dd6abbc8fea5d836a9cd4bdca8a17feda983044c520034c59344b6dd63"
+    },
+    {
+      "order": 346,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0346",
+      "size": 716800,
+      "contentHash": "b2bbdccdcf200d34bda0e0dce76c82ad1fdeba6a6162d6be752f0a4c74335710"
+    },
+    {
+      "order": 347,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0347",
+      "size": 716800,
+      "contentHash": "78fce6b375e9528b48061c04a8d94784c6191c9463a45e80f2b476ffa59aa75e"
+    },
+    {
+      "order": 348,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0348",
+      "size": 716800,
+      "contentHash": "3febc2b30a9e13b5b72445d7708edbb70fe5e00caa0c95b110b2bef1c08fc67f"
+    },
+    {
+      "order": 349,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0349",
+      "size": 716800,
+      "contentHash": "77ef8cc767ae3bea53008a8299ccbc4dd5e3201ff47d0af9417366757ab97757"
+    },
+    {
+      "order": 350,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0350",
+      "size": 716800,
+      "contentHash": "1ceb9f300aea25a0443cdc8f745264f0a7a4d3faca25da1d9f979f69821a3294"
+    },
+    {
+      "order": 351,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0351",
+      "size": 716800,
+      "contentHash": "b1c6b2e02a5ef40d2422ff0255ab072502d7fa2b02c9af44863f7db0d19e37ea"
+    },
+    {
+      "order": 352,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0352",
+      "size": 716800,
+      "contentHash": "a0a514df0c08c7da41d1ba100c7ffab4d16dae0b61efbd645b36e5dde08f7c2b"
+    },
+    {
+      "order": 353,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0353",
+      "size": 716800,
+      "contentHash": "c8d05d6f2d9e414bdf4693e2c398d009c2cadc4371c90484b85d41a7b67576f0"
+    },
+    {
+      "order": 354,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0354",
+      "size": 716800,
+      "contentHash": "800602c09f3b2589b4229ffaa2c0cea8e063aea63a077b9f465a2e3a35777734"
+    },
+    {
+      "order": 355,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0355",
+      "size": 716800,
+      "contentHash": "687a5e20cf4b43675b843f8539304876dc1f1d0fcd2f135c46798a261423952c"
+    },
+    {
+      "order": 356,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0356",
+      "size": 716800,
+      "contentHash": "3b1f117019ccd5b5b642a7fef5b1d05c026c6313e0ebc9b827b27a0f68d3f0dd"
+    },
+    {
+      "order": 357,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0357",
+      "size": 716800,
+      "contentHash": "1fd5ba185e80ccabe8274f77204349c50f1e3ea225bc2c14dfe71bf4e48bf03f"
+    },
+    {
+      "order": 358,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0358",
+      "size": 716800,
+      "contentHash": "311c3fd905ec89f6666183d865d5b1eed5cd921dbf592323de68f98f580c5dbc"
+    },
+    {
+      "order": 359,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0359",
+      "size": 716800,
+      "contentHash": "4c339fc7a4e1fef7a2f94f8aef977499afc73bee1ec5089a42dcdb7434d0a062"
+    },
+    {
+      "order": 360,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0360",
+      "size": 716800,
+      "contentHash": "3b97cd5ad00c35627ec7c0d7d7e8ca9f87493cf0ec5936b709b02a5f1d1a9937"
+    },
+    {
+      "order": 361,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0361",
+      "size": 716800,
+      "contentHash": "d56d70398af1d55ec03199b957d3aa2dc7af01e04eec0602c95ca42b4b18fc4d"
+    },
+    {
+      "order": 362,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0362",
+      "size": 716800,
+      "contentHash": "a9f17b0cc4d82a1f29b4e4bda22135d8f6f1ced83008972fda18be41fabc0ac4"
+    },
+    {
+      "order": 363,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0363",
+      "size": 716800,
+      "contentHash": "5badd9a79ebecb9be1706d23aa6fcff13d7c31d84c251b2664285ca8b3db3e3e"
+    },
+    {
+      "order": 364,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0364",
+      "size": 716800,
+      "contentHash": "8a593acf860af37a5d70683c18538c981569735f851a40150781c54df20d29d1"
+    },
+    {
+      "order": 365,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0365",
+      "size": 716800,
+      "contentHash": "21879d49a2bacd1565febb7d0f8b1279a173ddd95fb4a9ba853dbaa46566c04f"
+    },
+    {
+      "order": 366,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0366",
+      "size": 716800,
+      "contentHash": "7d0b47982d2b112007709e1803eff02e0190d7fe44851c19256183a367f3bbc1"
+    },
+    {
+      "order": 367,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0367",
+      "size": 716800,
+      "contentHash": "a70eafda905598346e79ffca628d8d0f61efbec219c8cc978229445e00a58ac1"
+    },
+    {
+      "order": 368,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0368",
+      "size": 716800,
+      "contentHash": "e7c84dd1b2ee5238447fdbfa24c55fe3b66ec36bbb2476ef878e2d8afe008392"
+    },
+    {
+      "order": 369,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0369",
+      "size": 716800,
+      "contentHash": "52d5081132258bcd8759795442bdd8507d6b9ba919a307640eb67193cf84ec35"
+    },
+    {
+      "order": 370,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0370",
+      "size": 716800,
+      "contentHash": "493e840c77d950177c7010f12ad650df2e1f72b3c865aaf8a415df0c9be0750e"
+    },
+    {
+      "order": 371,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0371",
+      "size": 716800,
+      "contentHash": "1caff27519c59bcf83810d1b6f58763c9c1a28e9a929b6a499f77bdf6131afd8"
+    },
+    {
+      "order": 372,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0372",
+      "size": 716800,
+      "contentHash": "900c128a9f15a9b8e1ef2a03d7f5ddb1bdfc6d187933a76abd5ada4a1732c55b"
+    },
+    {
+      "order": 373,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0373",
+      "size": 716800,
+      "contentHash": "08b046fbbf2cfd58d248d5148c43717e5b68f4160334f8b7d93054e5b3eb6176"
+    },
+    {
+      "order": 374,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0374",
+      "size": 716800,
+      "contentHash": "7a4e5f657dff79969f062b5c62905ad0fb4c3a4cf19f2e1d14eb2030f8a71076"
+    },
+    {
+      "order": 375,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0375",
+      "size": 716800,
+      "contentHash": "669678e4dac0711f2805758b60983dccd5fd038d4698270a93475b1fa84132b8"
+    },
+    {
+      "order": 376,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0376",
+      "size": 716800,
+      "contentHash": "f3d50b86c84d61306306c4d8a65793e9674944584fa0b01067a35cc18d4eda92"
+    },
+    {
+      "order": 377,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0377",
+      "size": 716800,
+      "contentHash": "fd9309ad41a1a70fbbb4130ddea06804bc759dcc72d8577e5ff32457b844ac65"
+    },
+    {
+      "order": 378,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0378",
+      "size": 716800,
+      "contentHash": "44f30f737591c1b4e446f32fed8b4b6108b26b5e629675c3d16491e86d948203"
+    },
+    {
+      "order": 379,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0379",
+      "size": 716800,
+      "contentHash": "3f6328bb41c998d6451b4654da02167a51739ba7f40f69758bbc2152f9c35fc7"
+    },
+    {
+      "order": 380,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0380",
+      "size": 716800,
+      "contentHash": "2069dccb78a889ccc8fbf712e26ef7be680f2b65f50431359bdd931d84f2ef27"
+    },
+    {
+      "order": 381,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0381",
+      "size": 716800,
+      "contentHash": "a46d7d7dd90c50733ff639d23ef91bbbee59d2511eff348a34a144e8d007e733"
+    },
+    {
+      "order": 382,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0382",
+      "size": 716800,
+      "contentHash": "fb052b2ef9886df44dffe9d6fd32bbe537a6e2d22439082462a71a8be285d627"
+    },
+    {
+      "order": 383,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0383",
+      "size": 716800,
+      "contentHash": "3ae2626a3802f737b0a36c7d9a713471a4c990b27422dfb1b86a5870b49244eb"
+    },
+    {
+      "order": 384,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0384",
+      "size": 716800,
+      "contentHash": "569fc71f415fe6af75db4209e47fa1ec4fbeee7cefd6dc2e7c45e6646ff32e02"
+    },
+    {
+      "order": 385,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0385",
+      "size": 716800,
+      "contentHash": "710ab8c2e2d6ac6248ef65332d23c275220aa9e1040b70d7d0124c8864551345"
+    },
+    {
+      "order": 386,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0386",
+      "size": 716800,
+      "contentHash": "844717f7cd9f2386e08fc4f84f708ab9d52e94842700baa895e360acd3b5d457"
+    },
+    {
+      "order": 387,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0387",
+      "size": 716800,
+      "contentHash": "a63776278803d806b6fb43d281a86dfcf8bdd229ff583bd2f38b6cd0e8059e61"
+    },
+    {
+      "order": 388,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0388",
+      "size": 716800,
+      "contentHash": "066d3ff47017e73e5810921cc11f24e9209f50afd9768fac5ff250774a9ef4a9"
+    },
+    {
+      "order": 389,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0389",
+      "size": 716800,
+      "contentHash": "d2d831c1bb7c73ff56dec021dc980720da348e934a40261346dbc7a68c511898"
+    },
+    {
+      "order": 390,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0390",
+      "size": 716800,
+      "contentHash": "7e0668230744e39f050a84593713243dda36d5fa7e983721a271be1417779f4d"
+    },
+    {
+      "order": 391,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0391",
+      "size": 716800,
+      "contentHash": "a6d51b0438cc9df55c82de4473ac31db8e6a88f49c72852b0cfde154e9f9bcbe"
+    },
+    {
+      "order": 392,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0392",
+      "size": 716800,
+      "contentHash": "f93722d196d496cf4df0666e2f8e82544c54cae6f0a9378426eb18f193552b02"
+    },
+    {
+      "order": 393,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0393",
+      "size": 716800,
+      "contentHash": "3ffbb7e616725c58b307ebb7dc2bbb661cc448a722ac94e3a67b842af940510d"
+    },
+    {
+      "order": 394,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0394",
+      "size": 716800,
+      "contentHash": "5286fef866b42aa18a327d454097d26159798efe67fd7c1d7dc93a39b4bfbc87"
+    },
+    {
+      "order": 395,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0395",
+      "size": 716800,
+      "contentHash": "67eb7ff1b2ce8b92625ad2e364be64476029f0e53f833da8de11af74ee7cd09d"
+    },
+    {
+      "order": 396,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0396",
+      "size": 716800,
+      "contentHash": "a4678e506e44f0493e99ac47081797d9766beac5b270416cc8fe6abb209fa4df"
+    },
+    {
+      "order": 397,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0397",
+      "size": 716800,
+      "contentHash": "86443355dfe62033ad8ed32c17abc3e7897f4bb03c161236a4e22cfcff983e32"
+    },
+    {
+      "order": 398,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0398",
+      "size": 716800,
+      "contentHash": "d80a880aacb461d3f68fcee8e58a71a111fb830020976454d4108972022a9436"
+    },
+    {
+      "order": 399,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0399",
+      "size": 716800,
+      "contentHash": "66ba8e4f4ed098fc7287eac4fae1cb8befa99b516f74086ee66226d37e6f7f1f"
+    },
+    {
+      "order": 400,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0400",
+      "size": 716800,
+      "contentHash": "12f9370082c15a8e2c4a12d393b26db27b71cd10e64316b202fff28ef39d06f6"
+    },
+    {
+      "order": 401,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0401",
+      "size": 716800,
+      "contentHash": "fbe81ee3936566648c3c66c26f2c2e9ed6e796d155e6f9efac7436f0f1bdab59"
+    },
+    {
+      "order": 402,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0402",
+      "size": 716800,
+      "contentHash": "13fbe7e65fce424838499551c340223ff755bfd881ca29938f6d624528545744"
+    },
+    {
+      "order": 403,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0403",
+      "size": 716800,
+      "contentHash": "a895ed92528abe28ecfd040608d97f3715078c4b7963bb36bd248878715ec4e4"
+    },
+    {
+      "order": 404,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0404",
+      "size": 716800,
+      "contentHash": "df89961665f4cfad7e6fda5dd4f07091b9c83adf2b6070970b4e9a4332c45606"
+    },
+    {
+      "order": 405,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0405",
+      "size": 716800,
+      "contentHash": "6400e29b0a454dbcd74db68a26cd90e4e8a31152733bd95da083625af6e559bf"
+    },
+    {
+      "order": 406,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0406",
+      "size": 716800,
+      "contentHash": "73024524f8616c5fcd27343033c72c06bd9f2bf203cc2170305ccc251d7e3a31"
+    },
+    {
+      "order": 407,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0407",
+      "size": 716800,
+      "contentHash": "0509075b6c3e7ec0dc7d8f6a603ad8e253e34bd84edd671de6ec7deb423b5dc5"
+    },
+    {
+      "order": 408,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0408",
+      "size": 716800,
+      "contentHash": "8c66fc624dee48c4c1f92ccc26fda1d2f6bdac490893107a43a8f1d4c880601a"
+    },
+    {
+      "order": 409,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0409",
+      "size": 716800,
+      "contentHash": "7fb1052a54ce1b0c038ebb6bf707664d0e2b410ab182eb159573dc0a06797e00"
+    },
+    {
+      "order": 410,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0410",
+      "size": 716800,
+      "contentHash": "f925f996714efd78d35c19c5dfc9ec40c568157717b3cb3ec7599c581d8bae74"
+    },
+    {
+      "order": 411,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0411",
+      "size": 716800,
+      "contentHash": "befee37c68e9f306911c102a060c6506cddf96e034178368fd230952af8fae52"
+    },
+    {
+      "order": 412,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0412",
+      "size": 716800,
+      "contentHash": "68d6dc1411a080a3af02bef5e4a997fb59b0b322277b1f8df4d1c140f15ba4ad"
+    },
+    {
+      "order": 413,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0413",
+      "size": 716800,
+      "contentHash": "68b6cccb0f90ad84710eec4ff5009da2e01e476edbe222e7c4bdb7402b156fad"
+    },
+    {
+      "order": 414,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0414",
+      "size": 716800,
+      "contentHash": "7353761f9909dce2cf341bbb276126b4b7066816e560b5f3a647c7394b20bb17"
+    },
+    {
+      "order": 415,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0415",
+      "size": 716800,
+      "contentHash": "228738929676eccc1eeddf07212fd134633e4183afb1031f992bb0a52ba7eac0"
+    },
+    {
+      "order": 416,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0416",
+      "size": 716800,
+      "contentHash": "4d94964984cdc99e670d269b399727e3daecf956aa82d57f4fd1d03283e23982"
+    },
+    {
+      "order": 417,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0417",
+      "size": 716800,
+      "contentHash": "d417795d8d2b7694884f71ee6dc223bab39f39b32821cb32726c93a2117f0dc4"
+    },
+    {
+      "order": 418,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0418",
+      "size": 716800,
+      "contentHash": "e34c9254bfaa102df090e57b9873ea950ed8397a889b1e6995b2260ef413b10e"
+    },
+    {
+      "order": 419,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0419",
+      "size": 716800,
+      "contentHash": "635fb49ceeb4cc33303e4b03caa51fa04c58adbda5a9dff6700575fc7d3e9d70"
+    },
+    {
+      "order": 420,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0420",
+      "size": 716800,
+      "contentHash": "940f159b065d8e18d67395a453608f47efed601d6875e8cd619985c5d184028d"
+    },
+    {
+      "order": 421,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0421",
+      "size": 716800,
+      "contentHash": "46029480a48df4b554190862fcaa49d66da7295e2c7daf362fb3655da06b9b0d"
+    },
+    {
+      "order": 422,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0422",
+      "size": 716800,
+      "contentHash": "308e563eec529147d089ab2f47342c4926c3792ee300bb710e82cf57aaeef397"
+    },
+    {
+      "order": 423,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0423",
+      "size": 716800,
+      "contentHash": "8c16b38677ed990b953ff33c891c2be591b24d96ea5beeb062bf9d2c98c3adef"
+    },
+    {
+      "order": 424,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0424",
+      "size": 716800,
+      "contentHash": "4f157d6a6b860fd7b023eb9c6707365f7b0a13ba87461c2e5e042d90ac347f6b"
+    },
+    {
+      "order": 425,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0425",
+      "size": 716800,
+      "contentHash": "12fc8477cf81043be0fef45c126ee8e081beac80948cdcd03310c65ca7f25b3e"
+    },
+    {
+      "order": 426,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0426",
+      "size": 716800,
+      "contentHash": "cf697d118134d090b32be27c326d4e3167ff41384e2c6d1f723ed3c2015c0258"
+    },
+    {
+      "order": 427,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0427",
+      "size": 716800,
+      "contentHash": "a68824cc257a35fda2eda81d7a2f26a5f1b8e24a5cd5a33b3516ee24b8e0f393"
+    },
+    {
+      "order": 428,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0428",
+      "size": 716800,
+      "contentHash": "43471189afeaf9ffe99fde2e3cbe2ea1d12ed298af15a99e0101d59af4795824"
+    },
+    {
+      "order": 429,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0429",
+      "size": 716800,
+      "contentHash": "cf58e64a2a7ffe39734b2bf61d6be60b8e2971d3a4fee6c8942dd2b8008247ce"
+    },
+    {
+      "order": 430,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0430",
+      "size": 716800,
+      "contentHash": "100a6b159e2ee2ce54698627cb383eff3a27b39960b7397dc879b19a424f8de0"
+    },
+    {
+      "order": 431,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0431",
+      "size": 716800,
+      "contentHash": "f8a971305f9e7f010acb912df198c955e9ff84e02d3a4398e19100f0880eb6eb"
+    },
+    {
+      "order": 432,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0432",
+      "size": 716800,
+      "contentHash": "58334e795eb24e5bdef7e4a2b35e5eafbcea9b5ad6909be020be642e508a499b"
+    },
+    {
+      "order": 433,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0433",
+      "size": 716800,
+      "contentHash": "8fb1900fb1a717b30d4aba3d61edea120e299b08e5962e6e72327f79e3817080"
+    },
+    {
+      "order": 434,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0434",
+      "size": 716800,
+      "contentHash": "54d4b051bab1879fb7e8565bea1fd69f227948aaa94054300466a4c06d7ff96d"
+    },
+    {
+      "order": 435,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0435",
+      "size": 716800,
+      "contentHash": "4bb570f6238a15f4e0f0a49052fc02ab330975f0e35336d95a05ff5be76fee54"
+    },
+    {
+      "order": 436,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0436",
+      "size": 716800,
+      "contentHash": "02327e201047b535a0ba0f20dbad80e5b7a48ec1f61c5b6e00c5963b2666060d"
+    },
+    {
+      "order": 437,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0437",
+      "size": 716800,
+      "contentHash": "074fa22adab014c66150513b2ba1a3a7346db743fb385ed22b10722540609b46"
+    },
+    {
+      "order": 438,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0438",
+      "size": 716800,
+      "contentHash": "5c23077a1884af46a95a3d4cefcc0e542ca6330e7543d8cd98ab8c399d23ba34"
+    },
+    {
+      "order": 439,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0439",
+      "size": 716800,
+      "contentHash": "2952b6167bf19f8eee03b751da90603ecef190afbcdc909b0bd73b7a27b54d6e"
+    },
+    {
+      "order": 440,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0440",
+      "size": 716800,
+      "contentHash": "5d7b961bde6a9ea2c91789782c44bf133c1ad6f73a5059bf7fd8ecb0180fe0a7"
+    },
+    {
+      "order": 441,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0441",
+      "size": 716800,
+      "contentHash": "a41575216be49d9a4edd5a7494d25c73bb4e6881780af93f4a67a513e6b8cf29"
+    },
+    {
+      "order": 442,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0442",
+      "size": 716800,
+      "contentHash": "467ce76ed8878346f283314ce5d6d2fd4ee09703fa31762fab260ea11ae09a4c"
+    },
+    {
+      "order": 443,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0443",
+      "size": 716800,
+      "contentHash": "be3eb23663f418012a7ff90563079af183fd8c239867c0d51f7c8ea21952a77b"
+    },
+    {
+      "order": 444,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0444",
+      "size": 716800,
+      "contentHash": "3d4e6c6d0574a71f2b4ba1b9b3118edae1916722549b71cebd8888b9ddf54ce1"
+    },
+    {
+      "order": 445,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0445",
+      "size": 716800,
+      "contentHash": "4599c1b50ceab5cf638b798f35f632deb863bbf8e6e5c7048f1a757ed485321e"
+    },
+    {
+      "order": 446,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0446",
+      "size": 716800,
+      "contentHash": "35ccb92c1ce2f5a404cf09f315a691ba5737f0853518101bfb4f39d3337fbe80"
+    },
+    {
+      "order": 447,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0447",
+      "size": 716800,
+      "contentHash": "7455043f68ec037dbf016c2eb0e13b318e0b29b335b89611d8ad6fea067082bf"
+    },
+    {
+      "order": 448,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0448",
+      "size": 716800,
+      "contentHash": "152d2bca5f3f96e46ee895f3948dc113fa5827b1d7fe59ee578b7ffe07e52992"
+    },
+    {
+      "order": 449,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0449",
+      "size": 716800,
+      "contentHash": "0b35393d26a9364a683be266798c126070bbd1ce9e6b8f0bc4f207515789c9eb"
+    },
+    {
+      "order": 450,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0450",
+      "size": 716800,
+      "contentHash": "2b0d3d63b26179da5236ba472dacbb6929995bce87551bbf482d289a3d86a876"
+    },
+    {
+      "order": 451,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0451",
+      "size": 716800,
+      "contentHash": "c7ecd42177d70fd272b0c8f1b2fc4e0d50d275e36016887f1369e66577288b51"
+    },
+    {
+      "order": 452,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0452",
+      "size": 716800,
+      "contentHash": "843cb9e7c38b900dc629691236e2e6fda4e6b7f802532ba366be8f6d221afcc5"
+    },
+    {
+      "order": 453,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0453",
+      "size": 716800,
+      "contentHash": "41b2817dea8a8e9a3575af0a3aabf6a2ff1fb855c3186ddf666a7827273b26f8"
+    },
+    {
+      "order": 454,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0454",
+      "size": 716800,
+      "contentHash": "27893eacaf2722a4e541d36df5609697c1ab0e17b55a0417a72946621a1a9199"
+    },
+    {
+      "order": 455,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0455",
+      "size": 716800,
+      "contentHash": "9d140e04f8a4131122672de5a920c5bd62182f071feac77aadf7e167009ed355"
+    },
+    {
+      "order": 456,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0456",
+      "size": 716800,
+      "contentHash": "1e8bf7ca24765a08da20d9a1604408998f0744304379571f9f2eebd501ad03ce"
+    },
+    {
+      "order": 457,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0457",
+      "size": 716800,
+      "contentHash": "15b099274f0873d23621589d2b9353e39b02c957b74cc60bf4a661583618ef11"
+    },
+    {
+      "order": 458,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0458",
+      "size": 716800,
+      "contentHash": "a313fca74aa90d5a2df5a06674570cee5876adcbab4db805653fefe1ab82529d"
+    },
+    {
+      "order": 459,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0459",
+      "size": 716800,
+      "contentHash": "3d04913d2f415c515ad5acd994cd605af0f3fb8a22648777d4898257b0622d81"
+    },
+    {
+      "order": 460,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0460",
+      "size": 716800,
+      "contentHash": "4b52292d05dcfb2c944198f792cecc715efa98bed4f39fc631937991832bcbb7"
+    },
+    {
+      "order": 461,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0461",
+      "size": 716800,
+      "contentHash": "870933b10868cc14358d9428e5daa617c1608e31ef142d36f819551d7a428130"
+    },
+    {
+      "order": 462,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0462",
+      "size": 716800,
+      "contentHash": "990f2844a6db599c2792368c7eb02714f73d2b574cecce4059b3c40668b2804f"
+    },
+    {
+      "order": 463,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0463",
+      "size": 716800,
+      "contentHash": "9b7fac4d5c81c023571b6de25f899d8ed7ff2bf421f6017c459e8057c66c853f"
+    },
+    {
+      "order": 464,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0464",
+      "size": 716800,
+      "contentHash": "f8653e5ca46907430fa95f89dc99ec9fb9d372f2758da1b582a627bdea9c544f"
+    },
+    {
+      "order": 465,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0465",
+      "size": 716800,
+      "contentHash": "722e7395cd73071975fdbeb70824bd3bda759876a81ebbf952ddae0b95f0426f"
+    },
+    {
+      "order": 466,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0466",
+      "size": 716800,
+      "contentHash": "1a926bbc49f686e76b80a981092343627ed3c5068f6f5b6898baab70bc771cae"
+    },
+    {
+      "order": 467,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0467",
+      "size": 716800,
+      "contentHash": "69a0d65435b0a533dbc11fed4682f3381b23168e117f7ac051d8cd529ec120a4"
+    },
+    {
+      "order": 468,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0468",
+      "size": 716800,
+      "contentHash": "8b94da79f1edd5e0ac19451ff707d7d6fb1b0c633796edb0973d4ad2f420dedb"
+    },
+    {
+      "order": 469,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0469",
+      "size": 716800,
+      "contentHash": "c2041f4e126f8791ff866bba773ccea4989b40d6aad493310e360534fa47c40d"
+    },
+    {
+      "order": 470,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0470",
+      "size": 716800,
+      "contentHash": "f3ab1c66d84b45bb20b34a1ec76c240440e5d02fffbf0d379290f8bbeac64e11"
+    },
+    {
+      "order": 471,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0471",
+      "size": 716800,
+      "contentHash": "174a2472c9946f3df444236a2c297d512eed6fd1fb4e7d595d0be73286b10962"
+    },
+    {
+      "order": 472,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0472",
+      "size": 716800,
+      "contentHash": "2a2a9bebfaf5e10bb29427b0e9b609c992498d6bdf8520cb092cc1103060efa5"
+    },
+    {
+      "order": 473,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0473",
+      "size": 716800,
+      "contentHash": "cd078e638feefc9cfb1f0437510ed5206b49b4cca3fdb1f84eeef79a1cea7c2b"
+    },
+    {
+      "order": 474,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0474",
+      "size": 716800,
+      "contentHash": "aa81802c19c4924a2ad94dc6c9fb4da32253408ed185de19257523f19203184f"
+    },
+    {
+      "order": 475,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0475",
+      "size": 716800,
+      "contentHash": "259ab0beda52d5f57fae776038eb071ffaa9ae93882f6bc37a764ca61de1f89d"
+    },
+    {
+      "order": 476,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0476",
+      "size": 716800,
+      "contentHash": "ef8a9a406103945c2493b70606b52660d903db74f6b5c01b87f699a151510a58"
+    },
+    {
+      "order": 477,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0477",
+      "size": 716800,
+      "contentHash": "16214337a4530748b8d06f050f6e10ac3de40b52595d8d56c338ee6e0c15fc84"
+    },
+    {
+      "order": 478,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0478",
+      "size": 716800,
+      "contentHash": "38f377fd21fc011abaa165bc4652530d60376dcdc00679da2b83516adcdf7b54"
+    },
+    {
+      "order": 479,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0479",
+      "size": 716800,
+      "contentHash": "9704bc9cad9a1458807861737bfb153a5c9d17318433e6bf8181209691dfbf83"
+    },
+    {
+      "order": 480,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0480",
+      "size": 716800,
+      "contentHash": "4497ecfab741da3ba14cff309e01e18a5ee0ea6473d7ac617d5d2655ba4738b7"
+    },
+    {
+      "order": 481,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0481",
+      "size": 716800,
+      "contentHash": "6a8c213585edc4489ef12031e733658efcbb3edf6216e827912d5b0beeabea37"
+    },
+    {
+      "order": 482,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0482",
+      "size": 716800,
+      "contentHash": "f7e9bee9cf08ead52420b23cdc8575b744d4e8187ea6ae4288db8caf8b4073bb"
+    },
+    {
+      "order": 483,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0483",
+      "size": 716800,
+      "contentHash": "3539c00d460ee2889f0486c51d950da46ae17a89f5108a61759616e843c861a5"
+    },
+    {
+      "order": 484,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0484",
+      "size": 716800,
+      "contentHash": "bd2a3af6361c77d3d0de4c6161942fe21dbc66e6849eda77c7c3e0c48cf66fff"
+    },
+    {
+      "order": 485,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0485",
+      "size": 716800,
+      "contentHash": "32dd011156897baa3a8a69cded584681d6769782d9a4a0869067f7fd618116ab"
+    },
+    {
+      "order": 486,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0486",
+      "size": 716800,
+      "contentHash": "bab0b128a1d7e82ab47a84dce1f782d49c5d59f2954c295f06cce9fc3d20502a"
+    },
+    {
+      "order": 487,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0487",
+      "size": 716800,
+      "contentHash": "f4264f497ff41bcdff9867e41abba8b7bdffa3eef26ce5b1261c07a201c1c437"
+    },
+    {
+      "order": 488,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0488",
+      "size": 716800,
+      "contentHash": "22284a969e9aa6d276eb5e37ee84ce80c8361f8970cf6a0c59a710b21c61a5b8"
+    },
+    {
+      "order": 489,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0489",
+      "size": 716800,
+      "contentHash": "a7ffe248e44b1396bd50db714c8268503812958b935e1f07f12f0c1878126da2"
+    },
+    {
+      "order": 490,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0490",
+      "size": 716800,
+      "contentHash": "45433fbd2e9640fc6a2e80ac2dfd704ae2703784ecf9b464457d03c228028d41"
+    },
+    {
+      "order": 491,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0491",
+      "size": 716800,
+      "contentHash": "3d217404d2219d51d7905bc42be43afa6c1e6009a1662de2cc9fe26df3df6f76"
+    },
+    {
+      "order": 492,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0492",
+      "size": 716800,
+      "contentHash": "e938312e5fd2175de2800b2e11277f496708ca2fbfce4f5930b555c5beebec97"
+    },
+    {
+      "order": 493,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0493",
+      "size": 716800,
+      "contentHash": "4f8787d0e5b5edfcc6392b57e2ecc21ffb0d3e08d922d99af6cf6d16d8828948"
+    },
+    {
+      "order": 494,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0494",
+      "size": 716800,
+      "contentHash": "4b60cc640f7b3124287015808451c1c3a4c36fd34ade6b00fafa6cf95d6308f4"
+    },
+    {
+      "order": 495,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0495",
+      "size": 716800,
+      "contentHash": "ed1c04fa93602103cb6c80fbefc00ae5469555b61acf2e2d8e3a44cb1dda4f9a"
+    },
+    {
+      "order": 496,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0496",
+      "size": 716800,
+      "contentHash": "f6e978410e2403ae44f158caba94e308d89c26424cb7bcfefa80344acc06c77d"
+    },
+    {
+      "order": 497,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0497",
+      "size": 716800,
+      "contentHash": "a6a50db3289a6cf81a0242a88807f61fcabd7c3a6e6d022854630c6d5f837b83"
+    },
+    {
+      "order": 498,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0498",
+      "size": 716800,
+      "contentHash": "433a5404b58f38a1fc13dc338f80d9842b8e3cfc0eb5f059da45272b5c3b592f"
+    },
+    {
+      "order": 499,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0499",
+      "size": 716800,
+      "contentHash": "e0bcce59945ffe1cc101d23fd9f1f863824f23bcd95b658b2d772f4e59adcc31"
+    },
+    {
+      "order": 500,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0500",
+      "size": 716800,
+      "contentHash": "f33707efb70b980155acb7e5ab4672bf2fb80104c6705ba227c37f45e34f7ca2"
+    },
+    {
+      "order": 501,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0501",
+      "size": 716800,
+      "contentHash": "c359be0f133b5926fe8bd6ee6b3947a36c5bcbb1c2e668b2d9f94a1833585eea"
+    },
+    {
+      "order": 502,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0502",
+      "size": 716800,
+      "contentHash": "417ae5c17060281223cdcb4f927112b92e9b519caa43d53b660a36525e316ace"
+    },
+    {
+      "order": 503,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0503",
+      "size": 716800,
+      "contentHash": "bddec7f13710b47b08388a1cd67bd11920046187710d47cd958373ce11d5c58f"
+    },
+    {
+      "order": 504,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0504",
+      "size": 716800,
+      "contentHash": "8e399628185268e8fb58a54dea0e2d2aba082ba70edbb70c835ce404bf6a641c"
+    },
+    {
+      "order": 505,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0505",
+      "size": 716800,
+      "contentHash": "cbb077fa7e250a831150521654bda13eb5456596063c8010c2e9ee63d7bd98b8"
+    },
+    {
+      "order": 506,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0506",
+      "size": 716800,
+      "contentHash": "ac783adec10efc6bb25e3ec072ee1dad8fdc73c21e9d92ba83744d3082bdfee6"
+    },
+    {
+      "order": 507,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0507",
+      "size": 716800,
+      "contentHash": "4fa26e660aded8ebe1012d56f60d1fa5b13e50492e7e2add8711776ceefa4812"
+    },
+    {
+      "order": 508,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0508",
+      "size": 716800,
+      "contentHash": "6808a44b9b5992bcbdf414b9a30d6b8706dc02fc681cfe182c6d714da01ffeb6"
+    },
+    {
+      "order": 509,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0509",
+      "size": 716800,
+      "contentHash": "412e2eb34a6bbd2469e5c19ce52a72066a7e7787bca1bfdd459595083fb6369f"
+    },
+    {
+      "order": 510,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0510",
+      "size": 716800,
+      "contentHash": "107d54c1cda7d6fced337c6c61a4d9d05668796637c3436bcc733b8fe8a1661e"
+    },
+    {
+      "order": 511,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0511",
+      "size": 716800,
+      "contentHash": "f25b1dea09a428ebc2892039cafab5f2bb76248250f0dd334d99f20cd4d834c5"
+    },
+    {
+      "order": 512,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0512",
+      "size": 716800,
+      "contentHash": "b1243328509ab1ff3631875c4aa0b575232f6bd6e27b2e289cdb1c8693ce04b6"
+    },
+    {
+      "order": 513,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0513",
+      "size": 716800,
+      "contentHash": "687f24abc9e8f1116a07a3e0228cb39982b215462c16c457c882ad1fe263f1d3"
+    },
+    {
+      "order": 514,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0514",
+      "size": 716800,
+      "contentHash": "931f95a102889398eda6e247ceb1aed19f8e1a765e32dc4fe189c90b8c5d51e7"
+    },
+    {
+      "order": 515,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0515",
+      "size": 716800,
+      "contentHash": "ed1d043d26033c46778949f5c40beb769a0724cb0fa10acda228e41b3d20ce12"
+    },
+    {
+      "order": 516,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0516",
+      "size": 716800,
+      "contentHash": "bccb2a4a088c1a651c22faff9898e6f71dd60fb37d6a473435d0b863f1e38e0a"
+    },
+    {
+      "order": 517,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0517",
+      "size": 716800,
+      "contentHash": "02fe5162d8b6d4c79ecc59ab4eb2a73e281cfd17408bd4f68265b7087cb9ff8e"
+    },
+    {
+      "order": 518,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0518",
+      "size": 716800,
+      "contentHash": "4f51437c69dfcbefa3d41a91e52d9ebaab47871b42973ba87352ac6a587caae1"
+    },
+    {
+      "order": 519,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0519",
+      "size": 716800,
+      "contentHash": "71bb9b048d2f8f2ca323d9d3c8bddecbef079532680c1c79ac0fc7ee67aff634"
+    },
+    {
+      "order": 520,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0520",
+      "size": 716800,
+      "contentHash": "62d78c9bf771d197c8f3e224786d94a11199ee39207dfd72bbbb598d6a40ba51"
+    },
+    {
+      "order": 521,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0521",
+      "size": 716800,
+      "contentHash": "e902247ef8abfbff12018ab618130feb9427e43061470956cf636f7e4dda9782"
+    },
+    {
+      "order": 522,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0522",
+      "size": 716800,
+      "contentHash": "ee8ba6a61ac8e8818df63003bb174fb36cd49d3ade089cd5a649301944161a45"
+    },
+    {
+      "order": 523,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0523",
+      "size": 716800,
+      "contentHash": "db0bde4b41f91697e3708c7d0f90ef2c30c8ff0ce5e4aeb557d2f1a0722c13fe"
+    },
+    {
+      "order": 524,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0524",
+      "size": 716800,
+      "contentHash": "bcfda4338fa3afb3e75920eb61b21da64931724472bfac6a05f7d4bcd906bf6a"
+    },
+    {
+      "order": 525,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0525",
+      "size": 716800,
+      "contentHash": "834f75c3111d0839e02f5b03063bdf75554156e87abc504c602722ffb7e26551"
+    },
+    {
+      "order": 526,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0526",
+      "size": 716800,
+      "contentHash": "66ab1e1b11c1cc8fca21d75cd8ec2046ba3e01eb9a1d99b460a56bebbac5d406"
+    },
+    {
+      "order": 527,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0527",
+      "size": 716800,
+      "contentHash": "16a1b19293a89c28fa4b6cf744a4176badac8611920bb6a960d09a76db74a0d1"
+    },
+    {
+      "order": 528,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0528",
+      "size": 716800,
+      "contentHash": "3af471a6f640f4004394da8682b8ea44bb17de6cfd8cfe76b94fbeeee16cb583"
+    },
+    {
+      "order": 529,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0529",
+      "size": 716800,
+      "contentHash": "cd41eca740719661b7cb33eb7023e4e081eee8f7028a35bff5384aca453a324f"
+    },
+    {
+      "order": 530,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0530",
+      "size": 716800,
+      "contentHash": "df003a2ac4daa6153b1769763b5311f22e802948adcd90da7a16de4be02bbca7"
+    },
+    {
+      "order": 531,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0531",
+      "size": 716800,
+      "contentHash": "e258e536f4d7f627d17db18b3f2138392ab66ad763a971e2c593681283ac6811"
+    },
+    {
+      "order": 532,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0532",
+      "size": 716800,
+      "contentHash": "5635bcceeaf6ed1677754389fb44375e1e2b572a2d213b9c15739b39797109c3"
+    },
+    {
+      "order": 533,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0533",
+      "size": 716800,
+      "contentHash": "cd8bec13e7e8b070415ecc1ce94fc77100ac955582877202c92c5a82c65c51fe"
+    },
+    {
+      "order": 534,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0534",
+      "size": 716800,
+      "contentHash": "c45ac30fda8676287a9c038a0346b176ab7c3dbbe80682fa681471474fe5dd06"
+    },
+    {
+      "order": 535,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0535",
+      "size": 716800,
+      "contentHash": "3ff8f92f4d43b8be29c5cc74a75c2a35a3055ea7d51784b645553b0442edbab6"
+    },
+    {
+      "order": 536,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0536",
+      "size": 716800,
+      "contentHash": "585fd195585c09c2308c9ddbbd0d436ee451cffe7994100a9657919d9ab548d3"
+    },
+    {
+      "order": 537,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0537",
+      "size": 716800,
+      "contentHash": "482d651302f260579613a26449d0c9429d85f08136808d3be68ca1d2f8a73d74"
+    },
+    {
+      "order": 538,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0538",
+      "size": 716800,
+      "contentHash": "970b6a50bc68d2b4cfaa7c6c1d0ecfd3aded06043355e94e937c51c65def9d89"
+    },
+    {
+      "order": 539,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0539",
+      "size": 716800,
+      "contentHash": "5f36e8652f5577c11e555b1f03f9ee568845084bb36e7eee0bc185221df5cc50"
+    },
+    {
+      "order": 540,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0540",
+      "size": 716800,
+      "contentHash": "00003d2d7b7015c473ceff58d560743498171738f812691b3bcc1597da6bc0a3"
+    },
+    {
+      "order": 541,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0541",
+      "size": 716800,
+      "contentHash": "224a7068b613597cdd189a054656042db3d004e2acb5d9bc44edf73a41334ec5"
+    },
+    {
+      "order": 542,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0542",
+      "size": 716800,
+      "contentHash": "34399a6fb07db385ced2750fcc370ea8dbadc7b811fa75df6061cee45b721ff2"
+    },
+    {
+      "order": 543,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0543",
+      "size": 716800,
+      "contentHash": "51637e3f9312649a300126766296d6e45c6a6b9fee205af7fd6d188144eac6c3"
+    },
+    {
+      "order": 544,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0544",
+      "size": 716800,
+      "contentHash": "6002b94073bd2f2d6337151f5786498d51f088ccc9bdbcdfa17c7cdb12b0d666"
+    },
+    {
+      "order": 545,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0545",
+      "size": 716800,
+      "contentHash": "1882e10431ec332835a63803e2341858d38e81429628655214f4b615807de32b"
+    },
+    {
+      "order": 546,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0546",
+      "size": 716800,
+      "contentHash": "e0981aac6745c48e1595fa76e42f76046a7270113a64fab73afca4bf790a8e46"
+    },
+    {
+      "order": 547,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0547",
+      "size": 716800,
+      "contentHash": "fbfce28fb1d6fdfb88a77f0adb2bd4186fed60fb2af3f6fd6d0b0b696d07b05e"
+    },
+    {
+      "order": 548,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0548",
+      "size": 716800,
+      "contentHash": "bd65cd285cebe7c749a30f7069ef4065ab7a4e930d2b71d032c374d2c586e4d1"
+    },
+    {
+      "order": 549,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0549",
+      "size": 716800,
+      "contentHash": "9eaf816842abd687091205a2cb85530117aaf84614f4225b705a8d76af6d7d73"
+    },
+    {
+      "order": 550,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0550",
+      "size": 716800,
+      "contentHash": "b649aad2da14a8737fa3aa1003db46592f0f4d065c1643d62fa9830e8e412852"
+    },
+    {
+      "order": 551,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0551",
+      "size": 716800,
+      "contentHash": "b0577e67e145dc65d93a156e364d1334ec1f7a856ed1f95dd7c60fd5169f6c9c"
+    },
+    {
+      "order": 552,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0552",
+      "size": 716800,
+      "contentHash": "0b3cb897319403d2e37fb517adfac54e998636e39b5e44364d58ab96190c7b66"
+    },
+    {
+      "order": 553,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0553",
+      "size": 716800,
+      "contentHash": "2cb183aee031d4f06b039c7a443ef5697eaf01ce4555ec7e817764548be9503a"
+    },
+    {
+      "order": 554,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0554",
+      "size": 716800,
+      "contentHash": "73149c648ce4e56a229268e235cbca2e40cb08fc99a7bf87aa8e4f4bd1ecee7b"
+    },
+    {
+      "order": 555,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0555",
+      "size": 716800,
+      "contentHash": "1971ae342d752e9fd3e5aa4dcbf69934aec45b8f0d9ed733b6f8b23229aa0410"
+    },
+    {
+      "order": 556,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0556",
+      "size": 716800,
+      "contentHash": "aba936b66f4be6204a6599f407aa557b80a9ed4e478203fec26b4eebcbbc284c"
+    },
+    {
+      "order": 557,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0557",
+      "size": 716800,
+      "contentHash": "6970899c6083c87de80f851a0dcb26bc0bf8ef0c013a387d1fa11e13f333f7dc"
+    },
+    {
+      "order": 558,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0558",
+      "size": 716800,
+      "contentHash": "5ccb73c661379313b1beb99b4aa1ef8a9ed86f943bc9b6b9b760a0e18a855037"
+    },
+    {
+      "order": 559,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0559",
+      "size": 716800,
+      "contentHash": "2cd6184e51e64e03c282678da7fd17047d522ac9a6c8cce2de59292de02ad835"
+    },
+    {
+      "order": 560,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0560",
+      "size": 716800,
+      "contentHash": "5de44925fa1edc9f6d34054f7122ad18898282f6801dc0c046c2ebb67742fe76"
+    },
+    {
+      "order": 561,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0561",
+      "size": 716800,
+      "contentHash": "4472bd6f99f6290c84a2b21cec84f01c45c2219bd4895ff3152552517b1ef2e2"
+    },
+    {
+      "order": 562,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0562",
+      "size": 716800,
+      "contentHash": "f922fa3f2e23e7a5cda366455994b4ac99cb819c0fb250586dbb244b0f59171a"
+    },
+    {
+      "order": 563,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0563",
+      "size": 716800,
+      "contentHash": "523568b4a135dc1f44736ec068ba8c89e8d818e77b80b06b015fbaf21c30b007"
+    },
+    {
+      "order": 564,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0564",
+      "size": 716800,
+      "contentHash": "3e3fb0551327059323eccd87e8ec7a4b58af86790598c9f97cbaaaeca10846e2"
+    },
+    {
+      "order": 565,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0565",
+      "size": 716800,
+      "contentHash": "880e186e668998e6cbe7a6a7417a01d88af42e9f4df23a5df435578cd63a581b"
+    },
+    {
+      "order": 566,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0566",
+      "size": 716800,
+      "contentHash": "10a72fa0831ccaa97e25c35b93cc8109837ef987ce850ab131cacde1cd0bc100"
+    },
+    {
+      "order": 567,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0567",
+      "size": 716800,
+      "contentHash": "7c183919a30dd760d94b8db742956e5e59b2751d70f705b446af86a0cbf4222b"
+    },
+    {
+      "order": 568,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0568",
+      "size": 716800,
+      "contentHash": "6949d5fb63cbe8a386904c2bab06b4f58b3ba48777b622048632d2b79f278871"
+    },
+    {
+      "order": 569,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0569",
+      "size": 716800,
+      "contentHash": "c6cc0af5231750840fe74927765d55f0b49dfb3d54b1bff8494812e632df2a32"
+    },
+    {
+      "order": 570,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0570",
+      "size": 716800,
+      "contentHash": "3203d9a76a51938d3429d274c1b557952b2aa0515ee416e92044c02716efdce1"
+    },
+    {
+      "order": 571,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0571",
+      "size": 716800,
+      "contentHash": "ebdab157cc7236407ba8ce5dc2b317d41734cd0ed165363ad185543a69381543"
+    },
+    {
+      "order": 572,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0572",
+      "size": 716800,
+      "contentHash": "fb62f03576af6cc2bff694e685faa987204c4907a0ded6e66238fd917fe6cd2a"
+    },
+    {
+      "order": 573,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0573",
+      "size": 716800,
+      "contentHash": "067ab4379354198d836b1c4cb2733cc96dfcd2b9d236a22279de41a1b57e1e8f"
+    },
+    {
+      "order": 574,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0574",
+      "size": 716800,
+      "contentHash": "ec38e99235c8066e9701e8cde546f2284b57ba64080c2cd8ec928ab0b73c9ed3"
+    },
+    {
+      "order": 575,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0575",
+      "size": 716800,
+      "contentHash": "a94f93cb136254bda0127708287d117bda56da928a5690a019856b75356d5fb3"
+    },
+    {
+      "order": 576,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0576",
+      "size": 716800,
+      "contentHash": "8fe4c54c52ec4dea1d943f82212a0ead7b85a562640bf638da88889e4eee60b0"
+    },
+    {
+      "order": 577,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0577",
+      "size": 716800,
+      "contentHash": "438ba450611e4117def16f0a82f2f95c128281e19368cb04d9787c0d48f3bfdb"
+    },
+    {
+      "order": 578,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0578",
+      "size": 716800,
+      "contentHash": "c1fea9dfa9225f5736b38651718a2bbcda6b8de9b9d29a565acd9457c2851026"
+    },
+    {
+      "order": 579,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0579",
+      "size": 716800,
+      "contentHash": "900ba3628875584aa6397db7c281272c8fdbb0f53a4133774b08b2ea861e7ffb"
+    },
+    {
+      "order": 580,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0580",
+      "size": 716800,
+      "contentHash": "54ada389d6c7f9e6ddb8dabe33f5a9e5b6d90f8d1675e3aeb983e2832bb58423"
+    },
+    {
+      "order": 581,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0581",
+      "size": 716800,
+      "contentHash": "a7e58c489129bfcd3bda3c5ada09ec738cccab474592e46f6c2df774b92c82a2"
+    },
+    {
+      "order": 582,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0582",
+      "size": 716800,
+      "contentHash": "605f4eab5a9274bf1d80b24e95d809b0a370fa0515b7b20805e8576f64c58916"
+    },
+    {
+      "order": 583,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0583",
+      "size": 716800,
+      "contentHash": "5f4910c2e2a5a53764b248cac08af16210668b8598c846295a2bc745035da3e8"
+    },
+    {
+      "order": 584,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0584",
+      "size": 716800,
+      "contentHash": "9ba8317bd056088bd09534f4ec8c62720bf19d2a99ade5a4e736600ad6baad8f"
+    },
+    {
+      "order": 585,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0585",
+      "size": 716800,
+      "contentHash": "3fd3bbd596b4eade1a3006e290173e51dd46c91ad63646090d2c0b50237a583a"
+    },
+    {
+      "order": 586,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0586",
+      "size": 716800,
+      "contentHash": "1c847142719e6571d12ecdfb83fa8b0c2b33f977ad8de808cf41cc04a0241263"
+    },
+    {
+      "order": 587,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0587",
+      "size": 716800,
+      "contentHash": "c93b8c073a4beadd9c11115cd1965a8aca938386a519f37d4f2bf596444f74d6"
+    },
+    {
+      "order": 588,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0588",
+      "size": 716800,
+      "contentHash": "f1917b59c64313de0a563ff512860887a3a994496b8209e258c8195632d35ca8"
+    },
+    {
+      "order": 589,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0589",
+      "size": 716800,
+      "contentHash": "452ee3a7c82bee6d782fa997ec43a5bb4a1262c66f32690d7b83a86a23c0a2f4"
+    },
+    {
+      "order": 590,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0590",
+      "size": 716800,
+      "contentHash": "13b646962298a7313240948505e81882ea2cfd97b21fe8ab37a5823dc06ed49d"
+    },
+    {
+      "order": 591,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0591",
+      "size": 716800,
+      "contentHash": "e4600b1d20225801f25f5a40a2f648ea8e81e441edaa003ec0f7f1ef00bc25dc"
+    },
+    {
+      "order": 592,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0592",
+      "size": 716800,
+      "contentHash": "b740c672d2795a30d27b38556aa56e2601ea28793422a66f10c4344a246df711"
+    },
+    {
+      "order": 593,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0593",
+      "size": 716800,
+      "contentHash": "9077efda96723b0870ab76830be67896c73dfb199902b9858f396c04e4d437ae"
+    },
+    {
+      "order": 594,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0594",
+      "size": 716800,
+      "contentHash": "ffb3fb0c247ab99035077a2bcbe295e8abcdedbb092c8c9239abe635e46f0855"
+    },
+    {
+      "order": 595,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0595",
+      "size": 716800,
+      "contentHash": "25a1ddbe6beb0dacbad785fd88a8def280434ad36edaee8b1da88c670e03790a"
+    },
+    {
+      "order": 596,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0596",
+      "size": 716800,
+      "contentHash": "f9be95e03b241e59da0254d062726554862083fe0c4bf9e8ace20322a7833190"
+    },
+    {
+      "order": 597,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0597",
+      "size": 716800,
+      "contentHash": "a1096bc2d94e968cb51b9894c6dc256d93f4e748bc350865df08b144bd565088"
+    },
+    {
+      "order": 598,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0598",
+      "size": 716800,
+      "contentHash": "a43b32238b18dbf8cffae34a20647939a977b5daa675108b73254649d7bd7188"
+    },
+    {
+      "order": 599,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0599",
+      "size": 716800,
+      "contentHash": "3f31627dc97d85f7157f0967310394b53e9b66ef7c807442be0620bda1e781c2"
+    },
+    {
+      "order": 600,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0600",
+      "size": 716800,
+      "contentHash": "82a87c17d4e16d17b699b94af08ddb8571e7c0b2e2ab876fb0ecac4a05d70a8a"
+    },
+    {
+      "order": 601,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0601",
+      "size": 716800,
+      "contentHash": "fbf3cff94cab45492acb210ef681bd87182c1d33473eea688a87459a8a1d29f5"
+    },
+    {
+      "order": 602,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0602",
+      "size": 716800,
+      "contentHash": "cb8d0d51526db43e9d3a22fdaa42b3b7d102b4a138a3f129df71985b034c066f"
+    },
+    {
+      "order": 603,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0603",
+      "size": 716800,
+      "contentHash": "4b8e560b8f81af98043b4cb8d3cbece9c99a8d0c816a1e38c9540d9d70202b56"
+    },
+    {
+      "order": 604,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0604",
+      "size": 716800,
+      "contentHash": "7fc0e16061232e83c76820137d44ab36d897768efea8dc8b673f06d58ffe993e"
+    },
+    {
+      "order": 605,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0605",
+      "size": 716800,
+      "contentHash": "9c73b2ff95884ad2f9c1f5201124a2c181f64290d8cbb7e5631eea28f61e4227"
+    },
+    {
+      "order": 606,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0606",
+      "size": 716800,
+      "contentHash": "017e64dfd4a36c6fb109ad8ef6c6201b199792b6e167b51238ba63e04dadeabc"
+    },
+    {
+      "order": 607,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0607",
+      "size": 716800,
+      "contentHash": "b4b347581a9bf16c23f837581221ac844967dcd5fa6cbd436ed64b438f47e51e"
+    },
+    {
+      "order": 608,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0608",
+      "size": 716800,
+      "contentHash": "9908ecab1cd008145e80a1803ffabcf99a9da9f2b12b419d91455e4efda9695b"
+    },
+    {
+      "order": 609,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0609",
+      "size": 716800,
+      "contentHash": "f73ddabcd2f1c5868550dfd9b900fa3e2d7b58ae58351caebb6f81fc5b8a3cfb"
+    },
+    {
+      "order": 610,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0610",
+      "size": 716800,
+      "contentHash": "8e4304b9873c71bfd0f835df0e7c28a6d037d23b6f05293b6fc0c7f0ce1775ef"
+    },
+    {
+      "order": 611,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0611",
+      "size": 716800,
+      "contentHash": "a9b53247155a647e32740195edbb9b9386536b4c247304c602cce978af8ec530"
+    },
+    {
+      "order": 612,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0612",
+      "size": 716800,
+      "contentHash": "e85f318f05a6d033798f463e1ea4ecb5888f75b67b913c9d9cdaaa28fd377d20"
+    },
+    {
+      "order": 613,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0613",
+      "size": 716800,
+      "contentHash": "e2a497bc480d58e191e414d8c9861e38635af7a0924c5a56ccd0b76901d4ad0c"
+    },
+    {
+      "order": 614,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0614",
+      "size": 716800,
+      "contentHash": "4ba798a7d3fc2d9417390cc2768f093f4cece6f94ffd9902e9a641648d23df36"
+    },
+    {
+      "order": 615,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0615",
+      "size": 716800,
+      "contentHash": "eaaec3ecffcf6e04b0db8ab881c770fd3149c54b98fe306040c728b46ffb0a53"
+    },
+    {
+      "order": 616,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0616",
+      "size": 716800,
+      "contentHash": "3dcb6402fb18e998a6ccfc57b19d26f006c1d2c66d517e9e9b504be0f4ad81cb"
+    },
+    {
+      "order": 617,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0617",
+      "size": 716800,
+      "contentHash": "883a82a8463622adece6407efa4e39878930acbe127791ece0864c3312a99d5d"
+    },
+    {
+      "order": 618,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0618",
+      "size": 716800,
+      "contentHash": "e51d8566a35a7baf2c1b5aaeda3ab812c5544b6c93348182bde32d2012d2828a"
+    },
+    {
+      "order": 619,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0619",
+      "size": 716800,
+      "contentHash": "d24ce6763e2f9650d54209dd47cfa70407a833b3a319f2ab05d069c59b0781cc"
+    },
+    {
+      "order": 620,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0620",
+      "size": 716800,
+      "contentHash": "3b5e063cfbbc645272927225f4cb5512c10e5c8d146d1eb72b21fefdfdee4d6c"
+    },
+    {
+      "order": 621,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0621",
+      "size": 716800,
+      "contentHash": "7d87b8fee13029bac483ed10ff8f07ba73c841d2ab8435f8f144e0e3f43ed5c8"
+    },
+    {
+      "order": 622,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0622",
+      "size": 716800,
+      "contentHash": "13dcb008f96142a9de1650d95951b20ae107cfdee5e1d9e6115fc7bde7de2af8"
+    },
+    {
+      "order": 623,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0623",
+      "size": 716800,
+      "contentHash": "01cd4f4de857f2637b109e56d4eba42882114b5be0467dde037a353a8c95f101"
+    },
+    {
+      "order": 624,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0624",
+      "size": 716800,
+      "contentHash": "e8bc099b3d59622ffd2459ca669d6b2a365f3fe583a0a840a5c456c3f2dd6eb9"
+    },
+    {
+      "order": 625,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0625",
+      "size": 716800,
+      "contentHash": "845e2acc030de148df8ababead7a7517559573a2949817a4cd0cef9f53afe07b"
+    },
+    {
+      "order": 626,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0626",
+      "size": 716800,
+      "contentHash": "717e4eed2f984dd49f2283a38505271ce8750a290b4f9398ba7226723aaf99ce"
+    },
+    {
+      "order": 627,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0627",
+      "size": 716800,
+      "contentHash": "7e60a077b73202db9a9a8ed584e407c9318a9c8870e5b1671c4ee966324fd721"
+    },
+    {
+      "order": 628,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0628",
+      "size": 716800,
+      "contentHash": "6a8804654451c52e3cdfd52b1d294f1b87fae6ec7823db1653e38322167a38ce"
+    },
+    {
+      "order": 629,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0629",
+      "size": 716800,
+      "contentHash": "dbb168ab35f6fb5f703541d8d99d31dd70f41511eb2c55def2ea706d100847f6"
+    },
+    {
+      "order": 630,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0630",
+      "size": 716800,
+      "contentHash": "871ede2315db220daef9348e190e46eb745d781861b5745c5d32cf76d2afa365"
+    },
+    {
+      "order": 631,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0631",
+      "size": 716800,
+      "contentHash": "5736ee224280671c25ff47a3786420296dafb60163a13e48960d5cab0ebc91ff"
+    },
+    {
+      "order": 632,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0632",
+      "size": 716800,
+      "contentHash": "39c56e21a71d657fa09810fb9bbbf4136b109cc7ff7db5487c1bee5be9738825"
+    },
+    {
+      "order": 633,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0633",
+      "size": 716800,
+      "contentHash": "79651b18d15c2aef83c4bbba04b74763464162b29c3d98d1e33a6568fc9210b5"
+    },
+    {
+      "order": 634,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0634",
+      "size": 716800,
+      "contentHash": "c31ac3d27012f7bb4e5f632b1f4d340512012d4c9475aae4b40f3d73eee2f654"
+    },
+    {
+      "order": 635,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0635",
+      "size": 716800,
+      "contentHash": "2416c1d93ba16bb1916fe1d4f93af867db19fe97243801e3fd9743599237b3c7"
+    },
+    {
+      "order": 636,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0636",
+      "size": 716800,
+      "contentHash": "c659c9debed11c946e5f58f0002abe92f9f7355033628818bc2f4abb4c44881c"
+    },
+    {
+      "order": 637,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0637",
+      "size": 716800,
+      "contentHash": "93952a77904462c6a49085a1f5ee417efdd8f203ea5ed15e2a3a9f882eeef9a9"
+    },
+    {
+      "order": 638,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0638",
+      "size": 716800,
+      "contentHash": "2abea7f5008b2dceaf5e64a79de16b4b7f71d99d79c68b3b925836cdcd85b516"
+    },
+    {
+      "order": 639,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0639",
+      "size": 716800,
+      "contentHash": "220e2d8540e9e32c791eedacb01ac730dae33778ff0d1e38983fa45b54bdcc2e"
+    },
+    {
+      "order": 640,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0640",
+      "size": 716800,
+      "contentHash": "944ae6ab187c0c41be2545f3f7ea556ed7394f675b2edcb046517e24a062855c"
+    },
+    {
+      "order": 641,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0641",
+      "size": 716800,
+      "contentHash": "5edc06144743a1ca9d0169c3d77c361b2b6cf6bdcbfb985a3946f10f3bc4de81"
+    },
+    {
+      "order": 642,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0642",
+      "size": 716800,
+      "contentHash": "e2c729ecb43fe588b86dc40639e51a9deb284afad46a4eeb2ba8e8bb76af2492"
+    },
+    {
+      "order": 643,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0643",
+      "size": 716800,
+      "contentHash": "7e11e326c49810c1b4fa0bffe2dba6aa411a860c7961cac482f1d52eabead46b"
+    },
+    {
+      "order": 644,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0644",
+      "size": 716800,
+      "contentHash": "d56ef54cc4c844d2c847ac628b58bb1a8e96c354b490a32f56054a08d0705101"
+    },
+    {
+      "order": 645,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0645",
+      "size": 716800,
+      "contentHash": "53b49335058c23700c2f633a6c9f4f15f5f520c3fac89a5d0eddf3257835e301"
+    },
+    {
+      "order": 646,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0646",
+      "size": 716800,
+      "contentHash": "03bebe8d24b94beb4170ea1ad000f9edfdbaa48806bf0e472287405d7fe30d05"
+    },
+    {
+      "order": 647,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0647",
+      "size": 716800,
+      "contentHash": "89be4cbeebc8febca69607e89efcd12efae62f9b4318ba4b3a4f66d931c35b0b"
+    },
+    {
+      "order": 648,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0648",
+      "size": 716800,
+      "contentHash": "37090d0c9aa323416e017c9482421ee9cabf5a302271f0756d4ab5cefa504ab5"
+    },
+    {
+      "order": 649,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0649",
+      "size": 716800,
+      "contentHash": "849c006a7e6d2958a3a47f3c678ab2406fb9f9298ca3965ce1ebfca0b9d9d553"
+    },
+    {
+      "order": 650,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0650",
+      "size": 716800,
+      "contentHash": "6bef206e44e3bc52007c62ab9694343f2733ef0f176462eaa9ad6b5d46d547f5"
+    },
+    {
+      "order": 651,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0651",
+      "size": 716800,
+      "contentHash": "cdeb7987fb9fa282e945df2e0efff093090b18b81fa0cd5d1c49cb44af773e9c"
+    },
+    {
+      "order": 652,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0652",
+      "size": 716800,
+      "contentHash": "d9b9e54c41e3122c058962ae80ee5299f6d3ff47a6735e7f542b2c7a91f8b0de"
+    },
+    {
+      "order": 653,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0653",
+      "size": 716800,
+      "contentHash": "1f0d5f5330259924789517afbe5826441482045c225f95dbd974767e96fa03ea"
+    },
+    {
+      "order": 654,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0654",
+      "size": 716800,
+      "contentHash": "770c0e1f8e24d5df7b5d288542406bab3772f3e7f3d0a3c0628bcabbe54579d2"
+    },
+    {
+      "order": 655,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0655",
+      "size": 716800,
+      "contentHash": "5f184c3f6b27ca59b6ad14f4f918d18608788dd6dd416bef91bf7183e96b9277"
+    },
+    {
+      "order": 656,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0656",
+      "size": 716800,
+      "contentHash": "3efa4674867e6d9c0b81b31f3638c2beccaaf07697bbc31c9caf49a800463110"
+    },
+    {
+      "order": 657,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0657",
+      "size": 716800,
+      "contentHash": "f794b23c305fe5f9afa81f541669f9b5626ef53fd637375c0062018080be5a38"
+    },
+    {
+      "order": 658,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0658",
+      "size": 716800,
+      "contentHash": "92e786d6c609393e26278ac0caf12c324ae4cbbd422c2805d55d2aaf035dc2d5"
+    },
+    {
+      "order": 659,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0659",
+      "size": 716800,
+      "contentHash": "804a43f940a3cb1357720781132c0a1ab2313f24916f1e7de064f0b92b84a916"
+    },
+    {
+      "order": 660,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0660",
+      "size": 716800,
+      "contentHash": "c033e379dd75fc6a9a5ede11e415a2a17b21b72ebb2d3a2a315c57bf7bd006e2"
+    },
+    {
+      "order": 661,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0661",
+      "size": 716800,
+      "contentHash": "3cf1d2f76c7414c15b81f9d39c4c3b8166387ca73f0d8540898565aa232a4c1a"
+    },
+    {
+      "order": 662,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0662",
+      "size": 716800,
+      "contentHash": "27dd31178002816ba636c2920cd9bb22f9fdbe7a010ccb1a32275679825254b8"
+    },
+    {
+      "order": 663,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0663",
+      "size": 716800,
+      "contentHash": "105904f480a33f551848ae71c67583b7c051b6eb0cfa3fef98943c877a9cc499"
+    },
+    {
+      "order": 664,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0664",
+      "size": 716800,
+      "contentHash": "05d7d3237266335128743e3ed333a50e790217a07a756b2ba3a9272c63b24549"
+    },
+    {
+      "order": 665,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0665",
+      "size": 716800,
+      "contentHash": "2af1c1f710efb295a881992d681276f6c6635a2c89b3a40676ccd17673424fcd"
+    },
+    {
+      "order": 666,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0666",
+      "size": 716800,
+      "contentHash": "bae549972a07dbeff91ddb1380e7da9d02a5e7ccc3e57e7b15e08cd1fe0030c8"
+    },
+    {
+      "order": 667,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0667",
+      "size": 716800,
+      "contentHash": "a4e0fab6b072ccee53ad0ce761af5075f656364ad5ddec1e32f96aaa7ac40b71"
+    },
+    {
+      "order": 668,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0668",
+      "size": 716800,
+      "contentHash": "09294cb8d7400cff53119d97745ca959377d8a399a3d6d3e3f68fedbdbdfb3c5"
+    },
+    {
+      "order": 669,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0669",
+      "size": 716800,
+      "contentHash": "0ee086a8f8578133eeef62b73a2aac4aa337934a35ae886fdf785c7c7ea40c20"
+    },
+    {
+      "order": 670,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0670",
+      "size": 716800,
+      "contentHash": "43b9ff1a908104b63bf318f4815124939fa34203c14b79d158f943585fd76aae"
+    },
+    {
+      "order": 671,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0671",
+      "size": 716800,
+      "contentHash": "c1978b2f9c4b91036ea444e448ee1999308673012eee080054f9ddd68a518afd"
+    },
+    {
+      "order": 672,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0672",
+      "size": 716800,
+      "contentHash": "4f9226c6d14b361777e626ee8b54fe49ab99eb3be606fb866f63742e6d83eeff"
+    },
+    {
+      "order": 673,
+      "path": "assets/source-archives/google-photos-2026-08-08/chunks/collective-stock-001.part-0673",
+      "size": 397630,
+      "contentHash": "62705f8045b80d4890f65e5ce1e0e45b5aff93b9ce186db8b91e7d8ab1ecb219"
+    }
+  ]
+}

@@ -25,9 +25,10 @@ describe("asset manifest contract", () => {
     const required = ["id", "title", "slug", "division", "mediaType", "category", "originalFilename", "source", "width", "height", "aspectRatio", "contentHash", "perceptualHash", "dominantColors", "focalPoint", "searchKeywords", "semanticTags", "altText", "intendedUse", "license", "visibility", "originalDownloadPath", "optimizedRenditions", "approvalStatus"];
     manifest.assets.forEach((asset) => required.forEach((field) => expect(asset, `${asset.id} ${field}`).toHaveProperty(field)));
   });
-  it("reconciles discovered files without silently counting inaccessible history", () => {
+  it("reconciles every supplied file without silently counting inferred history", () => {
     expect(audit.totalFilesDiscovered).toBe(audit.totalUniqueAssetsIngested + audit.exactDuplicates);
-    expect(audit.missingOrInaccessible).toBe(265);
+    expect(audit.totalFilesDiscovered).toBeGreaterThanOrEqual(330);
+    expect(audit.missingOrInaccessible).toBe(0);
     expect(audit.brokenAssets).toBe(0);
     expect(audit.unassignedAssets).toBe(0);
   });

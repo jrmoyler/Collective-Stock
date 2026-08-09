@@ -6,6 +6,9 @@ const FIELD_WEIGHTS = {
   searchKeywords: 6,
   intendedUse: 5,
   series: 4,
+  originalFilename: 4,
+  sourceAlbum: 3,
+  albumIndex: 2,
   prompt: 3,
   dominantColors: 2
 };
@@ -59,6 +62,7 @@ export class SearchIndex {
       if (state.format && asset.fileFormat !== state.format) return false;
       if (state.featured === true && !asset.featured) return false;
       if (state.alternate === true && Number(asset.revision || 1) <= 1 && !asset.relatedAssets?.length) return false;
+      if (state.sourceAlbum && asset.sourceAlbum !== state.sourceAlbum) return false;
       return true;
     }).map((asset, position) => ({ asset, position, score: this.#score(asset, tokens) }));
 

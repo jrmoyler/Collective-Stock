@@ -4,18 +4,19 @@ Collective Stock is a manifest-driven media library for Collective AI Inc. It pr
 
 ## Current audit status
 
-The application is functional and deployable with every media file that was accessible in the supplied workspace. It is **not zero-omission complete**: 265 historical outputs described by the supplied generation packages were not present as local files or exposed conversation attachments. They are recorded in `assets/manifests/missing-assets.json`; no stock substitute or fabricated duplicate was used.
+The user-supplied `Collective Stock` Google Photos export is fully ingested and reconciled. Original bytes, archive order, content hashes, source filenames, album provenance, division/category assignments, and classification confidence are retained. No stock substitute or fabricated duplicate was used.
 
-Current local reconciliation:
+Google Photos export reconciliation:
 
-- 41 files discovered and ingested
-- 41 provenance occurrences
-- 40 division-assigned assets
-- 1 parent-brand asset
-- 0 exact duplicates
+- 330 files discovered and ingested: 326 images and 4 videos
+- 330 unique SHA-256 content hashes and provenance occurrences
+- all 330 assets assigned across the parent brand and twenty divisions
+- 0 exact duplicates within the export
 - 0 unassigned assets
 - 0 broken asset references
-- 265 expected historical outputs inaccessible across 20 documented batches
+- 0 files missing from the supplied export
+
+The earlier 265-unit figure described requested outputs inferred from conversation summaries, not verified source files. It is superseded for this ingestion. The ZIP is authoritative for this PR, but its zero-missing result does not independently prove that every output from every historical ChatGPT conversation is present.
 
 ## Run locally
 
@@ -35,6 +36,8 @@ npm run test:e2e
 ```
 
 `npm run check` regenerates division data, optimized image renditions, the manifest, provenance, search index, sitemap, Tailwind production CSS, and the deployable `dist/` folder before running unit validation.
+
+The exact supplied ZIP is committed in integrity-checked chunks under `assets/source-archives/google-photos-2026-08-08/`. Before every asset build, `assets:materialize` reconstructs the archive when needed, verifies its SHA-256, restores each full-resolution original to its classified image/video path, and verifies all 330 per-file hashes. Generated originals, renditions, and posters are intentionally gitignored; they are reproducible build outputs rather than competing source copies.
 
 ## Deployment
 
@@ -68,4 +71,12 @@ Unresolved source conflicts are documented in `docs/source-conflicts.json`; the 
 
 ## Asset re-ingestion
 
-Place newly recovered originals in the appropriate source directory under `assets/originals` or `assets/video`, add any authoritative classification override to `assets/manifests/source-map.json`, and run `npm run assets:build`. Do not delete older revisions. Identical bytes may share a physical optimized file, while each occurrence remains in `source-provenance.json`.
+Audit and ingest another Google Photos export with:
+
+```bash
+npm run assets:album:audit -- <archive.zip> <extract-directory> <audit-directory>
+npm run assets:album:ingest -- <audit-directory>/album-inventory.json <extract-directory>/Collective\ Stock
+npm run assets:build
+```
+
+For individual files, place recovered originals under `assets/originals` or `assets/video`, add authoritative classification overrides to `assets/manifests/source-map.json`, and run `npm run assets:build`. Do not delete older revisions. Identical bytes may share one physical optimized file while every occurrence remains in `source-provenance.json`.

@@ -40,7 +40,7 @@ test("division gallery, filtering, preview, and saved state work", async ({ page
   await page.goto("/division.html?division=zenflow");
   await expect(page.getByRole("heading", { name: "ZenFlow", exact: true })).toBeVisible();
   await expect(page.locator(".division-logo-frame img")).toBeVisible();
-  await expect(page.locator(".media-card")).toHaveCount(1);
+  expect(await page.locator(".media-card").count()).toBeGreaterThan(1);
   await page.locator(".media-card").first().hover();
   await page.locator(".save-action").first().click();
   await expect(page.locator(".save-action").first()).toHaveAttribute("aria-pressed", "true");
@@ -74,8 +74,21 @@ test("search dialog and combobox keyboard state clean up correctly", async ({ pa
 test("public audit exposes the real reconciliation without private paths", async ({ page }) => {
   await page.goto("/audit.html");
   await expect(page.getByRole("heading", { name: "Nothing hidden. Nothing substituted." })).toBeVisible();
-  await expect(page.getByText("265 expected outputs remain inaccessible")).toBeVisible();
+  await expect(page.getByText("Zero missing or inaccessible outputs")).toBeVisible();
   await expect(page.getByText(/assets\/originals/)).toHaveCount(0);
+});
+
+test("all four album videos have playable public previews", async ({ page }) => {
+  await page.goto("/collections.html?collection=videos");
+  await expect(page.getByRole("heading", { name: "Videos", exact: true })).toBeVisible();
+  await expect(page.locator(".media-card")).toHaveCount(4);
+  await page.locator(".card-preview-button").first().click();
+  const preview = page.locator("dialog.lightbox video");
+  await expect(preview).toBeVisible();
+  await expect(preview).toHaveAttribute("src", /^\/assets\/video\/google-photos-2026-08-08\/.+\.mp4$/);
+  const response = await page.request.get(await preview.getAttribute("src"));
+  expect(response.ok()).toBe(true);
+  expect(response.headers()["content-type"]).toContain("video/mp4");
 });
 
 test("mobile navigation is intentional and page has no horizontal overflow", async ({ page }, testInfo) => {

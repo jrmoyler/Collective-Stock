@@ -5,11 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "npm run assets:validate && npm run css:build && vite build && node scripts/copy-public-assets.js && node scripts/generate-static-routes.js && npm run verify:dist",
+    "build": "npm run assets:build && npm run assets:validate && npm run css:build && vite build && node scripts/copy-public-assets.js && node scripts/generate-static-routes.js && npm run verify:dist",
     "preview": "vite preview --host 0.0.0.0",
     "css:build": "tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/generated.css --minify",
     "assets:manifest": "node scripts/build-asset-manifest.js",
-    "assets:build": "node scripts/generate-divisions.js && node scripts/optimize-images.js && node scripts/build-asset-manifest.js && node scripts/generate-search-index.js && node scripts/generate-sitemap.js",
+    "assets:build": "npm run assets:materialize && node scripts/generate-divisions.js && node scripts/optimize-images.js && node scripts/generate-posters.js && node scripts/build-asset-manifest.js && node scripts/generate-search-index.js && node scripts/generate-sitemap.js",
+    "assets:materialize": "node scripts/materialize-google-photos-album.js",
+    "assets:album:package": "node scripts/package-google-photos-archive.js",
+    "assets:album:audit": "node scripts/audit-google-photos-album.js",
+    "assets:album:ingest": "node scripts/ingest-google-photos-album.js",
     "assets:optimize": "node scripts/optimize-images.js",
     "assets:validate": "node scripts/validate-assets.js",
     "verify:dist": "node scripts/verify-dist.js",
@@ -31,6 +35,7 @@
   },
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.3.0",
-    "@fontsource/space-grotesk": "^5.3.0"
+    "@fontsource/space-grotesk": "^5.3.0",
+    "yauzl": "^3.2.0"
   }
 }

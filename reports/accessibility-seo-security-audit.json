@@ -1,5 +1,8 @@
 {
   "report": "Collective Stock accessibility, SEO, and security audit — second verification pass",
+  "status": "superseded-inventory-snapshot",
+  "supersededBy": ["assets/manifests/google-photos-album-map.json", "assets/manifests/audit-summary.json", "reports/qa-report.md"],
+  "supersessionNote": "Inventory and route counts predate the 330-item Google Photos ingestion. Open authentication and manual accessibility findings remain pending separate verification.",
   "auditedAt": "2026-08-08",
   "timezone": "America/New_York",
   "reviewedPath": "/workspace/scratch/7ac83610e35a/collective-stock",
