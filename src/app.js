@@ -89,7 +89,7 @@ async function boot() {
     }
     lightbox.open(asset);
   };
-  const header = new Header({ divisions, activeDivision: state.division, access: data.access || "public" });
+  const header = new Header({ divisions, activeDivision: state.division, activeCollection: page === "collections" ? state.collection : "", access: data.access || "public" });
   const searchDialog = new SearchDialog({ index, assets, divisions, onSearch: searchNavigate });
   header.addEventListener("searchrequest", () => searchDialog.open());
 

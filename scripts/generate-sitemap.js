@@ -1,16 +1,12 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { ROOT, readJson } from "./lib/asset-utils.js";
+import { COLLECTION_DEFINITIONS } from "../src/data/collection-definitions.js";
 
 const origin = "https://collective-stock.vercel.app";
 const divisions = await readJson(path.join(ROOT, "assets/manifests/divisions.json"), []);
 const manifest = await readJson(path.join(ROOT, "assets/manifests/asset-manifest.json"), { assets: [] });
-const collections = [
-  "stock-images", "reference-images", "hero-images", "website-backgrounds", "app-backgrounds", "brand-sheets",
-  "component-sheets", "specification-sheets", "ui-mockups", "campaigns-advertising", "product-concepts",
-  "hardware-concepts", "motion-references", "videos", "3d-spatial-media", "recently-added", "featured",
-  "alternate-versions", "complete-archive", "public-download"
-];
+const collections = COLLECTION_DEFINITIONS.map(({ slug }) => slug);
 const paths = [
   "/",
   ...divisions.map((division) => `/divisions/${division.slug}`),

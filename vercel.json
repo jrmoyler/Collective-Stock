@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "functions": {
     "api/download.js": {
-      "includeFiles": "assets/{originals,video}/**"
+      "includeFiles": "assets/manifests/asset-manifest.json"
     },
     "api/manifest.js": {
       "includeFiles": "assets/manifests/**"

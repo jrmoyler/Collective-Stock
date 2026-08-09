@@ -59,6 +59,7 @@ export class SearchIndex {
       if (state.orientation && orientation(asset) !== state.orientation) return false;
       if (state.license && asset.license?.slug !== state.license) return false;
       if (state.visibility && asset.visibility !== state.visibility) return false;
+      if (state.downloadAuthorization && asset.downloadAuthorization !== state.downloadAuthorization) return false;
       if (state.format && asset.fileFormat !== state.format) return false;
       if (state.featured === true && !asset.featured) return false;
       if (state.alternate === true && Number(asset.revision || 1) <= 1 && !asset.relatedAssets?.length) return false;

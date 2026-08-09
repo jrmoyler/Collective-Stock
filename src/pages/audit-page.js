@@ -25,9 +25,13 @@ export function AuditPage({ audit = {}, assets = [] }) {
       el("p", { text: "This public summary separates files actually available to the build from requested historical project outputs that the current workspace cannot access. The internal archive retains the precise source ledger without exposing private prompts or file paths." }),
       el("div", { class: `audit-status ${missing ? "is-blocked" : "is-clear"}` }, [
         icon(missing ? "alert" : "check"),
-        el("strong", { text: missing ? `${formatCount(missing)} expected outputs remain inaccessible` : "Zero missing or inaccessible outputs" }),
+        el("strong", { text: missing ? `${formatCount(missing)} source archive${missing === 1 ? "" : "s"} remain${missing === 1 ? "s" : ""} inaccessible` : "Zero missing or inaccessible outputs" }),
         el("span", { text: missing ? "Zero-omission completion remains blocked." : "The zero-omission gate is clear." })
-      ])
+      ]),
+      missing && audit.missingSourceName ? el("div", { class: "audit-source-blocker" }, [
+        el("strong", { text: audit.missingSourceName }),
+        el("p", { text: audit.missingSourceReason || "This source could not be retrieved by the current provider." })
+      ]) : null
     ]),
     el("section", { class: "audit-reconciliation", "aria-labelledby": "audit-table-heading" }, [
       el("div", { class: "section-heading" }, [

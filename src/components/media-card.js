@@ -8,10 +8,24 @@ function optimizedPath(asset, size = "card") {
   return match?.path || asset.posterPath || (asset.visibility === "public" ? asset.originalDownloadPath : null) || "/assets/posters/media-fallback.svg";
 }
 
-export function MediaCard(asset, { favorites, lazyController, onPreview, toast } = {}) {
+const formatDuration = (seconds) => seconds ? `${Math.round(seconds)} sec` : "Motion";
+
+export function MediaCard(asset, { favorites, lazyController, onPreview, toast, variant = "" } = {}) {
   const saved = favorites?.has(asset.id);
   const mediaWrap = el("div", { class: "media-card__media", style: `--placeholder:${asset.dominantColors?.[0] || "#0D1326"};aspect-ratio:${asset.width || 4}/${asset.height || 3}` });
-  if (asset.mediaType === "video") {
+  if (asset.mediaType === "video" && variant === "intro") {
+    const image = el("img", {
+      src: asset.posterPath || "/assets/posters/media-fallback.svg",
+      alt: asset.altText || asset.title,
+      width: asset.width || 720,
+      height: asset.height || 1280,
+      loading: "lazy",
+      decoding: "async"
+    });
+    image.addEventListener("load", () => image.classList.add("is-loaded"));
+    if (image.complete) image.classList.add("is-loaded");
+    mediaWrap.append(image, el("span", { class: "video-indicator", "aria-hidden": "true" }, icon("play")));
+  } else if (asset.mediaType === "video") {
     const video = el("video", {
       muted: true,
       loop: true,
@@ -22,6 +36,7 @@ export function MediaCard(asset, { favorites, lazyController, onPreview, toast }
     });
     const playable = asset.previewPath || (asset.visibility === "public" ? asset.originalDownloadPath : null);
     if (playable) video.append(el("source", { src: playable, type: asset.mimeType || "video/mp4" }));
+    video.addEventListener("loadeddata", () => video.classList.add("is-loaded"));
     video.addEventListener("error", () => mediaWrap.classList.add("has-media-error"));
     mediaWrap.append(video, el("span", { class: "video-indicator", "aria-hidden": "true" }, icon("play")));
     lazyController?.observe(video);
@@ -43,6 +58,7 @@ export function MediaCard(asset, { favorites, lazyController, onPreview, toast }
       image.src = "/assets/posters/media-fallback.svg";
       mediaWrap.classList.add("has-media-error");
     }, { once: true });
+    if (image.complete) image.classList.add("is-loaded");
     mediaWrap.append(image);
   }
 
@@ -58,12 +74,15 @@ export function MediaCard(asset, { favorites, lazyController, onPreview, toast }
   });
   const previewButton = el("button", { class: "card-preview-button", type: "button", "aria-label": `Preview ${asset.title}` });
   previewButton.addEventListener("click", () => onPreview?.(asset));
-  const card = el("article", { class: "media-card", dataset: { assetId: asset.id } }, [
+  const meta = variant === "intro"
+    ? `${formatDuration(asset.duration)} · ${asset.orientation || "motion"} · ${asset.classification === "cross-division" ? "Global motion" : asset.division}`
+    : variant === "sheet" ? `${asset.division} · Component library` : `${asset.division} · ${asset.category}`;
+  const card = el("article", { class: `media-card ${variant ? `media-card--${variant}` : ""}`, dataset: { assetId: asset.id } }, [
     mediaWrap,
     previewButton,
     el("div", { class: "media-card__actions" }, [saveButton]),
     el("div", { class: "media-card__footer" }, [
-      el("div", {}, [el("h3", {}, el("a", { href: assetRoute(asset.id), text: asset.title })), el("p", { text: `${asset.division} · ${asset.category}` })]),
+      el("div", {}, [el("h3", {}, el("a", { href: assetRoute(asset.id), text: asset.title })), el("p", { text: meta })]),
       LicenseBadge(asset)
     ])
   ]);

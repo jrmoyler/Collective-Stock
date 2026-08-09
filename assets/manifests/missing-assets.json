@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-08-09T01:10:54.451Z",
-  "scope": "User-supplied Collective Stock Google Photos album export",
+  "scope": "All user-supplied source archives for the media-library perfection upgrade",
   "sourceAlbum": {
     "name": "Collective Stock",
     "url": "https://photos.app.goo.gl/fr2pzJkjpTxkbGQB9",
@@ -21,10 +21,38 @@
     "missingFromAlbumExport": 0,
     "equation": "330 album files = 330 ingested and assigned occurrences + 0 missing files"
   },
-  "missingAssets": [],
+  "ingestionBatches": [
+    {
+      "name": "Collective AI Inc Component Library -1-001.zip",
+      "status": "ingested",
+      "verifiedAssets": 42
+    },
+    {
+      "name": "Division Intro Videos.zip",
+      "status": "ingested",
+      "verifiedAssets": 20
+    },
+    {
+      "name": "Motion MP4s.zip",
+      "sourceUrl": "https://drive.google.com/file/d/1KpNbxIQwufgVshj2dXNm2sfko9wTx9x_/view?usp=drivesdk",
+      "status": "blocked-provider-download-limit",
+      "archiveSizeBytes": 829879395
+    }
+  ],
+  "missingAssets": [
+    {
+      "source": "Google Drive",
+      "sourceName": "Motion MP4s.zip",
+      "sourceUrl": "https://drive.google.com/file/d/1KpNbxIQwufgVshj2dXNm2sfko9wTx9x_/view?usp=drivesdk",
+      "expectedCount": 1,
+      "unit": "source archive",
+      "status": "blocked-provider-download-limit",
+      "reason": "The authenticated Google Drive connector rejects downloads above 100 MB; this archive is 829,879,395 bytes. Its internal file count and filenames cannot be asserted until a split or directly uploaded copy is supplied."
+    }
+  ],
   "historicalRequestLedger": {
     "status": "superseded-for-this-ingestion",
-    "note": "The previous 265-unit figure counted requested outputs inferred from conversation summaries, not verified files. The attached Google Photos ZIP is the authoritative file inventory for this PR. Its zero-missing result does not independently prove that every output from every historical ChatGPT conversation exists in the album."
+    "note": "The previous 265-unit figure counted requested outputs inferred from conversation summaries, not verified files. The Google Photos ZIP remains authoritative for that batch. The separate Drive archive is recorded as an inaccessible batch without inventing its internal asset count."
   },
   "classificationReview": {
     "lowConfidenceAlbumIndexes": [124, 319, 328],

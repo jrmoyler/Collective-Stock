@@ -1,7 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T01:33:24.221Z",
+  "generatedAt": "2026-08-09T06:59:21.026Z",
   "documents": [
+    {
+      "id": "cstk_2c0d34be54302f1c19e5",
+      "title": "Industrial Mech in Hangar",
+      "division": "Animus Prime",
+      "category": "Hero Images",
+      "text": "industrial mech in hangar animus prime hero images animus prime / google photos archive file_00000000ae60722f8c4a8d31adf79dac.png collective stock — google photos export 2026-08-08 58 animus prime hero images collective ai collective stock google photos archive industrial mech hangar animus prime hero images collective ai collective stock google photos archive industrial mech hangar hero images collective ai creative production internal and approved public media use #17242c #10191e #1d2d36"
+    },
     {
       "id": "cstk_1ad60a27d7d9b50ed63a",
       "title": "Digital Civic Services Network",
@@ -66,13 +73,6 @@
       "text": "smart irrigation valley gaia synthesis hero images gaia synthesis / google photos archive file_00000000425471f88e967a678953da72.png collective stock — google photos export 2026-08-08 256 gaia synthesis hero images collective ai collective stock google photos archive smart irrigation valley gaia synthesis hero images collective ai collective stock google photos archive smart irrigation valley hero images collective ai creative production internal and approved public media use #5a604b #3d4133 #6f775d"
     },
     {
-      "id": "cstk_2c0d34be54302f1c19e5",
-      "title": "Industrial Mech in Hangar",
-      "division": "Kinetic Edge",
-      "category": "Hero Images",
-      "text": "industrial mech in hangar kinetic edge hero images kinetic edge / google photos archive file_00000000ae60722f8c4a8d31adf79dac.png collective stock — google photos export 2026-08-08 58 kinetic edge hero images collective ai collective stock google photos archive industrial mech hangar kinetic edge hero images collective ai collective stock google photos archive industrial mech hangar hero images collective ai creative production internal and approved public media use #17242c #10191e #1d2d36"
-    },
-    {
       "id": "cstk_f62ebbebf34a961ebe9c",
       "title": "Nexus Energy Containment Chamber",
       "division": "Nexus Labs",
@@ -120,6 +120,41 @@
       "division": "Aether Link",
       "category": "Website Backgrounds",
       "text": "aether constellation mesh aether link website backgrounds aether link / google photos archive bg(16).jpg collective stock — google photos export 2026-08-08 165 aether link website backgrounds collective ai collective stock google photos archive aether constellation mesh aether link website backgrounds collective ai collective stock google photos archive aether constellation mesh website backgrounds collective ai creative production internal and approved public media use #050f2d #040a1f #071238"
+    },
+    {
+      "id": "cstk_9bffcadc195ff9f0816a",
+      "title": "Aether Link — Brand Detail Reference",
+      "division": "Aether Link",
+      "category": "Brand Sheets",
+      "text": "aether link — brand detail reference aether link brand sheets design system bible division detail logos detail-10-aether-link.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #192222 #111717 #1f2a2b"
+    },
+    {
+      "id": "cstk_78ff59d098abe20de655",
+      "title": "Aether Link — Brand Reference Sheet",
+      "division": "Aether Link",
+      "category": "Reference Images",
+      "text": "aether link — brand reference sheet aether link reference images collective ai inc component library aether-link-brand-reference-sheet.png aether link brand reference sheet reference images collective ai component library aether link brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #1f140e #150e09 #261911"
+    },
+    {
+      "id": "cstk_efeebd6f3cf5db3f6cfa",
+      "title": "Aether Link — Component Sheet",
+      "division": "Aether Link",
+      "category": "Component Sheets",
+      "text": "aether link — component sheet aether link component sheets collective ai inc component library aether-link-component-sheet.png aether link component sheet component sheets collective ai component library aether link component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #160f0a #0f0a07 #1c120c"
+    },
+    {
+      "id": "cstk_3aa3881b3117df49efd3",
+      "title": "Aether Link — Gallery Logo Reference",
+      "division": "Aether Link",
+      "category": "Brand Sheets",
+      "text": "aether link — gallery logo reference aether link brand sheets design system bible division gallery logos gallery-10-aether-link.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #313b3f #21282b #3d494e"
+    },
+    {
+      "id": "cstk_5e0a64d173d0a04850b7",
+      "title": "Aether Link — Orbital Resonance Rings Intro Film",
+      "division": "Aether Link",
+      "category": "Division Intro Videos",
+      "text": "aether link — orbital resonance rings intro film aether link division intro videos division intro video library aether-link-orbital-resonance-rings-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
       "id": "cstk_f6710e67748d2a972a76",
@@ -199,13 +234,6 @@
       "text": "deep-space radio array aether link hero images aether link / google photos archive file_0000000009e071fdaddfcd9527420e2e.png collective stock — google photos export 2026-08-08 302 aether link hero images collective ai collective stock google photos archive deep-space radio array aether link hero images collective ai collective stock google photos archive deep-space radio array hero images collective ai creative production internal and approved public media use #2b3f69 #1d2b47 #364f82"
     },
     {
-      "id": "cstk_9bffcadc195ff9f0816a",
-      "title": "Detail 10 Aether Link",
-      "division": "Aether Link",
-      "category": "Brand Sheets",
-      "text": "detail 10 aether link aether link brand sheets design system bible division detail logos detail-10-aether-link.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #192222 #111717 #1f2a2b"
-    },
-    {
       "id": "cstk_f72e45d1a00008ecba1a",
       "title": "Dustworld Astronaut 01",
       "division": "Aether Link",
@@ -239,13 +267,6 @@
       "division": "Aether Link",
       "category": "Hero Images",
       "text": "edge-cloud hardware aether link hero images aether link / google photos archive file_00000000adfc81fb8edd59bbfcaae3e8.png collective stock — google photos export 2026-08-08 114 aether link hero images collective ai collective stock google photos archive edge-cloud hardware aether link hero images collective ai collective stock google photos archive edge-cloud hardware hero images collective ai creative production internal and approved public media use #7c5f4d #554134 #9a765f"
-    },
-    {
-      "id": "cstk_3aa3881b3117df49efd3",
-      "title": "Gallery 10 Aether Link",
-      "division": "Aether Link",
-      "category": "Brand Sheets",
-      "text": "gallery 10 aether link aether link brand sheets design system bible division gallery logos gallery-10-aether-link.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #313b3f #21282b #3d494e"
     },
     {
       "id": "cstk_003ee4333255d3f5285b",
@@ -290,25 +311,46 @@
       "text": "ai operations assistant animus prime stock images animus prime / google photos archive file_00000000d690822f8f5a06eaee5458c7.png collective stock — google photos export 2026-08-08 154 animus prime stock images collective ai collective stock google photos archive operations assistant animus prime stock images collective ai collective stock google photos archive operations assistant stock images collective ai creative production internal and approved public media use #1e1813 #15100d #251d17"
     },
     {
+      "id": "cstk_7f5fd946c5d70ba2deec",
+      "title": "Animus Prime — Brand Detail Reference",
+      "division": "Animus Prime",
+      "category": "Brand Sheets",
+      "text": "animus prime — brand detail reference animus prime brand sheets design system bible division detail logos detail-16-animus-prime.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #444c50 #2f3437 #555f64"
+    },
+    {
+      "id": "cstk_421ebe5a82b42cbe6036",
+      "title": "Animus Prime — Brand Reference Sheet",
+      "division": "Animus Prime",
+      "category": "Reference Images",
+      "text": "animus prime — brand reference sheet animus prime reference images collective ai inc component library animus-prime-brand-reference-sheet.png animus prime brand reference sheet reference images collective ai component library animus prime brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #141d22 #0e1317 #19232b"
+    },
+    {
+      "id": "cstk_c44c79f9c999bc63f376",
+      "title": "Animus Prime — Component Sheet",
+      "division": "Animus Prime",
+      "category": "Component Sheets",
+      "text": "animus prime — component sheet animus prime component sheets collective ai inc component library animus-prime-component-sheet.png animus prime component sheet component sheets collective ai component library animus prime component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0e1418 #0a0e11 #12191e"
+    },
+    {
+      "id": "cstk_4c714541bc43ad0f94f6",
+      "title": "Animus Prime — Cyan Core Beacon Intro Film",
+      "division": "Animus Prime",
+      "category": "Division Intro Videos",
+      "text": "animus prime — cyan core beacon intro film animus prime division intro videos division intro video library animus-prime-cyan-core-beacon-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_45a8005ffec00536cb08",
+      "title": "Animus Prime — Gallery Logo Reference",
+      "division": "Animus Prime",
+      "category": "Brand Sheets",
+      "text": "animus prime — gallery logo reference animus prime brand sheets design system bible division gallery logos gallery-16-animus-prime.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #6f7b82 #4b5458 #8999a1"
+    },
+    {
       "id": "cstk_bc25a5431a7a9a896a57",
       "title": "Autonomous Street Robot",
       "division": "Animus Prime",
       "category": "Stock Images",
       "text": "autonomous street robot animus prime stock images animus prime / google photos archive file_00000000a2f481f986112ea852e4d4f4.png collective stock — google photos export 2026-08-08 136 animus prime stock images collective ai collective stock google photos archive autonomous street robot animus prime stock images collective ai collective stock google photos archive autonomous street robot stock images collective ai creative production internal and approved public media use #1e1a1a #141212 #252020"
-    },
-    {
-      "id": "cstk_7f5fd946c5d70ba2deec",
-      "title": "Detail 16 Animus Prime",
-      "division": "Animus Prime",
-      "category": "Brand Sheets",
-      "text": "detail 16 animus prime animus prime brand sheets design system bible division detail logos detail-16-animus-prime.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #444c50 #2f3437 #555f64"
-    },
-    {
-      "id": "cstk_45a8005ffec00536cb08",
-      "title": "Gallery 16 Animus Prime",
-      "division": "Animus Prime",
-      "category": "Brand Sheets",
-      "text": "gallery 16 animus prime animus prime brand sheets design system bible division gallery logos gallery-16-animus-prime.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #6f7b82 #4b5458 #8999a1"
     },
     {
       "id": "cstk_93e7c1e8c149e561ab9f",
@@ -337,6 +379,13 @@
       "division": "Animus Prime",
       "category": "Stock Images",
       "text": "humanoid robot in lab animus prime stock images animus prime / google photos archive file_000000005760722fa7d8f9b28bb4e6e0.png collective stock — google photos export 2026-08-08 63 animus prime stock images collective ai collective stock google photos archive humanoid robot lab animus prime stock images collective ai collective stock google photos archive humanoid robot lab stock images collective ai creative production internal and approved public media use #172128 #10161b #1d2832"
+    },
+    {
+      "id": "cstk_bcf473d2a20a3192fe36",
+      "title": "Humanoid Robotics Operations Center",
+      "division": "Animus Prime",
+      "category": "Stock Images",
+      "text": "humanoid robotics operations center animus prime stock images animus prime / google photos archive file_00000000d254722fb801fd82227b930b.png collective stock — google photos export 2026-08-08 50 animus prime stock images collective ai collective stock google photos archive humanoid robotics operations center animus prime stock images collective ai collective stock google photos archive humanoid robotics operations center stock images collective ai creative production internal and approved public media use #111d24 #0b1418 #15242c"
     },
     {
       "id": "cstk_893ee2190a5be09d57ed",
@@ -430,6 +479,13 @@
       "text": "predator confrontation 04 animus prime reference images animus prime / google photos archive img-20260129-wa0030.jpg collective stock — google photos export 2026-08-08 324 animus prime reference images collective ai collective stock google photos archive predator confrontation animus prime reference images collective ai collective stock google photos archive predator confrontation reference images collective ai creative production internal and approved public media use #5f4d43 #40342d #756053"
     },
     {
+      "id": "cstk_5f63108009685a1aa3d8",
+      "title": "Robotic Interface Touch",
+      "division": "Animus Prime",
+      "category": "Stock Images",
+      "text": "robotic interface touch animus prime stock images animus prime / google photos archive file_000000004964722fb7a5689ba0e4d09e.png collective stock — google photos export 2026-08-08 57 animus prime stock images collective ai collective stock google photos archive robotic interface touch animus prime stock images collective ai collective stock google photos archive robotic interface touch stock images collective ai creative production internal and approved public media use #1a272d #121a1e #203037"
+    },
+    {
       "id": "cstk_9843487f53d4372c96d0",
       "title": "Running Leopard 01",
       "division": "Animus Prime",
@@ -458,74 +514,53 @@
       "text": "synthetic geometry field animus prime website backgrounds animus prime / google photos archive bg(5).jpg collective stock — google photos export 2026-08-08 138 animus prime website backgrounds collective ai collective stock google photos archive synthetic geometry field animus prime website backgrounds collective ai collective stock google photos archive synthetic geometry field website backgrounds collective ai creative production internal and approved public media use #162d4c #0f1f34 #1b385e"
     },
     {
-      "id": "cstk_2001e7b25f35f7afffdc",
-      "title": "Binary Loom Stock 01",
+      "id": "cstk_9f730985c950a8972adb",
+      "title": "Binary Data Corridor",
       "division": "Binary Loom",
       "category": "Stock Images",
-      "text": "binary loom stock 01 binary loom stock images binary loom / google photos archive binary_loom_stock_01.png collective stock — google photos export 2026-08-08 52 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #17295e #0f1c40 #1c3374"
+      "text": "binary data corridor binary loom stock images binary loom / google photos archive binary_loom_stock_04.png collective stock — google photos export 2026-08-08 45 binary loom stock images collective ai collective stock google photos archive binary data corridor binary loom stock images collective ai collective stock google photos archive binary data corridor stock images collective ai creative production internal and approved public media use #071c3c #051329 #09234a"
+    },
+    {
+      "id": "cstk_6489c45effa5a1f00365",
+      "title": "Binary Loom — Brand Detail Reference",
+      "division": "Binary Loom",
+      "category": "Brand Sheets",
+      "text": "binary loom — brand detail reference binary loom brand sheets design system bible division detail logos detail-08-binary-loom.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #3e4853 #2a3139 #4d5967"
+    },
+    {
+      "id": "cstk_c33dc1b0fb2c0f613ddf",
+      "title": "Binary Loom — Brand Reference Sheet",
+      "division": "Binary Loom",
+      "category": "Reference Images",
+      "text": "binary loom — brand reference sheet binary loom reference images collective ai inc component library binary-loom-brand-reference-sheet.png binary loom brand reference sheet reference images collective ai component library binary loom brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #151612 #0f0f0c #1a1c16"
+    },
+    {
+      "id": "cstk_f5b01224b7dc72f95a4a",
+      "title": "Binary Loom — Code Stream Ascension Intro Film",
+      "division": "Binary Loom",
+      "category": "Division Intro Videos",
+      "text": "binary loom — code stream ascension intro film binary loom division intro videos division intro video library binary-loom-code-stream-ascension-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_0d0787c3e811d3906646",
+      "title": "Binary Loom — Component Sheet",
+      "division": "Binary Loom",
+      "category": "Component Sheets",
+      "text": "binary loom — component sheet binary loom component sheets collective ai inc component library binary-loom-component-sheet.png binary loom component sheet component sheets collective ai component library binary loom component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0e100f #0a0b0a #111412"
+    },
+    {
+      "id": "cstk_723d814a9f22821f4344",
+      "title": "Binary Loom — Gallery Logo Reference",
+      "division": "Binary Loom",
+      "category": "Brand Sheets",
+      "text": "binary loom — gallery logo reference binary loom brand sheets design system bible division gallery logos gallery-08-binary-loom.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #a2b2c2 #6e7984 #c9ddf1"
     },
     {
       "id": "cstk_f8ab4c646a746b4c7cd4",
-      "title": "Binary Loom Stock 02",
+      "title": "Binary Loom Visual Collection",
       "division": "Binary Loom",
       "category": "Stock Images",
-      "text": "binary loom stock 02 binary loom stock images binary loom / google photos archive binary_loom_stock_02.png collective stock — google photos export 2026-08-08 65 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #081025 #050b19 #0a142e"
-    },
-    {
-      "id": "cstk_7de4a3837ecd659c6028",
-      "title": "Binary Loom Stock 03",
-      "division": "Binary Loom",
-      "category": "Stock Images",
-      "text": "binary loom stock 03 binary loom stock images binary loom / google photos archive binary_loom_stock_03.png collective stock — google photos export 2026-08-08 40 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #14265a #0e1a3d #193070"
-    },
-    {
-      "id": "cstk_9f730985c950a8972adb",
-      "title": "Binary Loom Stock 04",
-      "division": "Binary Loom",
-      "category": "Stock Images",
-      "text": "binary loom stock 04 binary loom stock images binary loom / google photos archive binary_loom_stock_04.png collective stock — google photos export 2026-08-08 45 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #071c3c #051329 #09234a"
-    },
-    {
-      "id": "cstk_94a473e3e513b506f261",
-      "title": "Binary Loom Stock 05",
-      "division": "Binary Loom",
-      "category": "Stock Images",
-      "text": "binary loom stock 05 binary loom stock images binary loom / google photos archive binary_loom_stock_05.png collective stock — google photos export 2026-08-08 12 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #11213b #0b1628 #15294a"
-    },
-    {
-      "id": "cstk_3a09c74c45b3b068066e",
-      "title": "Binary Loom Stock 06",
-      "division": "Binary Loom",
-      "category": "Stock Images",
-      "text": "binary loom stock 06 binary loom stock images binary loom / google photos archive binary_loom_stock_06.png collective stock — google photos export 2026-08-08 20 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #112d50 #0c1f36 #153863"
-    },
-    {
-      "id": "cstk_c4f647d8c85b16dbdccc",
-      "title": "Binary Loom Stock 07",
-      "division": "Binary Loom",
-      "category": "Stock Images",
-      "text": "binary loom stock 07 binary loom stock images binary loom / google photos archive binary_loom_stock_07.png collective stock — google photos export 2026-08-08 21 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #09274a #061b33 #0b315c"
-    },
-    {
-      "id": "cstk_872c8b262fff67f07f05",
-      "title": "Binary Loom Stock 08",
-      "division": "Binary Loom",
-      "category": "Stock Images",
-      "text": "binary loom stock 08 binary loom stock images binary loom / google photos archive binary_loom_stock_08.png collective stock — google photos export 2026-08-08 30 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #08112d #050c1e #0a1537"
-    },
-    {
-      "id": "cstk_016afb9641e2a73657c2",
-      "title": "Binary Loom Stock 09",
-      "division": "Binary Loom",
-      "category": "Stock Images",
-      "text": "binary loom stock 09 binary loom stock images binary loom / google photos archive binary_loom_stock_09.png collective stock — google photos export 2026-08-08 44 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #102945 #0b1c2f #143355"
-    },
-    {
-      "id": "cstk_edcb293e6069fbb669cb",
-      "title": "Binary Loom Stock 10",
-      "division": "Binary Loom",
-      "category": "Stock Images",
-      "text": "binary loom stock 10 binary loom stock images binary loom / google photos archive binary_loom_stock_10.png collective stock — google photos export 2026-08-08 33 binary loom stock images collective ai collective stock google photos archive binary loom stock binary loom stock images collective ai collective stock google photos archive binary loom stock stock images collective ai creative production internal and approved public media use #0f1933 #0a1123 #131e40"
+      "text": "binary loom visual collection binary loom stock images binary loom / google photos archive binary_loom_stock_02.png collective stock — google photos export 2026-08-08 65 binary loom stock images collective ai collective stock google photos archive binary loom visual collection binary loom stock images collective ai collective stock google photos archive binary loom visual collection stock images collective ai creative production internal and approved public media use #081025 #050b19 #0a142e"
     },
     {
       "id": "cstk_5b8d56a03bc47c649a0e",
@@ -535,11 +570,18 @@
       "text": "binary particle matrix binary loom website backgrounds binary loom / google photos archive bg(4).jpg collective stock — google photos export 2026-08-08 141 binary loom website backgrounds collective ai collective stock google photos archive binary particle matrix binary loom website backgrounds collective ai collective stock google photos archive binary particle matrix website backgrounds collective ai creative production internal and approved public media use #0a1434 #070e23 #0d1940"
     },
     {
-      "id": "cstk_6489c45effa5a1f00365",
-      "title": "Detail 08 Binary Loom",
+      "id": "cstk_3a09c74c45b3b068066e",
+      "title": "Cloud Network over City",
       "division": "Binary Loom",
-      "category": "Brand Sheets",
-      "text": "detail 08 binary loom binary loom brand sheets design system bible division detail logos detail-08-binary-loom.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #3e4853 #2a3139 #4d5967"
+      "category": "Stock Images",
+      "text": "cloud network over city binary loom stock images binary loom / google photos archive binary_loom_stock_06.png collective stock — google photos export 2026-08-08 20 binary loom stock images collective ai collective stock google photos archive cloud network over city binary loom stock images collective ai collective stock google photos archive cloud network over city stock images collective ai creative production internal and approved public media use #112d50 #0c1f36 #153863"
+    },
+    {
+      "id": "cstk_edcb293e6069fbb669cb",
+      "title": "Developer Workstation and Code",
+      "division": "Binary Loom",
+      "category": "Stock Images",
+      "text": "developer workstation and code binary loom stock images binary loom / google photos archive binary_loom_stock_10.png collective stock — google photos export 2026-08-08 33 binary loom stock images collective ai collective stock google photos archive developer workstation and code binary loom stock images collective ai collective stock google photos archive developer workstation and code stock images collective ai creative production internal and approved public media use #0f1933 #0a1123 #131e40"
     },
     {
       "id": "cstk_79ef206e9ae50eab69d5",
@@ -556,11 +598,81 @@
       "text": "distributed data cubes binary loom stock images binary loom / google photos archive stock(15).jpg collective stock — google photos export 2026-08-08 160 binary loom stock images collective ai collective stock google photos archive distributed data cubes binary loom stock images collective ai collective stock google photos archive distributed data cubes stock images collective ai creative production internal and approved public media use #121a49 #0c1232 #16215b"
     },
     {
-      "id": "cstk_723d814a9f22821f4344",
-      "title": "Gallery 08 Binary Loom",
+      "id": "cstk_2001e7b25f35f7afffdc",
+      "title": "Fiber Data Streams",
       "division": "Binary Loom",
+      "category": "Stock Images",
+      "text": "fiber data streams binary loom stock images binary loom / google photos archive binary_loom_stock_01.png collective stock — google photos export 2026-08-08 52 binary loom stock images collective ai collective stock google photos archive fiber data streams binary loom stock images collective ai collective stock google photos archive fiber data streams stock images collective ai creative production internal and approved public media use #17295e #0f1c40 #1c3374"
+    },
+    {
+      "id": "cstk_872c8b262fff67f07f05",
+      "title": "Flowing Binary Data Wave",
+      "division": "Binary Loom",
+      "category": "Stock Images",
+      "text": "flowing binary data wave binary loom stock images binary loom / google photos archive binary_loom_stock_08.png collective stock — google photos export 2026-08-08 30 binary loom stock images collective ai collective stock google photos archive flowing binary data wave binary loom stock images collective ai collective stock google photos archive flowing binary data wave stock images collective ai creative production internal and approved public media use #08112d #050c1e #0a1537"
+    },
+    {
+      "id": "cstk_94a473e3e513b506f261",
+      "title": "Holographic Cloud Circuit Emblem",
+      "division": "Binary Loom",
+      "category": "Stock Images",
+      "text": "holographic cloud circuit emblem binary loom stock images binary loom / google photos archive binary_loom_stock_05.png collective stock — google photos export 2026-08-08 12 binary loom stock images collective ai collective stock google photos archive holographic cloud circuit emblem binary loom stock images collective ai collective stock google photos archive holographic cloud circuit emblem stock images collective ai creative production internal and approved public media use #11213b #0b1628 #15294a"
+    },
+    {
+      "id": "cstk_7de4a3837ecd659c6028",
+      "title": "Luminous Processor Core",
+      "division": "Binary Loom",
+      "category": "Stock Images",
+      "text": "luminous processor core binary loom stock images binary loom / google photos archive binary_loom_stock_03.png collective stock — google photos export 2026-08-08 40 binary loom stock images collective ai collective stock google photos archive luminous processor core binary loom stock images collective ai collective stock google photos archive luminous processor core stock images collective ai creative production internal and approved public media use #14265a #0e1a3d #193070"
+    },
+    {
+      "id": "cstk_c4f647d8c85b16dbdccc",
+      "title": "Secure Code Shield",
+      "division": "Binary Loom",
+      "category": "Stock Images",
+      "text": "secure code shield binary loom stock images binary loom / google photos archive binary_loom_stock_07.png collective stock — google photos export 2026-08-08 21 binary loom stock images collective ai collective stock google photos archive secure code shield binary loom stock images collective ai collective stock google photos archive secure code shield stock images collective ai creative production internal and approved public media use #09274a #061b33 #0b315c"
+    },
+    {
+      "id": "cstk_016afb9641e2a73657c2",
+      "title": "Transparent Circuit Module",
+      "division": "Binary Loom",
+      "category": "Stock Images",
+      "text": "transparent circuit module binary loom stock images binary loom / google photos archive binary_loom_stock_09.png collective stock — google photos export 2026-08-08 44 binary loom stock images collective ai collective stock google photos archive transparent circuit module binary loom stock images collective ai collective stock google photos archive transparent circuit module stock images collective ai creative production internal and approved public media use #102945 #0b1c2f #143355"
+    },
+    {
+      "id": "cstk_ff397666528fa0c427c6",
+      "title": "Civic Core — Brand Detail Reference",
+      "division": "Civic Core",
       "category": "Brand Sheets",
-      "text": "gallery 08 binary loom binary loom brand sheets design system bible division gallery logos gallery-08-binary-loom.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #a2b2c2 #6e7984 #c9ddf1"
+      "text": "civic core — brand detail reference civic core brand sheets design system bible division detail logos detail-12-civic-core.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #31363c #212529 #3d434a"
+    },
+    {
+      "id": "cstk_b305a6133cc03042bd3b",
+      "title": "Civic Core — Brand Reference Sheet",
+      "division": "Civic Core",
+      "category": "Reference Images",
+      "text": "civic core — brand reference sheet civic core reference images collective ai inc component library civic-core-brand-reference-sheet.png civic core brand reference sheet reference images collective ai component library civic core brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #16273d #0f1a2a #1b304c"
+    },
+    {
+      "id": "cstk_530dea23526af07e3957",
+      "title": "Civic Core — City Horizon Ignition Intro Film",
+      "division": "Civic Core",
+      "category": "Division Intro Videos",
+      "text": "civic core — city horizon ignition intro film civic core division intro videos division intro video library civic-core-city-horizon-ignition-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_82466afaf3ee1b12f7cb",
+      "title": "Civic Core — Component Sheet",
+      "division": "Civic Core",
+      "category": "Component Sheets",
+      "text": "civic core — component sheet civic core component sheets collective ai inc component library civic-core-component-sheet.png civic core component sheet component sheets collective ai component library civic core component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #14253b #0e1928 #192d49"
+    },
+    {
+      "id": "cstk_0b1073440538c7958232",
+      "title": "Civic Core — Gallery Logo Reference",
+      "division": "Civic Core",
+      "category": "Brand Sheets",
+      "text": "civic core — gallery logo reference civic core brand sheets design system bible division gallery logos gallery-12-civic-core.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #243041 #19212c #2d3c50"
     },
     {
       "id": "cstk_b16eab858a43ba14cdf6",
@@ -633,25 +745,46 @@
       "text": "connected civic skyline civic core stock images civic core / google photos archive stock(13).jpg collective stock — google photos export 2026-08-08 161 civic core stock images collective ai collective stock google photos archive connected civic skyline civic core stock images collective ai collective stock google photos archive connected civic skyline stock images collective ai creative production internal and approved public media use #101d31 #0b1422 #14243d"
     },
     {
-      "id": "cstk_ff397666528fa0c427c6",
-      "title": "Detail 12 Civic Core",
-      "division": "Civic Core",
-      "category": "Brand Sheets",
-      "text": "detail 12 civic core civic core brand sheets design system bible division detail logos detail-12-civic-core.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #31363c #212529 #3d434a"
-    },
-    {
-      "id": "cstk_0b1073440538c7958232",
-      "title": "Gallery 12 Civic Core",
-      "division": "Civic Core",
-      "category": "Brand Sheets",
-      "text": "gallery 12 civic core civic core brand sheets design system bible division gallery logos gallery-12-civic-core.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #243041 #19212c #2d3c50"
-    },
-    {
       "id": "cstk_65a4318fe98eb659ec6a",
       "title": "Augmented Thought Profile",
       "division": "Cognara Mind",
       "category": "Hero Images",
       "text": "augmented thought profile cognara mind hero images cognara mind / google photos archive file_00000000a04871f79189c1d632d039dc.png collective stock — google photos export 2026-08-08 238 cognara mind hero images collective ai collective stock google photos archive augmented thought profile cognara mind hero images collective ai collective stock google photos archive augmented thought profile hero images collective ai creative production internal and approved public media use #162124 #0f1719 #1b292d"
+    },
+    {
+      "id": "cstk_f4d07cc4f54358324b5b",
+      "title": "Cognara Mind — Brand Detail Reference",
+      "division": "Cognara Mind",
+      "category": "Brand Sheets",
+      "text": "cognara mind — brand detail reference cognara mind brand sheets design system bible division detail logos detail-13-cognara-mind.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #211016 #160b0f #29131b"
+    },
+    {
+      "id": "cstk_4aa7bc44750f2322199a",
+      "title": "Cognara Mind — Brand Reference Sheet",
+      "division": "Cognara Mind",
+      "category": "Reference Images",
+      "text": "cognara mind — brand reference sheet cognara mind reference images collective ai inc component library cognara-mind-brand-reference-sheet.png cognara mind brand reference sheet reference images collective ai component library cognara mind brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #1a0d12 #11090c #201016"
+    },
+    {
+      "id": "cstk_ea84f50ff033da410fe2",
+      "title": "Cognara Mind — Component Sheet",
+      "division": "Cognara Mind",
+      "category": "Component Sheets",
+      "text": "cognara mind — component sheet cognara mind component sheets collective ai inc component library cognara-mind-component-sheet.png cognara mind component sheet component sheets collective ai component library cognara mind component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #150a0f #0e070a #1a0d12"
+    },
+    {
+      "id": "cstk_b01596e1d83012a8aaed",
+      "title": "Cognara Mind — Gallery Logo Reference",
+      "division": "Cognara Mind",
+      "category": "Brand Sheets",
+      "text": "cognara mind — gallery logo reference cognara mind brand sheets design system bible division gallery logos gallery-13-cognara-mind.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #2b1319 #1d0d11 #35181f"
+    },
+    {
+      "id": "cstk_75b7dd0e4f02a0d9da7c",
+      "title": "Cognara Mind — Rose Intelligence Network Intro Film",
+      "division": "Cognara Mind",
+      "category": "Division Intro Videos",
+      "text": "cognara mind — rose intelligence network intro film cognara mind division intro videos division intro video library cognara-mind-rose-intelligence-network-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
       "id": "cstk_a604127ead16c9b10491",
@@ -724,13 +857,6 @@
       "text": "desktop neural hologram cognara mind stock images cognara mind / google photos archive file_000000004160722faf7f54d960d9aa4e.png collective stock — google photos export 2026-08-08 175 cognara mind stock images collective ai collective stock google photos archive desktop neural hologram cognara mind stock images collective ai collective stock google photos archive desktop neural hologram stock images collective ai creative production internal and approved public media use #181014 #110b0e #1e1419"
     },
     {
-      "id": "cstk_f4d07cc4f54358324b5b",
-      "title": "Detail 13 Cognara Mind",
-      "division": "Cognara Mind",
-      "category": "Brand Sheets",
-      "text": "detail 13 cognara mind cognara mind brand sheets design system bible division detail logos detail-13-cognara-mind.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #211016 #160b0f #29131b"
-    },
-    {
       "id": "cstk_1c2cdc1a0531d7ae1730",
       "title": "Dual Neural Convergence",
       "division": "Cognara Mind",
@@ -743,13 +869,6 @@
       "division": "Cognara Mind",
       "category": "Reference Images",
       "text": "dual-energy thoughtforms cognara mind reference images cognara mind / google photos archive stock(7).jpg collective stock — google photos export 2026-08-08 328 cognara mind reference images collective ai collective stock google photos archive dual-energy thoughtforms cognara mind reference images collective ai collective stock google photos archive dual-energy thoughtforms reference images collective ai creative production internal and approved public media use #180813 #10050d #1d0a17"
-    },
-    {
-      "id": "cstk_b01596e1d83012a8aaed",
-      "title": "Gallery 13 Cognara Mind",
-      "division": "Cognara Mind",
-      "category": "Brand Sheets",
-      "text": "gallery 13 cognara mind cognara mind brand sheets design system bible division gallery logos gallery-13-cognara-mind.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #2b1319 #1d0d11 #35181f"
     },
     {
       "id": "cstk_94a0daa9c83026a2e4e9",
@@ -850,6 +969,20 @@
       "text": "protected mind profile cognara mind stock images cognara mind / google photos archive file_00000000989c71f7a75567b6de8be177.png collective stock — google photos export 2026-08-08 186 cognara mind stock images collective ai collective stock google photos archive protected mind profile cognara mind stock images collective ai collective stock google photos archive protected mind profile stock images collective ai creative production internal and approved public media use #211213 #160d0d #291718"
     },
     {
+      "id": "cstk_5f863de68a9716a65d85",
+      "title": "Breakthrough Light over Mountains",
+      "division": "Collective AI Inc",
+      "category": "Videos",
+      "text": "breakthrough light over mountains collective ai inc videos collective ai inc / google photos archive grok_video_2026-07-30-20-25-20.mp4 collective stock — google photos export 2026-08-08 317 collective ai inc videos collective ai collective stock google photos archive breakthrough light over mountains collective ai inc videos collective ai collective stock google photos archive breakthrough light over mountains videos collective ai creative production internal and approved public media use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_ed87075f8dcddc61db0e",
+      "title": "Collective AI Inc — Brand Reference Sheet",
+      "division": "Collective AI Inc",
+      "category": "Reference Images",
+      "text": "collective ai inc — brand reference sheet collective ai inc reference images collective ai inc component library collective-ai-inc-brand-reference-sheet.png collective ai inc brand reference sheet reference images collective ai component library collective ai inc brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #111e29 #0c151c #152633"
+    },
+    {
       "id": "cstk_ced5548a1142ebf9a13f",
       "title": "Collective AI Inc — Brand Values Hud",
       "division": "Collective AI Inc",
@@ -862,6 +995,13 @@
       "division": "Collective AI Inc",
       "category": "Stock Images",
       "text": "collective ai inc — command boardroom collective ai inc stock images collective ai inc / google photos archive collective_ai_stock_02_command_boardroom.png collective stock — google photos export 2026-08-08 2 collective ai inc stock images collective ai collective stock google photos archive collective inc command boardroom collective ai inc stock images collective ai collective stock google photos archive collective inc command boardroom stock images collective ai creative production internal and approved public media use #07141e #050d15 #081926"
+    },
+    {
+      "id": "cstk_e507a5423ee664bff7ef",
+      "title": "Collective AI Inc — Component Sheet",
+      "division": "Collective AI Inc",
+      "category": "Component Sheets",
+      "text": "collective ai inc — component sheet collective ai inc component sheets collective ai inc component library collective-ai-inc-component-sheet.png collective ai inc component sheet component sheets collective ai component library collective ai inc component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #09111b #060c13 #0b1522"
     },
     {
       "id": "cstk_48200a85fdfde968fca0",
@@ -920,6 +1060,13 @@
       "text": "collective ai inc — prism headquarters collective ai inc stock images collective ai inc / google photos archive collective_ai_stock_01_prism_headquarters.png collective stock — google photos export 2026-08-08 6 collective ai inc stock images collective ai collective stock google photos archive collective inc prism headquarters collective ai inc stock images collective ai collective stock google photos archive collective inc prism headquarters stock images collective ai creative production internal and approved public media use #192434 #111924 #1e2d41"
     },
     {
+      "id": "cstk_7a94f9305ba497fa6be0",
+      "title": "Collective AI Inc — Teal Particle Mesh Intro Film",
+      "division": "Collective AI Inc",
+      "category": "Division Intro Videos",
+      "text": "collective ai inc — teal particle mesh intro film collective ai inc division intro videos division intro video library collective-ai-inc-teal-particle-mesh-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
       "id": "cstk_e371496db944c0a749d7",
       "title": "Division Visual-Language Moodboard",
       "division": "Collective AI Inc",
@@ -934,18 +1081,39 @@
       "text": "human–machine contact interface collective ai inc hero images collective ai inc / google photos archive file_00000000b9c071f89873c22b59567a63.png collective stock — google photos export 2026-08-08 274 collective ai inc hero images collective ai collective stock google photos archive human machine contact interface collective ai inc hero images collective ai collective stock google photos archive human machine contact interface hero images collective ai creative production internal and approved public media use #152339 #0e1827 #1a2c47"
     },
     {
+      "id": "cstk_3becdedaf7db242a7c1f",
+      "title": "Misty Green Mountain Flyover",
+      "division": "Collective AI Inc",
+      "category": "Videos",
+      "text": "misty green mountain flyover collective ai inc videos collective ai inc / google photos archive grok_video_2026-08-08-10-03-15.mp4 collective stock — google photos export 2026-08-08 11 collective ai inc videos collective ai collective stock google photos archive misty green mountain flyover collective ai inc videos collective ai collective stock google photos archive misty green mountain flyover videos collective ai creative production internal and approved public media use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_ffc36d25c3b50ecf73de",
+      "title": "Storm over Golden Fields",
+      "division": "Collective AI Inc",
+      "category": "Videos",
+      "text": "storm over golden fields collective ai inc videos collective ai inc / google photos archive grok_video_2026-08-08-10-02-49.mp4 collective stock — google photos export 2026-08-08 59 collective ai inc videos collective ai collective stock google photos archive storm over golden fields collective ai inc videos collective ai collective stock google photos archive storm over golden fields videos collective ai creative production internal and approved public media use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_1062c9ec0ac72468f4d4",
+      "title": "Violet Synaptic Mirror Intro Film",
+      "division": "Collective AI Inc",
+      "category": "Division Intro Videos",
+      "text": "violet synaptic mirror intro film collective ai inc division intro videos division intro video library violet-synaptic-mirror-intro-video.mp4 intro video motion identity global motion collective ai intro video motion identity global motion collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_7193654a78864d0c1bad",
+      "title": "Volumetric Light Portal",
+      "division": "Collective AI Inc",
+      "category": "Videos",
+      "text": "volumetric light portal collective ai inc videos collective ai inc / google photos archive grok_video_2026-07-30-20-20-09.mp4 collective stock — google photos export 2026-08-08 319 collective ai inc videos collective ai collective stock google photos archive volumetric light portal collective ai inc videos collective ai collective stock google photos archive volumetric light portal videos collective ai creative production internal and approved public media use #0d1326 #09101d #15203a"
+    },
+    {
       "id": "cstk_b86d6d52c607db2a3680",
       "title": "Branching Timeline Engine",
       "division": "Eon Core",
       "category": "Hero Images",
       "text": "branching timeline engine eon core hero images eon core / google photos archive file_00000000ac9c71f7b5a5cc6b2a0493ff.png collective stock — google photos export 2026-08-08 198 eon core hero images collective ai collective stock google photos archive branching timeline engine eon core hero images collective ai collective stock google photos archive branching timeline engine hero images collective ai creative production internal and approved public media use #171c1d #101313 #1c2323"
-    },
-    {
-      "id": "cstk_0c73b4519c509f84f8f7",
-      "title": "Detail 20 Eon Core",
-      "division": "Eon Core",
-      "category": "Brand Sheets",
-      "text": "detail 20 eon core eon core brand sheets design system bible division detail logos detail-20-eon-core.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #403f45 #2c2b2f #4f4e56"
     },
     {
       "id": "cstk_ab7ccb22e7c24c359ac0",
@@ -955,11 +1123,39 @@
       "text": "eon archive core eon core hero images eon core / google photos archive file_00000000c94871f5b7f9e2b0a533f900.png collective stock — google photos export 2026-08-08 219 eon core hero images collective ai collective stock google photos archive eon archive core eon core hero images collective ai collective stock google photos archive eon archive core hero images collective ai creative production internal and approved public media use #0a1f22 #071517 #0c272b"
     },
     {
-      "id": "cstk_4310f15c26fe94cf983f",
-      "title": "Gallery 20 Eon Core",
+      "id": "cstk_0c73b4519c509f84f8f7",
+      "title": "Eon Core — Brand Detail Reference",
       "division": "Eon Core",
       "category": "Brand Sheets",
-      "text": "gallery 20 eon core eon core brand sheets design system bible division gallery logos gallery-20-eon-core.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #d6d4dc #919096 #ffffff"
+      "text": "eon core — brand detail reference eon core brand sheets design system bible division detail logos detail-20-eon-core.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #403f45 #2c2b2f #4f4e56"
+    },
+    {
+      "id": "cstk_ec2cbfc3b0202c6c7f05",
+      "title": "Eon Core — Brand Reference Sheet",
+      "division": "Eon Core",
+      "category": "Reference Images",
+      "text": "eon core — brand reference sheet eon core reference images collective ai inc component library eon-core-brand-reference-sheet.png eon core brand reference sheet reference images collective ai component library eon core brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #dddbdc #969595 #ffffff"
+    },
+    {
+      "id": "cstk_4bc6c04a36ac1cb81fc3",
+      "title": "Eon Core — Component Sheet",
+      "division": "Eon Core",
+      "category": "Component Sheets",
+      "text": "eon core — component sheet eon core component sheets collective ai inc component library eon-core-component-sheet.png eon core component sheet component sheets collective ai component library eon core component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #10131d #0b0d14 #141824"
+    },
+    {
+      "id": "cstk_4310f15c26fe94cf983f",
+      "title": "Eon Core — Gallery Logo Reference",
+      "division": "Eon Core",
+      "category": "Brand Sheets",
+      "text": "eon core — gallery logo reference eon core brand sheets design system bible division gallery logos gallery-20-eon-core.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #d6d4dc #919096 #ffffff"
+    },
+    {
+      "id": "cstk_537e3692dba135808e5a",
+      "title": "Eon Core — Temporal Orbit Portal Intro Film",
+      "division": "Eon Core",
+      "category": "Division Intro Videos",
+      "text": "eon core — temporal orbit portal intro film eon core division intro videos division intro video library eon-core-temporal-orbit-portal-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
       "id": "cstk_fdd723b210eaacb6b6ce",
@@ -997,13 +1193,6 @@
       "text": "time exchange chamber eon core hero images eon core / google photos archive file_0000000070e871f5aac601f3f354eb22.png collective stock — google photos export 2026-08-08 188 eon core hero images collective ai collective stock google photos archive time exchange chamber eon core hero images collective ai collective stock google photos archive time exchange chamber hero images collective ai creative production internal and approved public media use #212623 #161a18 #282f2b"
     },
     {
-      "id": "cstk_7193654a78864d0c1bad",
-      "title": "Volumetric Light Portal",
-      "division": "Eon Core",
-      "category": "Videos",
-      "text": "volumetric light portal eon core videos eon core / google photos archive grok_video_2026-07-30-20-20-09.mp4 collective stock — google photos export 2026-08-08 319 eon core videos collective ai collective stock google photos archive volumetric light portal eon core videos collective ai collective stock google photos archive volumetric light portal videos collective ai creative production internal and approved public media use #0d1326 #09101d #15203a"
-    },
-    {
       "id": "cstk_cc9d99c2f4ddbfef6b97",
       "title": "Automated Vertical Farm",
       "division": "Gaia Synthesis",
@@ -1023,13 +1212,6 @@
       "division": "Gaia Synthesis",
       "category": "Hero Images",
       "text": "connected leaf macro gaia synthesis hero images gaia synthesis / google photos archive file_0000000026247230a210bf5a5d3135fa.png collective stock — google photos export 2026-08-08 290 gaia synthesis hero images collective ai collective stock google photos archive connected leaf macro gaia synthesis hero images collective ai collective stock google photos archive connected leaf macro hero images collective ai creative production internal and approved public media use #314f2a #21351d #3d6234"
-    },
-    {
-      "id": "cstk_1ab3575c7e347bb51a57",
-      "title": "Detail 15 Gaia Synthesis",
-      "division": "Gaia Synthesis",
-      "category": "Brand Sheets",
-      "text": "detail 15 gaia synthesis gaia synthesis brand sheets design system bible division detail logos detail-15-gaia-synthesis.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #2a2e29 #1c1f1c #343933"
     },
     {
       "id": "cstk_be20ac177096f0d8ba3a",
@@ -1053,11 +1235,39 @@
       "text": "forest drone survey gaia synthesis stock images gaia synthesis / google photos archive file_0000000049f071fda01947f220d57547.png collective stock — google photos export 2026-08-08 282 gaia synthesis stock images collective ai collective stock google photos archive forest drone survey gaia synthesis stock images collective ai collective stock google photos archive forest drone survey stock images collective ai creative production internal and approved public media use #6b8574 #495a4f #85a590"
     },
     {
-      "id": "cstk_914ac883181745679c40",
-      "title": "Gallery 15 Gaia Synthesis",
+      "id": "cstk_1ab3575c7e347bb51a57",
+      "title": "Gaia Synthesis — Brand Detail Reference",
       "division": "Gaia Synthesis",
       "category": "Brand Sheets",
-      "text": "gallery 15 gaia synthesis gaia synthesis brand sheets design system bible division gallery logos gallery-15-gaia-synthesis.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #363c37 #252926 #434b45"
+      "text": "gaia synthesis — brand detail reference gaia synthesis brand sheets design system bible division detail logos detail-15-gaia-synthesis.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #2a2e29 #1c1f1c #343933"
+    },
+    {
+      "id": "cstk_71991ea018103b908c66",
+      "title": "Gaia Synthesis — Brand Reference Sheet",
+      "division": "Gaia Synthesis",
+      "category": "Reference Images",
+      "text": "gaia synthesis — brand reference sheet gaia synthesis reference images collective ai inc component library gaia-synthesis-brand-reference-sheet.png gaia synthesis brand reference sheet reference images collective ai component library gaia synthesis brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #17241c #101813 #1d2c23"
+    },
+    {
+      "id": "cstk_ce24dd956ac60c7646a9",
+      "title": "Gaia Synthesis — Component Sheet",
+      "division": "Gaia Synthesis",
+      "category": "Component Sheets",
+      "text": "gaia synthesis — component sheet gaia synthesis component sheets collective ai inc component library gaia-synthesis-component-sheet.png gaia synthesis component sheet component sheets collective ai component library gaia synthesis component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0e1916 #09110f #111f1c"
+    },
+    {
+      "id": "cstk_914ac883181745679c40",
+      "title": "Gaia Synthesis — Gallery Logo Reference",
+      "division": "Gaia Synthesis",
+      "category": "Brand Sheets",
+      "text": "gaia synthesis — gallery logo reference gaia synthesis brand sheets design system bible division gallery logos gallery-15-gaia-synthesis.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #363c37 #252926 #434b45"
+    },
+    {
+      "id": "cstk_263d0608df71d1f585c1",
+      "title": "Gaia Synthesis — Living Neural Spark Intro Film",
+      "division": "Gaia Synthesis",
+      "category": "Division Intro Videos",
+      "text": "gaia synthesis — living neural spark intro film gaia synthesis division intro videos division intro video library gaia-synthesis-living-neural-spark-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
       "id": "cstk_7fefcde3a3e0f6b2899a",
@@ -1137,13 +1347,6 @@
       "text": "smart-farm field analyst gaia synthesis stock images gaia synthesis / google photos archive file_00000000c25c71f884c4099f0031b5da.png collective stock — google photos export 2026-08-08 277 gaia synthesis stock images collective ai collective stock google photos archive smart-farm field analyst gaia synthesis stock images collective ai collective stock google photos archive smart-farm field analyst stock images collective ai creative production internal and approved public media use #697d74 #48554f #839b90"
     },
     {
-      "id": "cstk_ffc36d25c3b50ecf73de",
-      "title": "Storm over Golden Fields",
-      "division": "Gaia Synthesis",
-      "category": "Videos",
-      "text": "storm over golden fields gaia synthesis videos gaia synthesis / google photos archive grok_video_2026-08-08-10-02-49.mp4 collective stock — google photos export 2026-08-08 59 gaia synthesis videos collective ai collective stock google photos archive storm over golden fields gaia synthesis videos collective ai collective stock google photos archive storm over golden fields videos collective ai creative production internal and approved public media use #0d1326 #09101d #15203a"
-    },
-    {
       "id": "cstk_b582cd0cc994aacbf8b8",
       "title": "After-Hours Home Office",
       "division": "Hybrid Living",
@@ -1172,13 +1375,6 @@
       "text": "couple working from home hybrid living stock images hybrid living / google photos archive file_000000001f5071f5b777729c6133c5b7.png collective stock — google photos export 2026-08-08 248 hybrid living stock images collective ai collective stock google photos archive couple working from home hybrid living stock images collective ai collective stock google photos archive couple working from home stock images collective ai creative production internal and approved public media use #716d64 #4d4a44 #8c877c"
     },
     {
-      "id": "cstk_b2680bdc3635cb15bbc8",
-      "title": "Detail 03 Hybrid Living",
-      "division": "Hybrid Living",
-      "category": "Brand Sheets",
-      "text": "detail 03 hybrid living hybrid living brand sheets design system bible division detail logos detail-03-hybrid-living.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #353b41 #24282c #424a50"
-    },
-    {
       "id": "cstk_12dea4975d0ac73e219c",
       "title": "Evening Coworking Lounge",
       "division": "Hybrid Living",
@@ -1193,11 +1389,39 @@
       "text": "flexible workday in glass office hybrid living stock images hybrid living / google photos archive file_00000000c24071f5bd030102d3c3d825.png collective stock — google photos export 2026-08-08 224 hybrid living stock images collective ai collective stock google photos archive flexible workday glass office hybrid living stock images collective ai collective stock google photos archive flexible workday glass office stock images collective ai creative production internal and approved public media use #858885 #5a5c5b #a5a8a5"
     },
     {
-      "id": "cstk_5d1027df10d5a13a8990",
-      "title": "Gallery 03 Hybrid Living",
+      "id": "cstk_b2680bdc3635cb15bbc8",
+      "title": "Hybrid Living — Brand Detail Reference",
       "division": "Hybrid Living",
       "category": "Brand Sheets",
-      "text": "gallery 03 hybrid living hybrid living brand sheets design system bible division gallery logos gallery-03-hybrid-living.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #bfc4c6 #828587 #edf3f6"
+      "text": "hybrid living — brand detail reference hybrid living brand sheets design system bible division detail logos detail-03-hybrid-living.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #353b41 #24282c #424a50"
+    },
+    {
+      "id": "cstk_8c5048f12f3ebc773b7d",
+      "title": "Hybrid Living — Brand Reference Sheet",
+      "division": "Hybrid Living",
+      "category": "Reference Images",
+      "text": "hybrid living — brand reference sheet hybrid living reference images collective ai inc component library hybrid-living-brand-reference-sheet.png hybrid living brand reference sheet reference images collective ai component library hybrid living brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #1a2232 #121722 #202a3e"
+    },
+    {
+      "id": "cstk_b53851f6331f191c923d",
+      "title": "Hybrid Living — Component Sheet",
+      "division": "Hybrid Living",
+      "category": "Component Sheets",
+      "text": "hybrid living — component sheet hybrid living component sheets collective ai inc component library hybrid-living-component-sheet.png hybrid living component sheet component sheets collective ai component library hybrid living component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0f1b2d #0a131f #122238"
+    },
+    {
+      "id": "cstk_a99061b061a31f862f0b",
+      "title": "Hybrid Living — Dawn Beyond The Network Intro Film",
+      "division": "Hybrid Living",
+      "category": "Division Intro Videos",
+      "text": "hybrid living — dawn beyond the network intro film hybrid living division intro videos division intro video library hybrid-living-dawn-beyond-the-network-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_5d1027df10d5a13a8990",
+      "title": "Hybrid Living — Gallery Logo Reference",
+      "division": "Hybrid Living",
+      "category": "Brand Sheets",
+      "text": "hybrid living — gallery logo reference hybrid living brand sheets design system bible division gallery logos gallery-03-hybrid-living.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #bfc4c6 #828587 #edf3f6"
     },
     {
       "id": "cstk_075c2122256a3848e791",
@@ -1235,32 +1459,46 @@
       "text": "ai legal counsel briefing juris guard stock images juris guard / google photos archive file_000000006b30720c85526d9515c92478.png collective stock — google photos export 2026-08-08 240 juris guard stock images collective ai collective stock google photos archive legal counsel briefing juris guard stock images collective ai collective stock google photos archive legal counsel briefing stock images collective ai creative production internal and approved public media use #252020 #191615 #2e2827"
     },
     {
-      "id": "cstk_cf05ebc9afbab70a9ed9",
-      "title": "Detail 17 Juris Guard",
+      "id": "cstk_19a9141d8677d19b73d0",
+      "title": "Circuit Crest of Digital Justice",
       "division": "Juris Guard",
-      "category": "Brand Sheets",
-      "text": "detail 17 juris guard juris guard brand sheets design system bible division detail logos detail-17-juris-guard.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #1f1e19 #151411 #26251f"
+      "category": "Hero Images",
+      "text": "circuit crest of digital justice juris guard hero images juris guard / google photos archive file_000000006c74722f9a2bb7e684067b2d.png collective stock — google photos export 2026-08-08 245 juris guard hero images collective ai collective stock google photos archive circuit crest digital justice juris guard hero images collective ai collective stock google photos archive circuit crest digital justice hero images collective ai creative production internal and approved public media use #181c23 #101318 #1e222b"
     },
     {
       "id": "cstk_2be9318c6116b7864279",
-      "title": "Digital Justice Shield",
+      "title": "Digital Justice Shield at the Civic Court",
       "division": "Juris Guard",
       "category": "Reference Images",
-      "text": "digital justice shield juris guard reference images juris guard / google photos archive file_000000006f64722fad9bbdedf65ee957.png collective stock — google photos export 2026-08-08 209 juris guard reference images collective ai collective stock google photos archive digital justice shield juris guard reference images collective ai collective stock google photos archive digital justice shield reference images collective ai creative production internal and approved public media use #161d26 #0f141a #1b242f"
+      "text": "digital justice shield at the civic court juris guard reference images juris guard / google photos archive file_000000006f64722fad9bbdedf65ee957.png collective stock — google photos export 2026-08-08 209 juris guard reference images collective ai collective stock google photos archive digital justice shield the civic court juris guard reference images collective ai collective stock google photos archive digital justice shield the civic court reference images collective ai creative production internal and approved public media use #161d26 #0f141a #1b242f"
     },
     {
-      "id": "cstk_19a9141d8677d19b73d0",
-      "title": "Digital Justice Shield",
+      "id": "cstk_cf05ebc9afbab70a9ed9",
+      "title": "Juris Guard — Brand Detail Reference",
       "division": "Juris Guard",
-      "category": "Hero Images",
-      "text": "digital justice shield juris guard hero images juris guard / google photos archive file_000000006c74722f9a2bb7e684067b2d.png collective stock — google photos export 2026-08-08 245 juris guard hero images collective ai collective stock google photos archive digital justice shield juris guard hero images collective ai collective stock google photos archive digital justice shield hero images collective ai creative production internal and approved public media use #181c23 #101318 #1e222b"
+      "category": "Brand Sheets",
+      "text": "juris guard — brand detail reference juris guard brand sheets design system bible division detail logos detail-17-juris-guard.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #1f1e19 #151411 #26251f"
+    },
+    {
+      "id": "cstk_ca883e90a7d697b27a4d",
+      "title": "Juris Guard — Brand Reference Sheet",
+      "division": "Juris Guard",
+      "category": "Reference Images",
+      "text": "juris guard — brand reference sheet juris guard reference images collective ai inc component library juris-guard-brand-reference-sheet.png juris guard brand reference sheet reference images collective ai component library juris guard brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #20252a #16191d #282e35"
+    },
+    {
+      "id": "cstk_4c76ca8e78332c01e28a",
+      "title": "Juris Guard — Component Sheet",
+      "division": "Juris Guard",
+      "category": "Component Sheets",
+      "text": "juris guard — component sheet juris guard component sheets collective ai inc component library juris-guard-component-sheet.png juris guard component sheet component sheets collective ai component library juris guard component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #131c22 #0d1317 #17222b"
     },
     {
       "id": "cstk_5b1fc0327e77193dbf55",
-      "title": "Gallery 17 Juris Guard",
+      "title": "Juris Guard — Gallery Logo Reference",
       "division": "Juris Guard",
       "category": "Brand Sheets",
-      "text": "gallery 17 juris guard juris guard brand sheets design system bible division gallery logos gallery-17-juris-guard.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #383b38 #262826 #464a46"
+      "text": "juris guard — gallery logo reference juris guard brand sheets design system bible division gallery logos gallery-17-juris-guard.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #383b38 #262826 #464a46"
     },
     {
       "id": "cstk_d10905d4de1c2225d08c",
@@ -1333,27 +1571,6 @@
       "text": "urban legal protection juris guard stock images juris guard / google photos archive stock(17).jpg collective stock — google photos export 2026-08-08 166 juris guard stock images collective ai collective stock google photos archive urban legal protection juris guard stock images collective ai collective stock google photos archive urban legal protection stock images collective ai creative production internal and approved public media use #171a23 #0f1218 #1c202c"
     },
     {
-      "id": "cstk_8cc5c79383d75716c2fc",
-      "title": "Autonomous Rover at Industrial Site",
-      "division": "Kinetic Edge",
-      "category": "Hero Images",
-      "text": "autonomous rover at industrial site kinetic edge hero images kinetic edge / google photos archive file_000000003c6c722f9e1dfec71b33df56.png collective stock — google photos export 2026-08-08 47 kinetic edge hero images collective ai collective stock google photos archive autonomous rover industrial site kinetic edge hero images collective ai collective stock google photos archive autonomous rover industrial site hero images collective ai creative production internal and approved public media use #394b5d #27333f #475d74"
-    },
-    {
-      "id": "cstk_806fafc5b6926d65066b",
-      "title": "Autonomous Warehouse Fleet",
-      "division": "Kinetic Edge",
-      "category": "Stock Images",
-      "text": "autonomous warehouse fleet kinetic edge stock images kinetic edge / google photos archive file_00000000b714722fb2e481fa3a3ceda6.png collective stock — google photos export 2026-08-08 53 kinetic edge stock images collective ai collective stock google photos archive autonomous warehouse fleet kinetic edge stock images collective ai collective stock google photos archive autonomous warehouse fleet stock images collective ai creative production internal and approved public media use #142635 #0e1a24 #193041"
-    },
-    {
-      "id": "cstk_1db27dbb727a7b86ff8c",
-      "title": "Detail 05 Kinetic Edge",
-      "division": "Kinetic Edge",
-      "category": "Brand Sheets",
-      "text": "detail 05 kinetic edge kinetic edge brand sheets design system bible division detail logos detail-05-kinetic-edge.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #1e1e1e #151514 #252525"
-    },
-    {
       "id": "cstk_e65425c5b83d8d2d30d6",
       "title": "Energy-Tracked Athlete",
       "division": "Kinetic Edge",
@@ -1361,25 +1578,46 @@
       "text": "energy-tracked athlete kinetic edge stock images kinetic edge / google photos archive stock(8).jpg collective stock — google photos export 2026-08-08 153 kinetic edge stock images collective ai collective stock google photos archive energy-tracked athlete kinetic edge stock images collective ai collective stock google photos archive energy-tracked athlete stock images collective ai creative production internal and approved public media use #0e2022 #0a1617 #12282a"
     },
     {
-      "id": "cstk_0081f716dfaa2ee98978",
-      "title": "Gallery 05 Kinetic Edge",
-      "division": "Kinetic Edge",
-      "category": "Brand Sheets",
-      "text": "gallery 05 kinetic edge kinetic edge brand sheets design system bible division gallery logos gallery-05-kinetic-edge.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #393938 #272726 #464646"
-    },
-    {
-      "id": "cstk_bcf473d2a20a3192fe36",
-      "title": "Humanoid Robotics Operations Center",
-      "division": "Kinetic Edge",
-      "category": "Stock Images",
-      "text": "humanoid robotics operations center kinetic edge stock images kinetic edge / google photos archive file_00000000d254722fb801fd82227b930b.png collective stock — google photos export 2026-08-08 50 kinetic edge stock images collective ai collective stock google photos archive humanoid robotics operations center kinetic edge stock images collective ai collective stock google photos archive humanoid robotics operations center stock images collective ai creative production internal and approved public media use #111d24 #0b1418 #15242c"
-    },
-    {
       "id": "cstk_8093c845ed9a48f987e0",
       "title": "Kinetic Diagonal Streaks",
       "division": "Kinetic Edge",
       "category": "Website Backgrounds",
       "text": "kinetic diagonal streaks kinetic edge website backgrounds kinetic edge / google photos archive bg(8).jpg collective stock — google photos export 2026-08-08 146 kinetic edge website backgrounds collective ai collective stock google photos archive kinetic diagonal streaks kinetic edge website backgrounds collective ai collective stock google photos archive kinetic diagonal streaks website backgrounds collective ai creative production internal and approved public media use #09112b #060c1d #0b1535"
+    },
+    {
+      "id": "cstk_1db27dbb727a7b86ff8c",
+      "title": "Kinetic Edge — Brand Detail Reference",
+      "division": "Kinetic Edge",
+      "category": "Brand Sheets",
+      "text": "kinetic edge — brand detail reference kinetic edge brand sheets design system bible division detail logos detail-05-kinetic-edge.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #1e1e1e #151514 #252525"
+    },
+    {
+      "id": "cstk_e879e3e535ac3e334c85",
+      "title": "Kinetic Edge — Brand Reference Sheet",
+      "division": "Kinetic Edge",
+      "category": "Reference Images",
+      "text": "kinetic edge — brand reference sheet kinetic edge reference images collective ai inc component library kinetic-edge-brand-reference-sheet.png kinetic edge brand reference sheet reference images collective ai component library kinetic edge brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #131816 #0d110f #171e1b"
+    },
+    {
+      "id": "cstk_e324678b03392b33ca81",
+      "title": "Kinetic Edge — Component Sheet",
+      "division": "Kinetic Edge",
+      "category": "Component Sheets",
+      "text": "kinetic edge — component sheet kinetic edge component sheets collective ai inc component library kinetic-edge-component-sheet.png kinetic edge component sheet component sheets collective ai component library kinetic edge component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0a110f #070b0a #0d1512"
+    },
+    {
+      "id": "cstk_0081f716dfaa2ee98978",
+      "title": "Kinetic Edge — Gallery Logo Reference",
+      "division": "Kinetic Edge",
+      "category": "Brand Sheets",
+      "text": "kinetic edge — gallery logo reference kinetic edge brand sheets design system bible division gallery logos gallery-05-kinetic-edge.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #393938 #272726 #464646"
+    },
+    {
+      "id": "cstk_6494c17b823471a5d7cf",
+      "title": "Kinetic Edge — Green Vitality Pulse Intro Film",
+      "division": "Kinetic Edge",
+      "category": "Division Intro Videos",
+      "text": "kinetic edge — green vitality pulse intro film kinetic edge division intro videos division intro video library kinetic-edge-green-vitality-pulse-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
       "id": "cstk_8c7cd88f6f0ced5d7508",
@@ -1422,27 +1660,6 @@
       "division": "Kinetic Edge",
       "category": "Reference Images",
       "text": "neon motorcycle run 03 kinetic edge reference images kinetic edge / google photos archive img-20260122-wa0061.jpg collective stock — google photos export 2026-08-08 318 kinetic edge reference images collective ai collective stock google photos archive neon motorcycle run kinetic edge reference images collective ai collective stock google photos archive neon motorcycle run reference images collective ai creative production internal and approved public media use #485c6f #313f4b #597289"
-    },
-    {
-      "id": "cstk_5f63108009685a1aa3d8",
-      "title": "Robotic Interface Touch",
-      "division": "Kinetic Edge",
-      "category": "Stock Images",
-      "text": "robotic interface touch kinetic edge stock images kinetic edge / google photos archive file_000000004964722fb7a5689ba0e4d09e.png collective stock — google photos export 2026-08-08 57 kinetic edge stock images collective ai collective stock google photos archive robotic interface touch kinetic edge stock images collective ai collective stock google photos archive robotic interface touch stock images collective ai creative production internal and approved public media use #1a272d #121a1e #203037"
-    },
-    {
-      "id": "cstk_2f4c78c521781c2fc59b",
-      "title": "Detail 04 Nexus Labs",
-      "division": "Nexus Labs",
-      "category": "Brand Sheets",
-      "text": "detail 04 nexus labs nexus labs brand sheets design system bible division detail logos detail-04-nexus-labs.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #181714 #10100e #1e1d19"
-    },
-    {
-      "id": "cstk_8f3ea462d0d0e1a79cbf",
-      "title": "Gallery 04 Nexus Labs",
-      "division": "Nexus Labs",
-      "category": "Brand Sheets",
-      "text": "gallery 04 nexus labs nexus labs brand sheets design system bible division gallery logos gallery-04-nexus-labs.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #efefee #a3a2a2 #ffffff"
     },
     {
       "id": "cstk_15e1c6abc8afeb4b9d37",
@@ -1543,6 +1760,41 @@
       "text": "nexus immersive corridor nexus labs hero images nexus labs / google photos archive file_00000000ca94722f83b07d1437472034.png collective stock — google photos export 2026-08-08 216 nexus labs hero images collective ai collective stock google photos archive nexus immersive corridor nexus labs hero images collective ai collective stock google photos archive nexus immersive corridor hero images collective ai creative production internal and approved public media use #02183b #011028 #031d49"
     },
     {
+      "id": "cstk_2f4c78c521781c2fc59b",
+      "title": "Nexus Labs — Brand Detail Reference",
+      "division": "Nexus Labs",
+      "category": "Brand Sheets",
+      "text": "nexus labs — brand detail reference nexus labs brand sheets design system bible division detail logos detail-04-nexus-labs.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #181714 #10100e #1e1d19"
+    },
+    {
+      "id": "cstk_752134b072d3f9c1be97",
+      "title": "Nexus Labs — Brand Reference Sheet",
+      "division": "Nexus Labs",
+      "category": "Reference Images",
+      "text": "nexus labs — brand reference sheet nexus labs reference images collective ai inc component library nexus-labs-brand-reference-sheet.png nexus labs brand reference sheet reference images collective ai component library nexus labs brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #181518 #100e10 #1d1a1d"
+    },
+    {
+      "id": "cstk_e30127b7bb8429eb7d26",
+      "title": "Nexus Labs — Component Sheet",
+      "division": "Nexus Labs",
+      "category": "Component Sheets",
+      "text": "nexus labs — component sheet nexus labs component sheets collective ai inc component library nexus-labs-component-sheet.png nexus labs component sheet component sheets collective ai component library nexus labs component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #100f14 #0b0a0d #141318"
+    },
+    {
+      "id": "cstk_3fd3eb1b7eb8249d6640",
+      "title": "Nexus Labs — Crimson Genesis Nebula Intro Film",
+      "division": "Nexus Labs",
+      "category": "Division Intro Videos",
+      "text": "nexus labs — crimson genesis nebula intro film nexus labs division intro videos division intro video library nexus-labs-crimson-genesis-nebula-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_8f3ea462d0d0e1a79cbf",
+      "title": "Nexus Labs — Gallery Logo Reference",
+      "division": "Nexus Labs",
+      "category": "Brand Sheets",
+      "text": "nexus labs — gallery logo reference nexus labs brand sheets design system bible division gallery logos gallery-04-nexus-labs.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #efefee #a3a2a2 #ffffff"
+    },
+    {
       "id": "cstk_9f4e01c5860c7c54778d",
       "title": "Nexus Monumental Portal",
       "division": "Nexus Labs",
@@ -1585,88 +1837,102 @@
       "text": "quantum cube stage nexus labs hero images nexus labs / google photos archive file_00000000c6c471f58181c958897a1adc.png collective stock — google photos export 2026-08-08 243 nexus labs hero images collective ai collective stock google photos archive quantum cube stage nexus labs hero images collective ai collective stock google photos archive quantum cube stage hero images collective ai creative production internal and approved public media use #021432 #010e22 #02193e"
     },
     {
-      "id": "cstk_214fc789428a55b211f9",
-      "title": "Detail 19 Nomad Nexus",
-      "division": "Nomad Nexus",
-      "category": "Brand Sheets",
-      "text": "detail 19 nomad nexus nomad nexus brand sheets design system bible division detail logos detail-19-nomad-nexus.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #484741 #31302c #5a5851"
-    },
-    {
-      "id": "cstk_e75511cee67c0e64ddcd",
-      "title": "Gallery 19 Nomad Nexus",
-      "division": "Nomad Nexus",
-      "category": "Brand Sheets",
-      "text": "gallery 19 nomad nexus nomad nexus brand sheets design system bible division gallery logos gallery-19-nomad-nexus.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #e0ded7 #999792 #ffffff"
-    },
-    {
       "id": "cstk_913fd27d54b546d04c8b",
-      "title": "Nomad Nexus Stock 01",
+      "title": "Connected Travel Expedition",
       "division": "Nomad Nexus",
       "category": "Stock Images",
-      "text": "nomad nexus stock 01 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_01.png collective stock — google photos export 2026-08-08 120 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #82766b #595149 #a29385"
-    },
-    {
-      "id": "cstk_be774f49fa4474b07f0a",
-      "title": "Nomad Nexus Stock 02",
-      "division": "Nomad Nexus",
-      "category": "Stock Images",
-      "text": "nomad nexus stock 02 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_02.png collective stock — google photos export 2026-08-08 98 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #38322a #26221c #453e34"
-    },
-    {
-      "id": "cstk_e839abd0d1d4b220f422",
-      "title": "Nomad Nexus Stock 03",
-      "division": "Nomad Nexus",
-      "category": "Stock Images",
-      "text": "nomad nexus stock 03 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_03.png collective stock — google photos export 2026-08-08 101 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #211e1a #161512 #282621"
-    },
-    {
-      "id": "cstk_c2f21e6b5cfcce30624e",
-      "title": "Nomad Nexus Stock 04",
-      "division": "Nomad Nexus",
-      "category": "Stock Images",
-      "text": "nomad nexus stock 04 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_04.png collective stock — google photos export 2026-08-08 118 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #4a4437 #322e25 #5b5444"
-    },
-    {
-      "id": "cstk_b511a7215e85a432e4c1",
-      "title": "Nomad Nexus Stock 05",
-      "division": "Nomad Nexus",
-      "category": "Stock Images",
-      "text": "nomad nexus stock 05 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_05.png collective stock — google photos export 2026-08-08 116 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #4b3e34 #332a23 #5c4d41"
+      "text": "connected travel expedition nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_01.png collective stock — google photos export 2026-08-08 120 nomad nexus stock images collective ai collective stock google photos archive connected travel expedition nomad nexus stock images collective ai collective stock google photos archive connected travel expedition stock images collective ai creative production internal and approved public media use #82766b #595149 #a29385"
     },
     {
       "id": "cstk_ed15432dc99cbc0d002c",
-      "title": "Nomad Nexus Stock 06",
+      "title": "Distributed Team Workspace",
       "division": "Nomad Nexus",
       "category": "Stock Images",
-      "text": "nomad nexus stock 06 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_06.png collective stock — google photos export 2026-08-08 117 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #3c3a38 #292726 #4a4845"
-    },
-    {
-      "id": "cstk_baeb08d33e2883bbe726",
-      "title": "Nomad Nexus Stock 07",
-      "division": "Nomad Nexus",
-      "category": "Stock Images",
-      "text": "nomad nexus stock 07 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_07.png collective stock — google photos export 2026-08-08 128 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #6c5743 #493b2e #866c54"
-    },
-    {
-      "id": "cstk_a9a1aab1256185c3f1ac",
-      "title": "Nomad Nexus Stock 08",
-      "division": "Nomad Nexus",
-      "category": "Stock Images",
-      "text": "nomad nexus stock 08 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_08.png collective stock — google photos export 2026-08-08 105 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #201f1d #161514 #282624"
-    },
-    {
-      "id": "cstk_edafc708855bbc39a40e",
-      "title": "Nomad Nexus Stock 09",
-      "division": "Nomad Nexus",
-      "category": "Stock Images",
-      "text": "nomad nexus stock 09 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_09.png collective stock — google photos export 2026-08-08 119 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #654e39 #453527 #7d6046"
+      "text": "distributed team workspace nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_06.png collective stock — google photos export 2026-08-08 117 nomad nexus stock images collective ai collective stock google photos archive distributed team workspace nomad nexus stock images collective ai collective stock google photos archive distributed team workspace stock images collective ai creative production internal and approved public media use #3c3a38 #292726 #4a4845"
     },
     {
       "id": "cstk_56dd4b0e72ce630e089b",
-      "title": "Nomad Nexus Stock 10",
+      "title": "Global Access Pass",
       "division": "Nomad Nexus",
       "category": "Stock Images",
-      "text": "nomad nexus stock 10 nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_10.png collective stock — google photos export 2026-08-08 109 nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock nomad nexus stock images collective ai collective stock google photos archive nomad nexus stock stock images collective ai creative production internal and approved public media use #2a2725 #1d1b19 #34312d"
+      "text": "global access pass nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_10.png collective stock — google photos export 2026-08-08 109 nomad nexus stock images collective ai collective stock google photos archive global access pass nomad nexus stock images collective ai collective stock google photos archive global access pass stock images collective ai creative production internal and approved public media use #2a2725 #1d1b19 #34312d"
+    },
+    {
+      "id": "cstk_c2f21e6b5cfcce30624e",
+      "title": "Global Airport Departure",
+      "division": "Nomad Nexus",
+      "category": "Stock Images",
+      "text": "global airport departure nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_04.png collective stock — google photos export 2026-08-08 118 nomad nexus stock images collective ai collective stock google photos archive global airport departure nomad nexus stock images collective ai collective stock google photos archive global airport departure stock images collective ai creative production internal and approved public media use #4a4437 #322e25 #5b5444"
+    },
+    {
+      "id": "cstk_e839abd0d1d4b220f422",
+      "title": "Global Travel Network Globe",
+      "division": "Nomad Nexus",
+      "category": "Stock Images",
+      "text": "global travel network globe nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_03.png collective stock — google photos export 2026-08-08 101 nomad nexus stock images collective ai collective stock google photos archive global travel network globe nomad nexus stock images collective ai collective stock google photos archive global travel network globe stock images collective ai creative production internal and approved public media use #211e1a #161512 #282621"
+    },
+    {
+      "id": "cstk_a9a1aab1256185c3f1ac",
+      "title": "Mobile Travel Analytics",
+      "division": "Nomad Nexus",
+      "category": "Stock Images",
+      "text": "mobile travel analytics nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_08.png collective stock — google photos export 2026-08-08 105 nomad nexus stock images collective ai collective stock google photos archive mobile travel analytics nomad nexus stock images collective ai collective stock google photos archive mobile travel analytics stock images collective ai creative production internal and approved public media use #201f1d #161514 #282624"
+    },
+    {
+      "id": "cstk_214fc789428a55b211f9",
+      "title": "Nomad Nexus — Brand Detail Reference",
+      "division": "Nomad Nexus",
+      "category": "Brand Sheets",
+      "text": "nomad nexus — brand detail reference nomad nexus brand sheets design system bible division detail logos detail-19-nomad-nexus.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #484741 #31302c #5a5851"
+    },
+    {
+      "id": "cstk_769624fb48cc57a23de2",
+      "title": "Nomad Nexus — Brand Reference Sheet",
+      "division": "Nomad Nexus",
+      "category": "Reference Images",
+      "text": "nomad nexus — brand reference sheet nomad nexus reference images collective ai inc component library nomad-nexus-brand-reference-sheet.png nomad nexus brand reference sheet reference images collective ai component library nomad nexus brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #1b1916 #12110f #211f1b"
+    },
+    {
+      "id": "cstk_8e31a7983df1674d1fa8",
+      "title": "Nomad Nexus — Component Sheet",
+      "division": "Nomad Nexus",
+      "category": "Component Sheets",
+      "text": "nomad nexus — component sheet nomad nexus component sheets collective ai inc component library nomad-nexus-component-sheet.png nomad nexus component sheet component sheets collective ai component library nomad nexus component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #232322 #181817 #2b2b2a"
+    },
+    {
+      "id": "cstk_e75511cee67c0e64ddcd",
+      "title": "Nomad Nexus — Gallery Logo Reference",
+      "division": "Nomad Nexus",
+      "category": "Brand Sheets",
+      "text": "nomad nexus — gallery logo reference nomad nexus brand sheets design system bible division gallery logos gallery-19-nomad-nexus.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #e0ded7 #999792 #ffffff"
+    },
+    {
+      "id": "cstk_be0be0653352ac7b01c2",
+      "title": "Nomad Nexus — Networked Earth Awakening Intro Film",
+      "division": "Nomad Nexus",
+      "category": "Division Intro Videos",
+      "text": "nomad nexus — networked earth awakening intro film nomad nexus division intro videos division intro video library nomad-nexus-networked-earth-awakening-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_b511a7215e85a432e4c1",
+      "title": "Nomad Nexus Mobile Companion",
+      "division": "Nomad Nexus",
+      "category": "Stock Images",
+      "text": "nomad nexus mobile companion nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_05.png collective stock — google photos export 2026-08-08 116 nomad nexus stock images collective ai collective stock google photos archive nomad nexus mobile companion nomad nexus stock images collective ai collective stock google photos archive nomad nexus mobile companion stock images collective ai creative production internal and approved public media use #4b3e34 #332a23 #5c4d41"
+    },
+    {
+      "id": "cstk_baeb08d33e2883bbe726",
+      "title": "Nomad Nexus Visual Collection",
+      "division": "Nomad Nexus",
+      "category": "Stock Images",
+      "text": "nomad nexus visual collection nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_07.png collective stock — google photos export 2026-08-08 128 nomad nexus stock images collective ai collective stock google photos archive nomad nexus visual collection nomad nexus stock images collective ai collective stock google photos archive nomad nexus visual collection stock images collective ai creative production internal and approved public media use #6c5743 #493b2e #866c54"
+    },
+    {
+      "id": "cstk_be774f49fa4474b07f0a",
+      "title": "Remote Work from Coastal Retreat",
+      "division": "Nomad Nexus",
+      "category": "Stock Images",
+      "text": "remote work from coastal retreat nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_02.png collective stock — google photos export 2026-08-08 98 nomad nexus stock images collective ai collective stock google photos archive remote work from coastal retreat nomad nexus stock images collective ai collective stock google photos archive remote work from coastal retreat stock images collective ai creative production internal and approved public media use #38322a #26221c #453e34"
     },
     {
       "id": "cstk_8e9339a38c7e19e9b468",
@@ -1676,6 +1942,13 @@
       "text": "rooftop remote work abroad nomad nexus stock images nomad nexus / google photos archive file_000000009de471f592a7fc97d62543cb.png collective stock — google photos export 2026-08-08 253 nomad nexus stock images collective ai collective stock google photos archive rooftop remote work abroad nomad nexus stock images collective ai collective stock google photos archive rooftop remote work abroad stock images collective ai creative production internal and approved public media use #8b8480 #5f5a57 #ada39e"
     },
     {
+      "id": "cstk_edafc708855bbc39a40e",
+      "title": "Sunset Remote Work Overlook",
+      "division": "Nomad Nexus",
+      "category": "Stock Images",
+      "text": "sunset remote work overlook nomad nexus stock images nomad nexus / google photos archive nomad_nexus_stock_09.png collective stock — google photos export 2026-08-08 119 nomad nexus stock images collective ai collective stock google photos archive sunset remote work overlook nomad nexus stock images collective ai collective stock google photos archive sunset remote work overlook stock images collective ai creative production internal and approved public media use #654e39 #453527 #7d6046"
+    },
+    {
       "id": "cstk_8d01b6ed42704508964f",
       "title": "Biometric Access Control",
       "division": "Obsidian Arc",
@@ -1683,25 +1956,46 @@
       "text": "biometric access control obsidian arc stock images obsidian arc / google photos archive file_000000001ae0820cb54aefe56d1c2974.png collective stock — google photos export 2026-08-08 97 obsidian arc stock images collective ai collective stock google photos archive biometric access control obsidian arc stock images collective ai collective stock google photos archive biometric access control stock images collective ai creative production internal and approved public media use #1e1c1d #141314 #252324"
     },
     {
-      "id": "cstk_8569e1ce6bbc633d6835",
-      "title": "Detail 11 Obsidian Arc",
-      "division": "Obsidian Arc",
-      "category": "Brand Sheets",
-      "text": "detail 11 obsidian arc obsidian arc brand sheets design system bible division detail logos detail-11-obsidian-arc.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #2d373b #1e2528 #38444a"
-    },
-    {
-      "id": "cstk_0b27acce4bf872ad02f2",
-      "title": "Gallery 11 Obsidian Arc",
-      "division": "Obsidian Arc",
-      "category": "Brand Sheets",
-      "text": "gallery 11 obsidian arc obsidian arc brand sheets design system bible division gallery logos gallery-11-obsidian-arc.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #45545b #2f393e #566971"
-    },
-    {
       "id": "cstk_8b763d2a80da2eebb24a",
       "title": "Headquarters Lobby",
       "division": "Obsidian Arc",
       "category": "Stock Images",
       "text": "headquarters lobby obsidian arc stock images obsidian arc / google photos archive file_000000007a5881fb881700598db632e0.png collective stock — google photos export 2026-08-08 113 obsidian arc stock images collective ai collective stock google photos archive headquarters lobby obsidian arc stock images collective ai collective stock google photos archive headquarters lobby stock images collective ai creative production internal and approved public media use #2b2426 #1d181a #352d30"
+    },
+    {
+      "id": "cstk_8569e1ce6bbc633d6835",
+      "title": "Obsidian Arc — Brand Detail Reference",
+      "division": "Obsidian Arc",
+      "category": "Brand Sheets",
+      "text": "obsidian arc — brand detail reference obsidian arc brand sheets design system bible division detail logos detail-11-obsidian-arc.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #2d373b #1e2528 #38444a"
+    },
+    {
+      "id": "cstk_0ab41fc22196d9eda3e3",
+      "title": "Obsidian Arc — Brand Reference Sheet",
+      "division": "Obsidian Arc",
+      "category": "Reference Images",
+      "text": "obsidian arc — brand reference sheet obsidian arc reference images collective ai inc component library obsidian-arc-brand-reference-sheet.png obsidian arc brand reference sheet reference images collective ai component library obsidian arc brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #151820 #0e1116 #1a1e27"
+    },
+    {
+      "id": "cstk_08fdfb93a436e9d91e3d",
+      "title": "Obsidian Arc — Component Sheet",
+      "division": "Obsidian Arc",
+      "category": "Component Sheets",
+      "text": "obsidian arc — component sheet obsidian arc component sheets collective ai inc component library obsidian-arc-component-sheet.png obsidian arc component sheet component sheets collective ai component library obsidian arc component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0e1017 #0a0b10 #12141d"
+    },
+    {
+      "id": "cstk_0b27acce4bf872ad02f2",
+      "title": "Obsidian Arc — Gallery Logo Reference",
+      "division": "Obsidian Arc",
+      "category": "Brand Sheets",
+      "text": "obsidian arc — gallery logo reference obsidian arc brand sheets design system bible division gallery logos gallery-11-obsidian-arc.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #45545b #2f393e #566971"
+    },
+    {
+      "id": "cstk_a8ce7213ad062404d8fd",
+      "title": "Obsidian Arc — Lattice Data Corridor Intro Film",
+      "division": "Obsidian Arc",
+      "category": "Division Intro Videos",
+      "text": "obsidian arc — lattice data corridor intro film obsidian arc division intro videos division intro video library obsidian-arc-lattice-data-corridor-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
       "id": "cstk_2bf5a257637c12be9311",
@@ -1781,25 +2075,11 @@
       "text": "data-wrapped ledger pillar quantum ledger hero images quantum ledger / google photos archive file_000000000100722fbbd91d2ace4474da.png collective stock — google photos export 2026-08-08 51 quantum ledger hero images collective ai collective stock google photos archive data-wrapped ledger pillar quantum ledger hero images collective ai collective stock google photos archive data-wrapped ledger pillar hero images collective ai creative production internal and approved public media use #25273f #191b2b #2d314e"
     },
     {
-      "id": "cstk_be4c73228e4e6c6dfbd3",
-      "title": "Detail 06 Quantum Ledger",
-      "division": "Quantum Ledger",
-      "category": "Brand Sheets",
-      "text": "detail 06 quantum ledger quantum ledger brand sheets design system bible division detail logos detail-06-quantum-ledger.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #1c2123 #131618 #22292b"
-    },
-    {
       "id": "cstk_8cb4628aff5999554334",
       "title": "Fintech Growth Circuitry",
       "division": "Quantum Ledger",
       "category": "Website Backgrounds",
       "text": "fintech growth circuitry quantum ledger website backgrounds quantum ledger / google photos archive bg(9).jpg collective stock — google photos export 2026-08-08 147 quantum ledger website backgrounds collective ai collective stock google photos archive fintech growth circuitry quantum ledger website backgrounds collective ai collective stock google photos archive fintech growth circuitry website backgrounds collective ai creative production internal and approved public media use #071a27 #05121b #092031"
-    },
-    {
-      "id": "cstk_da29b53e65c5f2da5549",
-      "title": "Gallery 06 Quantum Ledger",
-      "division": "Quantum Ledger",
-      "category": "Brand Sheets",
-      "text": "gallery 06 quantum ledger quantum ledger brand sheets design system bible division gallery logos gallery-06-quantum-ledger.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #2b2f34 #1d2023 #363b40"
     },
     {
       "id": "cstk_ed617e87c0a9dfa8232e",
@@ -1835,6 +2115,41 @@
       "division": "Quantum Ledger",
       "category": "Stock Images",
       "text": "quantum data center quantum ledger stock images quantum ledger / google photos archive file_000000003db0722f825a163981e27ffe.png collective stock — google photos export 2026-08-08 56 quantum ledger stock images collective ai collective stock google photos archive quantum data center quantum ledger stock images collective ai collective stock google photos archive quantum data center stock images collective ai creative production internal and approved public media use #1d1e36 #141425 #242543"
+    },
+    {
+      "id": "cstk_be4c73228e4e6c6dfbd3",
+      "title": "Quantum Ledger — Brand Detail Reference",
+      "division": "Quantum Ledger",
+      "category": "Brand Sheets",
+      "text": "quantum ledger — brand detail reference quantum ledger brand sheets design system bible division detail logos detail-06-quantum-ledger.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #1c2123 #131618 #22292b"
+    },
+    {
+      "id": "cstk_84d812a16618459767d9",
+      "title": "Quantum Ledger — Brand Reference Sheet",
+      "division": "Quantum Ledger",
+      "category": "Reference Images",
+      "text": "quantum ledger — brand reference sheet quantum ledger reference images collective ai inc component library quantum-ledger-brand-reference-sheet.png quantum ledger brand reference sheet reference images collective ai component library quantum ledger brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #0f101b #0a0b12 #131421"
+    },
+    {
+      "id": "cstk_1c7aa9c226f0fd3e0308",
+      "title": "Quantum Ledger — Component Sheet",
+      "division": "Quantum Ledger",
+      "category": "Component Sheets",
+      "text": "quantum ledger — component sheet quantum ledger component sheets collective ai inc component library quantum-ledger-component-sheet.png quantum ledger component sheet component sheets collective ai component library quantum ledger component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0b0c15 #07080e #0e0f1a"
+    },
+    {
+      "id": "cstk_da29b53e65c5f2da5549",
+      "title": "Quantum Ledger — Gallery Logo Reference",
+      "division": "Quantum Ledger",
+      "category": "Brand Sheets",
+      "text": "quantum ledger — gallery logo reference quantum ledger brand sheets design system bible division gallery logos gallery-06-quantum-ledger.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #2b2f34 #1d2023 #363b40"
+    },
+    {
+      "id": "cstk_9ce1f307fcf80cc7a6f9",
+      "title": "Quantum Ledger — Global Data Cartography Intro Film",
+      "division": "Quantum Ledger",
+      "category": "Division Intro Videos",
+      "text": "quantum ledger — global data cartography intro film quantum ledger division intro videos division intro video library quantum-ledger-global-data-cartography-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
       "id": "cstk_4286fe6f8f8f88362643",
@@ -1879,25 +2194,11 @@
       "text": "accelerated particle stream signal velocity stock images signal velocity / google photos archive stock(14).jpg collective stock — google photos export 2026-08-08 159 signal velocity stock images collective ai collective stock google photos archive accelerated particle stream signal velocity stock images collective ai collective stock google photos archive accelerated particle stream stock images collective ai creative production internal and approved public media use #321926 #22111a #3d1f30"
     },
     {
-      "id": "cstk_c8832a8c6247ea957c5a",
-      "title": "Detail 18 Signal Velocity",
-      "division": "Signal Velocity",
-      "category": "Brand Sheets",
-      "text": "detail 18 signal velocity signal velocity brand sheets design system bible division detail logos detail-18-signal-velocity.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #343d4b #232a33 #414c5d"
-    },
-    {
       "id": "cstk_540cbb7afb0ae00331a1",
       "title": "Flowing Signal Terrain",
       "division": "Signal Velocity",
       "category": "Website Backgrounds",
       "text": "flowing signal terrain signal velocity website backgrounds signal velocity / google photos archive bg(7).jpg collective stock — google photos export 2026-08-08 143 signal velocity website backgrounds collective ai collective stock google photos archive flowing signal terrain signal velocity website backgrounds collective ai collective stock google photos archive flowing signal terrain website backgrounds collective ai creative production internal and approved public media use #142c45 #0e1e2f #193756"
-    },
-    {
-      "id": "cstk_08333ce1d909c2aa1be4",
-      "title": "Gallery 18 Signal Velocity",
-      "division": "Signal Velocity",
-      "category": "Brand Sheets",
-      "text": "gallery 18 signal velocity signal velocity brand sheets design system bible division gallery logos gallery-18-signal-velocity.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #dfe7f2 #989da4 #ffffff"
     },
     {
       "id": "cstk_aa3b19842c6ce26bca56",
@@ -1949,6 +2250,41 @@
       "text": "signal routing blueprint signal velocity website backgrounds signal velocity / google photos archive bg(12).jpg collective stock — google photos export 2026-08-08 148 signal velocity website backgrounds collective ai collective stock google photos archive signal routing blueprint signal velocity website backgrounds collective ai collective stock google photos archive signal routing blueprint website backgrounds collective ai creative production internal and approved public media use #06152a #040e1d #081a34"
     },
     {
+      "id": "cstk_80e5599e50dbbf522542",
+      "title": "Signal Velocity — Blue Signal Pulse Intro Film",
+      "division": "Signal Velocity",
+      "category": "Division Intro Videos",
+      "text": "signal velocity — blue signal pulse intro film signal velocity division intro videos division intro video library signal-velocity-blue-signal-pulse-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_c8832a8c6247ea957c5a",
+      "title": "Signal Velocity — Brand Detail Reference",
+      "division": "Signal Velocity",
+      "category": "Brand Sheets",
+      "text": "signal velocity — brand detail reference signal velocity brand sheets design system bible division detail logos detail-18-signal-velocity.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #343d4b #232a33 #414c5d"
+    },
+    {
+      "id": "cstk_75b4dcb65aa5ed7f8d11",
+      "title": "Signal Velocity — Brand Reference Sheet",
+      "division": "Signal Velocity",
+      "category": "Reference Images",
+      "text": "signal velocity — brand reference sheet signal velocity reference images collective ai inc component library signal-velocity-brand-reference-sheet.png signal velocity brand reference sheet reference images collective ai component library signal velocity brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #0c1527 #080e1b #0f1a31"
+    },
+    {
+      "id": "cstk_6001f755c7afb071b796",
+      "title": "Signal Velocity — Component Sheet",
+      "division": "Signal Velocity",
+      "category": "Component Sheets",
+      "text": "signal velocity — component sheet signal velocity component sheets collective ai inc component library signal-velocity-component-sheet.png signal velocity component sheet component sheets collective ai component library signal velocity component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #091325 #060d19 #0c182e"
+    },
+    {
+      "id": "cstk_08333ce1d909c2aa1be4",
+      "title": "Signal Velocity — Gallery Logo Reference",
+      "division": "Signal Velocity",
+      "category": "Brand Sheets",
+      "text": "signal velocity — gallery logo reference signal velocity brand sheets design system bible division gallery logos gallery-18-signal-velocity.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #dfe7f2 #989da4 #ffffff"
+    },
+    {
       "id": "cstk_c51b6d10b15b70f94e9f",
       "title": "Signal Velocity Smart City",
       "division": "Signal Velocity",
@@ -1991,20 +2327,6 @@
       "text": "coastal geospatial corridor terra axis stock images terra axis / google photos archive stock(6).jpg collective stock — google photos export 2026-08-08 144 terra axis stock images collective ai collective stock google photos archive coastal geospatial corridor terra axis stock images collective ai collective stock google photos archive coastal geospatial corridor stock images collective ai creative production internal and approved public media use #453f40 #2f2b2b #554f4f"
     },
     {
-      "id": "cstk_4155191c611b9f21583a",
-      "title": "Detail 07 Terra Axis",
-      "division": "Terra Axis",
-      "category": "Brand Sheets",
-      "text": "detail 07 terra axis terra axis brand sheets design system bible division detail logos detail-07-terra-axis.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #726574 #4e444f #8d7d90"
-    },
-    {
-      "id": "cstk_128cef5d094aaf38ef66",
-      "title": "Gallery 07 Terra Axis",
-      "division": "Terra Axis",
-      "category": "Brand Sheets",
-      "text": "gallery 07 terra axis terra axis brand sheets design system bible division gallery logos gallery-07-terra-axis.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #e3d5e4 #9a919b #ffffff"
-    },
-    {
       "id": "cstk_49ebd0245f5794373c51",
       "title": "Geospatial Data Mesh",
       "division": "Terra Axis",
@@ -2026,6 +2348,20 @@
       "text": "sustainable terrace city terra axis hero images terra axis / google photos archive file_00000000a9ac71fda3783a94bc8b34e9.png collective stock — google photos export 2026-08-08 306 terra axis hero images collective ai collective stock google photos archive sustainable terrace city terra axis hero images collective ai collective stock google photos archive sustainable terrace city hero images collective ai creative production internal and approved public media use #788276 #525950 #95a192"
     },
     {
+      "id": "cstk_4155191c611b9f21583a",
+      "title": "Terra Axis — Brand Detail Reference",
+      "division": "Terra Axis",
+      "category": "Brand Sheets",
+      "text": "terra axis — brand detail reference terra axis brand sheets design system bible division detail logos detail-07-terra-axis.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #726574 #4e444f #8d7d90"
+    },
+    {
+      "id": "cstk_39059afd5aba7383fd3b",
+      "title": "Terra Axis — Brand Reference Sheet",
+      "division": "Terra Axis",
+      "category": "Reference Images",
+      "text": "terra axis — brand reference sheet terra axis reference images collective ai inc component library terra-axis-brand-reference-sheet.png terra axis brand reference sheet reference images collective ai component library terra axis brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #110c0d #0c0809 #150f10"
+    },
+    {
       "id": "cstk_0b0c35858c894d4c843e",
       "title": "Terra Axis — Command Center World Map",
       "division": "Terra Axis",
@@ -2033,11 +2369,25 @@
       "text": "terra axis — command center world map terra axis stock images terra axis / google photos archive 10_terra_axis_command_center_world_map.png collective stock — google photos export 2026-08-08 37 terra axis stock images collective ai collective stock google photos archive terra axis command center world map terra axis stock images collective ai collective stock google photos archive terra axis command center world map stock images collective ai creative production internal and approved public media use #422854 #2d1b39 #513269"
     },
     {
+      "id": "cstk_e331496df9a95556d580",
+      "title": "Terra Axis — Component Sheet",
+      "division": "Terra Axis",
+      "category": "Component Sheets",
+      "text": "terra axis — component sheet terra axis component sheets collective ai inc component library terra-axis-component-sheet.png terra axis component sheet component sheets collective ai component library terra axis component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #110d0d #0c0909 #161010"
+    },
+    {
       "id": "cstk_f2a283eb9e93968b16d6",
       "title": "Terra Axis — Drone Worksite Survey",
       "division": "Terra Axis",
       "category": "Stock Images",
       "text": "terra axis — drone worksite survey terra axis stock images terra axis / google photos archive 06_terra_axis_drone_worksite_survey.png collective stock — google photos export 2026-08-08 34 terra axis stock images collective ai collective stock google photos archive terra axis drone worksite survey terra axis stock images collective ai collective stock google photos archive terra axis drone worksite survey stock images collective ai creative production internal and approved public media use #675770 #463b4c #7f6b8b"
+    },
+    {
+      "id": "cstk_128cef5d094aaf38ef66",
+      "title": "Terra Axis — Gallery Logo Reference",
+      "division": "Terra Axis",
+      "category": "Brand Sheets",
+      "text": "terra axis — gallery logo reference terra axis brand sheets design system bible division gallery logos gallery-07-terra-axis.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #e3d5e4 #9a919b #ffffff"
     },
     {
       "id": "cstk_e0611d2b199db8e9576e",
@@ -2073,6 +2423,13 @@
       "division": "Terra Axis",
       "category": "Stock Images",
       "text": "terra axis — modular hillside housing terra axis stock images terra axis / google photos archive 02_terra_axis_modular_hillside_housing.png collective stock — google photos export 2026-08-08 16 terra axis stock images collective ai collective stock google photos archive terra axis modular hillside housing terra axis stock images collective ai collective stock google photos archive terra axis modular hillside housing stock images collective ai creative production internal and approved public media use #6d5d69 #4a3f47 #887382"
+    },
+    {
+      "id": "cstk_0f4a349fb8cfa4c5f993",
+      "title": "Terra Axis — Signal Path Across The Ridge Intro Film",
+      "division": "Terra Axis",
+      "category": "Division Intro Videos",
+      "text": "terra axis — signal path across the ridge intro film terra axis division intro videos division intro video library terra-axis-signal-path-across-the-ridge-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
       "id": "cstk_1ab66dd6ff758fa5c3c3",
@@ -2166,13 +2523,6 @@
       "text": "community dinner the collective stock images the collective / google photos archive file_000000003cdc71f7ad24dda7926f8a85.png collective stock — google photos export 2026-08-08 247 the collective stock images collective ai collective stock google photos archive community dinner the collective stock images collective ai collective stock google photos archive community dinner stock images collective ai creative production internal and approved public media use #2d1f12 #1e150c #372616"
     },
     {
-      "id": "cstk_df601a34e1e57ee1a67c",
-      "title": "Detail 02 The Collective",
-      "division": "The Collective",
-      "category": "Brand Sheets",
-      "text": "detail 02 the collective the collective brand sheets design system bible division detail logos detail-02-the-collective.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #4f555c #353a3e #616972"
-    },
-    {
       "id": "cstk_2851285a9a88fd8a3330",
       "title": "Enterprise Control Floor",
       "division": "The Collective",
@@ -2192,13 +2542,6 @@
       "division": "The Collective",
       "category": "Stock Images",
       "text": "friends around the table the collective stock images the collective / google photos archive file_00000000b46471f59390f081feea13ce.png collective stock — google photos export 2026-08-08 251 the collective stock images collective ai collective stock google photos archive friends around the table the collective stock images collective ai collective stock google photos archive friends around the table stock images collective ai creative production internal and approved public media use #624325 #432e19 #79532e"
-    },
-    {
-      "id": "cstk_e40df43cca73b3d0520a",
-      "title": "Gallery 02 The Collective",
-      "division": "The Collective",
-      "category": "Brand Sheets",
-      "text": "gallery 02 the collective the collective brand sheets design system bible division gallery logos gallery-02-the-collective.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #dde2e8 #969a9e #ffffff"
     },
     {
       "id": "cstk_632763bc813ede5c5e8e",
@@ -2264,88 +2607,158 @@
       "text": "solo executive analytics room the collective stock images the collective / google photos archive file_000000002de071f78739a2c089601ce1.png collective stock — google photos export 2026-08-08 260 the collective stock images collective ai collective stock google photos archive solo executive analytics room the collective stock images collective ai collective stock google photos archive solo executive analytics room stock images collective ai creative production internal and approved public media use #0a1015 #070b0e #0d141a"
     },
     {
-      "id": "cstk_bfccf48b1847761bbdcb",
-      "title": "Detail 09 Vector Shift",
-      "division": "Vector Shift",
+      "id": "cstk_df601a34e1e57ee1a67c",
+      "title": "The Collective — Brand Detail Reference",
+      "division": "The Collective",
       "category": "Brand Sheets",
-      "text": "detail 09 vector shift vector shift brand sheets design system bible division detail logos detail-09-vector-shift.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #2b343d #1e2329 #36414b"
+      "text": "the collective — brand detail reference the collective brand sheets design system bible division detail logos detail-02-the-collective.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #4f555c #353a3e #616972"
     },
     {
-      "id": "cstk_87adce01ccb184c76ddc",
-      "title": "Gallery 09 Vector Shift",
-      "division": "Vector Shift",
+      "id": "cstk_1085ce242046e3427901",
+      "title": "The Collective — Brand Reference Sheet",
+      "division": "The Collective",
+      "category": "Reference Images",
+      "text": "the collective — brand reference sheet the collective reference images collective ai inc component library the-collective-brand-reference-sheet.png the collective brand reference sheet reference images collective ai component library the collective brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #101722 #0b0f17 #141c2a"
+    },
+    {
+      "id": "cstk_e91c9ed102244f6bb86d",
+      "title": "The Collective — Component Sheet",
+      "division": "The Collective",
+      "category": "Component Sheets",
+      "text": "the collective — component sheet the collective component sheets collective ai inc component library the-collective-component-sheet.png the collective component sheet component sheets collective ai component library the collective component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0c1420 #080e16 #0f1928"
+    },
+    {
+      "id": "cstk_d5ba3049471ea0217944",
+      "title": "The Collective — Digital Grid Descent Intro Film",
+      "division": "The Collective",
+      "category": "Division Intro Videos",
+      "text": "the collective — digital grid descent intro film the collective division intro videos division intro video library the-collective-digital-grid-descent-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_e40df43cca73b3d0520a",
+      "title": "The Collective — Gallery Logo Reference",
+      "division": "The Collective",
       "category": "Brand Sheets",
-      "text": "gallery 09 vector shift vector shift brand sheets design system bible division gallery logos gallery-09-vector-shift.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #465461 #2f3942 #566878"
-    },
-    {
-      "id": "cstk_9bda51d84f9e6dc0e5b3",
-      "title": "Vector Shift Stock 01",
-      "division": "Vector Shift",
-      "category": "Stock Images",
-      "text": "vector shift stock 01 vector shift stock images vector shift / google photos archive vector_shift_stock_01.png collective stock — google photos export 2026-08-08 89 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #1c2631 #131a21 #222f3d"
-    },
-    {
-      "id": "cstk_627ff097ad5044a343cb",
-      "title": "Vector Shift Stock 02",
-      "division": "Vector Shift",
-      "category": "Stock Images",
-      "text": "vector shift stock 02 vector shift stock images vector shift / google photos archive vector_shift_stock_02.png collective stock — google photos export 2026-08-08 92 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #1e3247 #152230 #263e58"
-    },
-    {
-      "id": "cstk_c02ee52ce220ea826493",
-      "title": "Vector Shift Stock 03",
-      "division": "Vector Shift",
-      "category": "Stock Images",
-      "text": "vector shift stock 03 vector shift stock images vector shift / google photos archive vector_shift_stock_03.png collective stock — google photos export 2026-08-08 121 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #2e4257 #1f2d3b #39516c"
-    },
-    {
-      "id": "cstk_db61bc6f063e59ea40f3",
-      "title": "Vector Shift Stock 04",
-      "division": "Vector Shift",
-      "category": "Stock Images",
-      "text": "vector shift stock 04 vector shift stock images vector shift / google photos archive vector_shift_stock_04.png collective stock — google photos export 2026-08-08 122 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #15202c #0f161e #1b2837"
-    },
-    {
-      "id": "cstk_e3ba178f56bf706b1bc4",
-      "title": "Vector Shift Stock 05",
-      "division": "Vector Shift",
-      "category": "Stock Images",
-      "text": "vector shift stock 05 vector shift stock images vector shift / google photos archive vector_shift_stock_05.png collective stock — google photos export 2026-08-08 129 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #374656 #26303b #45576b"
-    },
-    {
-      "id": "cstk_b0c169c7e04282cf13f6",
-      "title": "Vector Shift Stock 06",
-      "division": "Vector Shift",
-      "category": "Stock Images",
-      "text": "vector shift stock 06 vector shift stock images vector shift / google photos archive vector_shift_stock_06.png collective stock — google photos export 2026-08-08 126 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #1b2b3a #131d27 #223547"
+      "text": "the collective — gallery logo reference the collective brand sheets design system bible division gallery logos gallery-02-the-collective.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #dde2e8 #969a9e #ffffff"
     },
     {
       "id": "cstk_3ac74d06518ab40d6a1c",
-      "title": "Vector Shift Stock 07",
+      "title": "Accelerated Future Gateway",
       "division": "Vector Shift",
       "category": "Stock Images",
-      "text": "vector shift stock 07 vector shift stock images vector shift / google photos archive vector_shift_stock_07.png collective stock — google photos export 2026-08-08 107 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #56667b #3a4654 #6a7f99"
+      "text": "accelerated future gateway vector shift stock images vector shift / google photos archive vector_shift_stock_07.png collective stock — google photos export 2026-08-08 107 vector shift stock images collective ai collective stock google photos archive accelerated future gateway vector shift stock images collective ai collective stock google photos archive accelerated future gateway stock images collective ai creative production internal and approved public media use #56667b #3a4654 #6a7f99"
     },
     {
-      "id": "cstk_8bc4390ae737e8631712",
-      "title": "Vector Shift Stock 08",
+      "id": "cstk_8cc5c79383d75716c2fc",
+      "title": "Autonomous Rover at Industrial Site",
+      "division": "Vector Shift",
+      "category": "Hero Images",
+      "text": "autonomous rover at industrial site vector shift hero images vector shift / google photos archive file_000000003c6c722f9e1dfec71b33df56.png collective stock — google photos export 2026-08-08 47 vector shift hero images collective ai collective stock google photos archive autonomous rover industrial site vector shift hero images collective ai collective stock google photos archive autonomous rover industrial site hero images collective ai creative production internal and approved public media use #394b5d #27333f #475d74"
+    },
+    {
+      "id": "cstk_806fafc5b6926d65066b",
+      "title": "Autonomous Warehouse Fleet",
       "division": "Vector Shift",
       "category": "Stock Images",
-      "text": "vector shift stock 08 vector shift stock images vector shift / google photos archive vector_shift_stock_08.png collective stock — google photos export 2026-08-08 127 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #20272c #161a1e #283037"
+      "text": "autonomous warehouse fleet vector shift stock images vector shift / google photos archive file_00000000b714722fb2e481fa3a3ceda6.png collective stock — google photos export 2026-08-08 53 vector shift stock images collective ai collective stock google photos archive autonomous warehouse fleet vector shift stock images collective ai collective stock google photos archive autonomous warehouse fleet stock images collective ai creative production internal and approved public media use #142635 #0e1a24 #193041"
+    },
+    {
+      "id": "cstk_b0c169c7e04282cf13f6",
+      "title": "Connected World Momentum",
+      "division": "Vector Shift",
+      "category": "Stock Images",
+      "text": "connected world momentum vector shift stock images vector shift / google photos archive vector_shift_stock_06.png collective stock — google photos export 2026-08-08 126 vector shift stock images collective ai collective stock google photos archive connected world momentum vector shift stock images collective ai collective stock google photos archive connected world momentum stock images collective ai creative production internal and approved public media use #1b2b3a #131d27 #223547"
+    },
+    {
+      "id": "cstk_c02ee52ce220ea826493",
+      "title": "Digital Eagle Brand Poster",
+      "division": "Vector Shift",
+      "category": "Stock Images",
+      "text": "digital eagle brand poster vector shift stock images vector shift / google photos archive vector_shift_stock_03.png collective stock — google photos export 2026-08-08 121 vector shift stock images collective ai collective stock google photos archive digital eagle brand poster vector shift stock images collective ai collective stock google photos archive digital eagle brand poster stock images collective ai creative production internal and approved public media use #2e4257 #1f2d3b #39516c"
+    },
+    {
+      "id": "cstk_627ff097ad5044a343cb",
+      "title": "Forward Momentum Portal",
+      "division": "Vector Shift",
+      "category": "Stock Images",
+      "text": "forward momentum portal vector shift stock images vector shift / google photos archive vector_shift_stock_02.png collective stock — google photos export 2026-08-08 92 vector shift stock images collective ai collective stock google photos archive forward momentum portal vector shift stock images collective ai collective stock google photos archive forward momentum portal stock images collective ai creative production internal and approved public media use #1e3247 #152230 #263e58"
+    },
+    {
+      "id": "cstk_db61bc6f063e59ea40f3",
+      "title": "Global Velocity Dashboard",
+      "division": "Vector Shift",
+      "category": "Stock Images",
+      "text": "global velocity dashboard vector shift stock images vector shift / google photos archive vector_shift_stock_04.png collective stock — google photos export 2026-08-08 122 vector shift stock images collective ai collective stock google photos archive global velocity dashboard vector shift stock images collective ai collective stock google photos archive global velocity dashboard stock images collective ai creative production internal and approved public media use #15202c #0f161e #1b2837"
     },
     {
       "id": "cstk_d14cd2bf8864a0e655ff",
-      "title": "Vector Shift Stock 09",
+      "title": "High-Speed Data Corridor",
       "division": "Vector Shift",
       "category": "Stock Images",
-      "text": "vector shift stock 09 vector shift stock images vector shift / google photos archive vector_shift_stock_09.png collective stock — google photos export 2026-08-08 104 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #21394e #172735 #294661"
+      "text": "high-speed data corridor vector shift stock images vector shift / google photos archive vector_shift_stock_09.png collective stock — google photos export 2026-08-08 104 vector shift stock images collective ai collective stock google photos archive high-speed data corridor vector shift stock images collective ai collective stock google photos archive high-speed data corridor stock images collective ai creative production internal and approved public media use #21394e #172735 #294661"
+    },
+    {
+      "id": "cstk_e3ba178f56bf706b1bc4",
+      "title": "Metropolitan Velocity Light Trails",
+      "division": "Vector Shift",
+      "category": "Stock Images",
+      "text": "metropolitan velocity light trails vector shift stock images vector shift / google photos archive vector_shift_stock_05.png collective stock — google photos export 2026-08-08 129 vector shift stock images collective ai collective stock google photos archive metropolitan velocity light trails vector shift stock images collective ai collective stock google photos archive metropolitan velocity light trails stock images collective ai creative production internal and approved public media use #374656 #26303b #45576b"
+    },
+    {
+      "id": "cstk_9bda51d84f9e6dc0e5b3",
+      "title": "Pixel-Shift Eagle Emblem",
+      "division": "Vector Shift",
+      "category": "Stock Images",
+      "text": "pixel-shift eagle emblem vector shift stock images vector shift / google photos archive vector_shift_stock_01.png collective stock — google photos export 2026-08-08 89 vector shift stock images collective ai collective stock google photos archive pixel-shift eagle emblem vector shift stock images collective ai collective stock google photos archive pixel-shift eagle emblem stock images collective ai creative production internal and approved public media use #1c2631 #131a21 #222f3d"
+    },
+    {
+      "id": "cstk_8bc4390ae737e8631712",
+      "title": "Precision Gear Drive",
+      "division": "Vector Shift",
+      "category": "Stock Images",
+      "text": "precision gear drive vector shift stock images vector shift / google photos archive vector_shift_stock_08.png collective stock — google photos export 2026-08-08 127 vector shift stock images collective ai collective stock google photos archive precision gear drive vector shift stock images collective ai collective stock google photos archive precision gear drive stock images collective ai creative production internal and approved public media use #20272c #161a1e #283037"
+    },
+    {
+      "id": "cstk_bfccf48b1847761bbdcb",
+      "title": "Vector Shift — Brand Detail Reference",
+      "division": "Vector Shift",
+      "category": "Brand Sheets",
+      "text": "vector shift — brand detail reference vector shift brand sheets design system bible division detail logos detail-09-vector-shift.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #2b343d #1e2329 #36414b"
+    },
+    {
+      "id": "cstk_5336f3a59ab21913a01d",
+      "title": "Vector Shift — Brand Reference Sheet",
+      "division": "Vector Shift",
+      "category": "Reference Images",
+      "text": "vector shift — brand reference sheet vector shift reference images collective ai inc component library vector-shift-brand-reference-sheet.png vector shift brand reference sheet reference images collective ai component library vector shift brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #192432 #111822 #1f2d3e"
+    },
+    {
+      "id": "cstk_5b7829732bd15187617c",
+      "title": "Vector Shift — Component Sheet",
+      "division": "Vector Shift",
+      "category": "Component Sheets",
+      "text": "vector shift — component sheet vector shift component sheets collective ai inc component library vector-shift-component-sheet.png vector shift component sheet component sheets collective ai component library vector shift component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0b1423 #080d18 #0e182b"
+    },
+    {
+      "id": "cstk_1794fecc87c384710e33",
+      "title": "Vector Shift — Connected Intelligence Constellation Intro Film",
+      "division": "Vector Shift",
+      "category": "Division Intro Videos",
+      "text": "vector shift — connected intelligence constellation intro film vector shift division intro videos division intro video library vector-shift-connected-intelligence-constellation-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_87adce01ccb184c76ddc",
+      "title": "Vector Shift — Gallery Logo Reference",
+      "division": "Vector Shift",
+      "category": "Brand Sheets",
+      "text": "vector shift — gallery logo reference vector shift brand sheets design system bible division gallery logos gallery-09-vector-shift.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #465461 #2f3942 #566878"
     },
     {
       "id": "cstk_8e3eb9ba9a8a73e15ae5",
-      "title": "Vector Shift Stock 10",
+      "title": "Vector Shift Operations Center",
       "division": "Vector Shift",
       "category": "Stock Images",
-      "text": "vector shift stock 10 vector shift stock images vector shift / google photos archive vector_shift_stock_10.png collective stock — google photos export 2026-08-08 108 vector shift stock images collective ai collective stock google photos archive vector shift stock vector shift stock images collective ai collective stock google photos archive vector shift stock stock images collective ai creative production internal and approved public media use #1b242d #12181f #212c38"
+      "text": "vector shift operations center vector shift stock images vector shift / google photos archive vector_shift_stock_10.png collective stock — google photos export 2026-08-08 108 vector shift stock images collective ai collective stock google photos archive vector shift operations center vector shift stock images collective ai collective stock google photos archive vector shift operations center stock images collective ai creative production internal and approved public media use #1b242d #12181f #212c38"
     },
     {
       "id": "cstk_aa8c8b8b31bab1dccbe5",
@@ -2353,20 +2766,6 @@
       "division": "Vital Helix",
       "category": "Stock Images",
       "text": "bio-neural spiral vital helix stock images vital helix / google photos archive stock(2).jpg collective stock — google photos export 2026-08-08 133 vital helix stock images collective ai collective stock google photos archive bio-neural spiral vital helix stock images collective ai collective stock google photos archive bio-neural spiral stock images collective ai creative production internal and approved public media use #2b2837 #1d1b25 #353244"
-    },
-    {
-      "id": "cstk_3a0361bb388c094b761c",
-      "title": "Detail 14 Vital Helix",
-      "division": "Vital Helix",
-      "category": "Brand Sheets",
-      "text": "detail 14 vital helix vital helix brand sheets design system bible division detail logos detail-14-vital-helix.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #85887d #5b5c55 #a5a89b"
-    },
-    {
-      "id": "cstk_6d7bd3f8d732339f5ddd",
-      "title": "Gallery 14 Vital Helix",
-      "division": "Vital Helix",
-      "category": "Brand Sheets",
-      "text": "gallery 14 vital helix vital helix brand sheets design system bible division gallery logos gallery-14-vital-helix.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #d9dbd0 #94958d #ffffff"
     },
     {
       "id": "cstk_5a284eeaac23fa394de9",
@@ -2388,6 +2787,41 @@
       "division": "Vital Helix",
       "category": "Website Backgrounds",
       "text": "molecular hex grid vital helix website backgrounds vital helix / google photos archive bg(3).jpg collective stock — google photos export 2026-08-08 131 vital helix website backgrounds collective ai collective stock google photos archive molecular hex grid vital helix website backgrounds collective ai collective stock google photos archive molecular hex grid website backgrounds collective ai creative production internal and approved public media use #04182f #031020 #051d3b"
+    },
+    {
+      "id": "cstk_3a0361bb388c094b761c",
+      "title": "Vital Helix — Brand Detail Reference",
+      "division": "Vital Helix",
+      "category": "Brand Sheets",
+      "text": "vital helix — brand detail reference vital helix brand sheets design system bible division detail logos detail-14-vital-helix.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #85887d #5b5c55 #a5a89b"
+    },
+    {
+      "id": "cstk_4d357515148461ffc851",
+      "title": "Vital Helix — Brand Reference Sheet",
+      "division": "Vital Helix",
+      "category": "Reference Images",
+      "text": "vital helix — brand reference sheet vital helix reference images collective ai inc component library vital-helix-brand-reference-sheet.png vital helix brand reference sheet reference images collective ai component library vital helix brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #0d191b #091112 #101f21"
+    },
+    {
+      "id": "cstk_5017b4f060490b9b0159",
+      "title": "Vital Helix — Component Sheet",
+      "division": "Vital Helix",
+      "category": "Component Sheets",
+      "text": "vital helix — component sheet vital helix component sheets collective ai inc component library vital-helix-component-sheet.png vital helix component sheet component sheets collective ai component library vital helix component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0d1d1f #091315 #102326"
+    },
+    {
+      "id": "cstk_f7ca7b9eee3163be78f1",
+      "title": "Vital Helix — Electric Neural Bloom Intro Film",
+      "division": "Vital Helix",
+      "category": "Division Intro Videos",
+      "text": "vital helix — electric neural bloom intro film vital helix division intro videos division intro video library vital-helix-electric-neural-bloom-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_6d7bd3f8d732339f5ddd",
+      "title": "Vital Helix — Gallery Logo Reference",
+      "division": "Vital Helix",
+      "category": "Brand Sheets",
+      "text": "vital helix — gallery logo reference vital helix brand sheets design system bible division gallery logos gallery-14-vital-helix.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #d9dbd0 #94958d #ffffff"
     },
     {
       "id": "cstk_29b7ffa45d35545b7ec8",
@@ -2460,32 +2894,60 @@
       "text": "vital helix stock 10 holographic heart ecg care vital helix stock images vital helix / google photos archive vital_helix_stock_10_holographic_heart_ecg_care.png collective stock — google photos export 2026-08-08 32 vital helix stock images collective ai collective stock google photos archive vital helix stock holographic heart ecg care vital helix stock images collective ai collective stock google photos archive vital helix stock holographic heart ecg care stock images collective ai creative production internal and approved public media use #1c2e2f #131f20 #22383b"
     },
     {
-      "id": "cstk_5f863de68a9716a65d85",
-      "title": "Breakthrough Light over Mountains",
+      "id": "cstk_a0d4ca46bbdfcd168051",
+      "title": "Agent Lattice Tree",
       "division": "ZenFlow",
-      "category": "Videos",
-      "text": "breakthrough light over mountains zenflow videos zenflow / google photos archive grok_video_2026-07-30-20-25-20.mp4 collective stock — google photos export 2026-08-08 317 zenflow videos collective ai collective stock google photos archive breakthrough light over mountains zenflow videos collective ai collective stock google photos archive breakthrough light over mountains videos collective ai creative production internal and approved public media use #0d1326 #09101d #15203a"
+      "category": "Stock Images",
+      "text": "agent lattice tree zenflow stock images zenflow / google photos archive zenflow_stock_06.png collective stock — google photos export 2026-08-08 49 zenflow stock images collective ai collective stock google photos archive agent lattice tree zenflow stock images collective ai collective stock google photos archive agent lattice tree stock images collective ai creative production internal and approved public media use #0f1a26 #0a121a #13212f"
     },
     {
-      "id": "cstk_dc66047fe877bce1ce5f",
-      "title": "Detail 01 Zenflow",
+      "id": "cstk_8298c4db602e597bcba4",
+      "title": "Architectural Intelligence Medallion",
       "division": "ZenFlow",
-      "category": "Brand Sheets",
-      "text": "detail 01 zenflow zenflow brand sheets design system bible division detail logos detail-01-zenflow.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #29292b #1c1c1d #323335"
+      "category": "Stock Images",
+      "text": "architectural intelligence medallion zenflow stock images zenflow / google photos archive zenflow_stock_01.png collective stock — google photos export 2026-08-08 14 zenflow stock images collective ai collective stock google photos archive architectural intelligence medallion zenflow stock images collective ai collective stock google photos archive architectural intelligence medallion stock images collective ai creative production internal and approved public media use #1b2530 #121921 #212e3b"
     },
     {
-      "id": "cstk_096c12f71a13e24bdeaa",
-      "title": "Gallery 01 Zenflow",
+      "id": "cstk_40a46cdb0ea94d23e585",
+      "title": "Connected Intelligence Globe",
       "division": "ZenFlow",
-      "category": "Brand Sheets",
-      "text": "gallery 01 zenflow zenflow brand sheets design system bible division gallery logos gallery-01-zenflow.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #3d4047 #2a2c30 #4c4f58"
+      "category": "Stock Images",
+      "text": "connected intelligence globe zenflow stock images zenflow / google photos archive zenflow_stock_08.png collective stock — google photos export 2026-08-08 39 zenflow stock images collective ai collective stock google photos archive connected intelligence globe zenflow stock images collective ai collective stock google photos archive connected intelligence globe stock images collective ai creative production internal and approved public media use #0d1924 #091119 #101f2d"
     },
     {
-      "id": "cstk_3becdedaf7db242a7c1f",
-      "title": "Misty Green Mountain Flyover",
+      "id": "cstk_0d425080ec109b67542f",
+      "title": "Holographic Balance Meditation",
       "division": "ZenFlow",
-      "category": "Videos",
-      "text": "misty green mountain flyover zenflow videos zenflow / google photos archive grok_video_2026-08-08-10-03-15.mp4 collective stock — google photos export 2026-08-08 11 zenflow videos collective ai collective stock google photos archive misty green mountain flyover zenflow videos collective ai collective stock google photos archive misty green mountain flyover videos collective ai creative production internal and approved public media use #0d1326 #09101d #15203a"
+      "category": "Stock Images",
+      "text": "holographic balance meditation zenflow stock images zenflow / google photos archive zenflow_stock_03.png collective stock — google photos export 2026-08-08 36 zenflow stock images collective ai collective stock google photos archive holographic balance meditation zenflow stock images collective ai collective stock google photos archive holographic balance meditation stock images collective ai creative production internal and approved public media use #1f3141 #15222c #273d50"
+    },
+    {
+      "id": "cstk_f48793785da2033b4226",
+      "title": "Luminous Intelligence Portal",
+      "division": "ZenFlow",
+      "category": "Stock Images",
+      "text": "luminous intelligence portal zenflow stock images zenflow / google photos archive zenflow_stock_05.png collective stock — google photos export 2026-08-08 10 zenflow stock images collective ai collective stock google photos archive luminous intelligence portal zenflow stock images collective ai collective stock google photos archive luminous intelligence portal stock images collective ai creative production internal and approved public media use #141e2a #0d141d #182535"
+    },
+    {
+      "id": "cstk_c48ccf0f2f569e3a6854",
+      "title": "Moonlit Digital Meditation",
+      "division": "ZenFlow",
+      "category": "Stock Images",
+      "text": "moonlit digital meditation zenflow stock images zenflow / google photos archive zenflow_stock_10.png collective stock — google photos export 2026-08-08 24 zenflow stock images collective ai collective stock google photos archive moonlit digital meditation zenflow stock images collective ai collective stock google photos archive moonlit digital meditation stock images collective ai creative production internal and approved public media use #3d5266 #293745 #4c657f"
+    },
+    {
+      "id": "cstk_95bd170195d69708fcfa",
+      "title": "Orbital Intelligence Seal",
+      "division": "ZenFlow",
+      "category": "Stock Images",
+      "text": "orbital intelligence seal zenflow stock images zenflow / google photos archive zenflow_stock_09.png collective stock — google photos export 2026-08-08 26 zenflow stock images collective ai collective stock google photos archive orbital intelligence seal zenflow stock images collective ai collective stock google photos archive orbital intelligence seal stock images collective ai creative production internal and approved public media use #1d2630 #141a20 #242f3b"
+    },
+    {
+      "id": "cstk_bcb48bb6bee5e077a018",
+      "title": "River of Neural Light",
+      "division": "ZenFlow",
+      "category": "Stock Images",
+      "text": "river of neural light zenflow stock images zenflow / google photos archive zenflow_stock_04.png collective stock — google photos export 2026-08-08 25 zenflow stock images collective ai collective stock google photos archive river neural light zenflow stock images collective ai collective stock google photos archive river neural light stock images collective ai creative production internal and approved public media use #1a2b3e #121d2a #20364d"
     },
     {
       "id": "cstk_f781ae2ba28aa0f22dcf",
@@ -2530,74 +2992,46 @@
       "text": "wildflower contemplation 04 zenflow reference images zenflow / google photos archive img-20260122-wa0067.jpg collective stock — google photos export 2026-08-08 310 zenflow reference images collective ai collective stock google photos archive wildflower contemplation zenflow reference images collective ai collective stock google photos archive wildflower contemplation reference images collective ai creative production internal and approved public media use #78634d #524334 #957a5f"
     },
     {
-      "id": "cstk_8298c4db602e597bcba4",
-      "title": "ZenFlow Stock 01",
+      "id": "cstk_dc66047fe877bce1ce5f",
+      "title": "ZenFlow — Brand Detail Reference",
       "division": "ZenFlow",
-      "category": "Stock Images",
-      "text": "zenflow stock 01 zenflow stock images zenflow / google photos archive zenflow_stock_01.png collective stock — google photos export 2026-08-08 14 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #1b2530 #121921 #212e3b"
+      "category": "Brand Sheets",
+      "text": "zenflow — brand detail reference zenflow brand sheets design system bible division detail logos detail-01-zenflow.png division logo detail fragment design system collective ai division logo detail fragment design system collective ai division identity detail internal brand reference #29292b #1c1c1d #323335"
     },
     {
-      "id": "cstk_1533abfecc420d57bca7",
-      "title": "ZenFlow Stock 02",
+      "id": "cstk_3e9b7f9938ba12bdf2c6",
+      "title": "ZenFlow — Brand Reference Sheet",
       "division": "ZenFlow",
-      "category": "Stock Images",
-      "text": "zenflow stock 02 zenflow stock images zenflow / google photos archive zenflow_stock_02.png collective stock — google photos export 2026-08-08 55 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #111b28 #0c121b #162231"
+      "category": "Reference Images",
+      "text": "zenflow — brand reference sheet zenflow reference images collective ai inc component library zenflow-brand-reference-sheet.png zenflow brand reference sheet reference images collective ai component library zenflow brand reference sheet reference images collective ai component library reference images division identity implementation internal and approved public media use #0e111a #0a0c12 #121521"
     },
     {
-      "id": "cstk_0d425080ec109b67542f",
-      "title": "ZenFlow Stock 03",
+      "id": "cstk_e93d4886d043920ffaca",
+      "title": "ZenFlow — Component Sheet",
       "division": "ZenFlow",
-      "category": "Stock Images",
-      "text": "zenflow stock 03 zenflow stock images zenflow / google photos archive zenflow_stock_03.png collective stock — google photos export 2026-08-08 36 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #1f3141 #15222c #273d50"
+      "category": "Component Sheets",
+      "text": "zenflow — component sheet zenflow component sheets collective ai inc component library zenflow-component-sheet.png zenflow component sheet component sheets collective ai component library zenflow component sheet component sheets collective ai component library component sheets division identity implementation internal and approved public media use #0a0e19 #060a11 #0c121f"
     },
     {
-      "id": "cstk_bcb48bb6bee5e077a018",
-      "title": "ZenFlow Stock 04",
+      "id": "cstk_096c12f71a13e24bdeaa",
+      "title": "ZenFlow — Gallery Logo Reference",
       "division": "ZenFlow",
-      "category": "Stock Images",
-      "text": "zenflow stock 04 zenflow stock images zenflow / google photos archive zenflow_stock_04.png collective stock — google photos export 2026-08-08 25 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #1a2b3e #121d2a #20364d"
-    },
-    {
-      "id": "cstk_f48793785da2033b4226",
-      "title": "ZenFlow Stock 05",
-      "division": "ZenFlow",
-      "category": "Stock Images",
-      "text": "zenflow stock 05 zenflow stock images zenflow / google photos archive zenflow_stock_05.png collective stock — google photos export 2026-08-08 10 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #141e2a #0d141d #182535"
-    },
-    {
-      "id": "cstk_a0d4ca46bbdfcd168051",
-      "title": "ZenFlow Stock 06",
-      "division": "ZenFlow",
-      "category": "Stock Images",
-      "text": "zenflow stock 06 zenflow stock images zenflow / google photos archive zenflow_stock_06.png collective stock — google photos export 2026-08-08 49 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #0f1a26 #0a121a #13212f"
+      "category": "Brand Sheets",
+      "text": "zenflow — gallery logo reference zenflow brand sheets design system bible division gallery logos gallery-01-zenflow.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #3d4047 #2a2c30 #4c4f58"
     },
     {
       "id": "cstk_e10db96f9e7a164ca4ca",
-      "title": "ZenFlow Stock 07",
+      "title": "ZenFlow Gallery Threshold",
       "division": "ZenFlow",
       "category": "Stock Images",
-      "text": "zenflow stock 07 zenflow stock images zenflow / google photos archive zenflow_stock_07.png collective stock — google photos export 2026-08-08 22 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #242e39 #191f27 #2d3947"
+      "text": "zenflow gallery threshold zenflow stock images zenflow / google photos archive zenflow_stock_07.png collective stock — google photos export 2026-08-08 22 zenflow stock images collective ai collective stock google photos archive zenflow gallery threshold zenflow stock images collective ai collective stock google photos archive zenflow gallery threshold stock images collective ai creative production internal and approved public media use #242e39 #191f27 #2d3947"
     },
     {
-      "id": "cstk_40a46cdb0ea94d23e585",
-      "title": "ZenFlow Stock 08",
+      "id": "cstk_1533abfecc420d57bca7",
+      "title": "ZenFlow Visual Collection",
       "division": "ZenFlow",
       "category": "Stock Images",
-      "text": "zenflow stock 08 zenflow stock images zenflow / google photos archive zenflow_stock_08.png collective stock — google photos export 2026-08-08 39 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #0d1924 #091119 #101f2d"
-    },
-    {
-      "id": "cstk_95bd170195d69708fcfa",
-      "title": "ZenFlow Stock 09",
-      "division": "ZenFlow",
-      "category": "Stock Images",
-      "text": "zenflow stock 09 zenflow stock images zenflow / google photos archive zenflow_stock_09.png collective stock — google photos export 2026-08-08 26 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #1d2630 #141a20 #242f3b"
-    },
-    {
-      "id": "cstk_c48ccf0f2f569e3a6854",
-      "title": "ZenFlow Stock 10",
-      "division": "ZenFlow",
-      "category": "Stock Images",
-      "text": "zenflow stock 10 zenflow stock images zenflow / google photos archive zenflow_stock_10.png collective stock — google photos export 2026-08-08 24 zenflow stock images collective ai collective stock google photos archive zenflow stock zenflow stock images collective ai collective stock google photos archive zenflow stock stock images collective ai creative production internal and approved public media use #3d5266 #293745 #4c657f"
+      "text": "zenflow visual collection zenflow stock images zenflow / google photos archive zenflow_stock_02.png collective stock — google photos export 2026-08-08 55 zenflow stock images collective ai collective stock google photos archive zenflow visual collection zenflow stock images collective ai collective stock google photos archive zenflow visual collection stock images collective ai creative production internal and approved public media use #111b28 #0c121b #162231"
     }
   ]
 }

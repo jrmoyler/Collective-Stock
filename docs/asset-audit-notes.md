@@ -25,13 +25,17 @@ Classification combined filename evidence with visual review of fourteen contact
 
 The four videos were probed with `ffprobe`, retained at original resolution, and given generated poster frames. Image originals remain full resolution; optimized AVIF, WebP, and JPEG renditions are derived during `npm run assets:build`.
 
+## Remaining inaccessible source archive
+
+`Motion MP4s.zip` is recorded as one inaccessible source batch with an exact size of **829,879,395 bytes**. The Google Drive connector cannot transfer files above 100 MB. No substitute, filename-only record, or generated stand-in is counted as recovery; a direct upload or split archive is required before ingestion.
+
 ## Reconciliation artifacts
 
 - `assets/manifests/google-photos-album-map.json` — immutable album-order mapping and classification review
 - `assets/manifests/source-map.json` — deterministic build rules
 - `assets/manifests/asset-manifest.json` — unique asset records used by the application
 - `assets/manifests/source-provenance.json` — occurrence-level source trail
-- `assets/manifests/missing-assets.json` — current scope and zero-missing ledger
+- `assets/manifests/missing-assets.json` — current scope and the exact inaccessible-source ledger
 - `assets/manifests/audit-summary.json` — generated repository-wide reconciliation
 - `assets/manifests/asset-audit-report.html` — human-readable generated report
 
@@ -41,4 +45,4 @@ Before the Google Photos export was supplied, the workspace contained 41 accessi
 
 The earlier `265` figure was a request ledger inferred from conversation summaries, not an inventory of 265 verified successful generations. It is superseded for this ingestion and is not added to the discovered-file equation. Conversely, zero missing from this ZIP does not independently prove that every output from every historical ChatGPT conversation is present in the album.
 
-No unrelated stock image, fabricated duplicate, or filename-only placeholder was introduced to manufacture coverage.
+No unrelated stock image, fabricated duplicate, or filename-only placeholder was introduced to manufacture coverage. The Google Photos export is fully reconciled, while the independent `Motion MP4s.zip` blocker remains explicitly non-zero.

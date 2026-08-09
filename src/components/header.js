@@ -2,10 +2,11 @@ import { el, icon, diamondStar, fragment } from "../utils/dom.js";
 import { collectionRoute, divisionRoute } from "../utils/routes.js";
 
 export class Header extends EventTarget {
-  constructor({ divisions = [], activeDivision = "", access = "public" } = {}) {
+  constructor({ divisions = [], activeDivision = "", activeCollection = "", access = "public" } = {}) {
     super();
     this.divisions = divisions;
     this.activeDivision = activeDivision;
+    this.activeCollection = activeCollection;
     this.access = access;
     this.root = this.#render();
   }
@@ -38,9 +39,10 @@ export class Header extends EventTarget {
       el("div", { class: "header-inner" }, [
         el("a", { class: "wordmark", href: "/", "aria-label": "Collective Stock home" }, [diamondStar(), el("span", { text: "COLLECTIVE STOCK" })]),
         el("nav", { class: "desktop-nav", "aria-label": "Primary navigation" }, [
-          el("a", { class: "nav-link", href: collectionRoute("complete-archive"), text: "Browse" }),
+          this.#collectionLink("complete-archive", "Browse"),
+          this.#collectionLink("component-sheets", "Components"),
+          this.#collectionLink("division-intro-videos", "Intro films"),
           navButton,
-          el("a", { class: "nav-link", href: collectionRoute("videos"), text: "Motion" }),
           el("a", { class: "nav-link", href: "/#licensing", text: "Licensing" })
         ]),
         el("div", { class: "header-actions" }, [
@@ -68,7 +70,22 @@ export class Header extends EventTarget {
         else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
       }
     });
+    document.addEventListener("pointerdown", (event) => {
+      if (!header.contains(event.target)) {
+        navButton.setAttribute("aria-expanded", "false");
+        mega.hidden = true;
+      }
+    });
     return header;
+  }
+
+  #collectionLink(slug, label, mobile = false) {
+    return el("a", {
+      class: mobile ? undefined : "nav-link",
+      href: collectionRoute(slug),
+      text: label,
+      "aria-current": this.activeCollection === slug ? "page" : undefined
+    });
   }
 
   #megaMenu(id) {
@@ -91,7 +108,8 @@ export class Header extends EventTarget {
     const link = el("a", {
       class: `division-menu-link ${parent ? "is-parent" : ""} ${division.slug === this.activeDivision ? "is-active" : ""}`,
       href: divisionRoute(division.slug),
-      style: `--division-accent:${division.accent || "#D4A843"}`
+      style: `--division-accent:${division.accent || "#D4A843"}`,
+      "aria-current": division.slug === this.activeDivision ? "page" : undefined
     }, [
       el("span", { class: "division-menu-link__index mono", text: parent ? "00" : String(index + 1).padStart(2, "0") }),
       el("span", { text: division.name }),
@@ -101,14 +119,17 @@ export class Header extends EventTarget {
   }
 
   #mobileNavigation() {
+    const parent = this.divisions.find((division) => division.slug === "collective-ai-inc");
+    const divisions = this.divisions.filter((division) => division.slug !== "collective-ai-inc");
     return el("nav", { id: "mobile-navigation", class: "mobile-navigation", hidden: true, "aria-label": "Mobile navigation" }, [
       el("div", { class: "mobile-primary-links" }, [
-        el("a", { href: collectionRoute("complete-archive"), text: "Browse archive" }),
-        el("a", { href: collectionRoute("videos"), text: "Motion" }),
+        this.#collectionLink("complete-archive", "Browse archive", true),
+        this.#collectionLink("component-sheets", "Component sheets", true),
+        this.#collectionLink("division-intro-videos", "Division intro videos", true),
         el("a", { href: "/#licensing", text: "Licensing" })
       ]),
       el("p", { class: "section-label", text: "Divisions" }),
-      fragment(this.divisions.map((division) => this.#divisionLink(division)))
+      fragment([parent ? this.#divisionLink(parent, true) : null, ...divisions.map((division, index) => this.#divisionLink(division, false, index))])
     ]);
   }
 }

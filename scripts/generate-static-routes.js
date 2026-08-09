@@ -1,18 +1,11 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { ROOT, readJson } from "./lib/asset-utils.js";
+import { COLLECTION_DEFINITIONS } from "../src/data/collection-definitions.js";
 
 const origin = "https://collective-stock.vercel.app";
 const divisions = await readJson(path.join(ROOT, "assets/manifests/divisions.json"), []);
 const manifest = await readJson(path.join(ROOT, "dist/assets/manifests/asset-manifest.json"), { assets: [] });
-const collectionNames = {
-  "stock-images": "Stock Images", "reference-images": "Reference Images", "hero-images": "Hero Images",
-  "website-backgrounds": "Website Backgrounds", "app-backgrounds": "App Backgrounds", "brand-sheets": "Brand Sheets",
-  "component-sheets": "Component Sheets", "specification-sheets": "Specification Sheets", "ui-mockups": "UI Mockups",
-  "campaigns-advertising": "Campaigns and Advertising", "product-concepts": "Product Concepts", "hardware-concepts": "Hardware Concepts",
-  "motion-references": "Motion References", videos: "Videos", "3d-spatial-media": "3D and Spatial Media",
-  "recently-added": "Recently Added", featured: "Featured", "alternate-versions": "Alternate Versions", "complete-archive": "Complete Archive", "public-download": "Public Downloads"
-};
 const htmlEscape = (value = "") => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 
 function withMetadata(template, { title, description, canonical, image = "", fallbackHtml = "" }) {
@@ -51,12 +44,13 @@ for (const division of divisions) {
     fallbackHtml: `<main id="main-content" class="noscript"><p>Collective AI division</p><h1>${htmlEscape(division.name)}</h1><p>${htmlEscape(division.description || `Browse the ${division.name} media collection.`)}</p><a href="/collections/complete-archive">Browse the complete archive</a></main>`
   });
 }
-for (const [slug, name] of Object.entries(collectionNames)) {
+for (const collection of COLLECTION_DEFINITIONS) {
+  const { slug, title: name, description } = collection;
   await writeRoute("collections", slug, collectionTemplate, {
     title: `${name} — Collective Stock`,
-    description: `Browse ${name.toLowerCase()} across the Collective AI Inc media archive.`,
+    description,
     canonical: `/collections/${slug}`,
-    fallbackHtml: `<main id="main-content" class="noscript"><p>Collective Stock collection</p><h1>${htmlEscape(name)}</h1><p>Browse ${htmlEscape(name.toLowerCase())} across the Collective AI Inc media archive.</p><a href="/">Return to Collective Stock</a></main>`
+    fallbackHtml: `<main id="main-content" class="noscript"><p>Collective Stock collection</p><h1>${htmlEscape(name)}</h1><p>${htmlEscape(description)}</p><a href="/">Return to Collective Stock</a></main>`
   });
 }
 for (const asset of manifest.assets.filter((item) => item.visibility === "public")) {
@@ -69,4 +63,4 @@ for (const asset of manifest.assets.filter((item) => item.visibility === "public
     fallbackHtml: `<main id="main-content" class="noscript"><p>${htmlEscape(asset.division)} / ${htmlEscape(asset.category)}</p><h1>${htmlEscape(asset.title)}</h1>${image ? `<img src="${htmlEscape(image)}" alt="${htmlEscape(asset.altText || asset.title)}" width="${asset.width}" height="${asset.height}">` : ""}<p>${htmlEscape(asset.altText || `${asset.title}, ${asset.category} for ${asset.division}.`)}</p><p>${htmlEscape(asset.width)} × ${htmlEscape(asset.height)} · ${htmlEscape(asset.fileFormat?.toUpperCase())} · ${htmlEscape(asset.license?.slug)}</p><a href="/divisions/${htmlEscape(asset.divisionSlug)}">Browse ${htmlEscape(asset.division)}</a></main>`
   });
 }
-console.log(`Pre-rendered ${divisions.length} divisions, ${Object.keys(collectionNames).length} collections, and ${manifest.assets.length} public asset entry pages.`);
+console.log(`Pre-rendered ${divisions.length} divisions, ${COLLECTION_DEFINITIONS.length} collections, and ${manifest.assets.length} public asset entry pages.`);

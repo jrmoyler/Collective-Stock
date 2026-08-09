@@ -5,8 +5,8 @@ import { enhanceMasonry } from "../media/masonry-grid.js";
 export class MediaGrid {
   constructor(options = {}) {
     this.options = options;
-    this.root = el("div", { class: "media-grid", role: "list", "aria-label": "Media results" });
-    this.masonry = enhanceMasonry(this.root);
+    this.root = el("div", { class: `media-grid ${options.variant ? `media-grid--${options.variant}` : ""}`, role: "list", "aria-label": "Media results" });
+    this.masonry = options.masonry === false ? null : enhanceMasonry(this.root);
   }
 
   render(assets = []) {
