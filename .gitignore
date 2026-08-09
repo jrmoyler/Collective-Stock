@@ -8,3 +8,9 @@ playwright-report/
 reports/playwright/
 .playwright-browsers/
 .browser-runtime/
+
+# Deterministically materialized from the committed Google Photos source archive.
+assets/originals/google-photos-2026-08-08/
+assets/video/google-photos-2026-08-08/
+assets/optimized/gphotos-*
+assets/posters/gphotos-*

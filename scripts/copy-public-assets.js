@@ -24,6 +24,10 @@ for (const asset of publicAssets) {
     const relative = rendition.path.replace(/^\//, "");
     await copy(path.join(ROOT, relative), path.join(ROOT, "dist", relative));
   }
+  if (asset.mediaType === "video" && asset.previewPath?.startsWith("/assets/video/")) {
+    const relative = asset.previewPath.replace(/^\//, "");
+    await copy(path.join(ROOT, relative), path.join(ROOT, "dist", relative));
+  }
 }
 const manifestDir = path.join(ROOT, "dist/assets/manifests");
 await fs.mkdir(manifestDir, { recursive: true });

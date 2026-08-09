@@ -1,5 +1,7 @@
 # COLLECTIVE STOCK — independent harsh-critic scorecard, pass 2
 
+> **Historical pre-ingestion review.** This scorecard evaluated the original 41-file build before the user supplied `Collective Stock-1-001.zip`. Its inventory counts and missing-file decision are superseded by `google-photos-album-map.json`, the current audit summary, and `qa-report.md`. The remaining accessibility, authentication, and production-verification critiques have not been waived or independently rescored.
+
 **Review date:** 2026-08-08  
 **Decision:** **REJECTED — NOT APPROVED**  
 **Weighted score:** **5.72/10** (first pass: 4.69; required: 9.30)  

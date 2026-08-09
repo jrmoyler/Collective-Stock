@@ -1,5 +1,7 @@
 # COLLECTIVE STOCK — harsh-critic revision log
 
+**2026-08-08 ingestion addendum:** The supplied Google Photos ZIP resolves the concrete media-inventory blocker for this PR: 330/330 archive entries were hashed, ingested, classified, routed, and reconciled with zero missing, duplicates, broken references, or unassigned items. The repository now has 371 unique assets, including four videos. The pass-2 statuses below are retained as a historical review; authentication and expanded manual accessibility/deployment certification remain separate open work.
+
 **Second review:** 2026-08-08  
 **Current status:** **2 closed / 8 partial / 5 open**  
 **Approval state:** **Rejected**

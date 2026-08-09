@@ -33,6 +33,8 @@ npm audit --omit=dev
 
 Then review `assets/manifests/audit-summary.json`. A build may deploy as a transparent limited archive while `missingOrInaccessible` is non-zero, but it must not be labeled the complete zero-omission project archive. Final completion requires all historical outputs to be recovered, re-ingested, and reconciled to zero.
 
+For the 2026-08-08 Google Photos ingestion, also review `assets/manifests/google-photos-album-map.json`: it must report 330 discovered and ingested items, 330 unique assets, four videos, zero exact duplicates, and zero unassigned items. This is a source-export gate, not proof about files outside that export.
+
 ## Post-deploy validation
 
 1. Test public browsing without authentication and verify internal IDs never appear in the manifest response.
