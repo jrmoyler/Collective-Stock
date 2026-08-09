@@ -10,10 +10,18 @@ async function warmLazyMedia(page) {
   await page.evaluate(async () => {
     document.documentElement.classList.add("visual-regression");
     for (const media of document.querySelectorAll('img[loading="lazy"], video')) {
-      media.scrollIntoView({ block: "center" });
+      media.scrollIntoView({ block: "center", inline: "center" });
       await new Promise((resolve) => setTimeout(resolve, 80));
     }
-    await Promise.all([...document.images].map((image) => image.decode?.().catch(() => {})));
+    // Lazy images parked inside a horizontally scrolling rail can stay outside
+    // the viewport on narrow layouts, so their decode never settles. Bound the
+    // wait per image; screenshots then capture whatever genuinely rendered
+    // rather than hanging the whole test on one deferred fetch.
+    const decoded = (image) => Promise.race([
+      image.decode?.().catch(() => {}) ?? Promise.resolve(),
+      new Promise((resolve) => setTimeout(resolve, 3000))
+    ]);
+    await Promise.all([...document.images].map(decoded));
     window.scrollTo(0, 0);
     await new Promise((resolve) => setTimeout(resolve, 250));
   });

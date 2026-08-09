@@ -33,6 +33,47 @@ function searchNavigate(query) {
   window.location.assign(collectionRoute("complete-archive", query));
 }
 
+// Tracked from module evaluation rather than after boot: the manifest fetch
+// makes boot finish at an unpredictable time, and a reader who starts scrolling
+// while it is still in flight must never be pulled back to the hash target.
+let readerMovedView = false;
+["wheel", "touchstart", "keydown", "pointerdown"].forEach((name) => {
+  window.addEventListener(name, () => { readerMovedView = true; }, { passive: true, once: true });
+});
+
+/**
+ * Re-aligns a `#hash` landing after the page renders.
+ *
+ * The browser resolves the hash against the loading shell, and the home bands
+ * use `content-visibility: auto`, so their estimated heights keep moving the
+ * target while real content is laid out. Re-aligning as the page settles
+ * honours each section's `scroll-margin-top` and clears the sticky header.
+ * Any deliberate scroll from the reader cancels the remaining corrections.
+ */
+function restoreHashTarget() {
+  const id = decodeURIComponent(window.location.hash.slice(1));
+  if (!id) return;
+  const target = document.getElementById(id);
+  if (!target) return;
+
+  // Re-align until the target actually sits at its scroll-margin offset. A
+  // single pass is not enough: early on the document is still shorter than its
+  // final height, so the scroll is clamped and silently does nothing, and the
+  // browser runs its own fragment scroll later against a stale layout. Keep
+  // verifying for the whole budget rather than stopping at the first success.
+  const deadline = Date.now() + 2000;
+  const settle = () => {
+    if (readerMovedView) return;
+    const expected = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+    if (Math.abs(target.getBoundingClientRect().top - expected) > 2) {
+      target.scrollIntoView({ block: "start", behavior: "auto" });
+    }
+    if (Date.now() > deadline) return;
+    setTimeout(settle, 100);
+  };
+  requestAnimationFrame(settle);
+}
+
 async function boot() {
   if (!app.children.length) app.replaceChildren(loadingScreen());
   const data = await new AssetManifestLoader().load();
@@ -72,6 +113,7 @@ async function boot() {
     app.append(Footer());
   } else app.replaceChildren(header.root, content, Footer());
   document.documentElement.classList.add("is-ready");
+  restoreHashTarget();
   window.addEventListener("beforeunload", () => lazyController.disconnect(), { once: true });
 }
 

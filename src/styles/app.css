@@ -18,6 +18,8 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; background: var(--navy); }
+/* In-page anchors clear the sticky header instead of landing beneath it. */
+:target, [id] { scroll-margin-top: calc(var(--header-height) + 1.5rem); }
 body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--navy); color: var(--ink); font-family: "Space Grotesk", Inter, system-ui, sans-serif; font-size: 16px; line-height: 1.5; text-rendering: optimizeLegibility; }
 body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(circle at 78% -10%, rgba(0,217,181,.055), transparent 30%), linear-gradient(90deg, transparent calc(50% - .5px), rgba(26,37,64,.11) 50%, transparent calc(50% + .5px)); }
 body.has-dialog { overflow: hidden; }
@@ -135,9 +137,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .collection-tile__content strong { font-size: 1.15rem; font-weight: 500; }
 .collection-tile__content small { color: #bcc5d2; }
 .collection-tile__content .icon { grid-column: 2; grid-row: 1 / 3; align-self: center; color: var(--teal); }
-.recent-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 2rem 8px; }
+.recent-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 2rem 8px; align-items: start; }
 .motion-showcase { background: linear-gradient(180deg,transparent,rgba(13,19,38,.35),transparent); }
-.motion-rail { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 5px; }
+.motion-rail { display: grid; grid-template-columns: repeat(min(var(--rail-columns,6),6),minmax(0,1fr)); gap: 5px; }
 .motion-tile { min-height: 265px; position: relative; overflow: hidden; padding: 0; border: 0; background: var(--elevated); cursor: pointer; text-align: left; }
 .motion-tile img { width: 100%; height: 100%; object-fit: cover; filter: brightness(.72); transition: .4s; }
 .motion-tile:hover img { filter: brightness(.88); transform: scale(1.025); }
@@ -180,8 +182,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .filter-bar__summary { display: flex; align-items: center; gap: 1rem; white-space: nowrap; }
 .filter-bar__summary strong { font-size: .72rem; }
 .filter-trigger { display: none; }
-.filter-controls { display: flex; gap: .35rem; overflow-x: auto; scrollbar-width: none; }
-.filter-controls::-webkit-scrollbar { display: none; }
+/* Filters wrap rather than scroll out of sight: the rail is scrollbar-less, so
+   an overflowing control was unreachable and silently hid whole facets. */
+.filter-controls { display: flex; flex-wrap: wrap; gap: .35rem; min-width: 0; }
 .filter-select, .sort-select { min-height: 44px; position: relative; display: inline-flex; align-items: center; border: 1px solid var(--border); border-radius: 3px; color: #c6cfdb; background: var(--obsidian); }
 .filter-select select, .sort-select select { min-height: 42px; padding: 0 2.1rem 0 .75rem; border: 0; appearance: none; color: inherit; background: transparent; font-size: .73rem; cursor: pointer; }
 .filter-select .icon, .sort-select .icon { position: absolute; right: .55rem; width: .8rem; transform: rotate(90deg); pointer-events: none; }
@@ -193,6 +196,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 .media-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 2.5rem 6px; align-items: start; }
 .media-grid.is-empty { display: block; }
+/* Masonry packing. Row tracks only take effect once the controller has
+   measured real spans, so the plain ratio grid stays the no-JS fallback. */
+.is-masonry { grid-auto-rows: 4px; }
+.is-masonry > * { grid-row-end: span var(--masonry-span,1); }
 .media-card { position: relative; min-width: 0; }
 .media-card__media { position: relative; overflow: hidden; background: var(--placeholder); }
 .media-card__media::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(110deg,transparent 25%,rgba(255,255,255,.08) 42%,transparent 58%); background-size: 200% 100%; animation: skeleton 1.6s linear infinite; }
@@ -335,6 +342,14 @@ body.has-mobile-nav { overflow: hidden; }
   .media-grid { grid-template-columns: repeat(3,1fr); }
   .motion-rail { grid-template-columns: repeat(3,1fr); }
   .motion-tile { min-height: 240px; }
+  .filter-bar { grid-template-columns: 1fr auto; }
+  .filter-controls { grid-column: 1 / -1; grid-row: 2; }
+}
+
+/* Above the 1280px breakpoint the facet rail shares a row with the result
+   count and sort control, which leaves it too narrow for all seven filters.
+   Give it a full-width row until there is genuinely space for one line. */
+@media (min-width: 1281px) and (max-width: 1700px) {
   .filter-bar { grid-template-columns: 1fr auto; }
   .filter-controls { grid-column: 1 / -1; grid-row: 2; }
 }

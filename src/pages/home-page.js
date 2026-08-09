@@ -2,6 +2,7 @@ import { el, icon, diamondStar, formatCount } from "../utils/dom.js";
 import { GlobalSearch } from "../components/global-search.js";
 import { MediaCard, optimizedPath } from "../components/media-card.js";
 import { LicenseBadge } from "../components/license-badge.js";
+import { enhanceMasonry } from "../media/masonry-grid.js";
 import { collectionRoute, divisionRoute } from "../utils/routes.js";
 
 const COLLECTIONS = [
@@ -44,7 +45,10 @@ function collectionRail(assets) {
 function motionRail(assets, onPreview) {
   const motion = assets.filter((asset) => asset.mediaType === "video" || asset.categorySlug === "motion-references").slice(0, 6);
   const fallback = assets.slice(0, 6);
-  return el("div", { class: "motion-rail" }, (motion.length ? motion : fallback).map((asset) => el("button", { class: `motion-tile ${asset.mediaType === "video" ? "is-video" : "is-static"}`, type: "button", "aria-label": `Preview ${asset.mediaType === "video" ? "motion" : "static motion reference"}: ${asset.title}`, onClick: () => onPreview(asset) }, [
+  const tiles = motion.length ? motion : fallback;
+  // The rail draws its column count from the tiles it actually has, so a short
+  // archive fills the row instead of leaving empty tracks on the right.
+  return el("div", { class: "motion-rail", style: `--rail-columns:${Math.max(tiles.length, 1)}` }, tiles.map((asset) => el("button", { class: `motion-tile ${asset.mediaType === "video" ? "is-video" : "is-static"}`, type: "button", "aria-label": `Preview ${asset.mediaType === "video" ? "motion" : "static motion reference"}: ${asset.title}`, onClick: () => onPreview(asset) }, [
     el("img", { src: asset.posterPath || optimizedPath(asset), alt: asset.altText || asset.title, width: asset.width, height: asset.height, loading: "lazy" }),
     el("span", { class: "motion-tile__play" }, icon(asset.mediaType === "video" ? "play" : "expand")),
     el("span", { class: "motion-tile__meta" }, [el("strong", { text: asset.title }), el("small", { text: asset.mediaType === "video" ? "Motion preview" : "Static motion reference" })])
@@ -58,6 +62,8 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
   const search = new GlobalSearch({ index, assets, divisions });
   search.addEventListener("search", (event) => onSearch(event.detail.query));
   const recent = [...assets].sort((a, b) => String(b.ingestedAt || b.generationDate || "").localeCompare(String(a.ingestedAt || a.generationDate || ""))).slice(0, 8);
+  const recentGrid = el("div", { class: "recent-grid" }, recent.map((asset) => MediaCard(asset, { favorites, lazyController, onPreview, toast })));
+  enhanceMasonry(recentGrid);
   return el("main", { id: "main-content" }, [
     el("section", { class: "home-hero" }, [
       el("div", { class: "hero-copy" }, [
@@ -78,7 +84,7 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
     ]),
     el("section", { class: "home-band recently-added" }, [
       el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Archive pulse" }), el("h2", { text: "Recently added" })]), el("a", { href: collectionRoute("recently-added") }, ["View all recent media", icon("arrow")])]),
-      el("div", { class: "recent-grid" }, recent.map((asset) => MediaCard(asset, { favorites, lazyController, onPreview, toast })))
+      recentGrid
     ]),
     el("section", { class: "home-band motion-showcase" }, [
       el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Built for motion" }), el("h2", { text: "Motion showcase" })]), el("p", { text: "Poster-first previews, viewport-aware playback, static fallbacks, and reduced-motion support are built into the media layer." })]),
@@ -87,11 +93,11 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
     el("section", { class: "home-band licensing-section", id: "licensing" }, [
       el("div", { class: "licensing-intro" }, [el("p", { class: "section-label", text: "Rights without ambiguity" }), el("h2", { text: "Licensing, made explicit" }), el("p", { text: "Every asset carries a readable rights profile, visibility state, provenance trail, and delivery policy." }), el("a", { class: "text-link", href: collectionRoute("public-download") }, ["Explore public assets", icon("arrow")])]),
       el("div", { class: "license-principles" }, [
-        ["Clear rights", "Permitted and restricted uses are stated on every detail page."],
-        ["Protected delivery", "Private originals route through authenticated, signed delivery architecture."],
-        ["Attribution clarity", "Credits and editorial terms live beside the download controls."],
-        ["Future ready", "Rights-managed, royalty-free, and custom licenses share one model."]
-      ].map(([title, description], i) => el("article", {}, [el("span", { class: "license-principle__icon" }, [i === 1 ? icon("lock") : i === 2 ? icon("globe") : icon("check")]), el("h3", { text: title }), el("p", { text: description })])))
+        ["Clear rights", "Permitted and restricted uses are stated on every detail page.", "check"],
+        ["Protected delivery", "Private originals route through authenticated, signed delivery architecture.", "lock"],
+        ["Attribution clarity", "Credits and editorial terms live beside the download controls.", "globe"],
+        ["Future ready", "Rights-managed, royalty-free, and custom licenses share one model.", "layers"]
+      ].map(([title, description, iconName]) => el("article", {}, [el("span", { class: "license-principle__icon" }, [icon(iconName)]), el("h3", { text: title }), el("p", { text: description })])))
     ]),
     audit?.missingOrInaccessible > 0 ? el("aside", { class: "audit-notice" }, [icon("lock"), el("div", {}, [el("strong", { text: "Archive audit in progress" }), el("p", { text: `${formatCount(audit.missingOrInaccessible)} expected historical outputs are documented as inaccessible in this environment. No substitutes or silent omissions were used.` })]), el("a", { href: "/audit.html", text: "Read the audit" })]) : null
   ]);
