@@ -4,6 +4,7 @@ import crypto from "node:crypto";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import sharp from "sharp";
+import { ffprobePath, describeMissingBinary } from "./media-binaries.js";
 
 const exec = promisify(execFile);
 
@@ -65,13 +66,18 @@ export async function imageMetadata(file) {
 
 export async function videoMetadata(file) {
   const extension = path.extname(file).slice(1).toLowerCase();
-  const { stdout } = await exec("ffprobe", [
-    "-v", "error",
-    "-select_streams", "v:0",
-    "-show_entries", "stream=width,height,duration,codec_name:format=duration,format_name",
-    "-of", "json",
-    file
-  ]);
+  let stdout;
+  try {
+    ({ stdout } = await exec(ffprobePath, [
+      "-v", "error",
+      "-select_streams", "v:0",
+      "-show_entries", "stream=width,height,duration,codec_name:format=duration,format_name",
+      "-of", "json",
+      file
+    ]));
+  } catch (error) {
+    throw describeMissingBinary("ffprobe", error);
+  }
   const parsed = JSON.parse(stdout);
   const stream = parsed.streams?.[0] || {};
   return {
