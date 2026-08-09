@@ -42,6 +42,7 @@ export function icon(name, label = "") {
     filter: ["M4 5h16", "M7 12h10", "M10 19h4"],
     expand: ["M8 3H3v5", "M16 3h5v5", "M8 21H3v-5", "M16 21h5v-5"],
     check: ["m5 12 4 4L19 6"],
+    layers: ["m12 3 9 5-9 5-9-5 9-5Z", "m3 13 9 5 9-5", "m3 17 9 5 9-5"],
     alert: ["M12 3 2.8 20h18.4L12 3Z", "M12 9v5", "M12 17h.01"],
     grid: ["M4 4h6v6H4z", "M14 4h6v6h-6z", "M4 14h6v6H4z", "M14 14h6v6h-6z"]
   };
