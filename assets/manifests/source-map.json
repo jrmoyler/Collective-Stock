@@ -37,6 +37,349 @@
       "revision": 1
     },
     {
+      "match": "crimson-tea-at-the-farmhouse-window",
+      "originalFilename": "image_1786307514943.png",
+      "title": "Crimson Tea at the Farmhouse Window",
+      "division": "Gaia Synthesis",
+      "divisionSlug": "gaia-synthesis",
+      "classification": "division",
+      "category": "Stock Images",
+      "categorySlug": "stock-images",
+      "series": "Collective Stock / User Uploads 2026-08-09",
+      "source": "Image attached by the user on 2026-08-09",
+      "batch": "User image ingest 2026-08-09",
+      "ingestedAt": "2026-08-09",
+      "altText": "A cup of crimson tea on a white farmhouse windowsill overlooking green fields and a timber barn.",
+      "intendedUse": [
+        "Editorial lifestyle",
+        "Wellness storytelling",
+        "Hospitality campaigns"
+      ],
+      "tags": [
+        "tea",
+        "farmhouse",
+        "agriculture",
+        "wellness",
+        "window",
+        "Gaia Synthesis"
+      ],
+      "license": "collective-ai-internal-use",
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "The agricultural and wellness subject aligns directly with Gaia Synthesis."
+    },
+    {
+      "match": "paper-trails-through-lavender-hills",
+      "originalFilename": "743484888_1786307018659024.jpg",
+      "title": "Paper Trails through Lavender Hills",
+      "division": "Nomad Nexus",
+      "divisionSlug": "nomad-nexus",
+      "classification": "division",
+      "category": "Reference Images",
+      "categorySlug": "reference-images",
+      "series": "Collective Stock / User Uploads 2026-08-09",
+      "source": "Image attached by the user on 2026-08-09",
+      "batch": "User image ingest 2026-08-09",
+      "ingestedAt": "2026-08-09",
+      "altText": "Layered lavender paper hills with a winding cream road, small houses, trees, birds, and flowers.",
+      "intendedUse": [
+        "Travel storytelling",
+        "Editorial illustration reference",
+        "Campaign art direction"
+      ],
+      "tags": [
+        "paper art",
+        "winding road",
+        "travel",
+        "lavender",
+        "landscape",
+        "Nomad Nexus"
+      ],
+      "license": "collective-ai-internal-use",
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "The journey motif and illustrative destination language align with Nomad Nexus."
+    },
+    {
+      "match": "mountain-memory-in-an-owls-eye",
+      "originalFilename": "242767596_1786306906475846.jpg",
+      "title": "Mountain Memory in an Owl's Eye",
+      "division": "Animus Prime",
+      "divisionSlug": "animus-prime",
+      "classification": "division",
+      "category": "Hero Images",
+      "categorySlug": "hero-images",
+      "series": "Collective Stock / User Uploads 2026-08-09",
+      "source": "Image attached by the user on 2026-08-09",
+      "batch": "User image ingest 2026-08-09",
+      "ingestedAt": "2026-08-09",
+      "altText": "An extreme close-up of an owl's amber eye reflecting a blue mountain valley and winding river.",
+      "intendedUse": [
+        "Campaign hero",
+        "Wildlife storytelling",
+        "Cinematic brand open"
+      ],
+      "tags": [
+        "owl",
+        "eye",
+        "mountains",
+        "wildlife",
+        "reflection",
+        "Animus Prime"
+      ],
+      "license": "collective-ai-internal-use",
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "The animal portrait and heightened natural intelligence motif align with Animus Prime."
+    },
+    {
+      "match": "coastal-village-at-sunset",
+      "originalFilename": "879852691_1786306876628617.jpg",
+      "title": "Coastal Village at Sunset",
+      "division": "Nomad Nexus",
+      "divisionSlug": "nomad-nexus",
+      "classification": "division",
+      "category": "Stock Images",
+      "categorySlug": "stock-images",
+      "series": "Collective Stock / User Uploads 2026-08-09",
+      "source": "Image attached by the user on 2026-08-09",
+      "batch": "User image ingest 2026-08-09",
+      "ingestedAt": "2026-08-09",
+      "altText": "An aerial view of a Mediterranean coastal village, marina, and beach at sunset.",
+      "intendedUse": [
+        "Destination editorial",
+        "Travel campaign",
+        "Hospitality storytelling"
+      ],
+      "tags": [
+        "coast",
+        "village",
+        "sunset",
+        "marina",
+        "travel",
+        "Nomad Nexus"
+      ],
+      "license": "collective-ai-internal-use",
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "The destination and travel subject aligns directly with Nomad Nexus."
+    },
+    {
+      "match": "the-long-road-home",
+      "originalFilename": "528242414_1786306864490750.jpg",
+      "title": "The Long Road Home",
+      "division": "Nomad Nexus",
+      "divisionSlug": "nomad-nexus",
+      "classification": "division",
+      "category": "Stock Images",
+      "categorySlug": "stock-images",
+      "series": "Collective Stock / User Uploads 2026-08-09",
+      "source": "Image attached by the user on 2026-08-09",
+      "batch": "User image ingest 2026-08-09",
+      "ingestedAt": "2026-08-09",
+      "altText": "A winding gravel road beside a wooden bench crossing sunlit green hills toward distant mountains.",
+      "intendedUse": [
+        "Journey storytelling",
+        "Travel editorial",
+        "Reflective campaign"
+      ],
+      "tags": [
+        "road",
+        "bench",
+        "countryside",
+        "journey",
+        "mountains",
+        "Nomad Nexus"
+      ],
+      "license": "collective-ai-internal-use",
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "The road and open-landscape travel motif aligns directly with Nomad Nexus."
+    },
+    {
+      "match": "pacific-boulevard-in-blue",
+      "originalFilename": "image_1786306572852.png",
+      "title": "Pacific Boulevard in Blue",
+      "division": "Nomad Nexus",
+      "divisionSlug": "nomad-nexus",
+      "classification": "division",
+      "category": "Reference Images",
+      "categorySlug": "reference-images",
+      "series": "Collective Stock / User Uploads 2026-08-09",
+      "source": "Image attached by the user on 2026-08-09",
+      "batch": "User image ingest 2026-08-09",
+      "ingestedAt": "2026-08-09",
+      "altText": "A painterly blue-sky beach boulevard lined with palms, storefronts, cars, and beachgoers.",
+      "intendedUse": [
+        "Travel art direction",
+        "Campaign reference",
+        "Editorial background"
+      ],
+      "tags": [
+        "beach",
+        "boulevard",
+        "palms",
+        "painterly",
+        "California",
+        "Nomad Nexus"
+      ],
+      "license": "collective-ai-internal-use",
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "The stylized beach-destination scene aligns directly with Nomad Nexus."
+    },
+    {
+      "match": "palm-promenade-to-the-sea",
+      "originalFilename": "image_1786306554363.png",
+      "title": "Palm Promenade to the Sea",
+      "division": "Nomad Nexus",
+      "divisionSlug": "nomad-nexus",
+      "classification": "division",
+      "category": "Reference Images",
+      "categorySlug": "reference-images",
+      "series": "Collective Stock / User Uploads 2026-08-09",
+      "source": "Image attached by the user on 2026-08-09",
+      "batch": "User image ingest 2026-08-09",
+      "ingestedAt": "2026-08-09",
+      "altText": "A painterly palm-lined promenade opening onto a bright beach and distant blue mountains.",
+      "intendedUse": [
+        "Travel art direction",
+        "Campaign reference",
+        "Editorial background"
+      ],
+      "tags": [
+        "promenade",
+        "palms",
+        "beach",
+        "painterly",
+        "travel",
+        "Nomad Nexus"
+      ],
+      "license": "collective-ai-internal-use",
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "The stylized coastal journey scene aligns directly with Nomad Nexus."
+    },
+    {
+      "match": "mountain-memory-in-an-owls-eye-motion",
+      "originalFilename": "1034154623_1786307073179212.mp4"
+    },
+    {
+      "match": "bridge-watch-at-open-sea",
+      "originalFilename": "213290438_1786248684842104.mp4"
+    },
+    {
+      "match": "cargo-voyage-at-sunset",
+      "originalFilename": "459378028_1786248657617594.mp4"
+    },
+    {
+      "match": "paper-river-through-lavender-hills",
+      "originalFilename": "531219833_1786300368915640.mp4"
+    },
+    {
+      "match": "the-long-road-home-motion",
+      "originalFilename": "628511007_1786304410263433.mp4",
+      "title": "The Long Road Home — Motion Study"
+    },
+    {
+      "match": "night-watch-at-the-helm",
+      "originalFilename": "756566234_1786248703710561.mp4"
+    },
+    {
+      "match": "sunlit-room-breathing-with-the-breeze",
+      "originalFilename": "grok-video-2026-08-08-23-57-36.mp4"
+    },
+    {
+      "match": "a-storefront-through-the-arch",
+      "originalFilename": "grok-video-2026-08-08-23-57-42.mp4"
+    },
+    {
+      "match": "moon-nest-in-the-ancient-tree",
+      "originalFilename": "grok-video-2026-08-08-23-58-09.mp4"
+    },
+    {
+      "match": "solitude-at-the-modernist-house",
+      "originalFilename": "grok-video-2026-08-08-23-58-18.mp4"
+    },
+    {
+      "match": "lava-river-beneath-the-smoke",
+      "originalFilename": "grok-video-2026-08-08-23-58-34.mp4"
+    },
+    {
+      "match": "rain-lights-on-the-coastal-road",
+      "originalFilename": "grok-video-2026-08-08-23-58-41.mp4"
+    },
+    {
+      "match": "cyclist-through-the-cosmic-forest",
+      "originalFilename": "grok-video-2026-08-08-23-58-51.mp4"
+    },
+    {
+      "match": "pilgrimage-beneath-alien-spires",
+      "originalFilename": "grok-video-2026-08-08-23-59-23.mp4"
+    },
+    {
+      "match": "world-forge-at-golden-hour",
+      "originalFilename": "grok-video-2026-08-08-23-59-45.mp4"
+    },
+    {
+      "match": "coastal-motel-before-the-storm",
+      "originalFilename": "grok-video-2026-08-09-00-00-12.mp4"
+    },
+    {
+      "match": "painted-valley-in-summer",
+      "originalFilename": "grok-video-2026-08-09-00-00-47.mp4"
+    },
+    {
+      "match": "monk-at-the-edge-of-the-storm",
+      "originalFilename": "grok-video-2026-08-09-00-00-49.mp4"
+    },
+    {
+      "match": "whitewater-through-the-gorge",
+      "originalFilename": "grok-video-2026-08-09-00-01-06.mp4"
+    },
+    {
+      "match": "waiting-against-the-orange-wall",
+      "originalFilename": "grok-video-2026-08-09-00-01-12.mp4"
+    },
+    {
+      "match": "arctic-fox-in-the-morning-haze",
+      "originalFilename": "grok-video-2026-08-09-00-01-23.mp4"
+    },
+    {
+      "match": "the-forest-vortex",
+      "originalFilename": "grok-video-2026-08-09-00-01-27.mp4"
+    },
+    {
+      "match": "lamplit-reading-room-at-night",
+      "originalFilename": "grok-video-2026-08-09-11-28-18.mp4"
+    },
+    {
+      "match": "silverback-in-monochrome",
+      "originalFilename": "grok-video-2026-08-09-11-31-38.mp4"
+    },
+    {
+      "match": "rainforest-toucan-in-the-canopy",
+      "originalFilename": "grok-video-2026-08-09-19-17-22.mp4"
+    },
+    {
+      "match": "last-light-from-the-window-seat",
+      "originalFilename": "grok-video-2026-08-09-19-23-15.mp4"
+    },
+    {
       "match": "gallery-",
       "category": "Brand Sheets",
       "categorySlug": "brand-sheets",

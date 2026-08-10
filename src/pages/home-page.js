@@ -6,24 +6,73 @@ import { enhanceMasonry } from "../media/masonry-grid.js";
 import { collectionRoute, divisionRoute } from "../utils/routes.js";
 import { collectionDefinition } from "../data/collection-definitions.js";
 
-const COLLECTIONS = ["hero-images", "reference-images", "videos", "complete-archive"];
+const COLLECTIONS = ["hero-images", "reference-images", "motion-films", "complete-archive"];
 
-function mediaMosaic(assets, onPreview) {
-  const selected = assets.slice(0, 7);
-  return el("div", { class: "hero-mosaic", "aria-label": "Curated Collective AI media" }, selected.map((asset, index) => {
-    const button = el("button", { class: `hero-mosaic__item item-${index + 1}`, type: "button", "aria-label": `Preview ${asset.title}`, style: `--media-aspect:${asset.width}/${asset.height}`, onClick: () => onPreview(asset) }, [
-      el("img", { src: optimizedPath(asset, index < 3 ? "large" : "card"), alt: asset.altText || asset.title, width: asset.width, height: asset.height, decoding: "async", fetchPriority: index < 2 ? "high" : "auto" }),
-      el("span", { class: "mosaic-meta" }, [el("strong", { text: asset.title }), el("small", { text: asset.division })])
-    ]);
-    return button;
-  }));
+function formatTime(value) {
+  if (!Number.isFinite(value)) return "00:00";
+  const minutes = Math.floor(value / 60);
+  const seconds = Math.floor(value % 60);
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+function motionStage(asset, count, onPreview) {
+  if (!asset) return el("div", { class: "hero-mosaic static-hero-mosaic", "aria-label": "Motion library is being prepared" });
+  const video = el("video", {
+    muted: true,
+    loop: true,
+    playsInline: true,
+    preload: "metadata",
+    poster: asset.posterPath || "/assets/posters/media-fallback.svg",
+    "aria-label": `${asset.title}, muted motion preview`
+  });
+  video.append(el("source", { src: asset.previewPath || asset.originalDownloadPath, type: asset.mimeType || "video/mp4" }));
+  const play = el("button", { class: "hero-stage__play", type: "button", "aria-label": `Pause ${asset.title}` }, icon("play"));
+  const current = el("span", { class: "mono", text: "00:00" });
+  const duration = el("span", { class: "mono", text: formatTime(asset.duration) });
+  const scrubber = el("input", { class: "hero-stage__scrubber", type: "range", min: "0", max: String(asset.duration || 1), step: "0.05", value: "0", "aria-label": `Seek through ${asset.title}` });
+  const togglePlayback = async () => {
+    if (video.paused) await video.play().catch(() => {});
+    else video.pause();
+  };
+  const syncPlayback = () => {
+    play.classList.toggle("is-playing", !video.paused);
+    play.setAttribute("aria-label", `${video.paused ? "Play" : "Pause"} ${asset.title}`);
+  };
+  play.addEventListener("click", togglePlayback);
+  video.addEventListener("click", togglePlayback);
+  video.addEventListener("play", syncPlayback);
+  video.addEventListener("pause", syncPlayback);
+  video.addEventListener("loadedmetadata", () => {
+    scrubber.max = String(video.duration || asset.duration || 1);
+    duration.textContent = formatTime(video.duration || asset.duration);
+  });
+  video.addEventListener("timeupdate", () => {
+    current.textContent = formatTime(video.currentTime);
+    scrubber.value = String(video.currentTime);
+    const progress = video.duration ? video.currentTime / video.duration : 0;
+    scrubber.style.setProperty("--progress", `${progress * 100}%`);
+  });
+  scrubber.addEventListener("input", () => { video.currentTime = Number(scrubber.value); });
+  const reduceMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+  if (!reduceMotion) requestAnimationFrame(() => video.play().catch(syncPlayback));
+  return el("div", { class: "hero-mosaic hero-stage" }, [
+    video,
+    el("div", { class: "hero-stage__topline" }, [
+      el("span", { class: "mono", text: `Motion library · 01 / ${String(count).padStart(2, "0")}` }),
+      el("button", { class: "hero-stage__expand", type: "button", "aria-label": `Open details for ${asset.title}`, onClick: () => onPreview(asset) }, ["View film", icon("expand")])
+    ]),
+    el("div", { class: "hero-stage__caption" }, [el("strong", { text: asset.title }), el("span", { text: "Collective motion study" })]),
+    el("div", { class: "hero-stage__controls" }, [play, current, scrubber, duration, el("span", { class: "hero-stage__muted mono", text: "MUTED" })])
+  ]);
 }
 
 function divisionRail(divisions, counts) {
-  return el("div", { class: "division-rail" }, divisions.filter((item) => item.slug !== "collective-ai-inc").map((division, index) => el("a", { href: divisionRoute(division.slug), class: "division-rail__item", style: `--division-accent:${division.accent || "#D4A843"}` }, [
+  return el("div", { class: "division-rail" }, divisions.filter((item) => item.slug !== "collective-ai-inc").slice(0, 8).map((division, index) => el("a", { href: divisionRoute(division.slug), class: "division-rail__item", style: `--division-accent:${division.accent || "#D4A843"}` }, [
     el("span", { class: "division-rail__index mono", text: String(index + 1).padStart(2, "0") }),
+    el("span", { class: "division-rail__signal", "aria-hidden": "true" }),
     el("strong", { text: division.name }),
-    el("span", { text: `${formatCount(counts.get(division.slug) || 0)} assets` }),
+    el("span", { class: "division-rail__count mono", text: `${formatCount(counts.get(division.slug) || 0)} assets` }),
+    el("span", { class: "division-rail__facets mono", text: "[ photography ]  [ reference ]  [ motion ]" }),
     icon("arrow")
   ])));
 }
@@ -58,8 +107,10 @@ function featuredLibraries(assets, index) {
 }
 
 function motionRail(assets, onPreview) {
-  const tiles = assets.filter((asset) => asset.categorySlug === "division-intro-videos").slice(0, 6);
-  if (!tiles.length) return el("div", { class: "motion-empty", text: "Division intro films are being prepared for this archive." });
+  const motion = assets.filter((asset) => asset.categorySlug === "motion-films");
+  const intro = assets.filter((asset) => asset.categorySlug === "division-intro-videos");
+  const tiles = [...motion, ...intro].slice(0, 8);
+  if (!tiles.length) return el("div", { class: "motion-empty", text: "Motion films are being prepared for this archive." });
   // The rail draws its column count from the tiles it actually has, so a short
   // archive fills the row instead of leaving empty tracks on the right.
   return el("div", { class: "motion-rail", style: `--rail-columns:${Math.max(tiles.length, 1)}` }, tiles.map((asset) => el("button", { class: `motion-tile ${asset.mediaType === "video" ? "is-video" : "is-static"}`, type: "button", "aria-label": `Preview ${asset.mediaType === "video" ? "motion" : "static motion reference"}: ${asset.title}`, onClick: () => onPreview(asset) }, [
@@ -72,10 +123,15 @@ function motionRail(assets, onPreview) {
 export function HomePage({ assets, divisions, index, audit, onSearch, onPreview, favorites, lazyController, toast }) {
   const featured = assets.filter((asset) => asset.featured);
   const visualAssets = (featured.length >= 7 ? featured : assets).slice(0, 20);
+  const motionAssets = assets.filter((asset) => asset.categorySlug === "motion-films");
+  const heroMotion = motionAssets.find((asset) => asset.title.toLowerCase().includes("owl")) || motionAssets[0];
   const counts = assets.reduce((map, asset) => map.set(asset.divisionSlug, (map.get(asset.divisionSlug) || 0) + 1), new Map());
   const search = new GlobalSearch({ index, assets, divisions });
   search.addEventListener("search", (event) => onSearch(event.detail.query));
-  const recent = [...assets].sort((a, b) => String(b.ingestedAt || b.generationDate || "").localeCompare(String(a.ingestedAt || a.generationDate || ""))).slice(0, 8);
+  const newest = [...assets].sort((a, b) => String(b.ingestedAt || b.generationDate || "").localeCompare(String(a.ingestedAt || a.generationDate || "")));
+  const uploadedImages = newest.filter((asset) => asset.originalDownloadPath?.includes("user-uploads-2026-08-09"));
+  const recentMotion = newest.filter((asset) => asset.categorySlug === "motion-films");
+  const recent = [uploadedImages[0], recentMotion[0], uploadedImages[1], uploadedImages[2], recentMotion[1], ...uploadedImages.slice(3)].filter(Boolean).slice(0, 8);
   const recentGrid = el("div", { class: "recent-grid" }, recent.map((asset) => MediaCard(asset, { favorites, lazyController, onPreview, toast })));
   enhanceMasonry(recentGrid);
   return el("main", { id: "main-content" }, [
@@ -84,9 +140,9 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
         el("h1", {}, ["Every vision.", el("br"), "One collective intelligence."]),
         el("p", { text: "Photography, branded reference imagery, motion, and spatial media—curated from the Collective AI ecosystem." }),
         search.root,
-        el("nav", { class: "hero-quick-links", "aria-label": "Media type shortcuts" }, [["All media", "complete-archive"], ["Components", "component-sheets"], ["Intro films", "division-intro-videos"], ["Photography", "stock-images"], ["Reference", "reference-images"]].map(([label, slug]) => el("a", { href: collectionRoute(slug), text: label })))
+        el("nav", { class: "hero-quick-links", "aria-label": "Media type shortcuts" }, [["All media", "complete-archive"], ["Components", "component-sheets"], ["Motion films", "motion-films"], ["Photography", "stock-images"], ["Reference", "reference-images"]].map(([label, slug]) => el("a", { href: collectionRoute(slug), text: label })))
       ]),
-      visualAssets.length ? mediaMosaic(visualAssets, onPreview) : el("div", { class: "hero-empty" }, [diamondStar(), el("p", { text: "The source archive is being reconciled." })])
+      heroMotion ? motionStage(heroMotion, motionAssets.length, onPreview) : el("div", { class: "hero-empty" }, [diamondStar(), el("p", { text: "The source archive is being reconciled." })])
     ]),
     el("section", { class: "home-band featured-libraries" }, [
       el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "New production libraries" }), el("h2", { text: "Build the brand. Set it in motion." })]), el("p", { text: "Complete implementation systems and cinematic identity films—named, verified, and ready to use." })]),
@@ -105,7 +161,7 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
       recentGrid
     ]),
     el("section", { class: "home-band motion-showcase" }, [
-      el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Division identity in motion" }), el("h2", { text: "Intro film collection" })]), el("a", { href: collectionRoute("division-intro-videos") }, ["View all intro films", icon("arrow")])]),
+      el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Stories with a pulse" }), el("h2", { text: "Motion film collection" })]), el("a", { href: collectionRoute("motion-films") }, ["View all motion films", icon("arrow")])]),
       motionRail(assets, onPreview)
     ]),
     el("section", { class: "home-band licensing-section", id: "licensing" }, [

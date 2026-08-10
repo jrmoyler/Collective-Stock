@@ -13,7 +13,7 @@
     "css:build": "tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/generated.css --minify",
     "assets:manifest": "node scripts/build-asset-manifest.js",
     "assets:build": "npm run assets:materialize && node scripts/generate-divisions.js && node scripts/sync-google-photos-curation.js && node scripts/optimize-images.js && node scripts/generate-posters.js && node scripts/generate-video-previews.js && node scripts/build-asset-manifest.js && node scripts/generate-search-index.js && node scripts/generate-sitemap.js",
-    "assets:materialize": "node scripts/materialize-google-photos-album.js",
+    "assets:materialize": "node scripts/materialize-google-photos-album.js && node scripts/materialize-motion-library.js",
     "assets:album:package": "node scripts/package-google-photos-archive.js",
     "assets:album:audit": "node scripts/audit-google-photos-album.js",
     "assets:album:ingest": "node scripts/ingest-google-photos-album.js",

@@ -2,13 +2,14 @@
 
 ## Final automated result
 
-- Asset pipeline validation: **433 assets validated; 433 unique human-readable titles; 0 broken references; 0 unassigned assets**.
+- Asset pipeline validation: **466 assets validated; 466 unique human-readable titles; 0 broken references; 0 unassigned assets; 0 inaccessible batches**.
 - Google Photos reconciliation: **330/330 album entries ingested; 330 unique hashes; 0 missing; 0 duplicates**.
-- Library completeness: **21 component sheets, 21 paired brand reference sheets, and 20 division intro films**; the one monogram film is intentionally global.
-- Vitest: **20/20 passed** across album reconciliation, manifest, public projection, licensing and search/ranking contracts.
-- Playwright: **13 passed, 1 deliberate desktop skip**. The skipped case is the mobile-only navigation contract in the desktop project, not an unexecuted product path; the same case passes in the mobile project. Both browser profiles verify the 20-film intro collection, muted MP4 derivatives, Escape cleanup, and the 21-sheet component collection.
+- Library completeness: **21 component sheets, 21 paired brand reference sheets, 20 division intro films, all 26 supplied Drive motion films, and seven supplied still images**; unmarked motion remains intentionally cross-division.
+- Resolution enhancement: **82/82 low-resolution sources have tested 1800 px delivery renditions** while original bytes remain unchanged.
+- Vitest: **21/21 passed** across album reconciliation, manifest, rendition quality, public projection, licensing and search/ranking contracts.
+- Playwright: **15 passed, 1 deliberate desktop skip**. The skipped case is the mobile-only navigation contract in the desktop project, not an unexecuted product path; the same case passes in the mobile project. Both browser profiles verify the 26-film Motion Films collection, the 20-film intro collection, muted MP4 derivatives, Escape cleanup, and the 21-sheet component collection.
 - Production build: **passed**, including Tailwind minification, Vite multi-entry build, public/private distribution split, pre-rendered route generation and critical-entry verification.
-- Lighthouse mobile: **100 Performance / 100 Accessibility / 100 Best Practices / 100 SEO** with 1,506 ms LCP, 0 ms TBT and 0.00033 CLS.
+- Prior 433-record Lighthouse mobile benchmark: **100 Performance / 100 Accessibility / 100 Best Practices / 100 SEO** with 1,506 ms LCP, 0 ms TBT and 0.00033 CLS. Production build and browser coverage were rerun for the 466-record integration; a deployed-CDN Lighthouse rerun remains a release follow-up.
 
 ## Browser and responsive coverage
 
@@ -18,7 +19,7 @@
 | Mobile Chromium | Pixel 7 profile | Same core journeys plus native mobile menu, background inerting, Escape close, focus boundary and horizontal-overflow check |
 | Mobile performance | 412 × 915 @2× | Lighthouse and custom slow-4G/4× CPU event metrics |
 
-Visual regression captures are in `reports/screenshots/` for desktop/mobile homepage, desktop/mobile search results, desktop/mobile division pages, and the open mobile navigation. Full-page evidence mode disables only viewport rendering containment and sticky screenshot stitching; production behavior remains tested separately.
+The Playwright run completed a full-page screenshot pass for desktop/mobile homepage, search, division, and navigation states. The tracked files in `reports/screenshots/` remain historical review references rather than assertion baselines; production behavior is enforced by the browser contracts above.
 
 ## Accessibility contracts exercised
 
@@ -38,9 +39,9 @@ The independent accessibility/security review remains authoritative for unautoma
 
 ## Security and rights checks
 
-- The static distribution contains 413 public records and excludes private originals, internal optimized renditions and private provenance occurrences.
+- The static distribution contains 446 public records and excludes private originals, internal optimized renditions and private provenance occurrences.
 - Anonymous manifest delivery projects discovery fields only; storage paths, filenames, hashes, prompts, source URLs, and all provenance occurrences are removed.
-- All 24 public video previews are isolated muted H.264 derivatives. Original image and video downloads are governed by `downloadAuthorization` and require a valid asset-scoped HMAC token unless explicitly public.
+- All 50 public video previews are isolated muted H.264 derivatives. Original image and video downloads are governed by `downloadAuthorization` and require a valid asset-scoped HMAC token unless explicitly public.
 - Authorized originals are resolved by manifest ID, confined to approved roots, and streamed from a local file or configured `PRIVATE_ASSET_ORIGIN`.
 - Vercel functions include manifests only rather than approximately 650 MB of original media.
 - Query-string download tokens are rejected by design; header, bearer or HttpOnly-cookie transport is supported.
@@ -49,6 +50,6 @@ The independent accessibility/security review remains authoritative for unautoma
 
 ## Evidence limitations and release verdict
 
-The Google Photos export is approved for ingestion: every one of its 330 entries is present, unique, assigned, searchable, and traceable to the source archive. The complete repository has 433 unique records, including the paired component library and 20 intro films. No unrelated stock or cloned media was substituted to manufacture coverage.
+The Google Photos export is approved for ingestion: every one of its 330 entries is present, unique, assigned, searchable, and traceable to the source archive. The complete repository has 466 unique records, including the paired component library, 20 intro films, seven supplied stills, and 26 individually verified Drive MP4s. No unrelated stock or cloned media was substituted to manufacture coverage.
 
-This approval is scoped to the supplied media. `Motion MP4s.zip` remains inaccessible at exactly 829,879,395 bytes because it exceeds the Google Drive connector's 100 MB transfer limit; a direct upload or split archive is required. Production identity-provider/private-origin integration still requires deployed end-to-end verification.
+The accessible Drive folder supplied on 2026-08-09 superseded the inaccessible monolithic motion archive, clearing the zero-omission gate for the supplied media. Production identity-provider/private-origin integration still requires deployed end-to-end verification.

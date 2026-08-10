@@ -72,12 +72,39 @@ function derivedRule(file) {
       previewAudio: "muted"
     };
   }
+  if (token.includes("/assets/video/motion-library/")) {
+    return {
+      division: "Collective AI Inc",
+      divisionSlug: "collective-ai-inc",
+      classification: "cross-division",
+      category: "Motion Films",
+      categorySlug: "motion-films",
+      series: "Collective Stock Motion Film Library",
+      description: "A cinematic motion study for cross-division storytelling, editorial sequences, ambient interfaces, and approved brand productions.",
+      source: "User-supplied Google Drive motion folder on 2026-08-09",
+      sourceUrl: "https://drive.google.com/drive/folders/1JxXznM_JVJyez82FQdStzMGNFttKdgtj",
+      batch: "Google Drive motion ingest 2026-08-09",
+      ingestedAt: "2026-08-09",
+      visibility: "public",
+      license: "collective-ai-internal-use",
+      downloadAuthorization: "authenticated",
+      classificationConfidence: "high",
+      classificationNotes: "The source contains no explicit division mark, so the film remains intentionally cross-division.",
+      tags: ["motion film", "cinematic study", "ambient motion", "cross-division", "Collective AI"],
+      intendedUse: ["Website motion", "Editorial film", "Presentation backgrounds", "Approved brand production"],
+      audioProfile: "Source audio preserved; public preview is muted",
+      captionStatus: "Public preview is muted; source audio requires editorial caption review and authenticated access",
+      previewAudio: "muted"
+    };
+  }
   return {};
 }
 
 function findRule(file) {
   const name = slugify(path.basename(file));
-  const explicit = sourceMap.rules?.find((rule) => name.includes(slugify(rule.match || "__never__"))) || {};
+  const explicit = (sourceMap.rules || [])
+    .filter((rule) => name.includes(slugify(rule.match || "__never__")))
+    .sort((a, b) => slugify(b.match || "").length - slugify(a.match || "").length)[0] || {};
   return { ...derivedRule(file), ...explicit };
 }
 
@@ -131,6 +158,10 @@ function inferredTitle(file, rule, division) {
     const shortTitle = titleize(stem);
     return division.classification === "cross-division" ? `${shortTitle} Intro Film` : `${division.name} — ${shortTitle} Intro Film`;
   }
+  if (token.includes("/assets/video/motion-library/")) {
+    const stem = path.basename(file, path.extname(file)).replace(/-motion$/i, "");
+    return titleize(stem);
+  }
   if (token.includes("/assets/originals/design-bible-logos/")) {
     const referenceType = path.basename(file).startsWith("gallery-") ? "Gallery Logo Reference" : "Brand Detail Reference";
     return `${division.name} — ${referenceType}`;
@@ -177,7 +208,7 @@ for (const file of sourceFiles) {
     batch: rule.batch || "Local source audit",
     revision: Number(rule.revision || revisionMatch?.[1] || 1),
     generationDate: rule.generationDate || null,
-    ingestedAt: "2026-08-08",
+    ingestedAt: rule.ingestedAt || "2026-08-08",
     prompt: rule.prompt || null,
     width: metadata.width,
     height: metadata.height,
@@ -246,7 +277,7 @@ const audit = {
   missingSourceReason: primaryMissingSource?.reason || null,
   brokenAssets: 0,
   unassignedAssets: 0,
-  reconciliation: `${sourceFiles.length} discovered files = ${assets.length} unique ingested assets + ${exactDuplicates} exact duplicate files; ${occurrences.length} provenance occurrences retained. ${missing.length} inaccessible source archive is external to the discovered-file equation.`
+  reconciliation: `${sourceFiles.length} discovered files = ${assets.length} unique ingested assets + ${exactDuplicates} exact duplicate files; ${occurrences.length} provenance occurrences retained. ${missing.length ? `${missing.length} inaccessible source archive${missing.length === 1 ? " is" : "s are"} external to the discovered-file equation.` : "No inaccessible source archives remain."}`
 };
 
 await writeJson(path.join(manifestsDir, "asset-manifest.json"), { schemaVersion: 1, generatedAt: audit.generatedAt, summary: audit, assets });

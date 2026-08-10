@@ -4,7 +4,7 @@ Collective Stock is a manifest-driven media library for Collective AI Inc. It pr
 
 ## Current audit status
 
-The media catalog contains 433 unique, human-named records with zero broken references and zero unassigned assets. Original bytes, archive order, content hashes, source filenames, album provenance, division/category assignments, and classification confidence are retained. No stock substitute or fabricated duplicate was used.
+The media catalog contains 466 unique, human-named records with zero broken references, zero inaccessible batches, and zero unassigned assets. Original bytes, archive order, content hashes, source filenames, album provenance, division/category assignments, and classification confidence are retained. No stock substitute or fabricated duplicate was used.
 
 Google Photos export reconciliation:
 
@@ -16,13 +16,15 @@ Google Photos export reconciliation:
 - 0 broken asset references
 - 0 files missing from the supplied export
 
-The complete catalog also includes 42 records in the Collective AI Inc Component Library (21 component sheets plus 21 paired brand reference sheets) and 20 films in the Division Intro Video Library. Nineteen intro films have explicit division pairings; the monogram film is intentionally global and marked `cross-division`.
+The complete catalog also includes 42 records in the Collective AI Inc Component Library (21 component sheets plus 21 paired brand reference sheets), 20 films in the Division Intro Video Library, seven user-supplied still images, and all 26 MP4 files from the supplied Google Drive folder. Nineteen intro films have explicit division pairings; the monogram film and Drive motion studies are intentionally marked `cross-division` when no division mark is visible.
 
-One separately requested source archive remains inaccessible: `Motion MP4s.zip` (829,879,395 bytes). The Google Drive connector cannot transfer a file above its 100 MB limit. The public audit and missing-assets ledger report that blocker exactly; no substitute media is counted as recovery. A direct upload or split archive is required to ingest it.
+The previously inaccessible `Motion MP4s.zip` batch was superseded by the accessible folder supplied on 2026-08-09. Its 26 visible MP4s (434,000,426 verified bytes) were downloaded and validated individually. The audit now reports a clear zero-omission gate.
+
+Low-resolution originals are never overwritten. The asset pipeline creates restrained Lanczos-enhanced 800px and 1800px delivery renditions with a micro-contrast pass, and manifest tests enforce a high-resolution rendition for every source below the archive's resolution threshold.
 
 ## Run locally
 
-Requires Node.js 20.19+ or 22.12+.
+Requires Node.js 22.x.
 
 ```bash
 npm install
@@ -39,7 +41,7 @@ npm run test:e2e
 
 `npm run check` regenerates division data, optimized image renditions, the manifest, provenance, search index, sitemap, Tailwind production CSS, and the deployable `dist/` folder before running unit validation.
 
-The exact supplied ZIP is committed in integrity-checked chunks under `assets/source-archives/google-photos-2026-08-08/`. Before every asset build, `assets:materialize` reconstructs the archive when needed, verifies its SHA-256, restores each full-resolution original to its classified image/video path, and verifies all 330 per-file hashes. Generated originals, renditions, and posters are intentionally gitignored; they are reproducible build outputs rather than competing source copies.
+The exact supplied ZIP is committed in integrity-checked chunks under `assets/source-archives/google-photos-2026-08-08/`. The 26-file Drive motion set is likewise committed as a deterministic, integrity-checked source archive under `assets/source-archives/motion-library-2026-08-09/`, split below GitHub's large-file warning threshold. Before every asset build, `assets:materialize` reconstructs either archive when needed, verifies archive and per-file SHA-256 values, and restores every full-resolution source. Generated originals, renditions, posters, and previews are intentionally gitignored; they are reproducible build outputs rather than competing source copies.
 
 ## Deployment
 

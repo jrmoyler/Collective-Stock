@@ -39,9 +39,9 @@ npm audit --omit=dev
 
 Then review `assets/manifests/audit-summary.json`. A build may deploy as a transparent limited archive while `missingOrInaccessible` is non-zero, but it must not be labeled the complete zero-omission project archive. Final completion requires all historical outputs to be recovered, re-ingested, and reconciled to zero.
 
-For the 2026-08-08 Google Photos ingestion, also review `assets/manifests/google-photos-album-map.json`: it must report 330 discovered and ingested items, 330 unique assets, four videos, zero exact duplicates, and zero unassigned items. The final manifest additionally requires 21 component sheets, 21 paired brand reference sheets, and 20 division intro films. This is a source-export gate, not proof about files outside that export.
+For the 2026-08-08 Google Photos ingestion, also review `assets/manifests/google-photos-album-map.json`: it must report 330 discovered and ingested items, 330 unique assets, four videos, zero exact duplicates, and zero unassigned items. The final manifest additionally requires 21 component sheets, 21 paired brand reference sheets, 20 division intro films, 26 Drive motion films, and seven user-supplied still images. This is a source-export gate, not proof about files outside the supplied sources.
 
-The known non-zero ledger entry is `Motion MP4s.zip`, exactly 829,879,395 bytes. It is inaccessible through the Google Drive connector's 100 MB transfer limit and requires a direct upload or split archive. Until ingested, the archive is transparent and deployable but must not be described as zero-omission complete.
+The former `Motion MP4s.zip` blocker was superseded by the accessible Drive folder supplied on 2026-08-09. The build must verify all 26 individually downloaded MP4s, 434,000,426 source bytes, and `missingOrInaccessible: 0` before describing the supplied archive as zero-omission complete.
 
 ## Post-deploy validation
 

@@ -14,3 +14,9 @@ assets/originals/google-photos-2026-08-08/
 assets/video/google-photos-2026-08-08/
 assets/optimized/gphotos-*
 assets/posters/gphotos-*
+
+# Reconstructed or generated from the integrity-checked Drive source archive.
+assets/video/motion-library/
+assets/previews/motion-library/
+assets/posters/*.jpg
+assets/optimized/

@@ -35,7 +35,8 @@ test("homepage renders real archive media and search navigates", async ({ page }
   await expect(page).toHaveTitle(/Collective Stock/);
   await expect(page.getByRole("heading", { name: /Every vision/ })).toBeVisible();
   await expect(page.locator('.hero-quick-links [aria-current="page"]')).toHaveCount(0);
-  await expect(page.locator(".hero-mosaic img").first()).toBeVisible();
+  await expect(page.locator(".hero-stage video")).toBeVisible();
+  await expect(page.locator(".hero-stage__scrubber")).toBeVisible();
   await warmLazyMedia(page);
   await page.screenshot({ path: path.join(screenshotDir, `homepage-${testInfo.project.name}.png`), fullPage: true });
   await page.locator(".home-hero input[type=search]").fill("ZenFlow");
@@ -86,18 +87,31 @@ test("search dialog and combobox keyboard state clean up correctly", async ({ pa
 test("public audit exposes the real reconciliation without private paths", async ({ page }) => {
   await page.goto("/audit.html");
   await expect(page.getByRole("heading", { name: "Nothing hidden. Nothing substituted." })).toBeVisible();
-  await expect(page.getByText("1 source archive remains inaccessible")).toBeVisible();
-  await expect(page.getByText("Motion MP4s.zip", { exact: true })).toBeVisible();
-  await expect(page.getByText(/829,879,395 bytes/)).toBeVisible();
+  await expect(page.getByText("Zero missing or inaccessible outputs")).toBeVisible();
+  await expect(page.getByText("The zero-omission gate is clear.")).toBeVisible();
   await expect(page.getByText(/assets\/originals/)).toHaveCount(0);
   const manifestResponse = await page.request.get("/assets/manifests/asset-manifest.json");
   expect(manifestResponse.ok()).toBe(true);
   const publicManifest = await manifestResponse.json();
-  expect(publicManifest.assets).toHaveLength(413);
+  expect(publicManifest.assets).toHaveLength(446);
   const forbiddenFields = ["originalDownloadPath", "originalFilename", "contentHash", "perceptualHash", "prompt", "source", "sourceAlbum", "sourceUrl", "albumIndex", "batch", "generationDate"];
   for (const asset of publicManifest.assets) {
     forbiddenFields.forEach((field) => expect(asset).not.toHaveProperty(field));
   }
+});
+
+test("all supplied Drive motion films are cataloged with playable muted derivatives", async ({ page }) => {
+  await page.goto("/collections.html?collection=motion-films");
+  await expect(page.getByRole("heading", { name: "Motion films", exact: true })).toBeVisible();
+  await expect(page.locator(".media-card")).toHaveCount(26);
+  await expect(page.locator('.site-header a[href="/collections.html?collection=motion-films"][aria-current="page"]').first()).toHaveAttribute("aria-current", "page");
+  await page.locator(".card-preview-button").first().click();
+  const preview = page.locator("dialog.lightbox video");
+  await expect(preview).toBeVisible();
+  await expect(preview).toHaveAttribute("src", /^\/assets\/previews\/motion-library\/.+-preview\.mp4$/);
+  expect(await preview.evaluate((video) => video.muted)).toBe(true);
+  const response = await page.request.get(await preview.getAttribute("src"));
+  expect(response.ok()).toBe(true);
 });
 
 test("all division intro films use playable muted derivatives and clean up on Escape", async ({ page }) => {
@@ -138,7 +152,10 @@ test("mobile navigation is intentional and page has no horizontal overflow", asy
   const menuGeometry = await page.getByRole("navigation", { name: "Mobile navigation" }).evaluate((node) => ({ height: node.getBoundingClientRect().height, viewport: window.innerHeight, header: Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--header-height")), scrollHeight: node.scrollHeight }));
   expect(menuGeometry.height).toBeGreaterThanOrEqual(menuGeometry.viewport - menuGeometry.header - 1);
   expect(menuGeometry.scrollHeight).toBeGreaterThan(menuGeometry.height);
-  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  // Compare against the layout viewport. On Chromium mobile emulation the
+  // vertical overlay scrollbar can make clientWidth two pixels narrower even
+  // when no content exceeds the viewport.
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   expect(overflow).toBeLessThanOrEqual(1);
   await page.screenshot({ path: path.join(screenshotDir, "mobile-navigation.png"), fullPage: false });
   await page.keyboard.press("Escape");

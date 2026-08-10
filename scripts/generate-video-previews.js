@@ -10,6 +10,8 @@ const exec = promisify(execFile);
 const videoDir = path.join(ROOT, "assets/video");
 const previewDir = path.join(ROOT, "assets/previews");
 const videos = (await walk(videoDir)).filter((file) => VIDEO_EXTENSIONS.has(path.extname(file).toLowerCase()));
+const staleTemporaryOutputs = (await walk(previewDir)).filter((file) => file.endsWith(".generating"));
+await Promise.all(staleTemporaryOutputs.map((file) => fs.rm(file, { force: true })));
 
 for (const video of videos) {
   const relativeDirectory = path.dirname(path.relative(videoDir, video));
