@@ -7,6 +7,7 @@ export const COLLECTION_DEFINITIONS = [
   { slug: "brand-sheets", title: "Brand sheets", description: "Logos, marks, and approved brand-system documentation.", constraints: { category: "brand-sheets" } },
   { slug: "component-sheets", title: "Component sheets", description: "The complete parent-and-division UI component library, verified and implementation-ready.", constraints: { category: "component-sheets" }, featured: true, navigation: true },
   { slug: "division-intro-videos", title: "Division intro videos", description: "Cinematic identity films with global scope unless a division pairing is explicitly stated.", constraints: { category: "division-intro-videos", mediaType: "video" }, featured: true, navigation: true },
+  { slug: "motion-films", title: "Motion films", description: "Cinematic studies for editorial sequences, ambient interfaces, and cross-division storytelling.", constraints: { category: "motion-films", mediaType: "video" }, featured: true, navigation: true },
   { slug: "specification-sheets", title: "Specification sheets", description: "Precise design and production specifications.", constraints: { category: "specification-sheets" } },
   { slug: "ui-mockups", title: "UI mockups", description: "Product-interface concepts and implementation references.", constraints: { category: "ui-mockups" } },
   { slug: "campaigns-advertising", title: "Campaigns and advertising", description: "Campaign creative and promotional systems.", constraints: { category: "campaigns-advertising" } },

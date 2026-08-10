@@ -42,6 +42,7 @@ export class Header extends EventTarget {
           this.#collectionLink("complete-archive", "Browse"),
           this.#collectionLink("component-sheets", "Components"),
           this.#collectionLink("division-intro-videos", "Intro films"),
+          this.#collectionLink("motion-films", "Motion"),
           navButton,
           el("a", { class: "nav-link", href: "/#licensing", text: "Licensing" })
         ]),
@@ -126,6 +127,7 @@ export class Header extends EventTarget {
         this.#collectionLink("complete-archive", "Browse archive", true),
         this.#collectionLink("component-sheets", "Component sheets", true),
         this.#collectionLink("division-intro-videos", "Division intro videos", true),
+        this.#collectionLink("motion-films", "Motion films", true),
         el("a", { href: "/#licensing", text: "Licensing" })
       ]),
       el("p", { class: "section-label", text: "Divisions" }),

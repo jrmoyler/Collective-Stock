@@ -30,6 +30,7 @@
   <url><loc>https://collective-stock.vercel.app/collections/brand-sheets</loc></url>
   <url><loc>https://collective-stock.vercel.app/collections/component-sheets</loc></url>
   <url><loc>https://collective-stock.vercel.app/collections/division-intro-videos</loc></url>
+  <url><loc>https://collective-stock.vercel.app/collections/motion-films</loc></url>
   <url><loc>https://collective-stock.vercel.app/collections/specification-sheets</loc></url>
   <url><loc>https://collective-stock.vercel.app/collections/ui-mockups</loc></url>
   <url><loc>https://collective-stock.vercel.app/collections/campaigns-advertising</loc></url>
@@ -105,6 +106,7 @@
   <url><loc>https://collective-stock.vercel.app/assets/cstk_d2d77944cee547eb24f4</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_3c6d33d8139aff82eb02</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_41c230e7812bc5a3bafd</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_ecc5fc64aac00bfdcb5e</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_7ea1c1291005ed29fc8e</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_69f6ccee0240ae28ef8c</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_31a62b47f0bc3f1e9c88</loc></url>
@@ -176,7 +178,12 @@
   <url><loc>https://collective-stock.vercel.app/assets/cstk_213f8fb760cc60c85920</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_6c10f0b8ec502ac4ae0e</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_feaeb094be9fd34251f1</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_ef31827713746fe17b24</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_aa1bfcfa5b1bd7b4959e</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_5f863de68a9716a65d85</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_147f6916052ac36b294e</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_8792e0b9455bb446a09d</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_f585a30b0ed776315c9b</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_ed87075f8dcddc61db0e</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_ced5548a1142ebf9a13f</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_f01f06e4bf628d848f0e</loc></url>
@@ -190,12 +197,33 @@
   <url><loc>https://collective-stock.vercel.app/assets/cstk_36fcbde5883edb599ae8</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_8b142acb14c89eabe736</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_7a94f9305ba497fa6be0</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_bd9745168de32ff675de</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_e371496db944c0a749d7</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_efe668e3b3b08e1b3f82</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_c5a659f5575826603fef</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_afff940cdc424e29955b</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_62ebadc459e4e8e2f3b6</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_3becdedaf7db242a7c1f</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_b1c3319fe9ef373bf943</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_de304eb82bb6c777f67e</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_a4b6c8f3de1a0b9972f7</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_c86bae4eeca44b26f5e9</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_663184b6d16cad25c1dc</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_9fb96da979041808b93c</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_985a5ebfa8c2cfcc7189</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_f65fae71d7562bdba113</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_f7fbfda2db18399ead97</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_bfc5c3a32dd563844d6d</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_f6856f19667079054bc2</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_ffc36d25c3b50ecf73de</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_474f1423e2b01da4bcc2</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_cb49b14c03080111225f</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_20c0d320fea2e2e6855f</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_1062c9ec0ac72468f4d4</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_7193654a78864d0c1bad</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_b03ed318944a06d38c05</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_88242c28411481c7939f</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_7c6ba4d41ba947e516dc</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_b86d6d52c607db2a3680</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_ab7ccb22e7c24c359ac0</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_ec2cbfc3b0202c6c7f05</loc></url>
@@ -210,6 +238,7 @@
   <url><loc>https://collective-stock.vercel.app/assets/cstk_cc9d99c2f4ddbfef6b97</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_64051e98f833667e8cee</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_0a3d65446516211271e1</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_e358d144973db1cfca8f</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_be20ac177096f0d8ba3a</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_3875dd1ffcdee06fa053</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_a1ad24b61a04b0ecb987</loc></url>
@@ -294,6 +323,7 @@
   <url><loc>https://collective-stock.vercel.app/assets/cstk_88d0b7fc01cce1ee8125</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_a5be6f44ba81bce02788</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_cbe00b884d22d9a24cf0</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_72d160c1e02e6a7c4603</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_913fd27d54b546d04c8b</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_ed15432dc99cbc0d002c</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_56dd4b0e72ce630e089b</loc></url>
@@ -306,9 +336,13 @@
   <url><loc>https://collective-stock.vercel.app/assets/cstk_be0be0653352ac7b01c2</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_b511a7215e85a432e4c1</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_baeb08d33e2883bbe726</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_68d18cdc43a10baf1087</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_dbec3df372d209eccaf2</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_d647ceb4ced5fbc9a4d1</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_be774f49fa4474b07f0a</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_8e9339a38c7e19e9b468</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_edafc708855bbc39a40e</loc></url>
+  <url><loc>https://collective-stock.vercel.app/assets/cstk_550cfaf965b0f20cc962</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_8d01b6ed42704508964f</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_8b763d2a80da2eebb24a</loc></url>
   <url><loc>https://collective-stock.vercel.app/assets/cstk_0ab41fc22196d9eda3e3</loc></url>

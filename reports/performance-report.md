@@ -1,6 +1,6 @@
 # Performance report
 
-Refreshed 2026-08-09 after the 433-record media-library build, against the production `dist` build on a 412 × 915 mobile viewport.
+Refreshed 2026-08-09 after the 433-record media-library build, against the production `dist` build on a 412 × 915 mobile viewport. The 2026-08-09 motion/still integration raises the catalog to 466 records; production build and responsive browser verification were rerun, while the Lighthouse figures below remain the prior 433-record lab benchmark pending a deployed-CDN rerun.
 
 ## Measured Lighthouse result
 
@@ -37,17 +37,17 @@ Evidence: `reports/performance-measurement.json`. The 80 ms event duration is a 
 
 - Application JavaScript: approximately 61 KB raw / 19.5 KB gzip.
 - Application CSS: approximately 47 KB raw / 10.4 KB gzip.
-- Static distribution: approximately 119 MB, dominated by lazy public renditions and 24 public video previews rather than application code.
+- Static distribution is dominated by lazy public renditions and 50 public video previews rather than application code; the current build verifies every referenced public file before release.
 - Self-hosted fonts use WOFF2-only, `font-display: optional` declarations.
 - The server-rendered homepage shell preserves its LCP heading while the searchable archive hydrates.
 - Below-fold bands use `content-visibility: auto` with intrinsic sizing.
 - Public imagery is delivered through dimensioned AVIF/WebP/JPEG candidates; originals are not statically published.
 - Optimized renditions receive one-year immutable caching. Protected manifests/downloads are private and `no-store`.
-- Twenty-four real video previews are poster-first, muted H.264 derivatives, `playsinline`, lazy, and paired with generated still posters; reduced-motion mode avoids autoplay behavior.
+- Fifty real video previews are poster-first, muted H.264 derivatives, `playsinline`, lazy, and paired with generated still posters; reduced-motion mode avoids hero autoplay behavior.
 
 ## Remaining performance risk
 
 - The Lighthouse LCP passes by 994 ms in the final local build and must still be rechecked on the deployed CDN with real security headers, compression and edge latency.
 - No field RUM/CrUX data exists yet, so the INP target is supported by lab evidence only.
-- The current catalog has 24 MP4 previews but no HLS payload to benchmark; caption status remains metadata until production caption/transcript files are supplied.
+- The current catalog has 50 MP4 previews but no HLS payload to benchmark; caption status remains metadata until production caption/transcript files are supplied.
 - The 119 MB static deploy is acceptable for repository validation, but originals must remain in private object storage and usage telemetry should guide future CDN delivery.

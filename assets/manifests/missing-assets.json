@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 2,
-  "generatedAt": "2026-08-09T01:10:54.451Z",
+  "schemaVersion": 3,
+  "generatedAt": "2026-08-09T20:00:00.000Z",
   "scope": "All user-supplied source archives for the media-library perfection upgrade",
   "sourceAlbum": {
     "name": "Collective Stock",
@@ -34,25 +34,17 @@
     },
     {
       "name": "Motion MP4s.zip",
-      "sourceUrl": "https://drive.google.com/file/d/1KpNbxIQwufgVshj2dXNm2sfko9wTx9x_/view?usp=drivesdk",
-      "status": "blocked-provider-download-limit",
-      "archiveSizeBytes": 829879395
+      "sourceUrl": "https://drive.google.com/drive/folders/1JxXznM_JVJyez82FQdStzMGNFttKdgtj",
+      "status": "recovered-from-supplied-folder",
+      "verifiedAssets": 26,
+      "verifiedBytes": 434000426,
+      "note": "The inaccessible monolithic archive was superseded by the user-supplied folder. Every MP4 visible in that folder was downloaded and verified individually."
     }
   ],
-  "missingAssets": [
-    {
-      "source": "Google Drive",
-      "sourceName": "Motion MP4s.zip",
-      "sourceUrl": "https://drive.google.com/file/d/1KpNbxIQwufgVshj2dXNm2sfko9wTx9x_/view?usp=drivesdk",
-      "expectedCount": 1,
-      "unit": "source archive",
-      "status": "blocked-provider-download-limit",
-      "reason": "The authenticated Google Drive connector rejects downloads above 100 MB; this archive is 829,879,395 bytes. Its internal file count and filenames cannot be asserted until a split or directly uploaded copy is supplied."
-    }
-  ],
+  "missingAssets": [],
   "historicalRequestLedger": {
     "status": "superseded-for-this-ingestion",
-    "note": "The previous 265-unit figure counted requested outputs inferred from conversation summaries, not verified files. The Google Photos ZIP remains authoritative for that batch. The separate Drive archive is recorded as an inaccessible batch without inventing its internal asset count."
+    "note": "The previous 265-unit figure counted requested outputs inferred from conversation summaries, not verified files. The Google Photos ZIP remains authoritative for that batch. The user later supplied an accessible Drive folder; its 26 MP4 files are now independently verified and ingested."
   },
   "classificationReview": {
     "lowConfidenceAlbumIndexes": [124, 319, 328],
