@@ -1,6 +1,6 @@
 import path from "node:path";
 import { googlePhotosAssignment, googlePhotosAssignmentCount } from "./google-photos-assignments.js";
-import { ROOT, readJson, slugify, titleize, writeJson } from "./lib/asset-utils.js";
+import { ROOT, readJson, slugify, titleize, writeJson, zonedIsoTimestamp } from "./lib/asset-utils.js";
 
 const manifests = path.join(ROOT, "assets/manifests");
 const albumMapPath = path.join(manifests, "google-photos-album-map.json");
@@ -69,7 +69,7 @@ albumMap.assets = albumMap.assets.map((record) => {
   const destinationPath = `/${record.mediaType === "video" ? "assets/video" : "assets/originals"}/google-photos-2026-08-08/${curated.divisionSlug}/${base}`;
   return { ...albumRecord, ...albumFields, destinationPath };
 });
-albumMap.generatedAt = new Date().toISOString();
+albumMap.generatedAt = zonedIsoTimestamp();
 albumMap.reconciliation.byDivision = Object.fromEntries(divisions.map((division) => [division.name, albumMap.assets.filter((record) => record.division === division.name).length]));
 
 sourceMap.rules = sourceMap.rules.map((rule) => {

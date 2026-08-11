@@ -195,7 +195,8 @@ for (const file of sourceFiles) {
   const division = detectDivision(file, rule);
   const category = detectCategory(file, rule);
   const title = inferredTitle(file, rule, division);
-  const scopeName = division.classification === "animal-stock" ? "Animals" : division.classification === "general-stock" ? "General Stock" : division.name;
+  const effectiveClassification = rule.classification || division.classification;
+  const scopeName = effectiveClassification === "animal-stock" ? "Animals" : effectiveClassification === "general-stock" ? "General Stock" : division.name;
   const revisionMatch = path.basename(file).match(/(?:^|[-_])v(?:ersion)?[-_]?(\d+)/i);
   const record = {
     id: `cstk_${hash.slice(0, 20)}`,
@@ -206,7 +207,7 @@ for (const file of sourceFiles) {
     description: rule.description || `A ${category.name.toLowerCase()} asset from the ${scopeName} collection.`,
     division: division.name,
     divisionSlug: division.slug,
-    classification: division.classification,
+    classification: effectiveClassification,
     mediaType,
     category: category.name,
     categorySlug: category.slug,

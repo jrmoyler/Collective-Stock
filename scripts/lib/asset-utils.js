@@ -18,6 +18,23 @@ export const posixPath = (value) => `/${path.relative(ROOT, value).split(path.se
 export const readJson = async (file, fallback) => { try { return JSON.parse(await fs.readFile(file, "utf8")); } catch { return structuredClone(fallback); } };
 export const writeJson = async (file, value) => fs.writeFile(file, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 
+export function zonedIsoTimestamp(date = new Date(), timeZone = "America/New_York") {
+  const formatter = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    timeZoneName: "longOffset",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23"
+  });
+  const parts = Object.fromEntries(formatter.formatToParts(date).map(({ type, value }) => [type, value]));
+  const offset = parts.timeZoneName === "GMT" ? "Z" : parts.timeZoneName.replace("GMT", "");
+  return `${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}.${String(date.getMilliseconds()).padStart(3, "0")}${offset}`;
+}
+
 export async function walk(directory) {
   const output = [];
   const entries = await fs.readdir(directory, { withFileTypes: true }).catch(() => []);

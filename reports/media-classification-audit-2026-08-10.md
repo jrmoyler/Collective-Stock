@@ -1,4 +1,6 @@
-# Media classification audit — 2026-08-10
+# Media classification audit — 2026-08-10 (America/New_York)
+
+The audit date uses the project timezone, America/New_York. The album-map and search-snapshot timestamps preserve that UTC offset so the August 10 review date and the build chronology remain unambiguous.
 
 ## Outcome
 

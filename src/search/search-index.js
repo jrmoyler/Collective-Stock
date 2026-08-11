@@ -1,3 +1,5 @@
+import { stockScope } from "../data/asset-scope.js";
+
 const FIELD_WEIGHTS = {
   title: 12,
   division: 9,
@@ -53,7 +55,7 @@ export class SearchIndex {
     const query = normalize(state.q || "");
     const tokens = query.split(" ").filter(Boolean);
     let rows = this.assets.filter((asset) => {
-      if (state.division && (asset.divisionSlug !== state.division || ["animal-stock", "general-stock"].includes(asset.classification))) return false;
+      if (state.division && (asset.divisionSlug !== state.division || stockScope(asset))) return false;
       if (state.classification && asset.classification !== state.classification) return false;
       if (state.category && asset.categorySlug !== state.category) return false;
       if (state.mediaType && asset.mediaType !== state.mediaType) return false;

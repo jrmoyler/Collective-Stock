@@ -130,6 +130,28 @@ test("audited Animals and General Stock collections stay separate from divisions
   await expect(page.locator(".media-card__footer p").first()).toContainText("General Stock");
   await page.getByRole("button", { name: "Clear all" }).click();
   await expect(page.locator(".media-card")).toHaveCount(50);
+
+  const manifestResponse = await page.request.get("/assets/manifests/asset-manifest.json");
+  expect(manifestResponse.ok()).toBe(true);
+  const manifest = await manifestResponse.json();
+  const stockAssets = manifest.assets.filter((asset) => ["animal-stock", "general-stock"].includes(asset.classification));
+  const stockIds = new Set(stockAssets.map((asset) => asset.id));
+
+  await page.goto("/division.html?division=collective-ai-inc");
+  await expect(page.getByRole("heading", { name: "Collective AI Inc", exact: true })).toBeVisible();
+  await expect(page.locator(".media-card")).toHaveCount(19);
+  const divisionAssetIds = await page.locator(".media-card").evaluateAll((cards) => cards.map((card) => card.dataset.assetId));
+  expect(divisionAssetIds.some((id) => stockIds.has(id))).toBe(false);
+
+  for (const [classification, label, slug] of [["animal-stock", "Animals", "animals"], ["general-stock", "General Stock", "general-stock"]]) {
+    const asset = stockAssets.find((item) => item.classification === classification);
+    const staticResponse = await page.request.get(`/assets/${asset.id}.html`);
+    expect(staticResponse.ok()).toBe(true);
+    const html = await staticResponse.text();
+    expect(html).toContain(`${label} /`);
+    expect(html).toContain(`href="/collections/${slug}"`);
+    expect(html).not.toContain("Browse Collective AI Inc");
+  }
 });
 
 test("all division intro films use playable muted derivatives and clean up on Escape", async ({ page }) => {
