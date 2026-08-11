@@ -4,13 +4,24 @@ import os from "node:os";
 import path from "node:path";
 import { pipeline } from "node:stream/promises";
 import yauzl from "yauzl";
-import { ROOT, readJson, sha256 } from "./lib/asset-utils.js";
+import { ROOT, readJson, sha256, walk } from "./lib/asset-utils.js";
 
 const archiveManifestPath = path.join(ROOT, "assets/source-archives/google-photos-2026-08-08/archive-chunks.json");
 const albumMapPath = path.join(ROOT, "assets/manifests/google-photos-album-map.json");
 const archiveManifest = await readJson(archiveManifestPath, null);
 const albumMap = await readJson(albumMapPath, null);
 if (!archiveManifest || !albumMap) throw new Error("Google Photos source archive manifest or album map is missing.");
+
+const materializedRoots = [
+  path.join(ROOT, "assets/originals/google-photos-2026-08-08"),
+  path.join(ROOT, "assets/video/google-photos-2026-08-08")
+];
+const desiredDestinations = new Set(albumMap.assets.map((asset) => path.resolve(ROOT, asset.destinationPath.replace(/^\//, ""))));
+const obsoleteFiles = (await Promise.all(materializedRoots.map((directory) => walk(directory))))
+  .flat()
+  .filter((file) => !desiredDestinations.has(path.resolve(file)));
+await Promise.all(obsoleteFiles.map((file) => fs.unlink(file)));
+if (obsoleteFiles.length) console.log(`Removed ${obsoleteFiles.length} obsolete Google Photos materialization(s).`);
 
 async function validDestination(asset) {
   const destination = path.join(ROOT, asset.destinationPath.replace(/^\//, ""));

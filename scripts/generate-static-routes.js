@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { ROOT, readJson } from "./lib/asset-utils.js";
 import { COLLECTION_DEFINITIONS } from "../src/data/collection-definitions.js";
+import { assetScopeLabel, stockScope } from "../src/data/asset-scope.js";
 
 const origin = "https://collective-stock.vercel.app";
 const divisions = await readJson(path.join(ROOT, "assets/manifests/divisions.json"), []);
@@ -55,12 +56,15 @@ for (const collection of COLLECTION_DEFINITIONS) {
 }
 for (const asset of manifest.assets.filter((item) => item.visibility === "public")) {
   const image = asset.optimizedRenditions?.find((item) => item.label === "large" && item.format === "webp")?.path || asset.optimizedRenditions?.[0]?.path;
+  const stock = stockScope(asset);
+  const scopeLabel = assetScopeLabel(asset);
+  const scopeHref = stock ? `/collections/${stock.slug}` : `/divisions/${asset.divisionSlug}`;
   await writeRoute("assets", asset.id, assetTemplate, {
     title: `${asset.title} — Collective Stock`,
-    description: `${asset.title}: ${asset.category} for ${asset.division}. Review dimensions, rights, source metadata, and available renditions.`,
+    description: `${asset.title}: ${asset.category} for ${scopeLabel}. Review dimensions, rights, source metadata, and available renditions.`,
     canonical: `/assets/${asset.id}`,
     image,
-    fallbackHtml: `<main id="main-content" class="noscript"><p>${htmlEscape(asset.division)} / ${htmlEscape(asset.category)}</p><h1>${htmlEscape(asset.title)}</h1>${image ? `<img src="${htmlEscape(image)}" alt="${htmlEscape(asset.altText || asset.title)}" width="${asset.width}" height="${asset.height}">` : ""}<p>${htmlEscape(asset.altText || `${asset.title}, ${asset.category} for ${asset.division}.`)}</p><p>${htmlEscape(asset.width)} × ${htmlEscape(asset.height)} · ${htmlEscape(asset.fileFormat?.toUpperCase())} · ${htmlEscape(asset.license?.slug)}</p><a href="/divisions/${htmlEscape(asset.divisionSlug)}">Browse ${htmlEscape(asset.division)}</a></main>`
+    fallbackHtml: `<main id="main-content" class="noscript"><p>${htmlEscape(scopeLabel)} / ${htmlEscape(asset.category)}</p><h1>${htmlEscape(asset.title)}</h1>${image ? `<img src="${htmlEscape(image)}" alt="${htmlEscape(asset.altText || asset.title)}" width="${asset.width}" height="${asset.height}">` : ""}<p>${htmlEscape(asset.altText || `${asset.title}, ${asset.category} for ${scopeLabel}.`)}</p><p>${htmlEscape(asset.width)} × ${htmlEscape(asset.height)} · ${htmlEscape(asset.fileFormat?.toUpperCase())} · ${htmlEscape(asset.license?.slug)}</p><a href="${htmlEscape(scopeHref)}">Browse ${htmlEscape(scopeLabel)}</a></main>`
   });
 }
 console.log(`Pre-rendered ${divisions.length} divisions, ${COLLECTION_DEFINITIONS.length} collections, and ${manifest.assets.length} public asset entry pages.`);

@@ -7,6 +7,7 @@ const json = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8")
 const album = json("assets/manifests/google-photos-album-map.json");
 const manifest = json("assets/manifests/asset-manifest.json");
 const provenance = json("assets/manifests/source-provenance.json");
+const searchIndex = json("assets/manifests/search-index.json");
 
 describe("Google Photos album ingestion", () => {
   it("reconciles every archive entry exactly once", () => {
@@ -23,6 +24,8 @@ describe("Google Photos album ingestion", () => {
     expect(new Set(album.assets.map((asset) => asset.albumIndex))).toEqual(new Set(Array.from({ length: 330 }, (_, index) => index + 1)));
     expect(new Set(album.assets.map((asset) => asset.contentHash)).size).toBe(330);
     expect(album.assets.every((asset) => asset.destinationPath.split("/").at(-2) === asset.divisionSlug)).toBe(true);
+    expect(searchIndex.generatedAt).toBe(album.generatedAt);
+    expect(album.generatedAt).toMatch(/[+-]\d{2}:\d{2}$/);
   });
 
   it("retains album provenance and valid classifications in the built manifest", () => {
@@ -38,8 +41,10 @@ describe("Google Photos album ingestion", () => {
     const standalone = album.assets.filter((asset) => asset.originalFilename.startsWith("IMG-"));
     const videos = album.assets.filter((asset) => asset.mediaType === "video");
     expect(standalone).toHaveLength(33);
+    expect(videos).toHaveLength(4);
     expect(standalone.every((asset) => ["animal-stock", "general-stock"].includes(asset.classification))).toBe(true);
     expect(videos.every((asset) => asset.classification === "general-stock")).toBe(true);
+    expect([...standalone, ...videos].every((asset) => asset.divisionSlug === "collective-ai-inc")).toBe(true);
   });
 
   it("builds playable metadata and poster frames for all four videos", () => {
