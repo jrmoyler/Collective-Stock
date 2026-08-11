@@ -8,6 +8,8 @@ const ROWS = [
   ["Assigned division assets", "assignedToDivisions"],
   ["Parent-brand assets", "parentBrandAssets"],
   ["Cross-division assets", "crossDivisionAssets"],
+  ["Animal stock assets", "animalStockAssets"],
+  ["General stock assets", "generalStockAssets"],
   ["Exact duplicate files", "exactDuplicates"],
   ["Revisions and variants", "revisionsAndVariants"],
   ["Missing or inaccessible outputs", "missingOrInaccessible"],

@@ -5,6 +5,7 @@ export function readUrlState() {
     q: params.get("q") || "",
     division: params.get("division") || (routeType === "divisions" ? decodeURIComponent(routeSlug) : ""),
     category: params.get("category") || "",
+    classification: params.get("classification") || "",
     mediaType: params.get("mediaType") || "",
     orientation: params.get("orientation") || "",
     license: params.get("license") || "",

@@ -53,7 +53,8 @@ export class SearchIndex {
     const query = normalize(state.q || "");
     const tokens = query.split(" ").filter(Boolean);
     let rows = this.assets.filter((asset) => {
-      if (state.division && asset.divisionSlug !== state.division) return false;
+      if (state.division && (asset.divisionSlug !== state.division || ["animal-stock", "general-stock"].includes(asset.classification))) return false;
+      if (state.classification && asset.classification !== state.classification) return false;
       if (state.category && asset.categorySlug !== state.category) return false;
       if (state.mediaType && asset.mediaType !== state.mediaType) return false;
       if (state.orientation && orientation(asset) !== state.orientation) return false;
@@ -112,6 +113,7 @@ export class SearchIndex {
     return {
       division: count("divisionSlug"),
       category: count("categorySlug"),
+      classification: count("classification"),
       mediaType: count("mediaType"),
       orientation: count("orientation", (_, asset) => orientation(asset)),
       license: count("license", (value) => value?.slug),

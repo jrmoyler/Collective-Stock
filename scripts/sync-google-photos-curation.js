@@ -24,15 +24,28 @@ function derivedTitle(record, assignment) {
   return title.startsWith(assignment.division) ? title : `${assignment.division} — ${title}`;
 }
 
+function stockCollection(classification) {
+  if (classification === "animal-stock") return "Animals";
+  if (classification === "general-stock") return "General Stock";
+  return null;
+}
+
+function classificationNotes(classification, confidence) {
+  if (classification === "animal-stock") return "Visual audit confirmed an animal-led subject; kept outside every division gallery.";
+  if (classification === "general-stock") return "Visual audit confirmed unbranded standalone stock; kept outside every division gallery.";
+  return confidence === "low" ? "Division attribution is thematic because the source is unbranded; retain album provenance for future reclassification." : null;
+}
+
 function curate(record) {
   const assignment = googlePhotosAssignment(record.albumIndex);
   const division = divisionByName.get(assignment.division);
   if (!division) throw new Error(`Unknown division ${assignment.division} at album index ${record.albumIndex}.`);
   const title = derivedTitle(record, assignment);
   const classification = assignment.classification || (division.slug === "collective-ai-inc" ? "parent-brand" : "division");
+  const collection = stockCollection(classification);
   const categorySlug = slugify(assignment.category);
   const words = title.toLowerCase().replace(/[^a-z0-9\s-]+/g, " ").split(/\s+/).filter((word) => word.length > 2);
-  const tags = [...new Set([division.name, assignment.category, "Collective AI", "Collective Stock", "Google Photos archive", ...words])];
+  const tags = [...new Set([collection || division.name, assignment.category, "Collective AI", "Collective Stock", "Google Photos archive", ...words])];
   return {
     title,
     division: division.name,
@@ -41,16 +54,20 @@ function curate(record) {
     category: assignment.category,
     categorySlug,
     classificationConfidence: assignment.confidence || "high",
-    classificationNotes: assignment.confidence === "low" ? "Division attribution is thematic because the source is unbranded; retain album provenance for future reclassification." : null,
+    classificationNotes: classificationNotes(classification, assignment.confidence),
     tags,
-    altText: `${title}, ${assignment.category.toLowerCase()} classified for the ${division.name} collection.`
+    altText: `${title}, ${assignment.category.toLowerCase()} classified for the ${collection || division.name} collection.`,
+    series: collection ? `Collective Stock / ${collection}` : `${division.name} / Google Photos Archive`
   };
 }
 
 albumMap.assets = albumMap.assets.map((record) => {
-  const { tags, altText, classificationNotes, ...albumFields } = curate(record);
-  const { tags: previousTags, altText: previousAltText, classificationNotes: previousNotes, ...albumRecord } = record;
-  return { ...albumRecord, ...albumFields };
+  const curated = curate(record);
+  const { tags, altText, classificationNotes, series, ...albumFields } = curated;
+  const { tags: previousTags, altText: previousAltText, classificationNotes: previousNotes, series: previousSeries, ...albumRecord } = record;
+  const base = path.posix.basename(record.destinationPath);
+  const destinationPath = `/${record.mediaType === "video" ? "assets/video" : "assets/originals"}/google-photos-2026-08-08/${curated.divisionSlug}/${base}`;
+  return { ...albumRecord, ...albumFields, destinationPath };
 });
 albumMap.generatedAt = new Date().toISOString();
 albumMap.reconciliation.byDivision = Object.fromEntries(divisions.map((division) => [division.name, albumMap.assets.filter((record) => record.division === division.name).length]));
@@ -62,7 +79,7 @@ sourceMap.rules = sourceMap.rules.map((rule) => {
   return {
     ...rule,
     ...curated,
-    series: `${curated.division} / Google Photos Archive`,
+    series: curated.series,
     intendedUse: [curated.category, "Collective AI creative production", "Internal and approved public media use"],
     featured: curated.category === "Hero Images" && [48, 58, 69, 93, 177, 195, 225, 236, 256, 259, 271, 279, 286, 301, 313, 329].includes(record.albumIndex)
   };

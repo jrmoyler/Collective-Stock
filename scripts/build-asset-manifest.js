@@ -23,6 +23,13 @@ const posterFiles = await walk(postersDir);
 const previewFiles = await walk(previewsDir);
 const sourceFiles = [...await walk(originalsDir), ...await walk(videoDir)].filter((file) => IMAGE_EXTENSIONS.has(path.extname(file).toLowerCase()) || VIDEO_EXTENSIONS.has(path.extname(file).toLowerCase()));
 const filesByHash = new Map();
+const ANIMAL_MOTION_FILMS = new Set([
+  "arctic-fox-in-the-morning-haze",
+  "moon-nest-in-the-ancient-tree",
+  "mountain-memory-in-an-owls-eye-motion",
+  "rainforest-toucan-in-the-canopy",
+  "silverback-in-monochrome"
+]);
 
 function derivedRule(file) {
   const token = posixPath(file).toLowerCase();
@@ -51,21 +58,21 @@ function derivedRule(file) {
     };
   }
   if (token.includes("/assets/video/division-intro-videos/")) {
-    const global = token.endsWith("/violet-synaptic-mirror-intro-video.mp4");
+    const violetZenFlow = token.endsWith("/violet-synaptic-mirror-intro-video.mp4");
     return {
-      ...(global ? { division: "Collective AI Inc", divisionSlug: "collective-ai-inc", classification: "cross-division" } : {}),
+      ...(violetZenFlow ? { division: "ZenFlow", divisionSlug: "zenflow", classification: "division" } : {}),
       category: "Division Intro Videos",
       categorySlug: "division-intro-videos",
       series: "Division Intro Video Library",
-      description: global ? "A globally reusable Collective AI intro film. No division pairing is asserted without explicit source evidence." : undefined,
+      description: violetZenFlow ? "A ZenFlow identity film verified from its on-screen Z/F balance mark." : undefined,
       source: "Division Intro Videos.zip",
       batch: "User-supplied division intro video archive",
       visibility: "public",
       license: "collective-ai-internal-use",
       downloadAuthorization: "authenticated",
-      classificationConfidence: global ? "medium" : "high",
-      classificationNotes: global ? "Only a monogram is visible; division scope intentionally remains global because the source contains no written pairing." : "Division pairing verified from the film's explicit branded end card.",
-      tags: ["intro video", "motion identity", global ? "global motion" : "division identity", "Collective AI"],
+      classificationConfidence: "high",
+      classificationNotes: violetZenFlow ? "The on-screen Z/F balance mark matches the approved ZenFlow identity." : "Division pairing verified from the film's explicit branded end card.",
+      tags: ["intro video", "motion identity", "division identity", violetZenFlow ? "ZenFlow" : "Collective AI"],
       intendedUse: ["Brand launch", "Division introduction", "Presentations and approved motion use"],
       audioProfile: "Source audio present; public preview is muted",
       captionStatus: "Public preview is muted; source audio requires editorial caption review and authenticated access",
@@ -73,14 +80,17 @@ function derivedRule(file) {
     };
   }
   if (token.includes("/assets/video/motion-library/")) {
+    const stem = slugify(path.basename(file, path.extname(file)));
+    const animal = ANIMAL_MOTION_FILMS.has(stem);
+    const collection = animal ? "Animals" : "General Stock";
     return {
       division: "Collective AI Inc",
       divisionSlug: "collective-ai-inc",
-      classification: "cross-division",
+      classification: animal ? "animal-stock" : "general-stock",
       category: "Motion Films",
       categorySlug: "motion-films",
       series: "Collective Stock Motion Film Library",
-      description: "A cinematic motion study for cross-division storytelling, editorial sequences, ambient interfaces, and approved brand productions.",
+      description: `A standalone ${animal ? "animal-led" : "unbranded"} cinematic study in the ${collection} collection.`,
       source: "User-supplied Google Drive motion folder on 2026-08-09",
       sourceUrl: "https://drive.google.com/drive/folders/1JxXznM_JVJyez82FQdStzMGNFttKdgtj",
       batch: "Google Drive motion ingest 2026-08-09",
@@ -89,8 +99,8 @@ function derivedRule(file) {
       license: "collective-ai-internal-use",
       downloadAuthorization: "authenticated",
       classificationConfidence: "high",
-      classificationNotes: "The source contains no explicit division mark, so the film remains intentionally cross-division.",
-      tags: ["motion film", "cinematic study", "ambient motion", "cross-division", "Collective AI"],
+      classificationNotes: animal ? "Visual audit confirmed an animal-led subject; kept outside every division gallery." : "Visual audit confirmed unbranded standalone stock; kept outside every division gallery.",
+      tags: ["motion film", "cinematic study", "ambient motion", collection, "Collective Stock"],
       intendedUse: ["Website motion", "Editorial film", "Presentation backgrounds", "Approved brand production"],
       audioProfile: "Source audio preserved; public preview is muted",
       captionStatus: "Public preview is muted; source audio requires editorial caption review and authenticated access",
@@ -185,6 +195,7 @@ for (const file of sourceFiles) {
   const division = detectDivision(file, rule);
   const category = detectCategory(file, rule);
   const title = inferredTitle(file, rule, division);
+  const scopeName = division.classification === "animal-stock" ? "Animals" : division.classification === "general-stock" ? "General Stock" : division.name;
   const revisionMatch = path.basename(file).match(/(?:^|[-_])v(?:ersion)?[-_]?(\d+)/i);
   const record = {
     id: `cstk_${hash.slice(0, 20)}`,
@@ -192,7 +203,7 @@ for (const file of sourceFiles) {
     slug: rule.albumIndex
       ? `${slugify(title)}-gphotos-${String(rule.albumIndex).padStart(3, "0")}`
       : slugify(title),
-    description: rule.description || `A ${category.name.toLowerCase()} asset from the ${division.name} collection.`,
+    description: rule.description || `A ${category.name.toLowerCase()} asset from the ${scopeName} collection.`,
     division: division.name,
     divisionSlug: division.slug,
     classification: division.classification,
@@ -227,7 +238,7 @@ for (const file of sourceFiles) {
     focalPoint: rule.focalPoint || { x: 0.5, y: 0.5 },
     searchKeywords: rule.tags || [division.name, category.name, "Collective AI", "Collective Stock"],
     semanticTags: rule.tags || [division.slug, category.slug],
-    altText: rule.altText || `${title}, ${category.name.toLowerCase()} for ${division.name}.`,
+    altText: rule.altText || `${title}, ${category.name.toLowerCase()} for ${scopeName}.`,
     intendedUse: rule.intendedUse || [category.name, "Internal creative work"],
     license: { slug: rule.license || sourceMap.defaults?.license || "collective-ai-internal-use" },
     visibility: rule.visibility || sourceMap.defaults?.visibility || "internal",
@@ -268,6 +279,8 @@ const audit = {
   assignedToDivisions: assets.filter((asset) => asset.classification === "division").length,
   parentBrandAssets: assets.filter((asset) => asset.classification === "parent-brand").length,
   crossDivisionAssets: assets.filter((asset) => asset.classification === "cross-division").length,
+  animalStockAssets: assets.filter((asset) => asset.classification === "animal-stock").length,
+  generalStockAssets: assets.filter((asset) => asset.classification === "general-stock").length,
   exactDuplicates,
   revisionsAndVariants: assets.filter((asset) => asset.revision > 1 || asset.relatedAssets.length).length,
   missingOrInaccessible: missingCount,
@@ -289,6 +302,7 @@ const rows = [
   ["Total source files discovered", audit.totalFilesDiscovered], ["Unique assets ingested", audit.totalUniqueAssetsIngested],
   ["Provenance occurrences", audit.totalOriginalOccurrences], ["Assigned division assets", audit.assignedToDivisions],
   ["Parent-brand assets", audit.parentBrandAssets], ["Cross-division assets", audit.crossDivisionAssets],
+  ["Animal stock assets", audit.animalStockAssets], ["General stock assets", audit.generalStockAssets],
   ["Exact duplicate files", audit.exactDuplicates], ["Revisions and variants", audit.revisionsAndVariants],
   ["Missing or inaccessible expected outputs", audit.missingOrInaccessible], ["Broken assets", audit.brokenAssets], ["Unassigned assets", audit.unassignedAssets]
 ];

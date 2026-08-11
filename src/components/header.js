@@ -40,6 +40,8 @@ export class Header extends EventTarget {
         el("a", { class: "wordmark", href: "/", "aria-label": "Collective Stock home" }, [diamondStar(), el("span", { text: "COLLECTIVE STOCK" })]),
         el("nav", { class: "desktop-nav", "aria-label": "Primary navigation" }, [
           this.#collectionLink("complete-archive", "Browse"),
+          this.#collectionLink("animals", "Animals"),
+          this.#collectionLink("general-stock", "General stock"),
           this.#collectionLink("component-sheets", "Components"),
           this.#collectionLink("division-intro-videos", "Intro films"),
           this.#collectionLink("motion-films", "Motion"),
@@ -125,6 +127,8 @@ export class Header extends EventTarget {
     return el("nav", { id: "mobile-navigation", class: "mobile-navigation", hidden: true, "aria-label": "Mobile navigation" }, [
       el("div", { class: "mobile-primary-links" }, [
         this.#collectionLink("complete-archive", "Browse archive", true),
+        this.#collectionLink("animals", "Animals", true),
+        this.#collectionLink("general-stock", "General stock", true),
         this.#collectionLink("component-sheets", "Component sheets", true),
         this.#collectionLink("division-intro-videos", "Division intro videos", true),
         this.#collectionLink("motion-films", "Motion films", true),

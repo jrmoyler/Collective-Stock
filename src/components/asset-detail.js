@@ -1,6 +1,7 @@
 import { el, icon } from "../utils/dom.js";
 import { optimizedPath } from "./media-card.js";
-import { assetRoute, divisionRoute } from "../utils/routes.js";
+import { assetRoute, collectionRoute, divisionRoute } from "../utils/routes.js";
+import { assetScopeLabel, sharesAssetScope, stockScope } from "../data/asset-scope.js";
 import { LicenseBadge } from "./license-badge.js";
 import { DownloadMenu } from "./download-menu.js";
 import { getLicense } from "../licensing/license-definitions.js";
@@ -10,6 +11,9 @@ function metadataRow(label, value) {
 }
 
 export function AssetDetail({ asset, assets, favorites, toast, onPreview }) {
+  const stock = stockScope(asset);
+  const scopeLabel = assetScopeLabel(asset);
+  const scopeHref = stock ? collectionRoute(stock.slug) : divisionRoute(asset.divisionSlug);
   const license = getLicense(asset.license?.slug);
   const preview = asset.mediaType === "video"
     ? el("video", { src: asset.previewPath, poster: asset.posterPath || "/assets/posters/media-fallback.svg", controls: true, muted: asset.previewAudio === "muted", playsInline: true, preload: "metadata", "aria-label": `Preview ${asset.title}` })
@@ -28,13 +32,13 @@ export function AssetDetail({ asset, assets, favorites, toast, onPreview }) {
     await navigator.clipboard.writeText(window.location.href);
     toast.show("Asset link copied");
   });
-  const related = assets.filter((item) => item.id !== asset.id && (item.divisionSlug === asset.divisionSlug || asset.relatedAssets?.includes(item.id))).slice(0, 4);
+  const related = assets.filter((item) => item.id !== asset.id && (sharesAssetScope(asset, item) || asset.relatedAssets?.includes(item.id))).slice(0, 4);
   return el("main", { id: "main-content", class: "asset-detail-page" }, [
-    el("nav", { class: "breadcrumbs", "aria-label": "Breadcrumb" }, [el("a", { href: "/", text: "Home" }), icon("chevron"), el("a", { href: divisionRoute(asset.divisionSlug), text: asset.division }), icon("chevron"), el("span", { text: asset.title })]),
+    el("nav", { class: "breadcrumbs", "aria-label": "Breadcrumb" }, [el("a", { href: "/", text: "Home" }), icon("chevron"), el("a", { href: scopeHref, text: scopeLabel }), icon("chevron"), el("span", { text: asset.title })]),
     el("section", { class: "asset-detail-layout" }, [
       el("div", { class: "asset-preview-stage" }, [preview, el("button", { class: "preview-expand", type: "button", "aria-label": "Open fullscreen preview", onClick: () => onPreview(asset) }, icon("expand"))]),
       el("aside", { class: "asset-detail-panel" }, [
-        el("p", { class: "detail-kicker mono", text: `${asset.division} / ${asset.category}` }),
+        el("p", { class: "detail-kicker mono", text: `${scopeLabel} / ${asset.category}` }),
         el("h1", { text: asset.title }),
         el("p", { class: "asset-description", text: asset.description || asset.altText }),
         el("div", { class: "asset-badges" }, [LicenseBadge(asset, { full: true }), el("span", { class: "visibility-badge", text: asset.visibility === "public" ? (asset.downloadAuthorization === "public" ? "Public download" : "Public preview · original restricted") : "Private / internal asset" })]),
@@ -63,6 +67,6 @@ export function AssetDetail({ asset, assets, favorites, toast, onPreview }) {
       el("div", {}, [el("h3", { text: "Restricted" }), el("ul", {}, license.restricted.map((item) => el("li", {}, [icon("close"), item])))])
     ]),
     el("section", { class: "provenance-detail" }, [el("p", { class: "section-label", text: "Provenance" }), el("h2", { text: "Source and generation record" }), el("dl", { class: "asset-metadata" }, [metadataRow("Original filename", asset.originalFilename), metadataRow("Source", asset.source), metadataRow("Source album", asset.sourceAlbum), metadataRow("Album index", asset.albumIndex ? String(asset.albumIndex).padStart(3, "0") : null), metadataRow("Classification confidence", asset.classificationConfidence), metadataRow("Classification notes", asset.classificationNotes), metadataRow("Generation date", asset.generationDate), metadataRow("Content hash", asset.contentHash), metadataRow("Prompt", asset.prompt)])]),
-    related.length ? el("section", { class: "related-assets" }, [el("div", { class: "section-heading" }, [el("h2", { text: "Related media" }), el("a", { href: divisionRoute(asset.divisionSlug), text: `View ${asset.division}` })]), el("div", { class: "related-rail" }, related.map((item) => el("a", { href: assetRoute(item.id) }, [el("img", { src: optimizedPath(item), alt: "", loading: "lazy", width: item.width, height: item.height }), el("span", { text: item.title })])))]) : null
+    related.length ? el("section", { class: "related-assets" }, [el("div", { class: "section-heading" }, [el("h2", { text: "Related media" }), el("a", { href: scopeHref, text: `View ${scopeLabel}` })]), el("div", { class: "related-rail" }, related.map((item) => el("a", { href: assetRoute(item.id) }, [el("img", { src: optimizedPath(item), alt: "", loading: "lazy", width: item.width, height: item.height }), el("span", { text: item.title })])))]) : null
   ]);
 }

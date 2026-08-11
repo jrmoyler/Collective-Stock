@@ -114,6 +114,24 @@ test("all supplied Drive motion films are cataloged with playable muted derivati
   expect(response.ok()).toBe(true);
 });
 
+test("audited Animals and General Stock collections stay separate from divisions", async ({ page }) => {
+  await page.goto("/collections.html?collection=animals");
+  await expect(page.getByRole("heading", { name: "Animals", exact: true })).toBeVisible();
+  await expect(page.locator(".media-card")).toHaveCount(20);
+  await expect(page.locator('.site-header a[href="/collections.html?collection=animals"][aria-current="page"]')).toHaveAttribute("aria-current", "page");
+  await expect(page.locator(".media-card__footer p").first()).toContainText("Animals");
+  await page.getByRole("button", { name: "Clear all" }).click();
+  await expect(page.locator(".media-card")).toHaveCount(20);
+
+  await page.goto("/collections.html?collection=general-stock");
+  await expect(page.getByRole("heading", { name: "General Stock", exact: true })).toBeVisible();
+  await expect(page.locator(".media-card")).toHaveCount(50);
+  await expect(page.locator('.site-header a[href="/collections.html?collection=general-stock"][aria-current="page"]')).toHaveAttribute("aria-current", "page");
+  await expect(page.locator(".media-card__footer p").first()).toContainText("General Stock");
+  await page.getByRole("button", { name: "Clear all" }).click();
+  await expect(page.locator(".media-card")).toHaveCount(50);
+});
+
 test("all division intro films use playable muted derivatives and clean up on Escape", async ({ page }) => {
   await page.goto("/collections.html?collection=division-intro-videos");
   await expect(page.getByRole("heading", { name: "Division intro videos", exact: true })).toBeVisible();

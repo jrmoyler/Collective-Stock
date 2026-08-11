@@ -22,6 +22,7 @@ describe("Google Photos album ingestion", () => {
     expect(album.assets).toHaveLength(330);
     expect(new Set(album.assets.map((asset) => asset.albumIndex))).toEqual(new Set(Array.from({ length: 330 }, (_, index) => index + 1)));
     expect(new Set(album.assets.map((asset) => asset.contentHash)).size).toBe(330);
+    expect(album.assets.every((asset) => asset.destinationPath.split("/").at(-2) === asset.divisionSlug)).toBe(true);
   });
 
   it("retains album provenance and valid classifications in the built manifest", () => {
@@ -31,6 +32,14 @@ describe("Google Photos album ingestion", () => {
     expect(ingested.every((asset) => asset.sourceAlbum && asset.albumIndex && asset.classificationConfidence)).toBe(true);
     const occurrences = provenance.occurrences.filter((item) => item.sourceAlbum === album.sourceAlbum);
     expect(occurrences).toHaveLength(330);
+  });
+
+  it("isolates every standalone IMG source and unbranded album video from divisions", () => {
+    const standalone = album.assets.filter((asset) => asset.originalFilename.startsWith("IMG-"));
+    const videos = album.assets.filter((asset) => asset.mediaType === "video");
+    expect(standalone).toHaveLength(33);
+    expect(standalone.every((asset) => ["animal-stock", "general-stock"].includes(asset.classification))).toBe(true);
+    expect(videos.every((asset) => asset.classification === "general-stock")).toBe(true);
   });
 
   it("builds playable metadata and poster frames for all four videos", () => {

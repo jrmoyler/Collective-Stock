@@ -1,4 +1,6 @@
 export const COLLECTION_DEFINITIONS = [
+  { slug: "animals", title: "Animals", description: "Wildlife and animal-led stills and films, intentionally kept separate from division media.", constraints: { classification: "animal-stock" }, featured: true, navigation: true },
+  { slug: "general-stock", title: "General Stock", description: "Unbranded lifestyle, travel, environmental, and cinematic stock kept separate from divisions.", constraints: { classification: "general-stock" }, featured: true, navigation: true },
   { slug: "stock-images", title: "Stock images", description: "Production-ready photography and illustrative media.", constraints: { category: "stock-images" } },
   { slug: "reference-images", title: "Reference images", description: "Approved visual direction, brand language, and concept references.", constraints: { category: "reference-images" } },
   { slug: "hero-images", title: "Hero images", description: "High-impact first impressions for websites, campaigns, and presentations.", constraints: { category: "hero-images" }, featured: true },
@@ -6,8 +8,8 @@ export const COLLECTION_DEFINITIONS = [
   { slug: "app-backgrounds", title: "App backgrounds", description: "Interface-ready background systems for apps and tools.", constraints: { category: "app-backgrounds" } },
   { slug: "brand-sheets", title: "Brand sheets", description: "Logos, marks, and approved brand-system documentation.", constraints: { category: "brand-sheets" } },
   { slug: "component-sheets", title: "Component sheets", description: "The complete parent-and-division UI component library, verified and implementation-ready.", constraints: { category: "component-sheets" }, featured: true, navigation: true },
-  { slug: "division-intro-videos", title: "Division intro videos", description: "Cinematic identity films with global scope unless a division pairing is explicitly stated.", constraints: { category: "division-intro-videos", mediaType: "video" }, featured: true, navigation: true },
-  { slug: "motion-films", title: "Motion films", description: "Cinematic studies for editorial sequences, ambient interfaces, and cross-division storytelling.", constraints: { category: "motion-films", mediaType: "video" }, featured: true, navigation: true },
+  { slug: "division-intro-videos", title: "Division intro videos", description: "Cinematic identity films verified against each division's approved on-screen mark.", constraints: { category: "division-intro-videos", mediaType: "video" }, featured: true, navigation: true },
+  { slug: "motion-films", title: "Motion films", description: "Cinematic studies organized into Animals and General Stock instead of guessed divisions.", constraints: { category: "motion-films", mediaType: "video" }, featured: true, navigation: true },
   { slug: "specification-sheets", title: "Specification sheets", description: "Precise design and production specifications.", constraints: { category: "specification-sheets" } },
   { slug: "ui-mockups", title: "UI mockups", description: "Product-interface concepts and implementation references.", constraints: { category: "ui-mockups" } },
   { slug: "campaigns-advertising", title: "Campaigns and advertising", description: "Campaign creative and promotional systems.", constraints: { category: "campaigns-advertising" } },
