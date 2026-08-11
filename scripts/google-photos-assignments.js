@@ -65,8 +65,8 @@ const curatedStockTitles = [
 ];
 curatedStockTitles.forEach(([index, division, title]) => add(index, division, "Stock Images", title, { confidence: "high" }));
 
-add(11, "Collective AI Inc", "Videos", "Misty Green Mountain Flyover", { confidence: "medium", classification: "cross-division" });
-add(59, "Collective AI Inc", "Videos", "Storm over Golden Fields", { confidence: "medium", classification: "cross-division" });
+add(11, "Collective AI Inc", "Videos", "Misty Green Mountain Flyover", { confidence: "high", classification: "general-stock" });
+add(59, "Collective AI Inc", "Videos", "Storm over Golden Fields", { confidence: "high", classification: "general-stock" });
 
 const rows = `
 47|Vector Shift|Hero Images|Autonomous Rover at Industrial Site|medium
@@ -276,7 +276,6 @@ const rows = `
 282|Gaia Synthesis|Stock Images|Forest Drone Survey|high
 284|Signal Velocity|Website Backgrounds|Urban Data Acceleration|high
 285|The Collective|Stock Images|Glass-Walled Data Team|high
-286|Terra Axis|Hero Images|Modular Glass Habitat|high
 287|Gaia Synthesis|Stock Images|Drone Precision Agriculture|high
 289|Gaia Synthesis|Stock Images|Botanical Research Station|high
 290|Gaia Synthesis|Hero Images|Connected Leaf Macro|high
@@ -288,8 +287,8 @@ const rows = `
 302|Aether Link|Hero Images|Deep-Space Radio Array|high
 306|Terra Axis|Hero Images|Sustainable Terrace City|high
 313|Collective AI Inc|Reference Images|Division Visual-Language Moodboard|high|cross-division
-317|Collective AI Inc|Videos|Breakthrough Light over Mountains|medium|cross-division
-319|Collective AI Inc|Videos|Volumetric Light Portal|low|cross-division
+317|Collective AI Inc|Videos|Breakthrough Light over Mountains|high|general-stock
+319|Collective AI Inc|Videos|Volumetric Light Portal|high|general-stock
 326|Cognara Mind|Hero Images|Haloed Intelligence Profile|high
 327|Signal Velocity|Website Backgrounds|Streaming Signal Waves|medium
 328|Cognara Mind|Reference Images|Dual-Energy Thoughtforms|low
@@ -302,15 +301,19 @@ for (const line of rows.trim().split("\n")) {
   add(Number(index), division, category, title, { confidence, classification });
 }
 
-add([273, 281, 314, 323], "Aether Link", "Reference Images", "Dustworld Astronaut", { confidence: "high" });
-add([276, 288, 312], "Animus Prime", "Reference Images", "Lion at Dawn", { confidence: "high" });
-add([278, 297, 307, 310], "ZenFlow", "Reference Images", "Wildflower Contemplation", { confidence: "medium" });
-add([280, 296, 315, 324], "Animus Prime", "Reference Images", "Predator Confrontation", { confidence: "high" });
-add([283, 305, 308], "Animus Prime", "Reference Images", "Running Leopard", { confidence: "high" });
-add([294, 309, 318], "Kinetic Edge", "Reference Images", "Neon Motorcycle Run", { confidence: "high" });
-add([298, 311, 321, 322], "Gaia Synthesis", "Reference Images", "Luminous Bio-Tree", { confidence: "high" });
-add([299, 304, 325], "Kinetic Edge", "Reference Images", "Neon City Corridor", { confidence: "high" });
-add([300, 303, 316, 320], "Animus Prime", "Reference Images", "Liquid Horse Study", { confidence: "high" });
+// Standalone WhatsApp stock series have no division marks and are deliberately
+// kept outside division galleries. The Animals / General Stock boundary was
+// verified from the source pixels, not inferred from the previous folder.
+add([273, 281, 314, 323], "Collective AI Inc", "Reference Images", "Dustworld Astronaut", { confidence: "high", classification: "general-stock" });
+add([276, 288, 312], "Collective AI Inc", "Reference Images", "Lion at Dawn", { confidence: "high", classification: "animal-stock" });
+add([278, 297, 307, 310], "Collective AI Inc", "Reference Images", "Wildflower Contemplation", { confidence: "high", classification: "general-stock" });
+add([280, 296, 315, 324], "Collective AI Inc", "Reference Images", "Predator Confrontation", { confidence: "high", classification: "animal-stock" });
+add([283, 305, 308], "Collective AI Inc", "Reference Images", "Running Leopard", { confidence: "high", classification: "animal-stock" });
+add(286, "Collective AI Inc", "Hero Images", "Modular Glass Habitat", { confidence: "high", classification: "general-stock" });
+add([294, 309, 318], "Collective AI Inc", "Reference Images", "Neon Motorcycle Run", { confidence: "high", classification: "general-stock" });
+add([298, 311, 321, 322], "Collective AI Inc", "Reference Images", "Luminous Bio-Tree", { confidence: "high", classification: "general-stock" });
+add([299, 304, 325], "Collective AI Inc", "Reference Images", "Neon City Corridor", { confidence: "high", classification: "general-stock" });
+add([300, 303, 316, 320], "Collective AI Inc", "Reference Images", "Liquid Horse Study", { confidence: "high", classification: "animal-stock" });
 
 const expected = Array.from({ length: 330 }, (_, index) => index + 1);
 const missing = expected.filter((index) => !assignments.has(index));

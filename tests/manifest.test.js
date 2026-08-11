@@ -43,9 +43,13 @@ describe("asset manifest contract", () => {
     expect(components).toHaveLength(21);
     expect(brandReferences).toHaveLength(21);
     expect(intros).toHaveLength(20);
-    expect(intros.filter((asset) => asset.classification === "cross-division")).toHaveLength(1);
+    expect(intros.filter((asset) => asset.classification === "division")).toHaveLength(19);
+    expect(intros.filter((asset) => asset.classification === "parent-brand")).toHaveLength(1);
+    expect(intros.find((asset) => asset.originalDownloadPath.endsWith("violet-synaptic-mirror-intro-video.mp4"))).toMatchObject({ divisionSlug: "zenflow", classificationConfidence: "high" });
     expect(motion).toHaveLength(26);
     expect(userUploads).toHaveLength(7);
+    expect(motion.every((asset) => ["animal-stock", "general-stock"].includes(asset.classification))).toBe(true);
+    expect(userUploads.every((asset) => ["animal-stock", "general-stock"].includes(asset.classification))).toBe(true);
     [...intros, ...motion].forEach((asset) => {
       expect(asset.audioProfile).toBeTruthy();
       expect(asset.captionStatus).toBeTruthy();
@@ -59,6 +63,14 @@ describe("asset manifest contract", () => {
     expect(new Set(manifest.assets.map((asset) => asset.title)).size).toBe(manifest.assets.length);
     const genericMachineTitle = /^(?:[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}|(?:detail|gallery)\s+\d+|.+\s+stock\s+\d+)$/i;
     expect(manifest.assets.some((asset) => genericMachineTitle.test(asset.title))).toBe(false);
+  });
+  it("keeps standalone animal and general stock out of division assignments", () => {
+    const animals = manifest.assets.filter((asset) => asset.classification === "animal-stock");
+    const general = manifest.assets.filter((asset) => asset.classification === "general-stock");
+    expect(animals).toHaveLength(20);
+    expect(general).toHaveLength(50);
+    expect([...animals, ...general].every((asset) => asset.divisionSlug === "collective-ai-inc")).toBe(true);
+    expect(manifest.assets.filter((asset) => asset.originalFilename.startsWith("IMG-")).every((asset) => ["animal-stock", "general-stock"].includes(asset.classification))).toBe(true);
   });
   it("provides enhanced high-resolution delivery renditions for every low-resolution source", () => {
     const lowResolution = manifest.assets.filter((asset) => asset.mediaType === "image" && (asset.width * asset.height < 1_000_000 || (asset.width < 800 && asset.height < 800)));

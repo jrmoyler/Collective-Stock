@@ -11,7 +11,7 @@ export function GalleryPage({ type, initialState, assets, divisions, index, favo
   const definition = collectionDefinition(initialState.collection);
   const collectionConstraints = type === "collection" ? definition.constraints : {};
   const state = applyCollectionConstraints({ ...initialState, division: division?.slug || initialState.division }, type === "collection" ? initialState.collection : "complete-archive");
-  const locked = [...Object.keys(collectionConstraints).filter((key) => ["category", "mediaType", "visibility"].includes(key)), ...(division ? ["division"] : [])];
+  const locked = [...Object.keys(collectionConstraints).filter((key) => ["category", "classification", "mediaType", "visibility"].includes(key)), ...(division ? ["division"] : [])];
   const variant = collectionConstraints.category === "component-sheets" ? "sheet" : collectionConstraints.category === "division-intro-videos" ? "intro" : "";
   const shell = el("main", { id: "main-content", class: `gallery-page ${variant ? `gallery-page--${variant}` : ""}`, style: division ? `--division-accent:${division.accent || "#D4A843"}` : undefined });
   const results = el("div", { class: "gallery-results" });
@@ -29,7 +29,7 @@ export function GalleryPage({ type, initialState, assets, divisions, index, favo
     if (count) count.textContent = `${formatCount(matched.length)} assets`;
   };
   const clearFilters = (restoreFocus = false) => {
-    ["q", "category", "mediaType", "orientation", "license", "visibility", "format"].forEach((key) => { state[key] = ""; });
+    ["q", "category", "classification", "mediaType", "orientation", "license", "visibility", "format"].forEach((key) => { state[key] = ""; });
     Object.assign(state, collectionConstraints);
     state.division = division?.slug || "";
     state.sort = collectionConstraints.sort || "featured";

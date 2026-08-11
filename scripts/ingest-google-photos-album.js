@@ -47,6 +47,18 @@ function meaningfulTags(title, division, category) {
   return [...new Set([division, category, "Collective AI", "Collective Stock", "Google Photos archive", ...words])];
 }
 
+function stockCollection(classification) {
+  if (classification === "animal-stock") return "Animals";
+  if (classification === "general-stock") return "General Stock";
+  return null;
+}
+
+function classificationNotes(classification, confidence) {
+  if (classification === "animal-stock") return "Visual audit confirmed an animal-led subject; kept outside every division gallery.";
+  if (classification === "general-stock") return "Visual audit confirmed unbranded standalone stock; kept outside every division gallery.";
+  return confidence === "low" ? "Division attribution is thematic because the source is unbranded; retain album provenance for future reclassification." : null;
+}
+
 const albumRecords = [];
 const sourceRules = [];
 const seenHashes = new Set();
@@ -72,9 +84,10 @@ for (const record of [...inventory.records].sort((a, b) => a.albumIndex - b.albu
 
   const title = derivedTitle(record, assignment);
   const classification = assignment.classification || (division.slug === "collective-ai-inc" ? "parent-brand" : "division");
+  const collection = stockCollection(classification);
   const categorySlug = slugify(assignment.category);
-  const tags = meaningfulTags(title, division.name, assignment.category);
-  const altText = `${title}, ${assignment.category.toLowerCase()} classified for the ${division.name} collection.`;
+  const tags = meaningfulTags(title, collection || division.name, assignment.category);
+  const altText = `${title}, ${assignment.category.toLowerCase()} classified for the ${collection || division.name} collection.`;
   const destinationRelative = `/${path.relative(ROOT, destinationPath).split(path.sep).join("/")}`;
 
   const mapRecord = {
@@ -109,7 +122,7 @@ for (const record of [...inventory.records].sort((a, b) => a.albumIndex - b.albu
     classification,
     category: assignment.category,
     categorySlug,
-    series: `${division.name} / Google Photos Archive`,
+    series: collection ? `Collective Stock / ${collection}` : `${division.name} / Google Photos Archive`,
     batch: "Google Photos album export 2026-08-08",
     generationDate: null,
     prompt: null,
@@ -120,7 +133,7 @@ for (const record of [...inventory.records].sort((a, b) => a.albumIndex - b.albu
     visibility: "public",
     approvalStatus: "source-verified",
     classificationConfidence: assignment.confidence || "high",
-    classificationNotes: assignment.confidence === "low" ? "Division attribution is thematic because the source is unbranded; retain album provenance for future reclassification." : null,
+    classificationNotes: classificationNotes(classification, assignment.confidence),
     featured: assignment.category === "Hero Images" && [48, 58, 69, 93, 177, 195, 225, 236, 256, 259, 271, 279, 286, 301, 313, 329].includes(record.albumIndex)
   });
 }

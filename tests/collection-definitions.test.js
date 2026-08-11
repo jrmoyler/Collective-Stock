@@ -8,6 +8,8 @@ describe("collection definitions", () => {
       navigation: true,
       constraints: { category: "component-sheets" }
     });
+    expect(collectionDefinition("animals")).toMatchObject({ navigation: true, constraints: { classification: "animal-stock" } });
+    expect(collectionDefinition("general-stock")).toMatchObject({ navigation: true, constraints: { classification: "general-stock" } });
     expect(applyCollectionConstraints({ category: "stock-images", mediaType: "image", q: "identity" }, "division-intro-videos")).toMatchObject({
       category: "division-intro-videos",
       mediaType: "video",

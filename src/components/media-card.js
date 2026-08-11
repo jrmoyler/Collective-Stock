@@ -1,6 +1,7 @@
 import { el, icon } from "../utils/dom.js";
 import { assetRoute } from "../utils/routes.js";
 import { LicenseBadge } from "./license-badge.js";
+import { assetScopeLabel } from "../data/asset-scope.js";
 
 function optimizedPath(asset, size = "card") {
   const renditions = asset.optimizedRenditions || [];
@@ -75,8 +76,8 @@ export function MediaCard(asset, { favorites, lazyController, onPreview, toast, 
   const previewButton = el("button", { class: "card-preview-button", type: "button", "aria-label": `Preview ${asset.title}` });
   previewButton.addEventListener("click", () => onPreview?.(asset));
   const meta = variant === "intro"
-    ? `${formatDuration(asset.duration)} · ${asset.orientation || "motion"} · ${asset.classification === "cross-division" ? "Global motion" : asset.division}`
-    : variant === "sheet" ? `${asset.division} · Component library` : `${asset.division} · ${asset.category}`;
+    ? `${formatDuration(asset.duration)} · ${asset.orientation || "motion"} · ${asset.classification === "cross-division" ? "Global motion" : assetScopeLabel(asset)}`
+    : variant === "sheet" ? `${asset.division} · Component library` : `${assetScopeLabel(asset)} · ${asset.category}`;
   const card = el("article", { class: `media-card ${variant ? `media-card--${variant}` : ""}`, dataset: { assetId: asset.id } }, [
     mediaWrap,
     previewButton,

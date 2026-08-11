@@ -6,7 +6,7 @@ import { enhanceMasonry } from "../media/masonry-grid.js";
 import { collectionRoute, divisionRoute } from "../utils/routes.js";
 import { collectionDefinition } from "../data/collection-definitions.js";
 
-const COLLECTIONS = ["hero-images", "reference-images", "motion-films", "complete-archive"];
+const COLLECTIONS = ["animals", "general-stock", "hero-images", "complete-archive"];
 
 function formatTime(value) {
   if (!Number.isFinite(value)) return "00:00";
@@ -124,7 +124,7 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
   const featured = assets.filter((asset) => asset.featured);
   const visualAssets = (featured.length >= 7 ? featured : assets).slice(0, 20);
   const motionAssets = assets.filter((asset) => asset.categorySlug === "motion-films");
-  const heroMotion = motionAssets.find((asset) => asset.title.toLowerCase().includes("owl")) || motionAssets[0];
+  const heroMotion = motionAssets.find((asset) => asset.classification === "general-stock") || motionAssets[0];
   const counts = assets.reduce((map, asset) => map.set(asset.divisionSlug, (map.get(asset.divisionSlug) || 0) + 1), new Map());
   const search = new GlobalSearch({ index, assets, divisions });
   search.addEventListener("search", (event) => onSearch(event.detail.query));
@@ -140,7 +140,7 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
         el("h1", {}, ["Every vision.", el("br"), "One collective intelligence."]),
         el("p", { text: "Photography, branded reference imagery, motion, and spatial media—curated from the Collective AI ecosystem." }),
         search.root,
-        el("nav", { class: "hero-quick-links", "aria-label": "Media type shortcuts" }, [["All media", "complete-archive"], ["Components", "component-sheets"], ["Motion films", "motion-films"], ["Photography", "stock-images"], ["Reference", "reference-images"]].map(([label, slug]) => el("a", { href: collectionRoute(slug), text: label })))
+        el("nav", { class: "hero-quick-links", "aria-label": "Media type shortcuts" }, [["All media", "complete-archive"], ["Animals", "animals"], ["General stock", "general-stock"], ["Motion films", "motion-films"], ["Components", "component-sheets"], ["Reference", "reference-images"]].map(([label, slug]) => el("a", { href: collectionRoute(slug), text: label })))
       ]),
       heroMotion ? motionStage(heroMotion, motionAssets.length, onPreview) : el("div", { class: "hero-empty" }, [diamondStar(), el("p", { text: "The source archive is being reconciled." })])
     ]),
