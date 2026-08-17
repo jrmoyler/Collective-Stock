@@ -13,6 +13,8 @@
 
 The supplied `vercel.json` configures clean division, collection and asset routes; long-lived immutable rendition caching; protected API caching; CSP and security headers; and manifest-only serverless file inclusion. Original media is never included in the static output or function bundle.
 
+`/api/mcp` requires no environment variable because it serves only already-approved public catalog records. It derives absolute asset URLs from Vercel's forwarded host/protocol headers. Do not put a provider API key in this project: Claude and ChatGPT act as MCP clients and call the endpoint directly.
+
 ## Authentication integration
 
 The repository intentionally does not contain an identity-provider secret or client-side master token. The organization authentication service should issue:
@@ -51,3 +53,4 @@ The former `Motion MP4s.zip` blocker was superseded by the accessible Drive fold
 4. Crawl the generated sitemap and verify every clean route.
 5. Run Lighthouse and real-user monitoring on the deployed edge environment; local architectural tests are not substitutes for production Core Web Vitals.
 6. Validate keyboard-only, screen reader, 200% zoom, reduced-motion, and forced-colors experiences.
+7. Open `/mcp`, confirm the endpoint reports live, then initialize `https://collective-stock.vercel.app/api/mcp` from both a ChatGPT developer-mode app and a Claude custom connector. Verify `tools/list`, `search`, `fetch`, `get_asset`, and `get_brand_kit` before announcing the connector.

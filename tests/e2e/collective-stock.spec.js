@@ -100,6 +100,22 @@ test("public audit exposes the real reconciliation without private paths", async
   }
 });
 
+test("MCP portal exposes the endpoint, client setup, and read-only tool contract", async ({ page }, testInfo) => {
+  await page.goto("/mcp.html");
+  await expect(page.getByRole("heading", { name: /Your archive.*Now callable/ })).toBeVisible();
+  await expect(page.locator(".mcp-endpoint-value code")).toContainText("/api/mcp");
+  await expect(page.getByText("446 approved public assets")).toBeVisible();
+  await expect(page.getByRole("tab", { name: "ChatGPT" })).toHaveAttribute("aria-selected", "true");
+  await page.getByRole("tab", { name: "Claude Code" }).click();
+  await expect(page.getByText(/claude mcp add --transport http collective-stock/)).toBeVisible();
+  await expect(page.locator(".mcp-tool-row")).toHaveCount(5);
+  await expect(page.getByText("Open discovery. Protected originals.")).toBeVisible();
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+  expect(overflow).toBeLessThanOrEqual(1);
+  await page.evaluate(() => document.documentElement.classList.add("visual-regression"));
+  await page.screenshot({ path: path.join(screenshotDir, `mcp-${testInfo.project.name}.png`), fullPage: true });
+});
+
 test("all supplied Drive motion films are cataloged with playable muted derivatives", async ({ page }) => {
   await page.goto("/collections.html?collection=motion-films");
   await expect(page.getByRole("heading", { name: "Motion films", exact: true })).toBeVisible();

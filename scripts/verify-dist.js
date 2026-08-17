@@ -10,6 +10,7 @@ const required = [
   "asset.html",
   "collections.html",
   "audit.html",
+  "mcp.html",
   "divisions/zenflow.html",
   "collections/complete-archive.html",
   "collections/component-sheets.html",

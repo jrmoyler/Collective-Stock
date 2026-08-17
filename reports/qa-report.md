@@ -6,7 +6,7 @@
 - Google Photos reconciliation: **330/330 album entries ingested; 330 unique hashes; 0 missing; 0 duplicates**.
 - Library completeness: **21 component sheets, 21 paired brand reference sheets, 20 division intro films, all 26 supplied Drive motion films, and seven supplied still images**; unmarked motion remains intentionally cross-division.
 - Resolution enhancement: **82/82 low-resolution sources have tested 1800 px delivery renditions** while original bytes remain unchanged.
-- Vitest: **21/21 passed** across album reconciliation, manifest, rendition quality, public projection, licensing and search/ranking contracts.
+- Vitest: **31/31 passed** across album reconciliation, manifest, rendition quality, public projection, licensing, search/ranking, MCP protocol, tool-output, privacy and serverless-handler contracts.
 - Playwright: **15 passed, 1 deliberate desktop skip**. The skipped case is the mobile-only navigation contract in the desktop project, not an unexecuted product path; the same case passes in the mobile project. Both browser profiles verify the 26-film Motion Films collection, the 20-film intro collection, muted MP4 derivatives, Escape cleanup, and the 21-sheet component collection.
 - Production build: **passed**, including Tailwind minification, Vite multi-entry build, public/private distribution split, pre-rendered route generation and critical-entry verification.
 - Prior 433-record Lighthouse mobile benchmark: **100 Performance / 100 Accessibility / 100 Best Practices / 100 SEO** with 1,506 ms LCP, 0 ms TBT and 0.00033 CLS. Production build and browser coverage were rerun for the 466-record integration; a deployed-CDN Lighthouse rerun remains a release follow-up.
@@ -20,6 +20,22 @@
 | Mobile performance | 412 × 915 @2× | Lighthouse and custom slow-4G/4× CPU event metrics |
 
 The Playwright run completed a full-page screenshot pass for desktop/mobile homepage, search, division, and navigation states. The tracked files in `reports/screenshots/` remain historical review references rather than assertion baselines; production behavior is enforced by the browser contracts above.
+
+The MCP portal received an additional Chromium render pass at **1440 × 1050** and **412 × 915**. Both layouts rendered five tools, working client tabs, a visible endpoint, complete footer content, and zero horizontal overflow. Desktop and mobile evidence is tracked as `mcp-desktop-chromium.png` and `mcp-mobile-chromium.png`.
+
+## MCP fidelity ledger
+
+| Comparison point | Existing Collective Stock evidence | MCP render evidence | Result |
+|---|---|---|---|
+| Brand palette | Navy ground, restrained gold, teal interaction accents | Same tokens used across hero, endpoint, tabs and tools | Matched |
+| Typography | Space Grotesk display hierarchy plus JetBrains Mono labels | Same font files, weights, label casing and large editorial scale | Matched |
+| Container model | Full-width bands with disciplined shared gutters | Open hero, console rail, tool ledger and two-column prompt band | Matched |
+| Navigation | Compact sticky desktop header and full-screen mobile menu | MCP active state added without desktop overflow; mobile inert/Escape path remains intact | Matched |
+| Motion | Restrained purpose-led movement with reduced-motion coverage | Slow protocol orbits and central signal pulse; reduced-motion rule applies | Matched |
+| Responsive behavior | 1440 desktop and Pixel-class mobile layouts | Zero overflow at 1440 and 412; tool ledger and setup panel reflow cleanly | Matched |
+| Copy hierarchy | Direct, editorial, non-generic product language | Endpoint, client steps, tools, prompts and rights boundary remain scannable | Matched |
+
+Above-the-fold copy is limited to the MCP purpose, connection promise, live endpoint and three factual capability notes. No unrelated marketing claims or decorative badges were introduced.
 
 ## Accessibility contracts exercised
 
@@ -47,6 +63,7 @@ The independent accessibility/security review remains authoritative for unautoma
 - Query-string download tokens are rejected by design; header, bearer or HttpOnly-cookie transport is supported.
 - CSP, HSTS, framing denial, MIME-sniff protection, permissions policy and private/no-store API caching are configured.
 - Full production and development dependency audit reports zero known vulnerabilities after upgrading the build-time Sharp/libvips pipeline to 0.35.3.
+- MCP search/fetch results use citable canonical asset URLs; all tool outputs pass through the public field allowlist, and tests confirm forbidden private manifest fields are absent.
 
 ## Evidence limitations and release verdict
 

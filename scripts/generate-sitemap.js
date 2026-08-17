@@ -9,6 +9,7 @@ const manifest = await readJson(path.join(ROOT, "assets/manifests/asset-manifest
 const collections = COLLECTION_DEFINITIONS.map(({ slug }) => slug);
 const paths = [
   "/",
+  "/mcp",
   ...divisions.map((division) => `/divisions/${division.slug}`),
   ...collections.map((collection) => `/collections/${collection}`),
   ...manifest.assets.filter((asset) => asset.visibility === "public").map((asset) => `/assets/${asset.id}`)

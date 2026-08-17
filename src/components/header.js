@@ -2,11 +2,12 @@ import { el, icon, diamondStar, fragment } from "../utils/dom.js";
 import { collectionRoute, divisionRoute } from "../utils/routes.js";
 
 export class Header extends EventTarget {
-  constructor({ divisions = [], activeDivision = "", activeCollection = "", access = "public" } = {}) {
+  constructor({ divisions = [], activeDivision = "", activeCollection = "", activePage = "", access = "public" } = {}) {
     super();
     this.divisions = divisions;
     this.activeDivision = activeDivision;
     this.activeCollection = activeCollection;
+    this.activePage = activePage;
     this.access = access;
     this.root = this.#render();
   }
@@ -45,6 +46,7 @@ export class Header extends EventTarget {
           this.#collectionLink("component-sheets", "Components"),
           this.#collectionLink("division-intro-videos", "Intro films"),
           this.#collectionLink("motion-films", "Motion"),
+          el("a", { class: "nav-link", href: "/mcp", text: "MCP", "aria-current": this.activePage === "mcp" ? "page" : undefined }),
           navButton,
           el("a", { class: "nav-link", href: "/#licensing", text: "Licensing" })
         ]),
@@ -132,6 +134,7 @@ export class Header extends EventTarget {
         this.#collectionLink("component-sheets", "Component sheets", true),
         this.#collectionLink("division-intro-videos", "Division intro videos", true),
         this.#collectionLink("motion-films", "Motion films", true),
+        el("a", { href: "/mcp", text: "MCP connector", "aria-current": this.activePage === "mcp" ? "page" : undefined }),
         el("a", { href: "/#licensing", text: "Licensing" })
       ]),
       el("p", { class: "section-label", text: "Divisions" }),

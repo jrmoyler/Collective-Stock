@@ -16,6 +16,7 @@ import { HomePage } from "./pages/home-page.js";
 import { GalleryPage } from "./pages/gallery-page.js";
 import { AssetPage } from "./pages/asset-page.js";
 import { AuditPage } from "./pages/audit-page.js";
+import { McpPage } from "./pages/mcp-page.js";
 import { renderFatalError } from "./components/error-boundary.js";
 
 const app = document.querySelector("#app");
@@ -89,7 +90,7 @@ async function boot() {
     }
     lightbox.open(asset);
   };
-  const header = new Header({ divisions, activeDivision: state.division, activeCollection: page === "collections" ? state.collection : "", access: data.access || "public" });
+  const header = new Header({ divisions, activeDivision: state.division, activeCollection: page === "collections" ? state.collection : "", activePage: page, access: data.access || "public" });
   const searchDialog = new SearchDialog({ index, assets, divisions, onSearch: searchNavigate });
   header.addEventListener("searchrequest", () => searchDialog.open());
 
@@ -99,6 +100,7 @@ async function boot() {
   else if (page === "collections") content = GalleryPage({ type: "collection", initialState: state, assets, divisions, index, favorites, lazyController, toast, onPreview: openPreview });
   else if (page === "asset") content = AssetPage({ asset: assets.find((item) => item.id === state.id), assets, favorites, toast, onPreview: openPreview });
   else if (page === "audit") content = AuditPage({ audit: data.audit, assets });
+  else if (page === "mcp") content = McpPage({ assets, toast });
   else content = renderFatalError(new Error(`Unknown page: ${page}`));
 
   const staticHero = page === "home" ? app.querySelector(".static-home-hero") : null;

@@ -2,6 +2,8 @@
 
 Collective Stock is a manifest-driven media library for Collective AI Inc. It provides a cinematic public discovery layer, authenticated/internal delivery architecture, twenty division galleries, a parent-brand gallery, collection routes, fuzzy search, faceted filtering, rights metadata, responsive media renditions, image/video components, and an evidence-backed audit trail.
 
+The library also ships a public, read-only remote MCP server at `https://collective-stock.vercel.app/api/mcp`. Claude, ChatGPT, Codex, and compatible clients can search the archive, retrieve citable records, filter assets, obtain integration-ready rendition URLs, and load division brand kits. The in-app setup portal is available at `/mcp`; complete connection and security documentation lives in `docs/mcp.md`.
+
 ## Current audit status
 
 The media catalog contains 466 unique, human-named records with zero broken references, zero inaccessible batches, and zero unassigned assets. Original bytes, archive order, content hashes, source filenames, album provenance, division/category assignments, and classification confidence are retained. No stock substitute or fabricated duplicate was used.
@@ -69,6 +71,7 @@ Unresolved source conflicts are documented in `docs/source-conflicts.json`; the 
 
 - `docs/architecture.md` — component contracts, state ownership, directory map, security and media flows
 - `docs/deployment.md` — production deployment and private-access integration
+- `docs/mcp.md` — remote MCP endpoint, tool contracts, client setup, smoke tests, and security boundaries
 - `assets/manifests/asset-audit-report.html` — full internal reconciliation
 - `reports/qa-report.md` — functional and responsive evidence
 - `reports/performance-report.md` — measured bundle/media evidence and unmeasured field targets

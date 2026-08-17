@@ -11,6 +11,7 @@ Collective Stock is a progressively enhanced, multi-entry Vite application made 
 3. URL state owns searchable/filterable gallery state. Clean Vercel routes and local query routes resolve through the same parser.
 4. Page components receive explicit dependencies and return a `<main>` region.
 5. Cards dispatch user intent to the shared lightbox/favorites/download layers; they do not mutate the manifest.
+6. `/api/mcp` independently projects the same manifest onto a stateless, public, read-only Streamable HTTP tool surface. MCP callers cannot enter the private browser session or bypass original-download authorization.
 
 ## Component contracts
 
@@ -32,13 +33,15 @@ Collective Stock is a progressively enhanced, multi-entry Vite application made 
 | `ToastSystem` | Polite success/error feedback | Shared live region and automatic cleanup |
 | `ErrorBoundary` | Recoverable boot failure surface | Sanitized user-facing error state |
 | `AuditPage` | Public, non-sensitive reconciliation | Accurate counts; detailed ledger remains protected |
+| `McpPage` | Remote MCP connection portal and client-specific setup | Dynamic endpoint URL, clipboard interactions, endpoint health, accessible tabs |
+| `MCP catalog core` | Search, fetch, filters, asset delivery metadata and brand-kit tools | Public-record projection, bounded pagination, validated IDs, read-only annotations |
 
 ## Directory map
 
 ```text
 /
-├── index.html, division.html, asset.html, collections.html, audit.html
-├── api/                    # Protected manifest and signed original delivery
+├── index.html, division.html, asset.html, collections.html, audit.html, mcp.html
+├── api/                    # Manifest, signed original delivery and remote MCP
 ├── assets/
 │   ├── originals/         # Preserved source files; never copied wholesale to dist
 │   ├── optimized/         # AVIF/WebP/JPEG responsive renditions
@@ -80,6 +83,8 @@ Collective Stock is a progressively enhanced, multi-entry Vite application made 
 - Private API responses are `no-store` and `noindex`; no secret is bundled into client JavaScript.
 - A restrictive CSP, framing denial, permission policy, referrer policy, MIME sniffing protection and same-origin isolation headers are supplied in `vercel.json`.
 - Rate limiting and identity-provider token issuance belong at the edge/auth integration boundary; the handlers are structured for both.
+- `/api/mcp` exposes only `visibility: public` records after the same discovery-field allowlist used by `/api/manifest`. Its five tools are read-only and return approved public renditions; an original download URL remains subject to `/api/download` authorization.
+- The MCP transport is stateless Streamable HTTP. It supports protocol initialization, ping, tools, and two bounded resources without storing client prompts, sessions, or tool inputs.
 
 ## Accessibility and motion
 

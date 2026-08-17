@@ -7,6 +7,9 @@
     },
     "api/manifest.js": {
       "includeFiles": "assets/manifests/**"
+    },
+    "api/mcp.js": {
+      "includeFiles": "assets/manifests/**"
     }
   },
   "headers": [
