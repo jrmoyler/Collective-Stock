@@ -13,7 +13,8 @@ export default defineConfig({
         division: resolve(import.meta.dirname, "division.html"),
         asset: resolve(import.meta.dirname, "asset.html"),
         collections: resolve(import.meta.dirname, "collections.html"),
-        audit: resolve(import.meta.dirname, "audit.html")
+        audit: resolve(import.meta.dirname, "audit.html"),
+        mcp: resolve(import.meta.dirname, "mcp.html")
       }
     }
   },
