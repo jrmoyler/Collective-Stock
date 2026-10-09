@@ -1,3 +1,4 @@
+import { ShareButton } from "./share-button.js";
 import { el, icon } from "../utils/dom.js";
 import { optimizedPath } from "./media-card.js";
 import { assetRoute, collectionRoute, divisionRoute } from "../utils/routes.js";
@@ -19,7 +20,7 @@ export function AssetDetail({ asset, assets, favorites, toast, onPreview }) {
     ? el("video", { src: asset.previewPath, poster: asset.posterPath || "/assets/posters/media-fallback.svg", controls: true, muted: asset.previewAudio === "muted", playsInline: true, preload: "metadata", "aria-label": `Preview ${asset.title}` })
     : el("img", { src: optimizedPath(asset, "large"), alt: asset.altText || asset.title, width: asset.width, height: asset.height, decoding: "async", fetchPriority: "high" });
   const initiallySaved = favorites.has(asset.id);
-  const save = el("button", { class: "button button--secondary", type: "button", "aria-pressed": String(initiallySaved), "aria-label": initiallySaved ? `Remove ${asset.title} from saved assets` : `Save ${asset.title}` }, [icon("heart"), el("span", { text: initiallySaved ? "Saved" : "Save asset" })]);
+  const save = el("button", { class: "button button--secondary", dataset: { saveId: asset.id, saveTitle: asset.title }, type: "button", "aria-pressed": String(initiallySaved), "aria-label": initiallySaved ? `Remove ${asset.title} from saved assets` : `Save ${asset.title}` }, [icon("heart"), el("span", { text: initiallySaved ? "Saved" : "Save asset" })]);
   save.addEventListener("click", () => {
     const next = favorites.toggle(asset.id);
     save.setAttribute("aria-pressed", String(next));
@@ -27,11 +28,7 @@ export function AssetDetail({ asset, assets, favorites, toast, onPreview }) {
     save.querySelector("span").textContent = next ? "Saved" : "Save asset";
     toast.show(next ? "Saved to your collection" : "Removed from saved assets");
   });
-  const copy = el("button", { class: "button button--quiet", type: "button" }, [icon("copy"), "Copy link"]);
-  copy.addEventListener("click", async () => {
-    await navigator.clipboard.writeText(window.location.href);
-    toast.show("Asset link copied");
-  });
+  const copy = ShareButton(asset, toast);
   const related = assets.filter((item) => item.id !== asset.id && (sharesAssetScope(asset, item) || asset.relatedAssets?.includes(item.id))).slice(0, 4);
   return el("main", { id: "main-content", class: "asset-detail-page" }, [
     el("nav", { class: "breadcrumbs", "aria-label": "Breadcrumb" }, [el("a", { href: "/", text: "Home" }), icon("chevron"), el("a", { href: scopeHref, text: scopeLabel }), icon("chevron"), el("span", { text: asset.title })]),

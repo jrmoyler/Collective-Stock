@@ -1,3 +1,5 @@
+import "./styles/experience.css";
+import { MobileDock } from "./components/mobile-dock.js";
 import "./styles/fonts.css";
 import { el, diamondStar } from "./utils/dom.js";
 import { readUrlState } from "./utils/url-state.js";
@@ -25,6 +27,18 @@ const state = readUrlState();
 const favorites = new FavoritesStore();
 const lazyController = new LazyMediaController();
 const toast = new ToastSystem();
+favorites.addEventListener("change", ({ detail: { id, saved } }) => {
+  document.querySelectorAll('[data-save-id]').forEach(button => {
+    if (button.dataset.saveId !== id) return;
+    const title = button.dataset.saveTitle;
+    button.classList.toggle('is-saved', saved);
+    button.setAttribute('aria-pressed', String(saved));
+    button.setAttribute('aria-label', saved ? `Remove ${title} from saved assets` : `Save ${title}`);
+    const label = button.querySelector('span');
+    if (label) label.textContent = saved ? 'Saved' : 'Save asset';
+  });
+});
+
 
 function loadingScreen() {
   return el("div", { class: "app-loading", role: "status", "aria-live": "polite" }, [diamondStar("is-pulsing"), el("span", { class: "mono", text: "Opening the Collective archive" })]);
@@ -103,17 +117,7 @@ async function boot() {
   else if (page === "mcp") content = McpPage({ assets, toast });
   else content = renderFatalError(new Error(`Unknown page: ${page}`));
 
-  const staticHero = page === "home" ? app.querySelector(".static-home-hero") : null;
-  if (staticHero) {
-    const renderedHero = content.querySelector(".home-hero");
-    staticHero.querySelector(".static-search-placeholder")?.replaceWith(renderedHero.querySelector(".global-search"));
-    staticHero.querySelector(".static-hero-mosaic")?.replaceWith(renderedHero.querySelector(".hero-mosaic"));
-    staticHero.classList.remove("static-home-hero");
-    const staticMain = app.querySelector("main");
-    [...content.children].slice(1).forEach((section) => staticMain.append(section));
-    app.querySelector(".static-header-placeholder")?.replaceWith(header.root);
-    app.append(Footer());
-  } else app.replaceChildren(header.root, content, Footer());
+  app.replaceChildren(header.root, content, Footer(), MobileDock({ page, state, favorites, onSearch: () => searchDialog.open() }));
   document.documentElement.classList.add("is-ready");
   restoreHashTarget();
   window.addEventListener("beforeunload", () => lazyController.disconnect(), { once: true });

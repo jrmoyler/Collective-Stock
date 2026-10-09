@@ -1,3 +1,4 @@
+import { ShareButton } from "./share-button.js";
 import { el, icon } from "../utils/dom.js";
 import { assetRoute } from "../utils/routes.js";
 import { optimizedPath } from "./media-card.js";
@@ -74,7 +75,7 @@ export class Lightbox {
       ? el("video", { src: asset.previewPath, poster: asset.posterPath || "/assets/posters/media-fallback.svg", controls: true, muted: asset.previewAudio === "muted", playsInline: true, preload: "metadata", "aria-label": `Preview ${asset.title}` })
       : el("img", { src: optimizedPath(asset, "large"), alt: asset.altText || asset.title, width: asset.width, height: asset.height, decoding: "async" });
     const initiallySaved = this.favorites.has(asset.id);
-    const save = el("button", { class: "button button--secondary", type: "button", "aria-pressed": String(initiallySaved), "aria-label": initiallySaved ? `Remove ${asset.title} from saved assets` : `Save ${asset.title}` }, [icon("heart"), el("span", { text: initiallySaved ? "Saved" : "Save" })]);
+    const save = el("button", { class: "button button--secondary", dataset: { saveId: asset.id, saveTitle: asset.title }, type: "button", "aria-pressed": String(initiallySaved), "aria-label": initiallySaved ? `Remove ${asset.title} from saved assets` : `Save ${asset.title}` }, [icon("heart"), el("span", { text: initiallySaved ? "Saved" : "Save" })]);
     save.addEventListener("click", () => {
       const next = this.favorites.toggle(asset.id);
       save.setAttribute("aria-pressed", String(next));
@@ -89,7 +90,7 @@ export class Lightbox {
         el("h2", { id: "lightbox-active-title", text: asset.title }),
         el("p", { text: asset.description || asset.altText }),
         el("div", { class: "lightbox-meta__row" }, [LicenseBadge(asset, { full: true }), el("span", { class: "mono", text: `${asset.width || "—"} × ${asset.height || "—"}` })]),
-        el("div", { class: "lightbox-actions" }, [save, el("a", { class: "button button--primary", href: assetRoute(asset.id) }, ["View details", icon("arrow")])])
+        el("div", { class: "lightbox-actions" }, [save, ShareButton(asset, this.toast), el("a", { class: "button button--primary", href: assetRoute(asset.id) }, ["View details", icon("arrow")])])
       ])
     );
     this.status.textContent = `${asset.title}. Asset ${this.index + 1} of ${this.assets.length}.`;

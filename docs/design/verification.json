@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "browser": "149.0.7827.0",
+  "rendering": "Chromium software WebGL2",
+  "cpuThrottle": "4x, interaction and layout checks only",
+  "metrics": {
+    "320": {
+      "overflow": 0,
+      "canvasWidth": 280,
+      "canvasHeight": 300
+    },
+    "390": {
+      "overflow": 0,
+      "canvasWidth": 350,
+      "canvasHeight": 351
+    },
+    "768": {
+      "overflow": 0,
+      "canvasWidth": 387,
+      "canvasHeight": 360
+    },
+    "1440": {
+      "overflow": 0,
+      "canvasWidth": 798,
+      "canvasHeight": 475
+    }
+  },
+  "errors": [],
+  "failedRequests": [],
+  "checks": [
+    "real 3D pixels change on selection",
+    "responsive layout",
+    "context-loss fallback",
+    "reduced motion",
+    "asset download panel",
+    "share permission fallback"
+  ]
+}

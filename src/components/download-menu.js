@@ -4,7 +4,7 @@ export function DownloadMenu(asset, { toast } = {}) {
   const root = el("div", { class: "download-menu" });
   const anonymousDownload = asset.downloadAuthorization === "public";
   const options = [
-    ...(asset.optimizedRenditions || []).filter((item) => ["card", "large"].includes(item.label)).map((item) => ({ label: `${item.label === "large" ? "Large preview" : "Web preview"} · ${item.width}w`, path: item.path, public: anonymousDownload, original: false })),
+    ...(asset.optimizedRenditions || []).filter((item) => ["card", "large"].includes(item.label)).map((item) => ({ label: `${item.label === "large" ? "Large preview" : "Web preview"} · ${item.width}w · ${(item.format || "image").toUpperCase()}`, path: item.path, public: anonymousDownload, original: false })),
     { label: `Original · ${asset.width}×${asset.height}`, path: asset.originalDownloadPath, public: anonymousDownload, original: true }
   ];
   options.forEach((option) => {

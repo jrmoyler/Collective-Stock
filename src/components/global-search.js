@@ -88,8 +88,11 @@ export class GlobalSearch extends EventTarget {
 
   #commit(query) {
     const value = query.trim();
-    const recent = JSON.parse(localStorage.getItem("collective-stock:recent-searches") || "[]").filter((item) => item !== value);
-    if (value) localStorage.setItem("collective-stock:recent-searches", JSON.stringify([value, ...recent].slice(0, 8)));
+    try {
+      const stored = JSON.parse(localStorage.getItem("collective-stock:recent-searches") || "[]");
+      const recent = (Array.isArray(stored) ? stored : []).filter(item => typeof item === 'string' && item !== value);
+      if (value) localStorage.setItem("collective-stock:recent-searches", JSON.stringify([value, ...recent].slice(0, 8)));
+    } catch { /* Search never depends on local storage. */ }
     this.dispatchEvent(new CustomEvent("search", { detail: { query: value } }));
   }
 

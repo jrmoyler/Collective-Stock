@@ -63,7 +63,7 @@ export function MediaCard(asset, { favorites, lazyController, onPreview, toast, 
     mediaWrap.append(image);
   }
 
-  const saveButton = el("button", { class: `card-action save-action ${saved ? "is-saved" : ""}`, type: "button", "aria-label": saved ? `Remove ${asset.title} from saved assets` : `Save ${asset.title}`, "aria-pressed": String(Boolean(saved)) }, icon("heart"));
+  const saveButton = el("button", { class: `card-action save-action ${saved ? "is-saved" : ""}`, dataset: { saveId: asset.id, saveTitle: asset.title }, type: "button", "aria-label": saved ? `Remove ${asset.title} from saved assets` : `Save ${asset.title}`, "aria-pressed": String(Boolean(saved)) }, icon("heart"));
   saveButton.addEventListener("click", (event) => {
     event.preventDefault();
     event.stopPropagation();

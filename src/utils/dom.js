@@ -28,6 +28,7 @@ export function svgEl(tag, attrs = {}) {
 
 export function icon(name, label = "") {
   const paths = {
+    share: ["M12 16V3", "m7 8 5-5 5 5", "M5 13v8h14v-8"],
     search: ["M21 21l-4.35-4.35", "M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"],
     menu: ["M4 7h16", "M4 12h16", "M4 17h16"],
     close: ["M6 6l12 12", "M18 6 6 18"],

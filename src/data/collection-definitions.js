@@ -1,4 +1,5 @@
 export const COLLECTION_DEFINITIONS = [
+  { slug: "saved", title: "Your inspiration, collected.", description: "The artwork you saved, ready for your next idea. Saved on this device.", constraints: {} },
   { slug: "animals", title: "Animals", description: "Wildlife and animal-led stills and films, intentionally kept separate from division media.", constraints: { classification: "animal-stock" }, featured: true, navigation: true },
   { slug: "general-stock", title: "General Stock", description: "Unbranded lifestyle, travel, environmental, and cinematic stock kept separate from divisions.", constraints: { classification: "general-stock" }, featured: true, navigation: true },
   { slug: "stock-images", title: "Stock images", description: "Production-ready photography and illustrative media.", constraints: { category: "stock-images" } },
