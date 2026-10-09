@@ -20,3 +20,6 @@ assets/video/motion-library/
 assets/previews/motion-library/
 assets/posters/*.jpg
 assets/optimized/
+
+# Reproducible immersive UI verification output.
+reports/immersive-experience/

@@ -31,7 +31,7 @@ export class Header extends EventTarget {
       mobileButton.replaceChildren(icon(next ? "close" : "menu"));
       document.body.classList.toggle("has-mobile-nav", next);
       header.querySelectorAll(".wordmark, .desktop-nav, .header-search-button, .access-indicator").forEach((node) => { node.inert = next; });
-      document.querySelectorAll("#app > main, #app > footer").forEach((node) => { node.inert = next; });
+      document.querySelectorAll("#app > main, #app > footer, .mobile-dock").forEach((node) => { node.inert = next; });
       if (next) mobile.querySelector("a")?.focus();
       else if (restoreFocus) mobileButton.focus();
     };
@@ -40,18 +40,14 @@ export class Header extends EventTarget {
       el("div", { class: "header-inner" }, [
         el("a", { class: "wordmark", href: "/", "aria-label": "Collective Stock home" }, [diamondStar(), el("span", { text: "COLLECTIVE STOCK" })]),
         el("nav", { class: "desktop-nav", "aria-label": "Primary navigation" }, [
-          this.#collectionLink("complete-archive", "Browse"),
-          this.#collectionLink("animals", "Animals"),
-          this.#collectionLink("general-stock", "General stock"),
-          this.#collectionLink("component-sheets", "Components"),
-          this.#collectionLink("division-intro-videos", "Intro films"),
+          this.#collectionLink("complete-archive", "Explore"),
+          el("a", { class: "nav-link", href: "/#collections", text: "Collections" }),
           this.#collectionLink("motion-films", "Motion"),
-          el("a", { class: "nav-link", href: "/mcp", text: "MCP", "aria-current": this.activePage === "mcp" ? "page" : undefined }),
           navButton,
-          el("a", { class: "nav-link", href: "/#licensing", text: "Licensing" })
+          this.#collectionLink("saved", "Saved")
         ]),
         el("div", { class: "header-actions" }, [
-          el("button", { class: "header-search-button", type: "button", "aria-label": "Search archive", onClick: () => this.dispatchEvent(new Event("searchrequest")) }, [icon("search"), el("span", { text: "Search archive" })]),
+          el("button", { class: "header-search-button", type: "button", "aria-label": "Search archive", onClick: () => this.dispatchEvent(new Event("searchrequest")) }, [icon("search"), el("span", { text: "Search" })]),
           el("span", { class: "access-indicator", title: this.access === "internal" ? "Authenticated internal archive view" : "Public archive view" }, [icon(this.access === "internal" ? "lock" : "globe"), el("span", { text: this.access === "internal" ? "Internal access" : "Public access" })]),
           mobileButton
         ])
@@ -99,12 +95,12 @@ export class Header extends EventTarget {
     return el("div", { class: "mega-menu", id, hidden: true }, [
       el("div", { class: "mega-menu__inner" }, [
         el("div", { class: "mega-menu__intro" }, [
-          el("p", { class: "section-label", text: "21 complete collections" }),
+          el("p", { class: "section-label", text: "The Collective AI ecosystem" }),
           el("h2", { text: "One intelligence. Twenty distinct divisions." }),
           el("p", { text: "Move through the complete visual system without losing the thread of the parent brand." }),
           parent ? this.#divisionLink(parent, true) : null
         ]),
-        el("div", { class: "mega-menu__grid" }, items.map((division, index) => this.#divisionLink(division, false, index)))
+        el("div", {}, [el("nav", { class: "mega-collections", "aria-label": "Media collections" }, [this.#collectionLink("animals", "Animals"), this.#collectionLink("general-stock", "General stock"), this.#collectionLink("component-sheets", "Components"), this.#collectionLink("division-intro-videos", "Intro films"), el("a", { class: "nav-link", href: "/mcp", text: "MCP" }), el("a", { class: "nav-link", href: "/#licensing", text: "Licensing" })]), el("div", { class: "mega-menu__grid" }, items.map((division, index) => this.#divisionLink(division, false, index)))])
       ])
     ]);
   }
@@ -129,6 +125,7 @@ export class Header extends EventTarget {
     return el("nav", { id: "mobile-navigation", class: "mobile-navigation", hidden: true, "aria-label": "Mobile navigation" }, [
       el("div", { class: "mobile-primary-links" }, [
         this.#collectionLink("complete-archive", "Browse archive", true),
+        this.#collectionLink("saved", "Saved assets", true),
         this.#collectionLink("animals", "Animals", true),
         this.#collectionLink("general-stock", "General stock", true),
         this.#collectionLink("component-sheets", "Component sheets", true),

@@ -33,10 +33,10 @@ test("homepage renders real archive media and search navigates", async ({ page }
   page.on("console", (message) => { if (message.type() === "error") errors.push(message.text()); });
   await page.goto("/");
   await expect(page).toHaveTitle(/Collective Stock/);
-  await expect(page.getByRole("heading", { name: /Every vision/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /A world.*beyond.*ordinary/ })).toBeVisible();
   await expect(page.locator('.hero-quick-links [aria-current="page"]')).toHaveCount(0);
-  await expect(page.locator(".hero-stage video")).toBeVisible();
-  await expect(page.locator(".hero-stage__scrubber")).toBeVisible();
+  await expect(page.locator(".art-gallery__stage")).toBeVisible();
+  await expect(page.getByRole("button", { name: "Next artwork", exact: true })).toBeVisible();
   await warmLazyMedia(page);
   await page.screenshot({ path: path.join(screenshotDir, `homepage-${testInfo.project.name}.png`), fullPage: true });
   await page.locator(".home-hero input[type=search]").fill("ZenFlow");

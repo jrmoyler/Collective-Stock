@@ -6,7 +6,8 @@ export class FavoritesStore extends EventTarget {
   constructor() {
     super();
     try {
-      this.#ids = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+      this.#ids = new Set(Array.isArray(stored) ? stored.filter(id => typeof id === "string") : []);
     } catch {
       this.#ids = new Set();
     }
@@ -16,7 +17,7 @@ export class FavoritesStore extends EventTarget {
 
   toggle(id) {
     this.#ids.has(id) ? this.#ids.delete(id) : this.#ids.add(id);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify([...this.#ids]));
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify([...this.#ids])); } catch { /* Session saves still work when storage is blocked. */ }
     this.dispatchEvent(new CustomEvent("change", { detail: { id, saved: this.#ids.has(id) } }));
     return this.#ids.has(id);
   }

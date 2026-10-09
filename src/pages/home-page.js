@@ -1,78 +1,20 @@
-import { el, icon, diamondStar, formatCount } from "../utils/dom.js";
+import { el, icon, formatCount } from "../utils/dom.js";
 import { GlobalSearch } from "../components/global-search.js";
 import { MediaCard, optimizedPath } from "../components/media-card.js";
-import { LicenseBadge } from "../components/license-badge.js";
+import { ArtGallery } from "../experience/art-gallery.js";
 import { enhanceMasonry } from "../media/masonry-grid.js";
 import { collectionRoute, divisionRoute } from "../utils/routes.js";
 import { collectionDefinition } from "../data/collection-definitions.js";
 
 const COLLECTIONS = ["animals", "general-stock", "hero-images", "complete-archive"];
 
-function formatTime(value) {
-  if (!Number.isFinite(value)) return "00:00";
-  const minutes = Math.floor(value / 60);
-  const seconds = Math.floor(value % 60);
-  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
-}
-
-function motionStage(asset, count, onPreview) {
-  if (!asset) return el("div", { class: "hero-mosaic static-hero-mosaic", "aria-label": "Motion library is being prepared" });
-  const video = el("video", {
-    muted: true,
-    loop: true,
-    playsInline: true,
-    preload: "metadata",
-    poster: asset.posterPath || "/assets/posters/media-fallback.svg",
-    "aria-label": `${asset.title}, muted motion preview`
-  });
-  video.append(el("source", { src: asset.previewPath || asset.originalDownloadPath, type: asset.mimeType || "video/mp4" }));
-  const play = el("button", { class: "hero-stage__play", type: "button", "aria-label": `Pause ${asset.title}` }, icon("play"));
-  const current = el("span", { class: "mono", text: "00:00" });
-  const duration = el("span", { class: "mono", text: formatTime(asset.duration) });
-  const scrubber = el("input", { class: "hero-stage__scrubber", type: "range", min: "0", max: String(asset.duration || 1), step: "0.05", value: "0", "aria-label": `Seek through ${asset.title}` });
-  const togglePlayback = async () => {
-    if (video.paused) await video.play().catch(() => {});
-    else video.pause();
-  };
-  const syncPlayback = () => {
-    play.classList.toggle("is-playing", !video.paused);
-    play.setAttribute("aria-label", `${video.paused ? "Play" : "Pause"} ${asset.title}`);
-  };
-  play.addEventListener("click", togglePlayback);
-  video.addEventListener("click", togglePlayback);
-  video.addEventListener("play", syncPlayback);
-  video.addEventListener("pause", syncPlayback);
-  video.addEventListener("loadedmetadata", () => {
-    scrubber.max = String(video.duration || asset.duration || 1);
-    duration.textContent = formatTime(video.duration || asset.duration);
-  });
-  video.addEventListener("timeupdate", () => {
-    current.textContent = formatTime(video.currentTime);
-    scrubber.value = String(video.currentTime);
-    const progress = video.duration ? video.currentTime / video.duration : 0;
-    scrubber.style.setProperty("--progress", `${progress * 100}%`);
-  });
-  scrubber.addEventListener("input", () => { video.currentTime = Number(scrubber.value); });
-  const reduceMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-  if (!reduceMotion) requestAnimationFrame(() => video.play().catch(syncPlayback));
-  return el("div", { class: "hero-mosaic hero-stage" }, [
-    video,
-    el("div", { class: "hero-stage__topline" }, [
-      el("span", { class: "mono", text: `Motion library · 01 / ${String(count).padStart(2, "0")}` }),
-      el("button", { class: "hero-stage__expand", type: "button", "aria-label": `Open details for ${asset.title}`, onClick: () => onPreview(asset) }, ["View film", icon("expand")])
-    ]),
-    el("div", { class: "hero-stage__caption" }, [el("strong", { text: asset.title }), el("span", { text: "Collective motion study" })]),
-    el("div", { class: "hero-stage__controls" }, [play, current, scrubber, duration, el("span", { class: "hero-stage__muted mono", text: "MUTED" })])
-  ]);
-}
-
 function divisionRail(divisions, counts) {
-  return el("div", { class: "division-rail" }, divisions.filter((item) => item.slug !== "collective-ai-inc").slice(0, 8).map((division, index) => el("a", { href: divisionRoute(division.slug), class: "division-rail__item", style: `--division-accent:${division.accent || "#D4A843"}` }, [
+  return el("div", { class: "division-rail" }, divisions.filter((item) => item.slug !== "collective-ai-inc").map((division, index) => el("a", { href: divisionRoute(division.slug), class: "division-rail__item", style: `--division-accent:${division.accent || "#D4A843"}` }, [
     el("span", { class: "division-rail__index mono", text: String(index + 1).padStart(2, "0") }),
     el("span", { class: "division-rail__signal", "aria-hidden": "true" }),
     el("strong", { text: division.name }),
     el("span", { class: "division-rail__count mono", text: `${formatCount(counts.get(division.slug) || 0)} assets` }),
-    el("span", { class: "division-rail__facets mono", text: "[ photography ]  [ reference ]  [ motion ]" }),
+    el("span", { class: "division-rail__facets mono", text: "Explore division" }),
     icon("arrow")
   ])));
 }
@@ -80,7 +22,9 @@ function divisionRail(divisions, counts) {
 function collectionRail(assets, index) {
   return el("div", { class: "collection-rail" }, COLLECTIONS.map((slug) => {
     const definition = collectionDefinition(slug);
-    const asset = index.query(definition.constraints)[0] || assets[0];
+    const matches = index.query(definition.constraints);
+    const preferred = slug === 'animals' ? "Mountain Memory in an Owl's Eye" : slug === 'general-stock' ? 'Coastal Village at Sunset' : '';
+    const asset = matches.find(a => a.title === preferred) || matches.find(a => a.mediaType === 'image' && a.featured) || matches[0] || assets[0];
     return el("a", { class: "collection-tile", href: collectionRoute(slug) }, [
       asset ? el("img", { src: optimizedPath(asset), alt: "", width: asset.width, height: asset.height, loading: "lazy", decoding: "async" }) : null,
       el("span", { class: "collection-tile__content" }, [el("strong", { text: definition.title }), el("small", { text: definition.description }), icon("arrow")])
@@ -123,10 +67,10 @@ function motionRail(assets, onPreview) {
 export function HomePage({ assets, divisions, index, audit, onSearch, onPreview, favorites, lazyController, toast }) {
   const featured = assets.filter((asset) => asset.featured);
   const visualAssets = (featured.length >= 7 ? featured : assets).slice(0, 20);
-  const motionAssets = assets.filter((asset) => asset.categorySlug === "motion-films");
-  const heroMotion = motionAssets.find((asset) => asset.classification === "general-stock") || motionAssets[0];
+
   const counts = assets.reduce((map, asset) => map.set(asset.divisionSlug, (map.get(asset.divisionSlug) || 0) + 1), new Map());
   const search = new GlobalSearch({ index, assets, divisions });
+  search.root.querySelector("input").placeholder = "Search the archive";
   search.addEventListener("search", (event) => onSearch(event.detail.query));
   const newest = [...assets].sort((a, b) => String(b.ingestedAt || b.generationDate || "").localeCompare(String(a.ingestedAt || a.generationDate || "")));
   const uploadedImages = newest.filter((asset) => asset.originalDownloadPath?.includes("user-uploads-2026-08-09"));
@@ -135,26 +79,30 @@ export function HomePage({ assets, divisions, index, audit, onSearch, onPreview,
   const recentGrid = el("div", { class: "recent-grid" }, recent.map((asset) => MediaCard(asset, { favorites, lazyController, onPreview, toast })));
   enhanceMasonry(recentGrid);
   return el("main", { id: "main-content" }, [
-    el("section", { class: "home-hero" }, [
+    el("section", { class: "home-hero immersive-hero" }, [
       el("div", { class: "hero-copy" }, [
-        el("h1", {}, ["Every vision.", el("br"), "One collective intelligence."]),
-        el("p", { text: "Photography, branded reference imagery, motion, and spatial media—curated from the Collective AI ecosystem." }),
-        search.root,
-        el("nav", { class: "hero-quick-links", "aria-label": "Media type shortcuts" }, [["All media", "complete-archive"], ["Animals", "animals"], ["General stock", "general-stock"], ["Motion films", "motion-films"], ["Components", "component-sheets"], ["Reference", "reference-images"]].map(([label, slug]) => el("a", { href: collectionRoute(slug), text: label })))
+        el("h1", {}, ["A world ", el("br"), "beyond", el("br"), el("span", { text: "ordinary." })]),
+        el("p", {}, ["Discover imagery that moves you.", el("br"), "Build something that moves the world."]),
+        el("div", { class: "hero-search-row" }, [search.root, el("a", { class: "button button--primary", href: collectionRoute("complete-archive") }, ["Explore the archive", icon("arrow")])]),
+        el("button", { class: "surprise-button", type: "button", onClick: () => {
+          const pool = assets.filter(a => a.mediaType === "image");
+          if (pool.length) onPreview(pool[Math.floor(Math.random() * pool.length)], pool);
+        } }, ["Surprise me", icon("arrow")])
       ]),
-      heroMotion ? motionStage(heroMotion, motionAssets.length, onPreview) : el("div", { class: "hero-empty" }, [diamondStar(), el("p", { text: "The source archive is being reconciled." })])
+      ArtGallery({ assets, onPreview })
+    ]),
+    el("nav", { class: "hero-quick-links media-type-band", "aria-label": "Media type shortcuts" }, [["All media", "complete-archive"], ["Photography", "stock-images"], ["Motion films", "motion-films"], ["Animals", "animals"], ["Components", "component-sheets"], ["Reference", "reference-images"]].map(([label, slug]) => el("a", { href: collectionRoute(slug), text: label }))),
+    el("section", { class: "home-band curated-collections", id: "collections" }, [
+      el("div", { class: "section-heading" }, [el("h2", { text: "Follow your curiosity." }), el("a", { href: collectionRoute("complete-archive") }, ["Explore collections", icon("arrow")])]),
+      collectionRail(visualAssets, index)
     ]),
     el("section", { class: "home-band featured-libraries" }, [
       el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "New production libraries" }), el("h2", { text: "Build the brand. Set it in motion." })]), el("p", { text: "Complete implementation systems and cinematic identity films—named, verified, and ready to use." })]),
       featuredLibraries(assets, index)
     ]),
-    el("section", { class: "home-band featured-divisions" }, [
-      el("div", { class: "section-heading section-heading--side" }, [el("div", {}, [el("p", { class: "section-label", text: "The complete ecosystem" }), el("h2", { text: "Featured divisions" })]), el("a", { href: collectionRoute("complete-archive") }, ["Browse all media", icon("arrow")])]),
+    el("section", { class: "home-band featured-divisions", id: "divisions" }, [
+      el("div", { class: "section-heading section-heading--side" }, [el("div", {}, [el("p", { class: "section-label", text: "The complete ecosystem" }), el("h2", { text: "Twenty perspectives. One collective." })]), el("a", { href: collectionRoute("complete-archive") }, ["Browse all media", icon("arrow")])]),
       divisionRail(divisions, counts)
-    ]),
-    el("section", { class: "home-band curated-collections" }, [
-      el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Editorial discovery" }), el("h2", { text: "Curated collections" })]), el("p", { text: "Built for the way creative teams actually search: by intention, format, division, and rights." })]),
-      collectionRail(visualAssets, index)
     ]),
     el("section", { class: "home-band recently-added" }, [
       el("div", { class: "section-heading" }, [el("div", {}, [el("p", { class: "section-label", text: "Archive pulse" }), el("h2", { text: "Recently added" })]), el("a", { href: collectionRoute("recently-added") }, ["View all recent media", icon("arrow")])]),
