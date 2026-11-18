@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<defs><radialGradient id="g" cx="30%" cy="15%" r="110%"><stop offset="0" stop-color="#1E2A3C"/><stop offset=".72" stop-color="#0C1018"/></radialGradient>
+<linearGradient id="h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect width="64" height="64" rx="18" fill="url(#g)"/><rect x=".5" y=".5" width="63" height="63" rx="17.5" fill="url(#h)" stroke="#fff" stroke-opacity=".12"/>
+<g transform="translate(9.6 9.6) scale(.7)"><path d="M32 12 H23 L16.5 18.5 V33.5 L22 39 V52" stroke="#22D3EE" stroke-width="2.4"/>
+      <path d="M32 12 C42 12 48 19 48 28 C48 31 50 34 51.5 37.5 L47.5 38.5 V43 C47.5 45.5 45.8 47 43 47 H38.5 V52" stroke="#E2E8F0" stroke-width="2.4"/>
+      <rect x="19.5" y="23" width="7" height="3.2" rx="1" fill="#22D3EE"/>
+      <g stroke="#22D3EE" stroke-width="1.1" opacity=".7"><path d="M19 30.5 H25 V35.5 M22 30.5 V27"/></g>
+      <path d="M41.5 25 Q43 24 44.5 25.5" stroke="#E2E8F0" stroke-width="1.8"/>
+      <path fill="#22D3EE" stroke="#ECFEFF" stroke-width=".9" d="M35.5 16 L27 32 H33 L29 48 L39.5 29 H33.5 L37.5 16 Z"/></g></svg>

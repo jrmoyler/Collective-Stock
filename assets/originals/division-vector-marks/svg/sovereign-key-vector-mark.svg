@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<defs><radialGradient id="g" cx="30%" cy="15%" r="110%"><stop offset="0" stop-color="#1E3A8A"/><stop offset=".72" stop-color="#060B1E"/></radialGradient>
+<linearGradient id="h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect width="64" height="64" rx="18" fill="url(#g)"/><rect x=".5" y=".5" width="63" height="63" rx="17.5" fill="url(#h)" stroke="#fff" stroke-opacity=".12"/>
+<g transform="translate(9.6 9.6) scale(.7)"><circle cx="24" cy="24" r="12" stroke="#E5E7EB" stroke-width="2.6"/>
+      <g stroke="#E5E7EB" stroke-width="1.5" opacity=".75"><path d="M17.5 26.5 A7 7 0 0 1 29.5 19.5 M19.5 29.5 A6.5 6.5 0 0 0 31 24 M21 24.5 A3.2 3.2 0 0 1 27.2 23.5 M24 27.5 V24.5"/></g>
+      <path d="M32.5 32.5 L52 52" stroke="#E5E7EB" stroke-width="3.4"/>
+      <path d="M42 42 L46.5 37.5 M47.5 47.5 L52 43" stroke="#E5E7EB" stroke-width="3.2"/>
+      <circle cx="24" cy="24" r="16" stroke="#93A5D6" stroke-width="1" stroke-dasharray="1.5 3" opacity=".6"/></g></svg>

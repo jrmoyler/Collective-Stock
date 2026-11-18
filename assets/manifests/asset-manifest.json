@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T00:05:34.699Z",
+  "generatedAt": "2026-11-18T01:25:29.108Z",
   "summary": {
-    "generatedAt": "2026-08-11T00:05:34.699Z",
-    "totalFilesDiscovered": 466,
-    "totalUniqueAssetsIngested": 466,
-    "totalOriginalOccurrences": 466,
-    "assignedToDivisions": 377,
-    "parentBrandAssets": 18,
+    "generatedAt": "2026-11-18T01:25:29.108Z",
+    "totalFilesDiscovered": 497,
+    "totalUniqueAssetsIngested": 497,
+    "totalOriginalOccurrences": 497,
+    "assignedToDivisions": 397,
+    "parentBrandAssets": 29,
     "crossDivisionAssets": 1,
     "animalStockAssets": 20,
     "generalStockAssets": 50,
@@ -20,7 +20,7 @@
     "missingSourceReason": null,
     "brokenAssets": 0,
     "unassignedAssets": 0,
-    "reconciliation": "466 discovered files = 466 unique ingested assets + 0 exact duplicate files; 466 provenance occurrences retained. No inaccessible source archives remain."
+    "reconciliation": "497 discovered files = 497 unique ingested assets + 0 exact duplicate files; 497 provenance occurrences retained. No inaccessible source archives remain."
   },
   "assets": [
     {
@@ -2958,6 +2958,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": null,
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_aedfc16e4e50ac379017",
+      "title": "Aether Link — Official Vector Mark",
+      "slug": "aether-link-official-vector-mark",
+      "description": "Division 10. Chibi astronaut robot: cream helmet, dark visor, antenna sending signal. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Aether Link",
+      "divisionSlug": "aether-link",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "aether-link-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 168943,
+      "fileSizeHuman": "165.0 KB",
+      "contentHash": "aedfc16e4e50ac3790175dbf20e68f75be0c20151c7f344b4128d9f82a85cd46",
+      "perceptualHash": "3f3f0f17964fb2cc",
+      "dominantColors": [
+        "#5E3626",
+        "#40251A",
+        "#74432F"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Aether Link",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 10",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Aether Link",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 10",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "Aether Link — Official Vector Mark, vector marks for Aether Link.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/aether-link-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/aether-link-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/aether-link-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/aether-link-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/aether-link-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/aether-link-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/aether-link-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/aether-link-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/aether-link-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/aether-link-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_5e0a64d173d0a04850b7",
@@ -6195,6 +6334,145 @@
       "classificationNotes": null
     },
     {
+      "id": "cstk_51c8823e4b52a531b9e2",
+      "title": "Animus Prime — Official Vector Mark",
+      "slug": "animus-prime-official-vector-mark",
+      "description": "Division 09. Split head, machine half and human half, with lightning on the seam. The only cyan mark. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Animus Prime",
+      "divisionSlug": "animus-prime",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "animus-prime-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 111535,
+      "fileSizeHuman": "108.9 KB",
+      "contentHash": "51c8823e4b52a531b9e28fbb7c339a448d2105a7ed3104519b799b1d6c141388",
+      "perceptualHash": "374d868e8ad6ecc0",
+      "dominantColors": [
+        "#232E38",
+        "#181F26",
+        "#2B3946"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Animus Prime",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 09",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Animus Prime",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 09",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "Animus Prime — Official Vector Mark, vector marks for Animus Prime.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/animus-prime-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/animus-prime-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/animus-prime-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/animus-prime-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/animus-prime-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/animus-prime-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/animus-prime-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/animus-prime-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/animus-prime-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/animus-prime-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_bc25a5431a7a9a896a57",
       "title": "Autonomous Street Robot",
       "slug": "autonomous-street-robot-gphotos-136",
@@ -8357,6 +8635,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": null,
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_197c089e8ecd66f09e4e",
+      "title": "Binary Loom — Official Vector Mark",
+      "slug": "binary-loom-official-vector-mark",
+      "description": "Division 07. Hex loom with two threads woven under a code bracket. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Binary Loom",
+      "divisionSlug": "binary-loom",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "binary-loom-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 127740,
+      "fileSizeHuman": "124.7 KB",
+      "contentHash": "197c089e8ecd66f09e4e03de3dc673662d37f91bb00dd19f56ce3c0a975cdf37",
+      "perceptualHash": "3f4d968f9e96ccb0",
+      "dominantColors": [
+        "#272F19",
+        "#1A2011",
+        "#303A20"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Binary Loom",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 07",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Binary Loom",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 07",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Binary Loom — Official Vector Mark, vector marks for Binary Loom.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/binary-loom-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/binary-loom-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/binary-loom-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/binary-loom-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/binary-loom-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/binary-loom-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/binary-loom-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/binary-loom-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/binary-loom-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/binary-loom-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_f8ab4c646a746b4c7cd4",
@@ -10674,6 +11091,145 @@
       "classificationNotes": null
     },
     {
+      "id": "cstk_b32dfd3eb2a1a17bc507",
+      "title": "Civic Core — Official Vector Mark",
+      "slug": "civic-core-official-vector-mark",
+      "description": "Division 13. A dove in flight whose tail dissolves into pastel pixels. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Civic Core",
+      "divisionSlug": "civic-core",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "civic-core-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 125942,
+      "fileSizeHuman": "123.0 KB",
+      "contentHash": "b32dfd3eb2a1a17bc5078d82dac60f3b5a0c20e5cec99a1141e89c731501d9b1",
+      "perceptualHash": "3f7d2d060e3ad4a8",
+      "dominantColors": [
+        "#2E3853",
+        "#1F2639",
+        "#394667"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Civic Core",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 13",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Civic Core",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 13",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "Civic Core — Official Vector Mark, vector marks for Civic Core.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/civic-core-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/civic-core-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/civic-core-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/civic-core-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/civic-core-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/civic-core-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/civic-core-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/civic-core-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/civic-core-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/civic-core-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_b16eab858a43ba14cdf6",
       "title": "Civic Core Innovation Lobby",
       "slug": "civic-core-innovation-lobby-gphotos-078",
@@ -12770,6 +13326,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": null,
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_1fbaec713f4daa98b037",
+      "title": "Cognara Mind — Official Vector Mark",
+      "slug": "cognara-mind-official-vector-mark",
+      "description": "Division 15. Rose shield holding a polygonal brain over an ECG pulse. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Cognara Mind",
+      "divisionSlug": "cognara-mind",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "cognara-mind-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 173485,
+      "fileSizeHuman": "169.4 KB",
+      "contentHash": "1fbaec713f4daa98b0375ef994269d45967cbdc96e263053ba84be4d11fa5ca1",
+      "perceptualHash": "3f1f0f0e8e0eacd0",
+      "dominantColors": [
+        "#4E1832",
+        "#351022",
+        "#601E3E"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Cognara Mind",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 15",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Cognara Mind",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 15",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "Cognara Mind — Official Vector Mark, vector marks for Cognara Mind.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/cognara-mind-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/cognara-mind-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/cognara-mind-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/cognara-mind-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/cognara-mind-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/cognara-mind-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/cognara-mind-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/cognara-mind-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/cognara-mind-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/cognara-mind-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_75b7dd0e4f02a0d9da7c",
@@ -16593,6 +17288,145 @@
       "classificationNotes": "Visual audit confirmed unbranded standalone stock; kept outside every division gallery."
     },
     {
+      "id": "cstk_917f500187bb2a75b372",
+      "title": "Aqua Meridian — Official Vector Mark",
+      "slug": "aqua-meridian-official-vector-mark",
+      "description": "Division 23. Globe on its meridian with three tide lines. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "aqua-meridian-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 204938,
+      "fileSizeHuman": "200.1 KB",
+      "contentHash": "917f500187bb2a75b372d02f5ea4c290bbf7de94cb418f91df25749624ece72d",
+      "perceptualHash": "3f6f1f96968ecc90",
+      "dominantColors": [
+        "#243A71",
+        "#19284D",
+        "#2D488C"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Aqua Meridian",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 23",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Aqua Meridian",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 23",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Aqua Meridian — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/aqua-meridian-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/aqua-meridian-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Aqua Meridian has no division gallery yet, so its mark is filed under the parent brand."
+    },
+    {
       "id": "cstk_aa1bfcfa5b1bd7b4959e",
       "title": "Arctic Fox In The Morning Haze",
       "slug": "arctic-fox-in-the-morning-haze",
@@ -16672,6 +17506,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": "high",
       "classificationNotes": "Visual audit confirmed an animal-led subject; kept outside every division gallery."
+    },
+    {
+      "id": "cstk_fc8a289c3def3c77e1ef",
+      "title": "Astral Forge — Official Vector Mark",
+      "slug": "astral-forge-official-vector-mark",
+      "description": "Division 21. A star launched off the anvil. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "astral-forge-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 122660,
+      "fileSizeHuman": "119.8 KB",
+      "contentHash": "fc8a289c3def3c77e1efc96d2cc33838af83c362819e48909801ba0a52d285c9",
+      "perceptualHash": "3f53a28e8eccf0cc",
+      "dominantColors": [
+        "#332342",
+        "#22182D",
+        "#3F2B52"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Astral Forge",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 21",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Astral Forge",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 21",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Astral Forge — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/astral-forge-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/astral-forge-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/astral-forge-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/astral-forge-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/astral-forge-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/astral-forge-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/astral-forge-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/astral-forge-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/astral-forge-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/astral-forge-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Astral Forge has no division gallery yet, so its mark is filed under the parent brand."
     },
     {
       "id": "cstk_5f863de68a9716a65d85",
@@ -18715,6 +19688,145 @@
       "classificationNotes": null
     },
     {
+      "id": "cstk_18eb0a0b9b96406fc782",
+      "title": "Collective AI Inc — Official Vector Mark",
+      "slug": "collective-ai-inc-official-vector-mark",
+      "description": "Gold four-point star on navy, the parent mark. Official tile mark drawn on the 64-unit grid used across Collective AI. Parent-company mark.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "collective-ai-inc-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 118876,
+      "fileSizeHuman": "116.1 KB",
+      "contentHash": "18eb0a0b9b96406fc782009a972b23605405c01cf8e9752d6fc5995e428b1d04",
+      "perceptualHash": "3f752f8e8ee896e8",
+      "dominantColors": [
+        "#242936",
+        "#191C25",
+        "#2D3243"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Collective AI Inc",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 00",
+        "parent",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Collective AI Inc",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 00",
+        "parent",
+        "Collective AI"
+      ],
+      "altText": "Collective AI Inc — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/collective-ai-inc-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/collective-ai-inc-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_8b142acb14c89eabe736",
       "title": "Collective AI Inc — Prism Headquarters",
       "slug": "collective-ai-inc-prism-headquarters-gphotos-006",
@@ -19849,6 +20961,284 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": "high",
       "classificationNotes": "Visual audit confirmed unbranded standalone stock; kept outside every division gallery."
+    },
+    {
+      "id": "cstk_277ca4be0aca70ca19bc",
+      "title": "Hearth Nexus — Official Vector Mark",
+      "slug": "hearth-nexus-official-vector-mark",
+      "description": "Division 30. A home with a living flame, smoke rising as network nodes. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "hearth-nexus-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 129657,
+      "fileSizeHuman": "126.6 KB",
+      "contentHash": "277ca4be0aca70ca19bcc0ec25290fb989acc289132415bfa39014a36db3a0a3",
+      "perceptualHash": "3f3f4696ae8e96e8",
+      "dominantColors": [
+        "#44261F",
+        "#2F1A15",
+        "#553026"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Hearth Nexus",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 30",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Hearth Nexus",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 30",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Hearth Nexus — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/hearth-nexus-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/hearth-nexus-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Hearth Nexus has no division gallery yet, so its mark is filed under the parent brand."
+    },
+    {
+      "id": "cstk_9aceb554bac36c76488f",
+      "title": "Human Foundry — Official Vector Mark",
+      "slug": "human-foundry-official-vector-mark",
+      "description": "Division 28. A person at the centre of the gear that forges them. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "human-foundry-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 141844,
+      "fileSizeHuman": "138.5 KB",
+      "contentHash": "9aceb554bac36c76488f965ea498fda0d5e8cf99cf920f792fbff332a3175ba9",
+      "perceptualHash": "3f7d0f8e8e8ea8d4",
+      "dominantColors": [
+        "#3F2C34",
+        "#2B1E23",
+        "#4E3640"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Human Foundry",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 28",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Human Foundry",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 28",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Human Foundry — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/human-foundry-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/human-foundry-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/human-foundry-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/human-foundry-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/human-foundry-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/human-foundry-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/human-foundry-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/human-foundry-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/human-foundry-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/human-foundry-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Human Foundry has no division gallery yet, so its mark is filed under the parent brand."
     },
     {
       "id": "cstk_efe668e3b3b08e1b3f82",
@@ -21774,6 +23164,284 @@
       "classificationNotes": "Visual audit confirmed unbranded standalone stock; kept outside every division gallery."
     },
     {
+      "id": "cstk_18a98b5b9a97a5127a5c",
+      "title": "Materia Nova — Official Vector Mark",
+      "slug": "materia-nova-official-vector-mark",
+      "description": "Division 22. Crystal lattice cell with a nova at its apex. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "materia-nova-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 156722,
+      "fileSizeHuman": "153.0 KB",
+      "contentHash": "18a98b5b9a97a5127a5c0fc9d64ed78f67a2f40a94e98c352974e2ce50404c9f",
+      "perceptualHash": "376d8f968e8eec90",
+      "dominantColors": [
+        "#292A42",
+        "#1C1D2D",
+        "#323451"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Materia Nova",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 22",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Materia Nova",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 22",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Materia Nova — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/materia-nova-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/materia-nova-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/materia-nova-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/materia-nova-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/materia-nova-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/materia-nova-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/materia-nova-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/materia-nova-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/materia-nova-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/materia-nova-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Materia Nova has no division gallery yet, so its mark is filed under the parent brand."
+    },
+    {
+      "id": "cstk_7c8e6f98df30ddc9d18c",
+      "title": "Mercantile Circuit — Official Vector Mark",
+      "slug": "mercantile-circuit-official-vector-mark",
+      "description": "Division 27. A storefront awning over a coin wired into the network. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "mercantile-circuit-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 141079,
+      "fileSizeHuman": "137.8 KB",
+      "contentHash": "7c8e6f98df30ddc9d18c679936822f2ee26ba5ddd91a276d32020be47ab279aa",
+      "perceptualHash": "3f7d97969e8edcf8",
+      "dominantColors": [
+        "#4C3614",
+        "#34240D",
+        "#5E4218"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Mercantile Circuit",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 27",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Mercantile Circuit",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 27",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Mercantile Circuit — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/mercantile-circuit-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/mercantile-circuit-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Mercantile Circuit has no division gallery yet, so its mark is filed under the parent brand."
+    },
+    {
       "id": "cstk_3becdedaf7db242a7c1f",
       "title": "Misty Green Mountain Flyover",
       "slug": "misty-green-mountain-flyover-gphotos-011",
@@ -23169,6 +24837,145 @@
       "classificationNotes": "Visual audit confirmed unbranded standalone stock; kept outside every division gallery."
     },
     {
+      "id": "cstk_353f77aa973ce419828b",
+      "title": "Nourish Grid — Official Vector Mark",
+      "slug": "nourish-grid-official-vector-mark",
+      "description": "Division 24. A wheat stalk rising out of planted grid rows. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "nourish-grid-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 139634,
+      "fileSizeHuman": "136.4 KB",
+      "contentHash": "353f77aa973ce419828bacffb1fa8c6ca26bdefde10be15f65bb276efcc1e1b0",
+      "perceptualHash": "3f2f0f4d0f8e94e8",
+      "dominantColors": [
+        "#36391E",
+        "#242715",
+        "#434626"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Nourish Grid",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 24",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Nourish Grid",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 24",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Nourish Grid — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/nourish-grid-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/nourish-grid-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/nourish-grid-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/nourish-grid-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/nourish-grid-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/nourish-grid-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/nourish-grid-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/nourish-grid-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/nourish-grid-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/nourish-grid-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Nourish Grid has no division gallery yet, so its mark is filed under the parent brand."
+    },
+    {
       "id": "cstk_68d18cdc43a10baf1087",
       "title": "Pacific Boulevard in Blue",
       "slug": "pacific-boulevard-in-blue",
@@ -23821,6 +25628,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": "high",
       "classificationNotes": "Visual audit confirmed unbranded standalone stock; kept outside every division gallery."
+    },
+    {
+      "id": "cstk_63cae4cf6efc7cd5d089",
+      "title": "Praesidium Mutual — Official Vector Mark",
+      "slug": "praesidium-mutual-official-vector-mark",
+      "description": "Division 26. One canopy over the members it pools. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "praesidium-mutual-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 141323,
+      "fileSizeHuman": "138.0 KB",
+      "contentHash": "63cae4cf6efc7cd5d08949d8d9a917b4015cf9be0cfbca420b54801a0728b800",
+      "perceptualHash": "3f6d8e8e9e96bcc8",
+      "dominantColors": [
+        "#323C32",
+        "#222822",
+        "#3E4A3E"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Praesidium Mutual",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 26",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Praesidium Mutual",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 26",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Praesidium Mutual — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/praesidium-mutual-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/praesidium-mutual-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Praesidium Mutual has no division gallery yet, so its mark is filed under the parent brand."
     },
     {
       "id": "cstk_7ea1c1291005ed29fc8e",
@@ -25120,6 +27066,145 @@
       "classificationNotes": "Visual audit confirmed unbranded standalone stock; kept outside every division gallery."
     },
     {
+      "id": "cstk_e13d819449862f930fa6",
+      "title": "Sovereign Key — Official Vector Mark",
+      "slug": "sovereign-key-official-vector-mark",
+      "description": "Division 25. A key whose bow is a fingerprint seal. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "sovereign-key-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 170471,
+      "fileSizeHuman": "166.5 KB",
+      "contentHash": "e13d819449862f930fa64de53890e61182a920bdd2e2ed015a5ed2f85b35307a",
+      "perceptualHash": "3f5f9f8d86f29ae4",
+      "dominantColors": [
+        "#232E50",
+        "#182037",
+        "#2C3A64"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Sovereign Key",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 25",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Sovereign Key",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 25",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Sovereign Key — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/sovereign-key-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/sovereign-key-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/sovereign-key-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/sovereign-key-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/sovereign-key-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/sovereign-key-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/sovereign-key-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/sovereign-key-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/sovereign-key-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/sovereign-key-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Sovereign Key has no division gallery yet, so its mark is filed under the parent brand."
+    },
+    {
       "id": "cstk_ffc36d25c3b50ecf73de",
       "title": "Storm over Golden Fields",
       "slug": "storm-over-golden-fields-gphotos-059",
@@ -25586,6 +27671,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": "high",
       "classificationNotes": "Visual audit confirmed unbranded standalone stock; kept outside every division gallery."
+    },
+    {
+      "id": "cstk_87055086d91263ac2c69",
+      "title": "Volta Grid — Official Vector Mark",
+      "slug": "volta-grid-official-vector-mark",
+      "description": "Division 29. A charge running through a six-node grid. Official tile mark drawn on the 64-unit grid used across Collective AI. Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only.",
+      "division": "Collective AI Inc",
+      "divisionSlug": "collective-ai-inc",
+      "classification": "parent-brand",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "volta-grid-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 130026,
+      "fileSizeHuman": "127.0 KB",
+      "contentHash": "87055086d91263ac2c69892be1b3895aa08b3405fabbdfcab92e522ab92b35ff",
+      "perceptualHash": "3f7d8f8e8e8eecd4",
+      "dominantColors": [
+        "#2D2A19",
+        "#1E1D11",
+        "#37341F"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Volta Grid",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 29",
+        "pending",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Volta Grid",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 29",
+        "pending",
+        "Collective AI"
+      ],
+      "altText": "Volta Grid — Official Vector Mark, vector marks for Collective AI Inc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/volta-grid-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/volta-grid-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/volta-grid-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/volta-grid-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/volta-grid-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/volta-grid-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/volta-grid-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/volta-grid-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/volta-grid-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/volta-grid-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Volta Grid has no division gallery yet, so its mark is filed under the parent brand."
     },
     {
       "id": "cstk_7193654a78864d0c1bad",
@@ -27288,6 +29512,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": null,
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_e44f59f8e3992498a156",
+      "title": "Eon Core — Official Vector Mark",
+      "slug": "eon-core-official-vector-mark",
+      "description": "Division 20. Hourglass whose lower sand settles as pixels. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Eon Core",
+      "divisionSlug": "eon-core",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "eon-core-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 127285,
+      "fileSizeHuman": "124.3 KB",
+      "contentHash": "e44f59f8e3992498a15684bc50b658dda1d4a542bc3807a05af6113a3dd7c59a",
+      "perceptualHash": "3f5d8d4ececc94e0",
+      "dominantColors": [
+        "#2A2A3A",
+        "#1C1C28",
+        "#333449"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Eon Core",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 20",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Eon Core",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 20",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "Eon Core — Official Vector Mark, vector marks for Eon Core.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/eon-core-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/eon-core-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/eon-core-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/eon-core-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/eon-core-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/eon-core-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/eon-core-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/eon-core-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/eon-core-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/eon-core-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_537e3692dba135808e5a",
@@ -29526,6 +31889,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": "high",
       "classificationNotes": "Division pairing verified from the film's explicit branded end card."
+    },
+    {
+      "id": "cstk_da08705f70d19889a899",
+      "title": "Gaia Synthesis — Official Vector Mark",
+      "slug": "gaia-synthesis-official-vector-mark",
+      "description": "Division 08. Split coin: leaf veins on the organic half, circuit on the digital half. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Gaia Synthesis",
+      "divisionSlug": "gaia-synthesis",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "gaia-synthesis-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 143588,
+      "fileSizeHuman": "140.2 KB",
+      "contentHash": "da08705f70d19889a8999c75041e306fce49b0d9dba3ad0250a169eac2e04e5a",
+      "perceptualHash": "3f6d9f9e8e8eccd0",
+      "dominantColors": [
+        "#293825",
+        "#1C2619",
+        "#33462E"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Gaia Synthesis",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 08",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Gaia Synthesis",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 08",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "Gaia Synthesis — Official Vector Mark, vector marks for Gaia Synthesis.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/gaia-synthesis-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/gaia-synthesis-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_d38640f923d5dabda68f",
@@ -31982,6 +34484,145 @@
       "classificationNotes": null
     },
     {
+      "id": "cstk_e38e480e5aa7d1bf6390",
+      "title": "Hybrid Living — Official Vector Mark",
+      "slug": "hybrid-living-official-vector-mark",
+      "description": "Division 03. Shield with light rising over a horizon and a path leading toward it. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Hybrid Living",
+      "divisionSlug": "hybrid-living",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "hybrid-living-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 162047,
+      "fileSizeHuman": "158.2 KB",
+      "contentHash": "e38e480e5aa7d1bf639099fbcd348927bf0848b3a288d57bceea143f31112710",
+      "perceptualHash": "3f3f716969325da8",
+      "dominantColors": [
+        "#246D90",
+        "#184A62",
+        "#2D87B2"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Hybrid Living",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 03",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Hybrid Living",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 03",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Hybrid Living — Official Vector Mark, vector marks for Hybrid Living.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/hybrid-living-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/hybrid-living-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/hybrid-living-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/hybrid-living-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/hybrid-living-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/hybrid-living-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/hybrid-living-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/hybrid-living-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/hybrid-living-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/hybrid-living-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_075c2122256a3848e791",
       "title": "Hybrid Living Strategy Meeting",
       "slug": "hybrid-living-strategy-meeting-gphotos-210",
@@ -33514,6 +36155,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": null,
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_154d6b56eb45b19b5e20",
+      "title": "Juris Guard — Official Vector Mark",
+      "slug": "juris-guard-official-vector-mark",
+      "description": "Division 16. Gold shield carrying the watchful owl. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Juris Guard",
+      "divisionSlug": "juris-guard",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "juris-guard-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 142428,
+      "fileSizeHuman": "139.1 KB",
+      "contentHash": "154d6b56eb45b19b5e20628497fb88cd044fc3f7860ffb816ff95078840c920c",
+      "perceptualHash": "3f4d968e8e8ecc90",
+      "dominantColors": [
+        "#323641",
+        "#22252D",
+        "#3E4451"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Juris Guard",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 16",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Juris Guard",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 16",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Juris Guard — Official Vector Mark, vector marks for Juris Guard.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/juris-guard-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/juris-guard-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/juris-guard-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/juris-guard-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/juris-guard-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/juris-guard-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/juris-guard-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/juris-guard-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/juris-guard-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/juris-guard-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_d10905d4de1c2225d08c",
@@ -35831,6 +38611,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": "high",
       "classificationNotes": "Division pairing verified from the film's explicit branded end card."
+    },
+    {
+      "id": "cstk_165b096da7d6812f6959",
+      "title": "Kinetic Edge — Official Vector Mark",
+      "slug": "kinetic-edge-official-vector-mark",
+      "description": "Division 12. A flexed arm built from a triangulated node lattice. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Kinetic Edge",
+      "divisionSlug": "kinetic-edge",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "kinetic-edge-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 169334,
+      "fileSizeHuman": "165.4 KB",
+      "contentHash": "165b096da7d6812f6959306b95b56e0569c4dd3c90bb874a6a80988fcda4aae9",
+      "perceptualHash": "3f274b8f2e2e9ce8",
+      "dominantColors": [
+        "#293F30",
+        "#1C2B21",
+        "#334E3C"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Kinetic Edge",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 12",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Kinetic Edge",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 12",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Kinetic Edge — Official Vector Mark, vector marks for Kinetic Edge.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/kinetic-edge-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/kinetic-edge-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_15e1c6abc8afeb4b9d37",
@@ -38422,6 +41341,145 @@
       "classificationNotes": null
     },
     {
+      "id": "cstk_b1733ac33861f25057df",
+      "title": "Nexus Labs — Official Vector Mark",
+      "slug": "nexus-labs-official-vector-mark",
+      "description": "Division 04. Four-segment studio orbit around a play mark, with a spark. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Nexus Labs",
+      "divisionSlug": "nexus-labs",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "nexus-labs-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 149272,
+      "fileSizeHuman": "145.8 KB",
+      "contentHash": "b1733ac33861f25057dfdb581c883d35af59500e082921db3f8e7e89948b10ab",
+      "perceptualHash": "3f7d172eae1e6cd0",
+      "dominantColors": [
+        "#A33A3A",
+        "#6F2727",
+        "#CB4847"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Nexus Labs",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 04",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Nexus Labs",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 04",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Nexus Labs — Official Vector Mark, vector marks for Nexus Labs.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/nexus-labs-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/nexus-labs-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/nexus-labs-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/nexus-labs-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/nexus-labs-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/nexus-labs-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/nexus-labs-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/nexus-labs-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/nexus-labs-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/nexus-labs-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_9f4e01c5860c7c54778d",
       "title": "Nexus Monumental Portal",
       "slug": "nexus-monumental-portal-gphotos-206",
@@ -40729,6 +43787,145 @@
       "classificationNotes": "Division pairing verified from the film's explicit branded end card."
     },
     {
+      "id": "cstk_621b12eee8a6c4df85b3",
+      "title": "Nomad Nexus — Official Vector Mark",
+      "slug": "nomad-nexus-official-vector-mark",
+      "description": "Division 19. Dark globe with mountain and sun, and the key that opens borders. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Nomad Nexus",
+      "divisionSlug": "nomad-nexus",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "nomad-nexus-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 166259,
+      "fileSizeHuman": "162.4 KB",
+      "contentHash": "621b12eee8a6c4df85b3a5dba0b512ba7300aad036019b0a27d28b49687983b7",
+      "perceptualHash": "3f1f27269e86a4d8",
+      "dominantColors": [
+        "#4A3021",
+        "#322116",
+        "#5C3C29"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Nomad Nexus",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 19",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Nomad Nexus",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 19",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "Nomad Nexus — Official Vector Mark, vector marks for Nomad Nexus.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/nomad-nexus-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/nomad-nexus-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_b511a7215e85a432e4c1",
       "title": "Nomad Nexus Mobile Companion",
       "slug": "nomad-nexus-mobile-companion-gphotos-116",
@@ -42337,6 +45534,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": "high",
       "classificationNotes": "Division pairing verified from the film's explicit branded end card."
+    },
+    {
+      "id": "cstk_dda16eff6bf891647615",
+      "title": "Obsidian Arc — Official Vector Mark",
+      "slug": "obsidian-arc-official-vector-mark",
+      "description": "Division 11. Sentinel eye on ultraviolet with a red arc beneath. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Obsidian Arc",
+      "divisionSlug": "obsidian-arc",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "obsidian-arc-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 204555,
+      "fileSizeHuman": "199.8 KB",
+      "contentHash": "dda16eff6bf8916476151df92366615dedfa062c9e2cf2ac11279fafceb6a5ea",
+      "perceptualHash": "3f3f0f0f8e8e9cb0",
+      "dominantColors": [
+        "#353062",
+        "#242143",
+        "#423C7A"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Obsidian Arc",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 11",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Obsidian Arc",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 11",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Obsidian Arc — Official Vector Mark, vector marks for Obsidian Arc.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/obsidian-arc-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/obsidian-arc-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_2bf5a257637c12be9311",
@@ -45353,6 +48689,145 @@
       "classificationNotes": "Division pairing verified from the film's explicit branded end card."
     },
     {
+      "id": "cstk_a24b401d203e150e0490",
+      "title": "Quantum Ledger — Official Vector Mark",
+      "slug": "quantum-ledger-official-vector-mark",
+      "description": "Division 14. Ionic column wound by a quantum helix. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Quantum Ledger",
+      "divisionSlug": "quantum-ledger",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "quantum-ledger-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 162078,
+      "fileSizeHuman": "158.3 KB",
+      "contentHash": "a24b401d203e150e0490743e47e718a354e6246180f97021da1dfed841bbcce7",
+      "perceptualHash": "3f7d960e4d8e96e8",
+      "dominantColors": [
+        "#352C58",
+        "#241E3C",
+        "#42376D"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Quantum Ledger",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 14",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Quantum Ledger",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 14",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Quantum Ledger — Official Vector Mark, vector marks for Quantum Ledger.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/quantum-ledger-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/quantum-ledger-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_4286fe6f8f8f88362643",
       "title": "Quantum Ledger Executive Analytics",
       "slug": "quantum-ledger-executive-analytics-gphotos-081",
@@ -47948,6 +51423,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": null,
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_84c89382611ebd90401b",
+      "title": "Signal Velocity — Official Vector Mark",
+      "slug": "signal-velocity-official-vector-mark",
+      "description": "Division 17. Broadcast arcs on both sides of a rising arrow. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Signal Velocity",
+      "divisionSlug": "signal-velocity",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "signal-velocity-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 199372,
+      "fileSizeHuman": "194.7 KB",
+      "contentHash": "84c89382611ebd90401b1f6c7d3c0157a5f996a9458afcb30f1de817d7e90538",
+      "perceptualHash": "3f3f2f0f0f2e5db0",
+      "dominantColors": [
+        "#AC435D",
+        "#752E3F",
+        "#D55373"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Signal Velocity",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 17",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Signal Velocity",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 17",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Signal Velocity — Official Vector Mark, vector marks for Signal Velocity.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/signal-velocity-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/signal-velocity-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/signal-velocity-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/signal-velocity-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/signal-velocity-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/signal-velocity-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/signal-velocity-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/signal-velocity-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/signal-velocity-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/signal-velocity-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_c51b6d10b15b70f94e9f",
@@ -50771,6 +54385,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": "high",
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_310880d1f837dc75bddb",
+      "title": "Terra Axis — Official Vector Mark",
+      "slug": "terra-axis-official-vector-mark",
+      "description": "Division 05. Structural blueprint mark on carbon and burgundy. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "Terra Axis",
+      "divisionSlug": "terra-axis",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "terra-axis-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 101106,
+      "fileSizeHuman": "98.7 KB",
+      "contentHash": "310880d1f837dc75bddbea0a72d12e3972d669d73171a07cd561f1855ffca186",
+      "perceptualHash": "3f69b6468e96ced0",
+      "dominantColors": [
+        "#3B2627",
+        "#281A1A",
+        "#492F30"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Terra Axis",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 05",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Terra Axis",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 05",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "Terra Axis — Official Vector Mark, vector marks for Terra Axis.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/terra-axis-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/terra-axis-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/terra-axis-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/terra-axis-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/terra-axis-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/terra-axis-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/terra-axis-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/terra-axis-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/terra-axis-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/terra-axis-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_0f4a349fb8cfa4c5f993",
@@ -55007,6 +58760,145 @@
       "classificationNotes": null
     },
     {
+      "id": "cstk_c423cdce7767bf0290cd",
+      "title": "The Collective — Official Vector Mark",
+      "slug": "the-collective-official-vector-mark",
+      "description": "Division 02. A cream C closing around a copper growth line. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "The Collective",
+      "divisionSlug": "the-collective",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "the-collective-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 151779,
+      "fileSizeHuman": "148.2 KB",
+      "contentHash": "c423cdce7767bf0290cda956d15f479ba444aef6a39ca553e83672702a70035b",
+      "perceptualHash": "3f7f0f979f8eec94",
+      "dominantColors": [
+        "#275946",
+        "#1B3D30",
+        "#316E57"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "The Collective",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 02",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "The Collective",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 02",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "The Collective — Official Vector Mark, vector marks for The Collective.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/the-collective-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/the-collective-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/the-collective-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/the-collective-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/the-collective-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/the-collective-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/the-collective-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/the-collective-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/the-collective-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/the-collective-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_3ac74d06518ab40d6a1c",
       "title": "Accelerated Future Gateway",
       "slug": "accelerated-future-gateway-gphotos-107",
@@ -57320,6 +61212,145 @@
       "classificationNotes": null
     },
     {
+      "id": "cstk_f7a4af619c74ff1eb737",
+      "title": "VectorShift — Official Vector Mark",
+      "slug": "vectorshift-official-vector-mark",
+      "description": "Division 18. Eagle in a forward dive, trailing route-circuit lines. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Vector Shift",
+      "divisionSlug": "vector-shift",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "vector-shift-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 123923,
+      "fileSizeHuman": "121.0 KB",
+      "contentHash": "f7a4af619c74ff1eb73740edff589e6099b931bba51ff8490214863c1fecfb8b",
+      "perceptualHash": "3f6d3b1e1ebacc90",
+      "dominantColors": [
+        "#293548",
+        "#1C2431",
+        "#324159"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "VectorShift",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 18",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "VectorShift",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 18",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "VectorShift — Official Vector Mark, vector marks for Vector Shift.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/vector-shift-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/vector-shift-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/vector-shift-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/vector-shift-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/vector-shift-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/vector-shift-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/vector-shift-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/vector-shift-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/vector-shift-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/vector-shift-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
+    },
+    {
       "id": "cstk_aa8c8b8b31bab1dccbe5",
       "title": "Bio-Neural Spiral",
       "slug": "bio-neural-spiral-gphotos-133",
@@ -58493,6 +62524,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": null,
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_4d826dc8db1fe5404ae7",
+      "title": "Vital Helix — Official Vector Mark",
+      "slug": "vital-helix-official-vector-mark",
+      "description": "Division 06. Double helix: two teal strands with Vital Orange rungs. Official tile mark drawn on the 64-unit grid used across Collective AI. Chartered division; mark held on file and not yet on a live division site.",
+      "division": "Vital Helix",
+      "divisionSlug": "vital-helix",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "vital-helix-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 180140,
+      "fileSizeHuman": "175.9 KB",
+      "contentHash": "4d826dc8db1fe5404ae7cb1c708b59c648c96d821a076680a9ee183bd02b4edb",
+      "perceptualHash": "3f7f1f0f4f0f5588",
+      "dominantColors": [
+        "#31897E",
+        "#215D56",
+        "#3CAA9D"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "Vital Helix",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 06",
+        "chartered",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "Vital Helix",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 06",
+        "chartered",
+        "Collective AI"
+      ],
+      "altText": "Vital Helix — Official Vector Mark, vector marks for Vital Helix.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/vital-helix-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/vital-helix-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/vital-helix-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/vital-helix-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/vital-helix-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/vital-helix-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/vital-helix-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/vital-helix-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/vital-helix-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/vital-helix-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_29b7ffa45d35545b7ec8",
@@ -61920,6 +66090,145 @@
       "approvalStatus": "source-verified",
       "classificationConfidence": null,
       "classificationNotes": null
+    },
+    {
+      "id": "cstk_9d83c4c4b0e6679abdb2",
+      "title": "ZenFlow — Official Vector Mark",
+      "slug": "zenflow-official-vector-mark",
+      "description": "Division 01. Yin-yang whose violet half carries the work and whose other half is the agent lattice. Official tile mark drawn on the 64-unit grid used across Collective AI. Active division; mark ships on the live division site.",
+      "division": "ZenFlow",
+      "divisionSlug": "zenflow",
+      "classification": "division",
+      "mediaType": "image",
+      "category": "Vector Marks",
+      "categorySlug": "vector-marks",
+      "originalFilename": "zenflow-vector-mark.png",
+      "albumIndex": null,
+      "sourceAlbum": null,
+      "sourceUrl": null,
+      "source": "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+      "series": "Division Vector Marks",
+      "batch": "Official division vector marks, 2026-11-17",
+      "revision": 1,
+      "generationDate": null,
+      "ingestedAt": "2026-11-17",
+      "prompt": null,
+      "width": 1024,
+      "height": 1024,
+      "duration": null,
+      "audioProfile": null,
+      "captionStatus": null,
+      "aspectRatio": "1:1",
+      "orientation": "square",
+      "fileFormat": "png",
+      "mimeType": "image/png",
+      "fileSize": 142652,
+      "fileSizeHuman": "139.3 KB",
+      "contentHash": "9d83c4c4b0e6679abdb27ecde620a0cef746f52c819f6a8833a428ba1f792b80",
+      "perceptualHash": "3f5d9e12068eccf0",
+      "dominantColors": [
+        "#2C2450",
+        "#1E1836",
+        "#372C63"
+      ],
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "searchKeywords": [
+        "ZenFlow",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 01",
+        "active",
+        "Collective AI"
+      ],
+      "semanticTags": [
+        "ZenFlow",
+        "vector mark",
+        "logo",
+        "official mark",
+        "division 01",
+        "active",
+        "Collective AI"
+      ],
+      "altText": "ZenFlow — Official Vector Mark, vector marks for ZenFlow.",
+      "intendedUse": [
+        "Official logo placement",
+        "Favicons and app icons",
+        "Decks, documents and print"
+      ],
+      "license": {
+        "slug": "collective-ai-internal-use"
+      },
+      "visibility": "public",
+      "downloadAuthorization": "authenticated",
+      "originalDownloadPath": "/assets/originals/division-vector-marks/zenflow-vector-mark.png",
+      "optimizedRenditions": [
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "avif",
+          "path": "/assets/optimized/zenflow-vector-mark-thumbnail-360.avif"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "jpg",
+          "path": "/assets/optimized/zenflow-vector-mark-thumbnail-360.jpg"
+        },
+        {
+          "label": "thumbnail",
+          "width": 360,
+          "format": "webp",
+          "path": "/assets/optimized/zenflow-vector-mark-thumbnail-360.webp"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "avif",
+          "path": "/assets/optimized/zenflow-vector-mark-card-800.avif"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "jpg",
+          "path": "/assets/optimized/zenflow-vector-mark-card-800.jpg"
+        },
+        {
+          "label": "card",
+          "width": 800,
+          "format": "webp",
+          "path": "/assets/optimized/zenflow-vector-mark-card-800.webp"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "avif",
+          "path": "/assets/optimized/zenflow-vector-mark-large-1800.avif"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "jpg",
+          "path": "/assets/optimized/zenflow-vector-mark-large-1800.jpg"
+        },
+        {
+          "label": "large",
+          "width": 1800,
+          "format": "webp",
+          "path": "/assets/optimized/zenflow-vector-mark-large-1800.webp"
+        }
+      ],
+      "posterPath": null,
+      "previewPath": null,
+      "previewAudio": null,
+      "relatedAssets": [],
+      "featured": false,
+      "approvalStatus": "source-verified",
+      "classificationConfidence": "high",
+      "classificationNotes": "Division identity is defined by the mark key in logos.js."
     },
     {
       "id": "cstk_1062c9ec0ac72468f4d4",

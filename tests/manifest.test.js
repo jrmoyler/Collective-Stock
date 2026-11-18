@@ -27,7 +27,7 @@ describe("asset manifest contract", () => {
   });
   it("reconciles every supplied file without silently counting inferred history", () => {
     expect(audit.totalFilesDiscovered).toBe(audit.totalUniqueAssetsIngested + audit.exactDuplicates);
-    expect(audit.totalFilesDiscovered).toBe(466);
+    expect(audit.totalFilesDiscovered).toBe(497);
     expect(audit.missingOrInaccessible).toBe(0);
     expect(audit.missingBatches).toBe(0);
     expect(audit.brokenAssets).toBe(0);
@@ -48,6 +48,10 @@ describe("asset manifest contract", () => {
     expect(intros.find((asset) => asset.originalDownloadPath.endsWith("violet-synaptic-mirror-intro-video.mp4"))).toMatchObject({ divisionSlug: "zenflow", classificationConfidence: "high" });
     expect(motion).toHaveLength(26);
     expect(userUploads).toHaveLength(7);
+    const vectorMarks = manifest.assets.filter((asset) => asset.series === "Division Vector Marks" && asset.categorySlug === "vector-marks");
+    expect(vectorMarks).toHaveLength(31);
+    expect(new Set(vectorMarks.map((asset) => asset.title)).size).toBe(31);
+    expect(vectorMarks.filter((asset) => asset.classification === "division")).toHaveLength(20);
     expect(motion.every((asset) => ["animal-stock", "general-stock"].includes(asset.classification))).toBe(true);
     expect(userUploads.every((asset) => ["animal-stock", "general-stock"].includes(asset.classification))).toBe(true);
     [...intros, ...motion].forEach((asset) => {

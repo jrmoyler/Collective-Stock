@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<defs><radialGradient id="g" cx="30%" cy="15%" r="110%"><stop offset="0" stop-color="#4F46E5"/><stop offset=".72" stop-color="#0A0A14"/></radialGradient>
+<linearGradient id="h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect width="64" height="64" rx="18" fill="url(#g)"/><rect x=".5" y=".5" width="63" height="63" rx="17.5" fill="url(#h)" stroke="#fff" stroke-opacity=".12"/>
+<g transform="translate(9.6 9.6) scale(.7)"><path d="M11 31 Q32 11 53 31 Q32 51 11 31 Z" fill="#0A0A10" fill-opacity=".55" stroke="#E2E8F0" stroke-width="2.4"/>
+      <circle cx="32" cy="31" r="8" stroke="#E2E8F0" stroke-width="2"/>
+      <circle cx="32" cy="31" r="3.6" fill="#EF4444"/>
+      <circle cx="34" cy="28.8" r="1.1" fill="#fff"/>
+      <path d="M15 47 Q32 56 50 44" stroke="#EF4444" stroke-width="2.8"/>
+      <path fill="#EF4444" d="M50 44 L44.5 43.6 L48.6 49.4 Z"/></g></svg>

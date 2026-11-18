@@ -31,8 +31,77 @@ const ANIMAL_MOTION_FILMS = new Set([
   "silverback-in-monochrome"
 ]);
 
+// Official division vector marks: the 64-grid tile system from collective-ai-divisions/build/logos.js.
+// Eleven ship on the live division sites; nineteen were drawn on 2026-11-14 and are held on file.
+const VECTOR_MARKS = {
+  "collective-ai-inc": ["Collective AI Inc", "00", "parent", "Gold four-point star on navy, the parent mark."],
+  "zenflow": ["ZenFlow", "01", "active", "Yin-yang whose violet half carries the work and whose other half is the agent lattice."],
+  "the-collective": ["The Collective", "02", "active", "A cream C closing around a copper growth line."],
+  "hybrid-living": ["Hybrid Living", "03", "active", "Shield with light rising over a horizon and a path leading toward it."],
+  "nexus-labs": ["Nexus Labs", "04", "active", "Four-segment studio orbit around a play mark, with a spark."],
+  "terra-axis": ["Terra Axis", "05", "active", "Structural blueprint mark on carbon and burgundy."],
+  "vital-helix": ["Vital Helix", "06", "chartered", "Double helix: two teal strands with Vital Orange rungs."],
+  "binary-loom": ["Binary Loom", "07", "active", "Hex loom with two threads woven under a code bracket."],
+  "gaia-synthesis": ["Gaia Synthesis", "08", "chartered", "Split coin: leaf veins on the organic half, circuit on the digital half."],
+  "animus-prime": ["Animus Prime", "09", "chartered", "Split head, machine half and human half, with lightning on the seam. The only cyan mark."],
+  "aether-link": ["Aether Link", "10", "chartered", "Chibi astronaut robot: cream helmet, dark visor, antenna sending signal."],
+  "obsidian-arc": ["Obsidian Arc", "11", "active", "Sentinel eye on ultraviolet with a red arc beneath."],
+  "kinetic-edge": ["Kinetic Edge", "12", "active", "A flexed arm built from a triangulated node lattice."],
+  "civic-core": ["Civic Core", "13", "chartered", "A dove in flight whose tail dissolves into pastel pixels."],
+  "quantum-ledger": ["Quantum Ledger", "14", "active", "Ionic column wound by a quantum helix."],
+  "cognara-mind": ["Cognara Mind", "15", "chartered", "Rose shield holding a polygonal brain over an ECG pulse."],
+  "juris-guard": ["Juris Guard", "16", "active", "Gold shield carrying the watchful owl."],
+  "signal-velocity": ["Signal Velocity", "17", "active", "Broadcast arcs on both sides of a rising arrow."],
+  "vector-shift": ["VectorShift", "18", "chartered", "Eagle in a forward dive, trailing route-circuit lines."],
+  "nomad-nexus": ["Nomad Nexus", "19", "chartered", "Dark globe with mountain and sun, and the key that opens borders."],
+  "eon-core": ["Eon Core", "20", "chartered", "Hourglass whose lower sand settles as pixels."],
+  "astral-forge": ["Astral Forge", "21", "pending", "A star launched off the anvil."],
+  "materia-nova": ["Materia Nova", "22", "pending", "Crystal lattice cell with a nova at its apex."],
+  "aqua-meridian": ["Aqua Meridian", "23", "pending", "Globe on its meridian with three tide lines."],
+  "nourish-grid": ["Nourish Grid", "24", "pending", "A wheat stalk rising out of planted grid rows."],
+  "sovereign-key": ["Sovereign Key", "25", "pending", "A key whose bow is a fingerprint seal."],
+  "praesidium-mutual": ["Praesidium Mutual", "26", "pending", "One canopy over the members it pools."],
+  "mercantile-circuit": ["Mercantile Circuit", "27", "pending", "A storefront awning over a coin wired into the network."],
+  "human-foundry": ["Human Foundry", "28", "pending", "A person at the centre of the gear that forges them."],
+  "volta-grid": ["Volta Grid", "29", "pending", "A charge running through a six-node grid."],
+  "hearth-nexus": ["Hearth Nexus", "30", "pending", "A home with a living flame, smoke rising as network nodes."]
+};
+
 function derivedRule(file) {
   const token = posixPath(file).toLowerCase();
+  if (token.includes("/assets/originals/division-vector-marks/")) {
+    const key = path.basename(file, path.extname(file)).replace(/-vector-mark$/i, "");
+    const entry = VECTOR_MARKS[key];
+    if (entry) {
+      const [markName, number, status, concept] = entry;
+      const known = divisions.find((item) => item.slug === key);
+      const isParent = key === "collective-ai-inc";
+      const owner = known || divisions.find((item) => item.slug === "collective-ai-inc");
+      const statusNote = status === "pending"
+        ? "Pending until activation; palette is provisional because the June 2026 colour lock covers divisions 01-20 only."
+        : status === "chartered" ? "Chartered division; mark held on file and not yet on a live division site." : isParent ? "Parent-company mark." : "Active division; mark ships on the live division site.";
+      return {
+        title: isParent ? "Collective AI Inc — Official Vector Mark" : `${markName} — Official Vector Mark`,
+        description: `${isParent ? "" : `Division ${number}. `}${concept} Official tile mark drawn on the 64-unit grid used across Collective AI. ${statusNote}`,
+        division: owner.name,
+        divisionSlug: owner.slug,
+        classification: isParent || !known ? "parent-brand" : "division",
+        category: "Vector Marks",
+        categorySlug: "vector-marks",
+        series: "Division Vector Marks",
+        source: "collective-ai-divisions/build/logos.js (MARKS, tileFile)",
+        batch: "Official division vector marks, 2026-11-17",
+        ingestedAt: "2026-11-17",
+        visibility: "public",
+        license: "collective-ai-internal-use",
+        downloadAuthorization: "authenticated",
+        classificationConfidence: "high",
+        classificationNotes: known || isParent ? "Division identity is defined by the mark key in logos.js." : `${markName} has no division gallery yet, so its mark is filed under the parent brand.`,
+        tags: [markName, "vector mark", "logo", "official mark", `division ${number}`, status, "Collective AI"],
+        intendedUse: ["Official logo placement", "Favicons and app icons", "Decks, documents and print"]
+      };
+    }
+  }
   if (token.includes("/assets/originals/component-library/")) {
     const isReference = token.includes("-brand-reference-sheet.");
     const division = divisionByToken.find((item) => token.includes(`/${item.slug}-`)) || divisions.find((item) => item.slug === "collective-ai-inc");

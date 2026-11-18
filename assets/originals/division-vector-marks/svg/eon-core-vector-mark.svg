@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<defs><radialGradient id="g" cx="30%" cy="15%" r="110%"><stop offset="0" stop-color="#2A2350"/><stop offset=".72" stop-color="#070C14"/></radialGradient>
+<linearGradient id="h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect width="64" height="64" rx="18" fill="url(#g)"/><rect x=".5" y=".5" width="63" height="63" rx="17.5" fill="url(#h)" stroke="#fff" stroke-opacity=".12"/>
+<g transform="translate(9.6 9.6) scale(.7)"><path d="M19.5 12 H44.5 M19.5 52 H44.5" stroke="#FFFBEB" stroke-width="3"/>
+      <path d="M23 14 C23 24 30 28 30 32 C30 36 23 40 23 50 M41 14 C41 24 34 28 34 32 C34 36 41 40 41 50" stroke="#F5F0E8" stroke-width="2"/>
+      <path fill="#E8DCC8" d="M26 19 H38 C37 24 33.5 27 32 29.5 C30.5 27 27 24 26 19 Z"/>
+      <g fill="#E8DCC8"><rect x="31.4" y="31" width="1.2" height="2.4"/><rect x="31.4" y="35" width="1.2" height="2"/>
+      <rect x="25.6" y="45.6" width="2.6" height="2.6"/><rect x="28.6" y="45.6" width="2.6" height="2.6"/><rect x="31.6" y="45.6" width="2.6" height="2.6"/><rect x="34.6" y="45.6" width="2.6" height="2.6"/>
+      <rect x="28.6" y="42.6" width="2.6" height="2.6"/><rect x="31.6" y="42.6" width="2.6" height="2.6"/><rect x="31.6" y="39.6" width="2.6" height="2.6" opacity=".7"/></g>
+      <g fill="#E8DCC8"><rect x="45" y="36" width="2.2" height="2.2" opacity=".7"/><rect x="48.5" y="31.5" width="1.8" height="1.8" opacity=".5"/><rect x="51" y="37.5" width="1.4" height="1.4" opacity=".35"/></g></g></svg>
