@@ -371,6 +371,7 @@ export function callTool({ name, args = {}, manifest, divisions = [], origin }) 
     const matches = assets.filter((asset) => asset.divisionSlug === division.slug);
     const reference = matches.find((asset) => asset.categorySlug === "reference-images");
     const component = matches.find((asset) => asset.categorySlug === "component-sheets");
+    const vectorMark = matches.find((asset) => asset.categorySlug === "vector-marks");
     return textResult({
       slug: division.slug,
       name: division.name,
@@ -380,6 +381,7 @@ export function callTool({ name, args = {}, manifest, divisions = [], origin }) 
       tagline: division.tagline,
       palette: { background: division.background, surface: division.surface, accent: division.accent, secondary: division.secondary },
       logo_url: absoluteUrl(division.logoPath, origin),
+      vector_mark_asset: vectorMark ? summarize(vectorMark, origin) : null,
       collection_url: `${origin}/divisions/${division.slug}`,
       reference_asset: reference ? summarize(reference, origin) : null,
       component_asset: component ? summarize(component, origin) : null

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<defs><radialGradient id="g" cx="30%" cy="15%" r="110%"><stop offset="0" stop-color="#1A4D2E"/><stop offset=".72" stop-color="#0A1008"/></radialGradient>
+<linearGradient id="h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect width="64" height="64" rx="18" fill="url(#g)"/><rect x=".5" y=".5" width="63" height="63" rx="17.5" fill="url(#h)" stroke="#fff" stroke-opacity=".12"/>
+<g transform="translate(9.6 9.6) scale(.7)"><circle cx="32" cy="32" r="20" stroke="#C9A84C" stroke-width="2.4"/>
+      <path d="M32 12 V52" stroke="#C9A84C" stroke-width="1.6"/>
+      <path fill="#C9A84C" fill-opacity=".18" stroke="#E7D49A" stroke-width="2" d="M30.5 46 C17.5 42 16 27 26 18 C29.5 25 30.5 35 30.5 46 Z"/>
+      <path d="M30 44 Q25.5 33 25.5 22 M27 36 L22 33 M28.2 29 L23.5 26.5" stroke="#E7D49A" stroke-width="1.2"/>
+      <path d="M33 23.5 H39.5 L43.5 19.5 M33 32 H47 M33 40.5 H39.5 L43.5 44.5" stroke="#C9A84C" stroke-width="1.8"/>
+      <g fill="#E7D49A"><circle cx="43.5" cy="19.5" r="2"/><circle cx="47" cy="32" r="2"/><circle cx="43.5" cy="44.5" r="2"/></g></g></svg>

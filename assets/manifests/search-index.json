@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T20:50:31.121-04:00",
+  "generatedAt": "2026-11-17T20:09:08.272-05:00",
   "documents": [
     {
       "id": "cstk_2c0d34be54302f1c19e5",
@@ -148,6 +148,13 @@
       "division": "Aether Link",
       "category": "Brand Sheets",
       "text": "aether link — gallery logo reference aether link brand sheets design system bible division gallery logos gallery-10-aether-link.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #313b3f #21282b #3d494e"
+    },
+    {
+      "id": "cstk_aedfc16e4e50ac379017",
+      "title": "Aether Link — Official Vector Mark",
+      "division": "Aether Link",
+      "category": "Vector Marks",
+      "text": "aether link — official vector mark aether link vector marks division vector marks aether-link-vector-mark.png aether link vector mark logo official mark division 10 chartered collective ai aether link vector mark logo official mark division 10 chartered collective ai official logo placement favicons and app icons decks, documents and print #5e3626 #40251a #74432f"
     },
     {
       "id": "cstk_5e0a64d173d0a04850b7",
@@ -318,6 +325,13 @@
       "text": "animus prime — gallery logo reference animus prime brand sheets design system bible division gallery logos gallery-16-animus-prime.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #6f7b82 #4b5458 #8999a1"
     },
     {
+      "id": "cstk_51c8823e4b52a531b9e2",
+      "title": "Animus Prime — Official Vector Mark",
+      "division": "Animus Prime",
+      "category": "Vector Marks",
+      "text": "animus prime — official vector mark animus prime vector marks division vector marks animus-prime-vector-mark.png animus prime vector mark logo official mark division 09 chartered collective ai animus prime vector mark logo official mark division 09 chartered collective ai official logo placement favicons and app icons decks, documents and print #232e38 #181f26 #2b3946"
+    },
+    {
       "id": "cstk_bc25a5431a7a9a896a57",
       "title": "Autonomous Street Robot",
       "division": "Animus Prime",
@@ -428,6 +442,13 @@
       "division": "Binary Loom",
       "category": "Brand Sheets",
       "text": "binary loom — gallery logo reference binary loom brand sheets design system bible division gallery logos gallery-08-binary-loom.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #a2b2c2 #6e7984 #c9ddf1"
+    },
+    {
+      "id": "cstk_197c089e8ecd66f09e4e",
+      "title": "Binary Loom — Official Vector Mark",
+      "division": "Binary Loom",
+      "category": "Vector Marks",
+      "text": "binary loom — official vector mark binary loom vector marks division vector marks binary-loom-vector-mark.png binary loom vector mark logo official mark division 07 active collective ai binary loom vector mark logo official mark division 07 active collective ai official logo placement favicons and app icons decks, documents and print #272f19 #1a2011 #303a20"
     },
     {
       "id": "cstk_f8ab4c646a746b4c7cd4",
@@ -549,6 +570,13 @@
       "text": "civic core — gallery logo reference civic core brand sheets design system bible division gallery logos gallery-12-civic-core.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #243041 #19212c #2d3c50"
     },
     {
+      "id": "cstk_b32dfd3eb2a1a17bc507",
+      "title": "Civic Core — Official Vector Mark",
+      "division": "Civic Core",
+      "category": "Vector Marks",
+      "text": "civic core — official vector mark civic core vector marks division vector marks civic-core-vector-mark.png civic core vector mark logo official mark division 13 chartered collective ai civic core vector mark logo official mark division 13 chartered collective ai official logo placement favicons and app icons decks, documents and print #2e3853 #1f2639 #394667"
+    },
+    {
       "id": "cstk_b16eab858a43ba14cdf6",
       "title": "Civic Core Innovation Lobby",
       "division": "Civic Core",
@@ -652,6 +680,13 @@
       "division": "Cognara Mind",
       "category": "Brand Sheets",
       "text": "cognara mind — gallery logo reference cognara mind brand sheets design system bible division gallery logos gallery-13-cognara-mind.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #2b1319 #1d0d11 #35181f"
+    },
+    {
+      "id": "cstk_1fbaec713f4daa98b037",
+      "title": "Cognara Mind — Official Vector Mark",
+      "division": "Cognara Mind",
+      "category": "Vector Marks",
+      "text": "cognara mind — official vector mark cognara mind vector marks division vector marks cognara-mind-vector-mark.png cognara mind vector mark logo official mark division 15 chartered collective ai cognara mind vector mark logo official mark division 15 chartered collective ai official logo placement favicons and app icons decks, documents and print #4e1832 #351022 #601e3e"
     },
     {
       "id": "cstk_75b7dd0e4f02a0d9da7c",
@@ -850,11 +885,25 @@
       "text": "a storefront through the arch collective ai inc motion films collective stock motion film library grok-video-2026-08-08-23-57-42.mp4 motion film cinematic study ambient motion general stock collective stock motion film cinematic study ambient motion general stock collective stock website motion editorial film presentation backgrounds approved brand production #0d1326 #09101d #15203a"
     },
     {
+      "id": "cstk_917f500187bb2a75b372",
+      "title": "Aqua Meridian — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "aqua meridian — official vector mark collective ai inc vector marks division vector marks aqua-meridian-vector-mark.png aqua meridian vector mark logo official mark division 23 pending collective ai aqua meridian vector mark logo official mark division 23 pending collective ai official logo placement favicons and app icons decks, documents and print #243a71 #19284d #2d488c"
+    },
+    {
       "id": "cstk_aa1bfcfa5b1bd7b4959e",
       "title": "Arctic Fox In The Morning Haze",
       "division": "Collective AI Inc",
       "category": "Motion Films",
       "text": "arctic fox in the morning haze collective ai inc motion films collective stock motion film library grok-video-2026-08-09-00-01-23.mp4 motion film cinematic study ambient motion animals collective stock motion film cinematic study ambient motion animals collective stock website motion editorial film presentation backgrounds approved brand production #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_fc8a289c3def3c77e1ef",
+      "title": "Astral Forge — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "astral forge — official vector mark collective ai inc vector marks division vector marks astral-forge-vector-mark.png astral forge vector mark logo official mark division 21 pending collective ai astral forge vector mark logo official mark division 21 pending collective ai official logo placement favicons and app icons decks, documents and print #332342 #22182d #3f2b52"
     },
     {
       "id": "cstk_5f863de68a9716a65d85",
@@ -969,6 +1018,13 @@
       "text": "collective ai inc — neural processor chip collective ai inc stock images collective ai inc / google photos archive collective_ai_stock_09_neural_processor_chip.png collective stock — google photos export 2026-08-08 5 collective ai inc stock images collective ai collective stock google photos archive collective inc neural processor chip collective ai inc stock images collective ai collective stock google photos archive collective inc neural processor chip stock images collective ai creative production internal and approved public media use #0c1c27 #08131a #0f2230"
     },
     {
+      "id": "cstk_18eb0a0b9b96406fc782",
+      "title": "Collective AI Inc — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "collective ai inc — official vector mark collective ai inc vector marks division vector marks collective-ai-inc-vector-mark.png collective ai inc vector mark logo official mark division 00 parent collective ai collective ai inc vector mark logo official mark division 00 parent collective ai official logo placement favicons and app icons decks, documents and print #242936 #191c25 #2d3243"
+    },
+    {
       "id": "cstk_8b142acb14c89eabe736",
       "title": "Collective AI Inc — Prism Headquarters",
       "division": "Collective AI Inc",
@@ -1030,6 +1086,20 @@
       "division": "Collective AI Inc",
       "category": "Reference Images",
       "text": "dustworld astronaut 04 collective ai inc reference images collective stock / general stock img-20260205-wa0013.jpg collective stock — google photos export 2026-08-08 323 general stock reference images collective ai collective stock google photos archive dustworld astronaut general stock reference images collective ai collective stock google photos archive dustworld astronaut reference images collective ai creative production internal and approved public media use #987050 #684c36 #bd8a63"
+    },
+    {
+      "id": "cstk_277ca4be0aca70ca19bc",
+      "title": "Hearth Nexus — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "hearth nexus — official vector mark collective ai inc vector marks division vector marks hearth-nexus-vector-mark.png hearth nexus vector mark logo official mark division 30 pending collective ai hearth nexus vector mark logo official mark division 30 pending collective ai official logo placement favicons and app icons decks, documents and print #44261f #2f1a15 #553026"
+    },
+    {
+      "id": "cstk_9aceb554bac36c76488f",
+      "title": "Human Foundry — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "human foundry — official vector mark collective ai inc vector marks division vector marks human-foundry-vector-mark.png human foundry vector mark logo official mark division 28 pending collective ai human foundry vector mark logo official mark division 28 pending collective ai official logo placement favicons and app icons decks, documents and print #3f2c34 #2b1e23 #4e3640"
     },
     {
       "id": "cstk_efe668e3b3b08e1b3f82",
@@ -1137,6 +1207,20 @@
       "text": "luminous bio-tree 04 collective ai inc reference images collective stock / general stock img-20260122-wa0024.jpg collective stock — google photos export 2026-08-08 322 general stock reference images collective ai collective stock google photos archive luminous bio-tree general stock reference images collective ai collective stock google photos archive luminous bio-tree reference images collective ai creative production internal and approved public media use #453845 #2f262f #564656"
     },
     {
+      "id": "cstk_18a98b5b9a97a5127a5c",
+      "title": "Materia Nova — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "materia nova — official vector mark collective ai inc vector marks division vector marks materia-nova-vector-mark.png materia nova vector mark logo official mark division 22 pending collective ai materia nova vector mark logo official mark division 22 pending collective ai official logo placement favicons and app icons decks, documents and print #292a42 #1c1d2d #323451"
+    },
+    {
+      "id": "cstk_7c8e6f98df30ddc9d18c",
+      "title": "Mercantile Circuit — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "mercantile circuit — official vector mark collective ai inc vector marks division vector marks mercantile-circuit-vector-mark.png mercantile circuit vector mark logo official mark division 27 pending collective ai mercantile circuit vector mark logo official mark division 27 pending collective ai official logo placement favicons and app icons decks, documents and print #4c3614 #34240d #5e4218"
+    },
+    {
       "id": "cstk_3becdedaf7db242a7c1f",
       "title": "Misty Green Mountain Flyover",
       "division": "Collective AI Inc",
@@ -1221,6 +1305,13 @@
       "text": "night watch at the helm collective ai inc motion films collective stock motion film library 756566234_1786248703710561.mp4 motion film cinematic study ambient motion general stock collective stock motion film cinematic study ambient motion general stock collective stock website motion editorial film presentation backgrounds approved brand production #0d1326 #09101d #15203a"
     },
     {
+      "id": "cstk_353f77aa973ce419828b",
+      "title": "Nourish Grid — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "nourish grid — official vector mark collective ai inc vector marks division vector marks nourish-grid-vector-mark.png nourish grid vector mark logo official mark division 24 pending collective ai nourish grid vector mark logo official mark division 24 pending collective ai official logo placement favicons and app icons decks, documents and print #36391e #242715 #434626"
+    },
+    {
       "id": "cstk_68d18cdc43a10baf1087",
       "title": "Pacific Boulevard in Blue",
       "division": "Collective AI Inc",
@@ -1261,6 +1352,13 @@
       "division": "Collective AI Inc",
       "category": "Motion Films",
       "text": "pilgrimage beneath alien spires collective ai inc motion films collective stock motion film library grok-video-2026-08-08-23-59-23.mp4 motion film cinematic study ambient motion general stock collective stock motion film cinematic study ambient motion general stock collective stock website motion editorial film presentation backgrounds approved brand production #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_63cae4cf6efc7cd5d089",
+      "title": "Praesidium Mutual — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "praesidium mutual — official vector mark collective ai inc vector marks division vector marks praesidium-mutual-vector-mark.png praesidium mutual vector mark logo official mark division 26 pending collective ai praesidium mutual vector mark logo official mark division 26 pending collective ai official logo placement favicons and app icons decks, documents and print #323c32 #222822 #3e4a3e"
     },
     {
       "id": "cstk_7ea1c1291005ed29fc8e",
@@ -1340,6 +1438,13 @@
       "text": "solitude at the modernist house collective ai inc motion films collective stock motion film library grok-video-2026-08-08-23-58-18.mp4 motion film cinematic study ambient motion general stock collective stock motion film cinematic study ambient motion general stock collective stock website motion editorial film presentation backgrounds approved brand production #0d1326 #09101d #15203a"
     },
     {
+      "id": "cstk_e13d819449862f930fa6",
+      "title": "Sovereign Key — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "sovereign key — official vector mark collective ai inc vector marks division vector marks sovereign-key-vector-mark.png sovereign key vector mark logo official mark division 25 pending collective ai sovereign key vector mark logo official mark division 25 pending collective ai official logo placement favicons and app icons decks, documents and print #232e50 #182037 #2c3a64"
+    },
+    {
       "id": "cstk_ffc36d25c3b50ecf73de",
       "title": "Storm over Golden Fields",
       "division": "Collective AI Inc",
@@ -1373,6 +1478,13 @@
       "division": "Collective AI Inc",
       "category": "Motion Films",
       "text": "the long road home — motion study collective ai inc motion films collective stock motion film library 628511007_1786304410263433.mp4 motion film cinematic study ambient motion general stock collective stock motion film cinematic study ambient motion general stock collective stock website motion editorial film presentation backgrounds approved brand production #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_87055086d91263ac2c69",
+      "title": "Volta Grid — Official Vector Mark",
+      "division": "Collective AI Inc",
+      "category": "Vector Marks",
+      "text": "volta grid — official vector mark collective ai inc vector marks division vector marks volta-grid-vector-mark.png volta grid vector mark logo official mark division 29 pending collective ai volta grid vector mark logo official mark division 29 pending collective ai official logo placement favicons and app icons decks, documents and print #2d2a19 #1e1d11 #37341f"
     },
     {
       "id": "cstk_7193654a78864d0c1bad",
@@ -1471,6 +1583,13 @@
       "division": "Eon Core",
       "category": "Brand Sheets",
       "text": "eon core — gallery logo reference eon core brand sheets design system bible division gallery logos gallery-20-eon-core.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #d6d4dc #919096 #ffffff"
+    },
+    {
+      "id": "cstk_e44f59f8e3992498a156",
+      "title": "Eon Core — Official Vector Mark",
+      "division": "Eon Core",
+      "category": "Vector Marks",
+      "text": "eon core — official vector mark eon core vector marks division vector marks eon-core-vector-mark.png eon core vector mark logo official mark division 20 chartered collective ai eon core vector mark logo official mark division 20 chartered collective ai official logo placement favicons and app icons decks, documents and print #2a2a3a #1c1c28 #333449"
     },
     {
       "id": "cstk_537e3692dba135808e5a",
@@ -1590,6 +1709,13 @@
       "division": "Gaia Synthesis",
       "category": "Division Intro Videos",
       "text": "gaia synthesis — living neural spark intro film gaia synthesis division intro videos division intro video library gaia-synthesis-living-neural-spark-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_da08705f70d19889a899",
+      "title": "Gaia Synthesis — Official Vector Mark",
+      "division": "Gaia Synthesis",
+      "category": "Vector Marks",
+      "text": "gaia synthesis — official vector mark gaia synthesis vector marks division vector marks gaia-synthesis-vector-mark.png gaia synthesis vector mark logo official mark division 08 chartered collective ai gaia synthesis vector mark logo official mark division 08 chartered collective ai official logo placement favicons and app icons decks, documents and print #293825 #1c2619 #33462e"
     },
     {
       "id": "cstk_d38640f923d5dabda68f",
@@ -1718,6 +1844,13 @@
       "text": "hybrid living — gallery logo reference hybrid living brand sheets design system bible division gallery logos gallery-03-hybrid-living.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #bfc4c6 #828587 #edf3f6"
     },
     {
+      "id": "cstk_e38e480e5aa7d1bf6390",
+      "title": "Hybrid Living — Official Vector Mark",
+      "division": "Hybrid Living",
+      "category": "Vector Marks",
+      "text": "hybrid living — official vector mark hybrid living vector marks division vector marks hybrid-living-vector-mark.png hybrid living vector mark logo official mark division 03 active collective ai hybrid living vector mark logo official mark division 03 active collective ai official logo placement favicons and app icons decks, documents and print #246d90 #184a62 #2d87b2"
+    },
+    {
       "id": "cstk_075c2122256a3848e791",
       "title": "Hybrid Living Strategy Meeting",
       "division": "Hybrid Living",
@@ -1793,6 +1926,13 @@
       "division": "Juris Guard",
       "category": "Brand Sheets",
       "text": "juris guard — gallery logo reference juris guard brand sheets design system bible division gallery logos gallery-17-juris-guard.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #383b38 #262826 #464a46"
+    },
+    {
+      "id": "cstk_154d6b56eb45b19b5e20",
+      "title": "Juris Guard — Official Vector Mark",
+      "division": "Juris Guard",
+      "category": "Vector Marks",
+      "text": "juris guard — official vector mark juris guard vector marks division vector marks juris-guard-vector-mark.png juris guard vector mark logo official mark division 16 active collective ai juris guard vector mark logo official mark division 16 active collective ai official logo placement favicons and app icons decks, documents and print #323641 #22252d #3e4451"
     },
     {
       "id": "cstk_d10905d4de1c2225d08c",
@@ -1912,6 +2052,13 @@
       "division": "Kinetic Edge",
       "category": "Division Intro Videos",
       "text": "kinetic edge — green vitality pulse intro film kinetic edge division intro videos division intro video library kinetic-edge-green-vitality-pulse-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_165b096da7d6812f6959",
+      "title": "Kinetic Edge — Official Vector Mark",
+      "division": "Kinetic Edge",
+      "category": "Vector Marks",
+      "text": "kinetic edge — official vector mark kinetic edge vector marks division vector marks kinetic-edge-vector-mark.png kinetic edge vector mark logo official mark division 12 active collective ai kinetic edge vector mark logo official mark division 12 active collective ai official logo placement favicons and app icons decks, documents and print #293f30 #1c2b21 #334e3c"
     },
     {
       "id": "cstk_15e1c6abc8afeb4b9d37",
@@ -2047,6 +2194,13 @@
       "text": "nexus labs — gallery logo reference nexus labs brand sheets design system bible division gallery logos gallery-04-nexus-labs.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #efefee #a3a2a2 #ffffff"
     },
     {
+      "id": "cstk_b1733ac33861f25057df",
+      "title": "Nexus Labs — Official Vector Mark",
+      "division": "Nexus Labs",
+      "category": "Vector Marks",
+      "text": "nexus labs — official vector mark nexus labs vector marks division vector marks nexus-labs-vector-mark.png nexus labs vector mark logo official mark division 04 active collective ai nexus labs vector mark logo official mark division 04 active collective ai official logo placement favicons and app icons decks, documents and print #a33a3a #6f2727 #cb4847"
+    },
+    {
       "id": "cstk_9f4e01c5860c7c54778d",
       "title": "Nexus Monumental Portal",
       "division": "Nexus Labs",
@@ -2166,6 +2320,13 @@
       "text": "nomad nexus — networked earth awakening intro film nomad nexus division intro videos division intro video library nomad-nexus-networked-earth-awakening-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
+      "id": "cstk_621b12eee8a6c4df85b3",
+      "title": "Nomad Nexus — Official Vector Mark",
+      "division": "Nomad Nexus",
+      "category": "Vector Marks",
+      "text": "nomad nexus — official vector mark nomad nexus vector marks division vector marks nomad-nexus-vector-mark.png nomad nexus vector mark logo official mark division 19 chartered collective ai nomad nexus vector mark logo official mark division 19 chartered collective ai official logo placement favicons and app icons decks, documents and print #4a3021 #322116 #5c3c29"
+    },
+    {
       "id": "cstk_b511a7215e85a432e4c1",
       "title": "Nomad Nexus Mobile Companion",
       "division": "Nomad Nexus",
@@ -2248,6 +2409,13 @@
       "division": "Obsidian Arc",
       "category": "Division Intro Videos",
       "text": "obsidian arc — lattice data corridor intro film obsidian arc division intro videos division intro video library obsidian-arc-lattice-data-corridor-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
+    },
+    {
+      "id": "cstk_dda16eff6bf891647615",
+      "title": "Obsidian Arc — Official Vector Mark",
+      "division": "Obsidian Arc",
+      "category": "Vector Marks",
+      "text": "obsidian arc — official vector mark obsidian arc vector marks division vector marks obsidian-arc-vector-mark.png obsidian arc vector mark logo official mark division 11 active collective ai obsidian arc vector mark logo official mark division 11 active collective ai official logo placement favicons and app icons decks, documents and print #353062 #242143 #423c7a"
     },
     {
       "id": "cstk_2bf5a257637c12be9311",
@@ -2404,6 +2572,13 @@
       "text": "quantum ledger — global data cartography intro film quantum ledger division intro videos division intro video library quantum-ledger-global-data-cartography-intro-video.mp4 intro video motion identity division identity collective ai intro video motion identity division identity collective ai brand launch division introduction presentations and approved motion use #0d1326 #09101d #15203a"
     },
     {
+      "id": "cstk_a24b401d203e150e0490",
+      "title": "Quantum Ledger — Official Vector Mark",
+      "division": "Quantum Ledger",
+      "category": "Vector Marks",
+      "text": "quantum ledger — official vector mark quantum ledger vector marks division vector marks quantum-ledger-vector-mark.png quantum ledger vector mark logo official mark division 14 active collective ai quantum ledger vector mark logo official mark division 14 active collective ai official logo placement favicons and app icons decks, documents and print #352c58 #241e3c #42376d"
+    },
+    {
       "id": "cstk_4286fe6f8f8f88362643",
       "title": "Quantum Ledger Executive Analytics",
       "division": "Quantum Ledger",
@@ -2535,6 +2710,13 @@
       "division": "Signal Velocity",
       "category": "Brand Sheets",
       "text": "signal velocity — gallery logo reference signal velocity brand sheets design system bible division gallery logos gallery-18-signal-velocity.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #dfe7f2 #989da4 #ffffff"
+    },
+    {
+      "id": "cstk_84c89382611ebd90401b",
+      "title": "Signal Velocity — Official Vector Mark",
+      "division": "Signal Velocity",
+      "category": "Vector Marks",
+      "text": "signal velocity — official vector mark signal velocity vector marks division vector marks signal-velocity-vector-mark.png signal velocity vector mark logo official mark division 17 active collective ai signal velocity vector mark logo official mark division 17 active collective ai official logo placement favicons and app icons decks, documents and print #ac435d #752e3f #d55373"
     },
     {
       "id": "cstk_c51b6d10b15b70f94e9f",
@@ -2675,6 +2857,13 @@
       "division": "Terra Axis",
       "category": "Stock Images",
       "text": "terra axis — modular hillside housing terra axis stock images terra axis / google photos archive 02_terra_axis_modular_hillside_housing.png collective stock — google photos export 2026-08-08 16 terra axis stock images collective ai collective stock google photos archive terra axis modular hillside housing terra axis stock images collective ai collective stock google photos archive terra axis modular hillside housing stock images collective ai creative production internal and approved public media use #6d5d69 #4a3f47 #887382"
+    },
+    {
+      "id": "cstk_310880d1f837dc75bddb",
+      "title": "Terra Axis — Official Vector Mark",
+      "division": "Terra Axis",
+      "category": "Vector Marks",
+      "text": "terra axis — official vector mark terra axis vector marks division vector marks terra-axis-vector-mark.png terra axis vector mark logo official mark division 05 active collective ai terra axis vector mark logo official mark division 05 active collective ai official logo placement favicons and app icons decks, documents and print #3b2627 #281a1a #492f30"
     },
     {
       "id": "cstk_0f4a349fb8cfa4c5f993",
@@ -2894,6 +3083,13 @@
       "text": "the collective — gallery logo reference the collective brand sheets design system bible division gallery logos gallery-02-the-collective.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #dde2e8 #969a9e #ffffff"
     },
     {
+      "id": "cstk_c423cdce7767bf0290cd",
+      "title": "The Collective — Official Vector Mark",
+      "division": "The Collective",
+      "category": "Vector Marks",
+      "text": "the collective — official vector mark the collective vector marks division vector marks the-collective-vector-mark.png the collective vector mark logo official mark division 02 active collective ai the collective vector mark logo official mark division 02 active collective ai official logo placement favicons and app icons decks, documents and print #275946 #1b3d30 #316e57"
+    },
+    {
       "id": "cstk_3ac74d06518ab40d6a1c",
       "title": "Accelerated Future Gateway",
       "division": "Vector Shift",
@@ -3013,6 +3209,13 @@
       "text": "vector shift operations center vector shift stock images vector shift / google photos archive vector_shift_stock_10.png collective stock — google photos export 2026-08-08 108 vector shift stock images collective ai collective stock google photos archive vector shift operations center vector shift stock images collective ai collective stock google photos archive vector shift operations center stock images collective ai creative production internal and approved public media use #1b242d #12181f #212c38"
     },
     {
+      "id": "cstk_f7a4af619c74ff1eb737",
+      "title": "VectorShift — Official Vector Mark",
+      "division": "Vector Shift",
+      "category": "Vector Marks",
+      "text": "vectorshift — official vector mark vector shift vector marks division vector marks vector-shift-vector-mark.png vectorshift vector mark logo official mark division 18 chartered collective ai vectorshift vector mark logo official mark division 18 chartered collective ai official logo placement favicons and app icons decks, documents and print #293548 #1c2431 #324159"
+    },
+    {
       "id": "cstk_aa8c8b8b31bab1dccbe5",
       "title": "Bio-Neural Spiral",
       "division": "Vital Helix",
@@ -3074,6 +3277,13 @@
       "division": "Vital Helix",
       "category": "Brand Sheets",
       "text": "vital helix — gallery logo reference vital helix brand sheets design system bible division gallery logos gallery-14-vital-helix.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #d9dbd0 #94958d #ffffff"
+    },
+    {
+      "id": "cstk_4d826dc8db1fe5404ae7",
+      "title": "Vital Helix — Official Vector Mark",
+      "division": "Vital Helix",
+      "category": "Vector Marks",
+      "text": "vital helix — official vector mark vital helix vector marks division vector marks vital-helix-vector-mark.png vital helix vector mark logo official mark division 06 chartered collective ai vital helix vector mark logo official mark division 06 chartered collective ai official logo placement favicons and app icons decks, documents and print #31897e #215d56 #3caa9d"
     },
     {
       "id": "cstk_29b7ffa45d35545b7ec8",
@@ -3242,6 +3452,13 @@
       "division": "ZenFlow",
       "category": "Brand Sheets",
       "text": "zenflow — gallery logo reference zenflow brand sheets design system bible division gallery logos gallery-01-zenflow.png division logo design system brand mark collective ai division logo design system brand mark collective ai division identity brand reference gallery navigation #3d4047 #2a2c30 #4c4f58"
+    },
+    {
+      "id": "cstk_9d83c4c4b0e6679abdb2",
+      "title": "ZenFlow — Official Vector Mark",
+      "division": "ZenFlow",
+      "category": "Vector Marks",
+      "text": "zenflow — official vector mark zenflow vector marks division vector marks zenflow-vector-mark.png zenflow vector mark logo official mark division 01 active collective ai zenflow vector mark logo official mark division 01 active collective ai official logo placement favicons and app icons decks, documents and print #2c2450 #1e1836 #372c63"
     },
     {
       "id": "cstk_1062c9ec0ac72468f4d4",

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-11T00:05:34.699Z",
-  "totalFilesDiscovered": 466,
-  "totalUniqueAssetsIngested": 466,
-  "totalOriginalOccurrences": 466,
-  "assignedToDivisions": 377,
-  "parentBrandAssets": 18,
+  "generatedAt": "2026-11-18T01:25:29.108Z",
+  "totalFilesDiscovered": 497,
+  "totalUniqueAssetsIngested": 497,
+  "totalOriginalOccurrences": 497,
+  "assignedToDivisions": 397,
+  "parentBrandAssets": 29,
   "crossDivisionAssets": 1,
   "animalStockAssets": 20,
   "generalStockAssets": 50,
@@ -17,6 +17,6 @@
   "missingSourceReason": null,
   "brokenAssets": 0,
   "unassignedAssets": 0,
-  "reconciliation": "466 discovered files = 466 unique ingested assets + 0 exact duplicate files; 466 provenance occurrences retained. No inaccessible source archives remain.",
+  "reconciliation": "497 discovered files = 497 unique ingested assets + 0 exact duplicate files; 497 provenance occurrences retained. No inaccessible source archives remain.",
   "validationErrors": []
 }
